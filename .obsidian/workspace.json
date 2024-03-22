@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "d0c24890ce741bce",
+    "type": "split",
+    "children": [
+      {
+        "id": "186700c0da9d2fb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c0fbafd8c8a14c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_MyStudyPlan_.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18d2fee39f0f4069",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_EVERY 2 MODULES DO BOXES !!.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73ea659066e26dbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. xyz/ZZZ Do This Every Other Module ZZZ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f56b910836a4ac7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Upgrade Shell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7f550da471de684",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CozyHosting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8e202a00eeb72a3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "77a6347d3623c54e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb2f060f9e35708a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9afaae6a30356477",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "payload",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9ea9c4d6ee8e7c6e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "c8e9b29a5f4895fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0503450a5a2553d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da2b155522422505",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CozyHosting.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "503556a2092ea2ed",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CozyHosting.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "89538a78acc5f384",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d7f2d87154d71222",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CozyHosting.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "cb2f060f9e35708a",
+  "lastOpenFiles": [
+    "Master-Notes",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221112057.png",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221112841.png",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221110647.png",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221110123.png",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231220134555.png",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231219141924.png",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231220130412.png",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231220111817.png",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231220111753.png",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231219141826.png",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Web Requests.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Windows Fundamentals.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Setting Up.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Linux Fundamentals.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Learning Process.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Web Applications.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Windows Command Line.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro To Network Traffic Analysis.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Networking.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Bash Scripting.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Active Directory.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links",
+    "HTB InfoSec Fundamentals/Tools and Skills.md",
+    "HTB InfoSec Fundamentals/Steps To Pentest.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation",
+    "HTB InfoSec Fundamentals",
+    "Obsidian Vault/HTB Information Security Foundation/Windows Fundamentals.md",
+    "Obsidian Vault/HTB Information Security Foundation/Setting Up.md",
+    "Obsidian Vault/HTB Information Security Foundation/Web Requests.md",
+    "Obsidian Vault/HTB Information Security Foundation/Linux Fundamentals.md",
+    "Obsidian Vault/HTB Information Security Foundation/Learning Process.md",
+    "Obsidian Vault/HTB Information Security Foundation/Intro to Windows Command Line.md",
+    "Obsidian Vault/HTB Information Security Foundation/Intro To Network Traffic Analysis.md",
+    "Obsidian Vault/HTB Information Security Foundation/Intro to Web Applications.md",
+    "Obsidian Vault/HTB Information Security Foundation/Intro to Bash Scripting.md",
+    "Obsidian Vault/HTB Information Security Foundation/Intro to Networking.md",
+    "Obsidian Vault/HTB Information Security Foundation/Intro to Active Directory.md",
+    "Obsidian Vault/HTB Information Security Foundation/Image Links",
+    "Obsidian Vault/Tools and Skills.md",
+    "Obsidian Vault/HTB Information Security Foundation",
+    "Obsidian Vault",
+    "HTB CPTS",
+    "_UPGRADE SHELL",
+    "3. xyz",
+    "Untitled 1"
+  ]
+}

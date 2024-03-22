@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "HTB CPTS/Get Started.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "HTB CPTS/Get Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "HTB CPTS/Get Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "HTB CPTS/Get Started.md"
               }
             }
           }
@@ -185,14 +185,19 @@
   },
   "active": "f56b910836a4ac7f",
   "lastOpenFiles": [
+    "HTB CPTS/Nmap Network Enum.md",
     "HTB CPTS/Get Started.md",
+    "HTB Boxes/Support.md",
+    "HTB Boxes/Soccer.md",
+    "HTB Boxes/Nibbles.md",
     "HTB CPTS/PenTest Process.md",
+    "README.md",
+    "HTB CPTS/Cheatsheets/_Getting_Started_Module_Cheat_Sheet.pdf",
     "HTB CPTS/1. Getting Started/Common Pitfalls.md",
     "HTB CPTS/1. Getting Started/Getting Help.md",
     "HTB CPTS/1. Getting Started/Basic Tools.md",
     "HTB CPTS/1. Getting Started/_common-ports_.pdf",
     "HTB CPTS/Cheatsheets/Random.md",
-    "HTB CPTS/Cheatsheets/_Getting_Started_Module_Cheat_Sheet.pdf",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Learning Process.md",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Setting Up.md",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Web Requests.md",
@@ -202,7 +207,6 @@
     "HTB CPTS/1. Getting Started/Nibbles - Initial Foothold.md",
     "HTB CPTS/1. Getting Started/InfoSec Overview.md",
     "HTB CPTS/1. Getting Started/Getting Started with a Pentest Distro.md",
-    "README.md",
     "Upgrade Shell.md",
     "ZZZ Do This Every Other Module ZZZ.md",
     "_MyStudyPlan_.md",
@@ -212,9 +216,6 @@
     "HTB CPTS/0. Penetration Testing Process/_Practicing Steps_.md",
     "HTB CPTS/0. Penetration Testing Process/_Precautionary Measures during Penetration Tests_.md",
     "HTB CPTS/0. Penetration Testing Process/_HTB Learning Path_.md",
-    "HTB Boxes/CozyHosting.md",
-    "HTB InfoSec Fundamentals/Steps To Pentest.md",
-    "HTB InfoSec Fundamentals/Tools and Skills.md",
     "HTB Boxes",
     "Master-Notes",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221112057.png",

@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB InfoSec Fundamentals/Steps To Pentest.md",
+                "file": "HTB Boxes/CozyHosting.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB InfoSec Fundamentals/Steps To Pentest.md",
+                "file": "HTB Boxes/CozyHosting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB InfoSec Fundamentals/Steps To Pentest.md",
+                "file": "HTB Boxes/CozyHosting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB InfoSec Fundamentals/Steps To Pentest.md"
+                "file": "HTB Boxes/CozyHosting.md"
               }
             }
           }
@@ -195,8 +195,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "e7f550da471de684",
   "lastOpenFiles": [
+    "HTB InfoSec Fundamentals/Steps To Pentest.md",
     "README.md",
     "HTB InfoSec Fundamentals/Tools and Skills.md",
     "HTB Boxes/CozyHosting.md",
@@ -228,7 +229,6 @@
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Bash Scripting.md",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Active Directory.md",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links",
-    "HTB InfoSec Fundamentals/Steps To Pentest.md",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation",
     "HTB InfoSec Fundamentals",
     "Obsidian Vault/HTB Information Security Foundation/Windows Fundamentals.md",

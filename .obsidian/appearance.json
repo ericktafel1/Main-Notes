@@ -1,3 +1,7 @@
 {
-  "accentColor": ""
+  "accentColor": "#00ff33",
+  "interfaceFontFamily": "",
+  "cssTheme": "Minimal",
+  "baseFontSize": 15,
+  "baseFontSizeAction": false
 }

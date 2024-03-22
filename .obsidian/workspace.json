@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Academy/03_Network Enumeration with Nmap/Nmap Network Enum.md",
+                "file": "HTB Academy/01_PenTest Process/PenTest Process.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB Academy/00_Fundamentals/Intro to Active Directory.md",
+                "file": "HTB Academy/01_PenTest Process/PenTest Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB Academy/00_Fundamentals/Intro to Active Directory.md",
+                "file": "HTB Academy/01_PenTest Process/PenTest Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB Academy/00_Fundamentals/Intro to Active Directory.md"
+                "file": "HTB Academy/01_PenTest Process/PenTest Process.md"
               }
             }
           }
@@ -183,35 +183,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "f56b910836a4ac7f",
   "lastOpenFiles": [
-    "H4CK3RM4N.md",
-    "Templates/Notes.md",
-    "Templates/Box Writeups.md",
-    "Templates/Dataview Table.md",
+    "HTB Boxes/CozyHosting.md",
     "HTB Academy/01_PenTest Process/PenTest Process.md",
+    "README.md",
+    "Templates/Dataview Table.md",
+    "H4CK3RM4N.md",
+    "Templates/dataview.css",
+    "Templates/Box Writeups.md",
+    "HTB Academy/03_Network Enumeration with Nmap/Host Discovery.md",
+    "_Upgrade Shell_.md",
+    "HTB Academy/03_Network Enumeration with Nmap/Service Enumeration.md",
+    "Templates/dataview.css.md",
+    "HTB Academy/01_PenTest Process/Untitled.md",
+    "HTB Academy/02_Getting Started/Untitled.md",
+    "HTB Academy/03_Network Enumeration with Nmap/Nmap Network Enum.md",
+    "HTB Academy/00_Fundamentals/Intro to Active Directory.md",
+    "Templates/Notes.md",
     "HTB Writeups.md",
     "HTB Academy/03_Network Enumeration with Nmap/_EVERY 2 MODULES DO BOXES !!.md",
     "HTB Academy/Cheatsheets/Random.md",
     "HTB Academy/Cheatsheets/_Getting_Started_Module_Cheat_Sheet.pdf",
-    "_Upgrade Shell_.md",
     "HTB Academy/00_Fundamentals/Steps To Pentest.md",
     "HTB Academy/00_Fundamentals/Tools and Skills.md",
-    "README.md",
     "z Study Guide z/_MyStudyPlan_.md",
     "0020-02-29.md",
     "z Study Guide z/Every Other Module.md",
     "HTB Academy/02_Getting Started/Get Started.md",
     "HTB Academy/00_Fundamentals/Windows Fundamentals.md",
     "HTB Academy/00_Fundamentals/Web Requests.md",
-    "HTB Academy/00_Fundamentals/Setting Up.md",
-    "HTB Academy/00_Fundamentals/Learning Process.md",
-    "HTB Academy/00_Fundamentals/Intro to Windows Command Line.md",
-    "HTB Academy/00_Fundamentals/Intro to Networking.md",
-    "HTB Academy/00_Fundamentals/Intro To Network Traffic Analysis.md",
-    "HTB Academy/00_Fundamentals/Intro to Bash Scripting.md",
-    "HTB Academy/00_Fundamentals/Intro to Active Directory.md",
-    "HTB Academy/03_Network Enumeration with Nmap/Nmap Network Enum.md",
     "Untitled",
     "HTB Academy/02_Getting Started",
     "HTB Academy/01_PenTest Process",
@@ -222,7 +223,6 @@
     "HTB Academy/Cheatsheets",
     "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
     "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",
-    "HTB Boxes",
     "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112057.png",
     "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112841.png",
     "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221110647.png",

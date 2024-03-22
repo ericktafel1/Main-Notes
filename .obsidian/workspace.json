@@ -195,8 +195,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "e7f550da471de684",
   "lastOpenFiles": [
+    "_MyStudyPlan_.md",
+    "_EVERY 2 MODULES DO BOXES !!.md",
+    "3. xyz/ZZZ Do This Every Other Module ZZZ.md",
+    "Upgrade Shell.md",
     "Master-Notes",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221112057.png",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221112841.png",
@@ -233,15 +237,11 @@
     "Obsidian Vault/HTB Information Security Foundation/Intro To Network Traffic Analysis.md",
     "Obsidian Vault/HTB Information Security Foundation/Intro to Web Applications.md",
     "Obsidian Vault/HTB Information Security Foundation/Intro to Bash Scripting.md",
-    "Obsidian Vault/HTB Information Security Foundation/Intro to Networking.md",
-    "Obsidian Vault/HTB Information Security Foundation/Intro to Active Directory.md",
     "Obsidian Vault/HTB Information Security Foundation/Image Links",
-    "Obsidian Vault/Tools and Skills.md",
     "Obsidian Vault/HTB Information Security Foundation",
     "Obsidian Vault",
     "HTB CPTS",
     "_UPGRADE SHELL",
-    "3. xyz",
-    "Untitled 1"
+    "3. xyz"
   ]
 }

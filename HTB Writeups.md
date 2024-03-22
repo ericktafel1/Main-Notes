@@ -1,6 +1,21 @@
+
+
+
 ```dataview
-TABLE OS, Difficulty, Format, Rank, myrating, tags 
-FROM "01 Hack The Box/walkthrus"      
+TABLE date, title, machine_ip, OS, difficulty, my_rating, tags 
+FROM "HTB Boxes"      
 Sort file.name ASC  
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 

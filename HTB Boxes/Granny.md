@@ -1,15 +1,14 @@
 ---
-title: Legacy HTB Write-Up
-machine_ip: 10.10.10.4
+date: 2024-02-02
+title: Granny HTB Write-Up
+machine_ip: 
 os: Windows
-difficulty: Medium
-key_topics:
-  - Initial Enumeration
-  - Exploitation of Vulnerabilities
-  - Privilege Escalation Techniques
-references:
-  - title: Hack The Box - Legacy
-    link: https://www.hackthebox.eu/home/machines/profile/4
-  - title: Privilege Escalation Techniques
-    link: https://book.hacktricks.xyz/windows/windows-local-privilege-escalation
+difficulty: Easy
+my_rating: 
+tags:
+  - Web
+  - FileUpload
+  - Misconfig
+  - ASP
+references: "[[HTB Writeups]]"
 ---

@@ -3,6 +3,9 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "rating": "date"
+    "rating": "date",
+    "My_Rating": "number",
+    "Difficulty": "text",
+    "date": "date"
   }
 }

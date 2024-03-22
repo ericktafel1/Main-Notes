@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_MyStudyPlan_.md",
+                "file": "z Study Guide z/_MyStudyPlan_.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_EVERY 2 MODULES DO BOXES !!.md",
+                "file": "HTB Academy/03_Network Enumeration with Nmap/_EVERY 2 MODULES DO BOXES !!.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZZZ Do This Every Other Module ZZZ.md",
+                "file": "z Study Guide z/Every Other Module.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,19 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB CPTS/Get Started.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d06728cbacea5f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB Boxes/Bizness.md",
+                "file": "HTB Academy/03_Network Enumeration with Nmap/Nmap Network Enum.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,38 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Writeups.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f26d03fbb6a67a04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB Boxes/Support.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ecbbe195198cbba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB Boxes/CozyHosting.md",
+                "file": "H4CK3RM4N.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -170,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB Boxes/CozyHosting.md",
+                "file": "H4CK3RM4N.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB Boxes/CozyHosting.md",
+                "file": "H4CK3RM4N.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB Boxes/CozyHosting.md"
+                "file": "H4CK3RM4N.md"
               }
             }
           }
@@ -231,53 +195,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ecbbe195198cbba",
+  "active": "b46e165b51ba4a69",
   "lastOpenFiles": [
-    "HTB Boxes/Bizness.md",
     "HTB Writeups.md",
-    "Templates/Dataview Table.md",
-    "Templates/Box Writeups.md",
-    "HTB CPTS/2. Network Enumeration with Nmap/Service Enumeration.md",
-    "HTB Boxes/Support.md",
-    "Templates",
-    "HTB Boxes/Soccer.md",
-    "HTB Boxes/Precious.md",
-    "HTB Boxes/Lame.md",
-    "HTB Boxes/Nibbles.md",
-    "HTB Boxes/Jerry.md",
-    "HTB Boxes/Granny.md",
-    "HTB Boxes/CozyHosting.md",
-    "HTB Boxes/Blue.md",
+    "HTB Academy/01_PenTest Process/PenTest Process.md",
+    "Templates/Notes.md",
     "H4CK3RM4N.md",
-    "HTB CPTS/Get Started.md",
-    "HTB CPTS/Nmap Network Enum.md",
-    "HTB CPTS/PenTest Process.md",
+    "Templates/Box Writeups.md",
+    "Templates/Dataview Table.md",
+    "HTB Academy/03_Network Enumeration with Nmap/_EVERY 2 MODULES DO BOXES !!.md",
+    "HTB Academy/Cheatsheets/Random.md",
+    "HTB Academy/Cheatsheets/_Getting_Started_Module_Cheat_Sheet.pdf",
+    "_Upgrade Shell_.md",
+    "HTB Academy/00_Fundamentals/Steps To Pentest.md",
+    "HTB Academy/00_Fundamentals/Tools and Skills.md",
     "README.md",
-    "HTB CPTS/Cheatsheets/_Getting_Started_Module_Cheat_Sheet.pdf",
-    "HTB CPTS/1. Getting Started/Common Pitfalls.md",
-    "HTB CPTS/1. Getting Started/Getting Help.md",
-    "HTB CPTS/1. Getting Started/Basic Tools.md",
+    "z Study Guide z/_MyStudyPlan_.md",
+    "0020-02-29.md",
+    "z Study Guide z/Every Other Module.md",
+    "HTB Academy/02_Getting Started/Get Started.md",
+    "HTB Academy/00_Fundamentals/Windows Fundamentals.md",
+    "HTB Academy/00_Fundamentals/Web Requests.md",
+    "HTB Academy/00_Fundamentals/Setting Up.md",
+    "HTB Academy/00_Fundamentals/Learning Process.md",
+    "HTB Academy/00_Fundamentals/Intro to Windows Command Line.md",
+    "HTB Academy/00_Fundamentals/Intro to Networking.md",
+    "HTB Academy/00_Fundamentals/Intro To Network Traffic Analysis.md",
+    "HTB Academy/00_Fundamentals/Intro to Bash Scripting.md",
+    "HTB Academy/00_Fundamentals/Intro to Active Directory.md",
+    "HTB Academy/03_Network Enumeration with Nmap/Nmap Network Enum.md",
+    "Untitled",
+    "HTB Academy/02_Getting Started",
+    "HTB Academy/01_PenTest Process",
+    "HTB Academy/00_Fundamentals",
+    "z Study Guide z",
+    "Templates",
     "HTB CPTS/1. Getting Started/_common-ports_.pdf",
-    "HTB CPTS/Cheatsheets/Random.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Learning Process.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Setting Up.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Web Requests.md",
-    "HTB CPTS/Cheatsheets",
+    "HTB Academy/Cheatsheets",
     "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
     "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",
     "HTB Boxes",
-    "Master-Notes",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221112057.png",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221112841.png",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221110647.png",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221110123.png",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231220134555.png",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231219141924.png",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231220130412.png",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231220111817.png",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation",
-    "HTB InfoSec Fundamentals",
-    "Obsidian Vault/HTB Information Security Foundation/Image Links"
+    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112057.png",
+    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112841.png",
+    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221110647.png",
+    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221110123.png",
+    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231220134555.png",
+    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231219141924.png",
+    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231220130412.png",
+    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231220111817.png"
   ]
 }

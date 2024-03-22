@@ -54,21 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b46e165b51ba4a69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H4CK3RM4N.md",
+                "file": "HTB Academy/00_Fundamentals/Intro to Active Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H4CK3RM4N.md",
+                "file": "HTB Academy/00_Fundamentals/Intro to Active Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H4CK3RM4N.md"
+                "file": "HTB Academy/00_Fundamentals/Intro to Active Directory.md"
               }
             }
           }
@@ -195,14 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b46e165b51ba4a69",
+  "active": "cb2f060f9e35708a",
   "lastOpenFiles": [
-    "HTB Writeups.md",
-    "HTB Academy/01_PenTest Process/PenTest Process.md",
-    "Templates/Notes.md",
     "H4CK3RM4N.md",
+    "Templates/Notes.md",
     "Templates/Box Writeups.md",
     "Templates/Dataview Table.md",
+    "HTB Academy/01_PenTest Process/PenTest Process.md",
+    "HTB Writeups.md",
     "HTB Academy/03_Network Enumeration with Nmap/_EVERY 2 MODULES DO BOXES !!.md",
     "HTB Academy/Cheatsheets/Random.md",
     "HTB Academy/Cheatsheets/_Getting_Started_Module_Cheat_Sheet.pdf",

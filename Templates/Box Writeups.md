@@ -8,3 +8,17 @@ my_rating:
 tags: 
 references: "[[HTB Writeups]]"
 ---
+
+
+
+---
+date:
+title: HTB Write-Up
+machine_ip: 
+os: 
+difficulty: 
+my_rating
+tags:
+references: HTB Writeups
+
+---

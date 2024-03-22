@@ -56,31 +56,55 @@
             }
           },
           {
-            "id": "3aff82b0cdf89c77",
+            "id": "1d06728cbacea5f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB CPTS/Get Started.md",
+                "file": "HTB Boxes/Bizness.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1d06728cbacea5f9",
+            "id": "b46e165b51ba4a69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataView Table.md",
+                "file": "HTB Writeups.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f26d03fbb6a67a04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB Boxes/Support.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ecbbe195198cbba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB Boxes/CozyHosting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -146,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB CPTS/Get Started.md",
+                "file": "HTB Boxes/CozyHosting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB CPTS/Get Started.md",
+                "file": "HTB Boxes/CozyHosting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB CPTS/Get Started.md"
+                "file": "HTB Boxes/CozyHosting.md"
               }
             }
           }
@@ -207,20 +231,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3aff82b0cdf89c77",
+  "active": "4ecbbe195198cbba",
   "lastOpenFiles": [
-    "DataView Table.md",
-    "HTB CPTS/Get Started.md",
-    "HTB Boxes/Jerry.md",
     "HTB Boxes/Bizness.md",
+    "HTB Writeups.md",
+    "Templates/Dataview Table.md",
+    "Templates/Box Writeups.md",
+    "HTB CPTS/2. Network Enumeration with Nmap/Service Enumeration.md",
     "HTB Boxes/Support.md",
+    "Templates",
     "HTB Boxes/Soccer.md",
     "HTB Boxes/Precious.md",
-    "HTB Boxes/Nibbles.md",
     "HTB Boxes/Lame.md",
+    "HTB Boxes/Nibbles.md",
+    "HTB Boxes/Jerry.md",
     "HTB Boxes/Granny.md",
     "HTB Boxes/CozyHosting.md",
     "HTB Boxes/Blue.md",
+    "H4CK3RM4N.md",
+    "HTB CPTS/Get Started.md",
     "HTB CPTS/Nmap Network Enum.md",
     "HTB CPTS/PenTest Process.md",
     "README.md",
@@ -233,10 +262,6 @@
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Learning Process.md",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Setting Up.md",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Web Requests.md",
-    "HTB CPTS/1. Getting Started/Starting Out.md",
-    "HTB CPTS/1. Getting Started/Transferring Files.md",
-    "HTB CPTS/1. Getting Started/Public Exploits.md",
-    "HTB CPTS/1. Getting Started/Nibbles - Initial Foothold.md",
     "HTB CPTS/Cheatsheets",
     "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
     "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",
@@ -253,7 +278,6 @@
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation",
     "HTB InfoSec Fundamentals",
-    "Obsidian Vault/HTB Information Security Foundation/Image Links",
-    "Obsidian Vault/HTB Information Security Foundation"
+    "Obsidian Vault/HTB Information Security Foundation/Image Links"
   ]
 }

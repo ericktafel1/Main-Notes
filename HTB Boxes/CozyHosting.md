@@ -1,3 +1,23 @@
+---
+Date: 2/29/2024
+Title: CozyHosting HTB Write-Up
+Machine_IP: 10.10.11.230
+OS: Linux
+Difficulty: Medium
+Key_Topics:
+  - Initial Enumeration
+  - Exploitation of Vulnerabilities
+  - Privilege Escalation Techniques
+  - Web Enumeration
+  - Burpe Suite
+  - Cookies
+  - Base64 Payload
+references:
+  - title: Hack The Box - Legacy
+    link: https://www.hackthebox.eu/home/machines/profile/4
+  - title: Privilege Escalation Techniques
+    link: https://book.hacktricks.xyz/windows/windows-local-privilege-escalation
+---
 I acquired hints throughout this box, it was close to expiring when I started it (<2 days), so I treated it as a retired box to learn as much as possible.
 
 ### Enumeration

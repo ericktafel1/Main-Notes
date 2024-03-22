@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB CPTS/Get Started.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB CPTS/Get Started.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB CPTS/Get Started.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB CPTS/Get Started.md"
+                "file": "README.md"
               }
             }
           }
@@ -185,8 +185,8 @@
   },
   "active": "f56b910836a4ac7f",
   "lastOpenFiles": [
-    "HTB CPTS/PenTest Process.md",
     "HTB CPTS/Get Started.md",
+    "HTB CPTS/PenTest Process.md",
     "HTB CPTS/1. Getting Started/Common Pitfalls.md",
     "HTB CPTS/1. Getting Started/Getting Help.md",
     "HTB CPTS/1. Getting Started/Basic Tools.md",

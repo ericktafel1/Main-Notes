@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3aff82b0cdf89c77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB CPTS/Get Started.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -183,13 +195,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f56b910836a4ac7f",
+  "active": "3aff82b0cdf89c77",
   "lastOpenFiles": [
-    "HTB CPTS/Nmap Network Enum.md",
-    "HTB CPTS/Get Started.md",
+    "HTB Boxes/Jerry.md",
+    "HTB Boxes/Bizness.md",
     "HTB Boxes/Support.md",
     "HTB Boxes/Soccer.md",
+    "HTB Boxes/Precious.md",
     "HTB Boxes/Nibbles.md",
+    "HTB Boxes/Lame.md",
+    "HTB Boxes/Granny.md",
+    "HTB Boxes/CozyHosting.md",
+    "HTB Boxes/Blue.md",
+    "HTB CPTS/Get Started.md",
+    "HTB CPTS/Nmap Network Enum.md",
     "HTB CPTS/PenTest Process.md",
     "README.md",
     "HTB CPTS/Cheatsheets/_Getting_Started_Module_Cheat_Sheet.pdf",
@@ -206,16 +225,9 @@
     "HTB CPTS/1. Getting Started/Public Exploits.md",
     "HTB CPTS/1. Getting Started/Nibbles - Initial Foothold.md",
     "HTB CPTS/1. Getting Started/InfoSec Overview.md",
-    "HTB CPTS/1. Getting Started/Getting Started with a Pentest Distro.md",
-    "Upgrade Shell.md",
-    "ZZZ Do This Every Other Module ZZZ.md",
-    "_MyStudyPlan_.md",
     "HTB CPTS/Cheatsheets",
     "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
     "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",
-    "HTB CPTS/0. Penetration Testing Process/_Practicing Steps_.md",
-    "HTB CPTS/0. Penetration Testing Process/_Precautionary Measures during Penetration Tests_.md",
-    "HTB CPTS/0. Penetration Testing Process/_HTB Learning Path_.md",
     "HTB Boxes",
     "Master-Notes",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221112057.png",

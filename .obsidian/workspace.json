@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. xyz/ZZZ Do This Every Other Module ZZZ.md",
+                "file": "HTB CPTS/3. xyz/ZZZ Do This Every Other Module ZZZ.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CozyHosting.md",
+                "file": "HTB InfoSec Fundamentals/Steps To Pentest.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CozyHosting.md",
+                "file": "HTB InfoSec Fundamentals/Steps To Pentest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CozyHosting.md",
+                "file": "HTB InfoSec Fundamentals/Steps To Pentest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CozyHosting.md"
+                "file": "HTB InfoSec Fundamentals/Steps To Pentest.md"
               }
             }
           }
@@ -197,9 +197,12 @@
   },
   "active": "e7f550da471de684",
   "lastOpenFiles": [
+    "HTB InfoSec Fundamentals/Tools and Skills.md",
+    "HTB Boxes/CozyHosting.md",
+    "HTB Boxes",
     "_MyStudyPlan_.md",
     "_EVERY 2 MODULES DO BOXES !!.md",
-    "3. xyz/ZZZ Do This Every Other Module ZZZ.md",
+    "HTB CPTS/3. xyz/ZZZ Do This Every Other Module ZZZ.md",
     "Upgrade Shell.md",
     "Master-Notes",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221112057.png",
@@ -224,7 +227,6 @@
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Bash Scripting.md",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Active Directory.md",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links",
-    "HTB InfoSec Fundamentals/Tools and Skills.md",
     "HTB InfoSec Fundamentals/Steps To Pentest.md",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation",
     "HTB InfoSec Fundamentals",
@@ -236,12 +238,10 @@
     "Obsidian Vault/HTB Information Security Foundation/Intro to Windows Command Line.md",
     "Obsidian Vault/HTB Information Security Foundation/Intro To Network Traffic Analysis.md",
     "Obsidian Vault/HTB Information Security Foundation/Intro to Web Applications.md",
-    "Obsidian Vault/HTB Information Security Foundation/Intro to Bash Scripting.md",
     "Obsidian Vault/HTB Information Security Foundation/Image Links",
     "Obsidian Vault/HTB Information Security Foundation",
     "Obsidian Vault",
     "HTB CPTS",
-    "_UPGRADE SHELL",
-    "3. xyz"
+    "_UPGRADE SHELL"
   ]
 }

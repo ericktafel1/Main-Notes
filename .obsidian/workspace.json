@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB CPTS/3. xyz/ZZZ Do This Every Other Module ZZZ.md",
+                "file": "ZZZ Do This Every Other Module ZZZ.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,26 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Upgrade Shell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e7f550da471de684",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB Boxes/CozyHosting.md",
+                "file": "HTB CPTS/Get Started.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB Boxes/CozyHosting.md",
+                "file": "HTB CPTS/Get Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB Boxes/CozyHosting.md",
+                "file": "HTB CPTS/Get Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB Boxes/CozyHosting.md"
+                "file": "HTB CPTS/Get Started.md"
               }
             }
           }
@@ -195,17 +183,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7f550da471de684",
+  "active": "f56b910836a4ac7f",
   "lastOpenFiles": [
-    "HTB InfoSec Fundamentals/Steps To Pentest.md",
+    "HTB CPTS/1. Getting Started/Common Pitfalls.md",
+    "HTB CPTS/Get Started.md",
+    "HTB CPTS/1. Getting Started/Getting Help.md",
+    "HTB CPTS/1. Getting Started/Basic Tools.md",
+    "HTB CPTS/1. Getting Started/_common-ports_.pdf",
+    "HTB CPTS/PenTest Process.md",
+    "HTB CPTS/Cheatsheets/Random.md",
+    "HTB CPTS/Cheatsheets/_Getting_Started_Module_Cheat_Sheet.pdf",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Learning Process.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Setting Up.md",
+    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Web Requests.md",
+    "HTB CPTS/1. Getting Started/Starting Out.md",
+    "HTB CPTS/1. Getting Started/Transferring Files.md",
+    "HTB CPTS/1. Getting Started/Public Exploits.md",
+    "HTB CPTS/1. Getting Started/Nibbles - Initial Foothold.md",
+    "HTB CPTS/1. Getting Started/InfoSec Overview.md",
+    "HTB CPTS/1. Getting Started/Getting Started with a Pentest Distro.md",
     "README.md",
-    "HTB InfoSec Fundamentals/Tools and Skills.md",
-    "HTB Boxes/CozyHosting.md",
-    "HTB Boxes",
-    "_MyStudyPlan_.md",
-    "_EVERY 2 MODULES DO BOXES !!.md",
-    "HTB CPTS/3. xyz/ZZZ Do This Every Other Module ZZZ.md",
     "Upgrade Shell.md",
+    "ZZZ Do This Every Other Module ZZZ.md",
+    "_MyStudyPlan_.md",
+    "HTB CPTS/Get Started.md",
+    "HTB CPTS/Cheatsheets",
+    "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
+    "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",
+    "HTB CPTS/0. Penetration Testing Process/_Practicing Steps_.md",
+    "HTB CPTS/0. Penetration Testing Process/_Precautionary Measures during Penetration Tests_.md",
+    "HTB CPTS/0. Penetration Testing Process/_HTB Learning Path_.md",
+    "HTB Boxes/CozyHosting.md",
+    "HTB InfoSec Fundamentals/Steps To Pentest.md",
+    "HTB InfoSec Fundamentals/Tools and Skills.md",
+    "HTB Boxes",
     "Master-Notes",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221112057.png",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231221112841.png",
@@ -215,33 +226,10 @@
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231219141924.png",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231220130412.png",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231220111817.png",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231220111753.png",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links/Pasted image 20231219141826.png",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Web Requests.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Windows Fundamentals.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Setting Up.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Linux Fundamentals.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Learning Process.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Web Applications.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Windows Command Line.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro To Network Traffic Analysis.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Networking.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Bash Scripting.md",
-    "HTB InfoSec Fundamentals/HTB Information Security Foundation/Intro to Active Directory.md",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation/Image Links",
     "HTB InfoSec Fundamentals/HTB Information Security Foundation",
     "HTB InfoSec Fundamentals",
-    "Obsidian Vault/HTB Information Security Foundation/Windows Fundamentals.md",
-    "Obsidian Vault/HTB Information Security Foundation/Setting Up.md",
-    "Obsidian Vault/HTB Information Security Foundation/Web Requests.md",
-    "Obsidian Vault/HTB Information Security Foundation/Linux Fundamentals.md",
-    "Obsidian Vault/HTB Information Security Foundation/Learning Process.md",
-    "Obsidian Vault/HTB Information Security Foundation/Intro to Windows Command Line.md",
-    "Obsidian Vault/HTB Information Security Foundation/Intro To Network Traffic Analysis.md",
     "Obsidian Vault/HTB Information Security Foundation/Image Links",
-    "Obsidian Vault/HTB Information Security Foundation",
-    "Obsidian Vault",
-    "HTB CPTS",
-    "_UPGRADE SHELL"
+    "Obsidian Vault/HTB Information Security Foundation"
   ]
 }

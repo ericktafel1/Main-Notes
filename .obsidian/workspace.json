@@ -44,12 +44,12 @@
             }
           },
           {
-            "id": "f56b910836a4ac7f",
+            "id": "42293a0895438673",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Boxes/Precious.md",
+                "file": "🤖H4CK3RM4N.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB Boxes/Precious.md",
+                "file": "🤖H4CK3RM4N.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB Boxes/Precious.md",
+                "file": "🤖H4CK3RM4N.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB Boxes/Precious.md"
+                "file": "🤖H4CK3RM4N.md"
               }
             }
           }
@@ -183,11 +183,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f56b910836a4ac7f",
+  "active": "cb2f060f9e35708a",
   "lastOpenFiles": [
+    "HTB Academy/03_Nmap Network Enum.md",
+    "HTB Academy/04_.md",
+    "z Study Guide z/Every Other Module.md",
+    "HTB Academy/03_Network Enumeration with Nmap/Nmap Network Enum.md",
+    "HTB Academy/03_Network Enumeration with Nmap/Host and Port Scanning.md",
+    "HTB Academy/03_Network Enumeration with Nmap/Firewall and IDS.IPS Evasion.md",
+    "HTB Academy/03_Network Enumeration with Nmap/Enum & Nmap.md",
+    "HTB Academy/02_Get Started.md",
+    "HTB Academy/03_Network Enumeration with Nmap/Saving the Results.md",
+    "HTB Academy/03_Network Enumeration with Nmap/Service Enumeration.md",
+    "🤖H4CK3RM4N.md",
+    "📦HTB Writeups.md",
+    "Templates/Box Writeups.md",
+    "HTB Boxes/Precious.md",
     "HTB Boxes/Soccer.md",
     "HTB Boxes/Support.md",
-    "HTB Boxes/Precious.md",
     "HTB Boxes/Nibbles.md",
     "HTB Boxes/Lame.md",
     "HTB Boxes/Jerry.md",
@@ -196,23 +209,10 @@
     "HTB Boxes/Blue.md",
     "HTB Boxes/Bizness.md",
     "HTB Academy/03_Network Enumeration with Nmap/Host Discovery.md",
-    "HTB Academy/03_Network Enumeration with Nmap/Host and Port Scanning.md",
-    "HTB Academy/03_Network Enumeration with Nmap/Firewall and IDS.IPS Evasion.md",
-    "HTB Academy/03_Network Enumeration with Nmap/Enum & Nmap.md",
     "HTB Academy/Cheat Sheets/_Getting_Started_Module_Cheat_Sheet.pdf",
     "HTB Academy/01_PenTest Process.md",
-    "HTB Academy/02_Get Started.md",
     "HTB Academy/z BOX every 2 Modules z.md",
-    "HTB Academy/02_Getting Started/Untitled.md",
-    "HTB Academy/01_PenTest Process/Untitled.md",
-    "README.md",
-    "Templates/Dataview Table.md",
-    "H4CK3RM4N.md",
     "Templates/dataview.css",
-    "Templates/Box Writeups.md",
-    "_Upgrade Shell_.md",
-    "HTB Academy/03_Network Enumeration with Nmap/Service Enumeration.md",
-    "Templates/dataview.css.md",
     "Untitled",
     "HTB Academy/02_Getting Started",
     "HTB Academy/01_PenTest Process",

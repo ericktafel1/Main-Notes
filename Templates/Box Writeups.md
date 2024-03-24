@@ -6,10 +6,9 @@ os: Windows
 difficulty: Medium
 my_rating: 
 tags: 
-references: "[[HTB Writeups]]"
+references: "[[📦HTB Writeups]]"
 ---
-
-
+dataview properties:
 
 ---
 date:
@@ -22,3 +21,20 @@ tags:
 references: HTB Writeups
 
 ---
+
+# Enumeration
+
+- Nmap
+	- Rustscan
+	- etc
+- Dirbuster
+	- dirsearch
+	- etc
+
+
+# Foothold
+- gain user via exploit
+
+
+# PrivEsc
+- escalate from user to root

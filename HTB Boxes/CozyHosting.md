@@ -9,7 +9,7 @@ tags:
   - "#Web"
   - "#BurpeSuite"
   - RCE
-references: "[[HTB Writeups]]"
+references: "[[📦HTB Writeups]]"
 ---
 
 I acquired hints throughout this box, it was close to expiring when I started it (<2 days), so I treated it as a retired box to learn as much as possible.

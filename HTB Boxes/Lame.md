@@ -7,7 +7,7 @@ difficulty: Easy
 my_rating: 4
 tags:
   - RCE
-references: "[[HTB Writeups]]"
+references: "[[📦HTB Writeups]]"
 ---
 ## Enumeration
 

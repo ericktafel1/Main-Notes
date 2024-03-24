@@ -6,5 +6,5 @@ os: Windows
 difficulty: Easy
 my_rating: 
 tags: 
-references: "[[HTB Writeups]]"
+references: "[[📦HTB Writeups]]"
 ---

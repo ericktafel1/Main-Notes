@@ -12,7 +12,7 @@ tags:
   - FileUpload
   - DefaultCred
   - Java
-references: "[[HTB Writeups]]"
+references: "[[📦HTB Writeups]]"
 ---
 ## Enumeration
 

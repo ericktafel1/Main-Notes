@@ -8,7 +8,7 @@ my_rating: 3
 tags:
   - RCE
   - SMB
-references: "[[HTB Writeups]]"
+references: "[[📦HTB Writeups]]"
 ---
 ## Enumeration
 

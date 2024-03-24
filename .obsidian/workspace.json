@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/04_Footprinting.md",
+                "file": "🟩HTB Academy/01_PenTest Process.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/04_Footprinting.md",
+                "file": "🟩HTB Academy/01_PenTest Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/04_Footprinting.md",
+                "file": "🟩HTB Academy/01_PenTest Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/04_Footprinting.md"
+                "file": "🟩HTB Academy/01_PenTest Process.md"
               }
             }
           }
@@ -185,23 +185,26 @@
   },
   "active": "42293a0895438673",
   "lastOpenFiles": [
+    "🟩HTB Academy/Cheat Sheets/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/Cheat Sheets/_Getting_Started_Module_Cheat_Sheet.pdf",
+    "Study Guide/Every Other Module.md",
+    "Study Guide/_MyStudyPlan_.md",
+    "Templates/Dataview Table.md",
+    "z Upgrade Shell z.md",
+    "🤖H4CK3RM4N.md",
+    "🟩HTB Academy/z BOX every 2 Modules z.md",
+    "🟩HTB Academy/04_Footprinting.md",
     "🟩HTB Academy/03_Nmap Network Enum.md",
     "📋Table of Contents.md",
-    "🤖H4CK3RM4N.md",
     "🟩HTB Academy/02_Get Started.md",
     "🟩HTB Academy/01_PenTest Process.md",
-    "🟩HTB Academy/04_Footprinting.md",
     "📦HTB Writeups.md",
     "📗HTB Boxes/Precious.md",
     "Templates/Notes.md",
     "Templates/Box Writeups.md",
-    "🟩HTB Academy/z BOX every 2 Modules z.md",
-    "_Upgrade Shell_.md",
-    "Templates/Dataview Table.md",
     "📗HTB Boxes/Bizness.md",
     "📗HTB Boxes/CozyHosting.md",
     "📗HTB Boxes/Jerry.md",
-    "Study Guide/Every Other Module.md",
     "HTB Academy/03_Network Enumeration with Nmap/Nmap Network Enum.md",
     "HTB Academy/03_Network Enumeration with Nmap/Host and Port Scanning.md",
     "HTB Academy/03_Network Enumeration with Nmap/Firewall and IDS.IPS Evasion.md",
@@ -209,9 +212,6 @@
     "HTB Academy/03_Network Enumeration with Nmap/Saving the Results.md",
     "HTB Academy/03_Network Enumeration with Nmap/Service Enumeration.md",
     "📗HTB Boxes/Soccer.md",
-    "📗HTB Boxes/Support.md",
-    "📗HTB Boxes/Nibbles.md",
-    "🟩HTB Academy/Cheat Sheets/_Getting_Started_Module_Cheat_Sheet.pdf",
     "Templates/dataview.css",
     "Untitled",
     "HTB Academy/02_Getting Started",
@@ -220,7 +220,6 @@
     "Study Guide",
     "Templates",
     "HTB CPTS/1. Getting Started/_common-ports_.pdf",
-    "🟩HTB Academy/Cheat Sheets",
     "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
     "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",
     "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112057.png",

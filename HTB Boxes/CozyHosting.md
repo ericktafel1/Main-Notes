@@ -546,7 +546,7 @@ cat root.txt
 148ad8c88d9154952e4957e6c0454ffc
 ```
 
-Root flag = **148ad8c88d9154952e4957e6c0454ffc**
+Root flag = <mark style="background-color:green;">148ad8c88d9154952e4957e6c0454ffc</mark>
 
 
 

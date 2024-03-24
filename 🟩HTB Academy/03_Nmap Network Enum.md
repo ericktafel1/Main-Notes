@@ -1707,6 +1707,7 @@ By default, `Nmap` performs a reverse DNS resolution unless otherwise specified 
 
 However, `Nmap` still gives us a way to specify DNS servers ourselves (`--dns-server <ns>,<ns>`). This method could be fundamental to us if we are in a demilitarized zone (`DMZ`). The company's DNS servers are usually more trusted than those from the Internet. So, for example, we could use them to interact with the hosts of the internal network. As another example, we can use `TCP port 53` as a source port (`--source-port`) for our scans. If the administrator uses the firewall to control this port and does not filter IDS/IPS properly, our TCP packets will be trusted and passed through.
 
+#Evasion 
 #### SYN-Scan of a Filtered Port
 
 Firewall and IDS/IPS Evasion
@@ -1726,6 +1727,7 @@ PORT      STATE    SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 2.06 seconds
 ```
 
+#Evasion 
 #### SYN-Scan From DNS Port
 
 Firewall and IDS/IPS Evasion
@@ -1756,6 +1758,12 @@ Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
 | `--packet-trace` | Shows all packets sent and received. |
 | `--source-port 53` | Performs the scans from specified source port. |
 
+---
+
+#Evasion
+```shell
+sudo nmap -sS -Pn -n -T4 -A -sV -sC -p 5000 -D 8.8.8.8,8.8.4.4 <hostip> -sU
+```
 ___
 
 Now that we have found out that the firewall accepts `TCP port 53`, it is very likely that IDS/IPS filters might also be configured much weaker than others. We can test this by trying to connect to this port by using `Netcat`.

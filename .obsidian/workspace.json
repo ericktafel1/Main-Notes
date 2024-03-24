@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🤖H4CK3RM4N.md",
+                "file": "🟩HTB Academy/04_Footprinting.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🤖H4CK3RM4N.md",
+                "file": "🟩HTB Academy/04_Footprinting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🤖H4CK3RM4N.md",
+                "file": "🟩HTB Academy/04_Footprinting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🤖H4CK3RM4N.md"
+                "file": "🟩HTB Academy/04_Footprinting.md"
               }
             }
           }
@@ -186,12 +186,12 @@
   "active": "42293a0895438673",
   "lastOpenFiles": [
     "🟩HTB Academy/03_Nmap Network Enum.md",
+    "📋Table of Contents.md",
+    "🤖H4CK3RM4N.md",
     "🟩HTB Academy/02_Get Started.md",
     "🟩HTB Academy/01_PenTest Process.md",
-    "🟩HTB Academy/04_.md",
-    "📋Table of Contents.md",
+    "🟩HTB Academy/04_Footprinting.md",
     "📦HTB Writeups.md",
-    "🤖H4CK3RM4N.md",
     "📗HTB Boxes/Precious.md",
     "Templates/Notes.md",
     "Templates/Box Writeups.md",

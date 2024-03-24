@@ -1,3 +1,25 @@
+---
+title: Getting Started
+key_topics:
+  - Risk Management
+  - Shell
+  - SSH
+  - Tmux
+  - Vim
+  - Reverse Shell
+  - Service Scanning
+  - Bind Shell
+  - Web Shell
+  - CTF
+tags:
+  - CTF
+  - Enumeration
+  - Exploitation
+  - Hydra
+  - PHP
+  - PrivEsc
+references: "[[📋Table of Contents]]"
+---
 
 ## Infosec Overview
 

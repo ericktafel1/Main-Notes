@@ -1,3 +1,17 @@
+---
+title: Network Enumeration with Nmap
+key_topics:
+  - Initial Enumeration
+  - Service Scanning
+  - Evasion
+  - Nmap
+tags:
+  - Enumeration
+  - Nmap
+  - Evasion
+references: "[[📋Table of Contents]]"
+---
+
 ___
 
 `Enumeration` is the most critical part of all. The art, the difficulty, and the goal are not to gain access to our target computer. Instead, it is identifying all of the ways we could attack a target we must find.
@@ -6,7 +20,7 @@ It is not just based on the tools we use. They will only do much good if we know
 
 It is essential to understand how these services work and what syntax they use for effective communication and interaction with the different services.
 
-This phase aims to improve our knowledge and understanding of the technologies, protocols, and how they work and learn to deal with new information and adapt to our already acquired knowledge. Enumeration is collecting as much information as possible. The more information we have, the easier it will be for us to find vectors of attack.
+This phase aims to improve our knowledge and understanding of the technologies, protocols, and how they work and learn to deal with new information and adapt to our already acquired knowledge. Enumeration is collecting as much information as possib.le. The more information we have, the easier it will be for us to find vectors of attack.
 
 Imagine the following situation:
 

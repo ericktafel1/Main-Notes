@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z Study Guide z/_MyStudyPlan_.md",
+                "file": "Study Guide/_MyStudyPlan_.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Academy/z BOX every 2 Modules z.md",
+                "file": "🟩HTB Academy/z BOX every 2 Modules z.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z Study Guide z/Every Other Module.md",
+                "file": "Study Guide/Every Other Module.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🤖H4CK3RM4N.md",
+                "file": "🟩HTB Academy/03_Nmap Network Enum.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🤖H4CK3RM4N.md",
+                "file": "🟩HTB Academy/03_Nmap Network Enum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🤖H4CK3RM4N.md",
+                "file": "🟩HTB Academy/03_Nmap Network Enum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🤖H4CK3RM4N.md"
+                "file": "🟩HTB Academy/03_Nmap Network Enum.md"
               }
             }
           }
@@ -183,53 +183,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "42293a0895438673",
   "lastOpenFiles": [
-    "HTB Academy/03_Nmap Network Enum.md",
-    "HTB Academy/04_.md",
-    "z Study Guide z/Every Other Module.md",
+    "🟩HTB Academy/02_Get Started.md",
+    "🟩HTB Academy/01_PenTest Process.md",
+    "📋Table of Contents.md",
+    "📦HTB Writeups.md",
+    "🟩HTB Academy/03_Nmap Network Enum.md",
+    "🤖H4CK3RM4N.md",
+    "📗HTB Boxes/Precious.md",
+    "Templates/Notes.md",
+    "Templates/Box Writeups.md",
+    "🟩HTB Academy/z BOX every 2 Modules z.md",
+    "🟩HTB Academy/04_.md",
+    "_Upgrade Shell_.md",
+    "Templates/Dataview Table.md",
+    "📗HTB Boxes/Bizness.md",
+    "📗HTB Boxes/CozyHosting.md",
+    "📗HTB Boxes/Jerry.md",
+    "Study Guide/Every Other Module.md",
     "HTB Academy/03_Network Enumeration with Nmap/Nmap Network Enum.md",
     "HTB Academy/03_Network Enumeration with Nmap/Host and Port Scanning.md",
     "HTB Academy/03_Network Enumeration with Nmap/Firewall and IDS.IPS Evasion.md",
     "HTB Academy/03_Network Enumeration with Nmap/Enum & Nmap.md",
-    "HTB Academy/02_Get Started.md",
     "HTB Academy/03_Network Enumeration with Nmap/Saving the Results.md",
     "HTB Academy/03_Network Enumeration with Nmap/Service Enumeration.md",
-    "🤖H4CK3RM4N.md",
-    "📦HTB Writeups.md",
-    "Templates/Box Writeups.md",
-    "HTB Boxes/Precious.md",
-    "HTB Boxes/Soccer.md",
-    "HTB Boxes/Support.md",
-    "HTB Boxes/Nibbles.md",
-    "HTB Boxes/Lame.md",
-    "HTB Boxes/Jerry.md",
-    "HTB Boxes/Granny.md",
-    "HTB Boxes/CozyHosting.md",
-    "HTB Boxes/Blue.md",
-    "HTB Boxes/Bizness.md",
-    "HTB Academy/03_Network Enumeration with Nmap/Host Discovery.md",
-    "HTB Academy/Cheat Sheets/_Getting_Started_Module_Cheat_Sheet.pdf",
-    "HTB Academy/01_PenTest Process.md",
-    "HTB Academy/z BOX every 2 Modules z.md",
+    "📗HTB Boxes/Soccer.md",
+    "📗HTB Boxes/Support.md",
+    "📗HTB Boxes/Nibbles.md",
+    "🟩HTB Academy/Cheat Sheets/_Getting_Started_Module_Cheat_Sheet.pdf",
     "Templates/dataview.css",
     "Untitled",
     "HTB Academy/02_Getting Started",
     "HTB Academy/01_PenTest Process",
-    "HTB Academy/00_Fundamentals",
-    "z Study Guide z",
+    "🟩HTB Academy/00_Fundamentals",
+    "Study Guide",
     "Templates",
     "HTB CPTS/1. Getting Started/_common-ports_.pdf",
-    "HTB Academy/Cheat Sheets",
+    "🟩HTB Academy/Cheat Sheets",
     "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
     "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",
-    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112057.png",
-    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112841.png",
-    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221110647.png",
-    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221110123.png",
-    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231220134555.png",
-    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231219141924.png",
-    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231220130412.png",
-    "HTB Academy/00_Fundamentals/Image Links/Pasted image 20231220111817.png"
+    "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112057.png",
+    "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112841.png",
+    "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221110647.png",
+    "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221110123.png",
+    "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231220134555.png",
+    "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231219141924.png",
+    "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231220130412.png",
+    "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231220111817.png"
   ]
 }

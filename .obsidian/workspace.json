@@ -246,9 +246,153 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f8fdf664b4392f5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H4CK3RM4N/Metasploit.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "951e2f497c1e5f7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H4CK3RM4N/Network Enumeration Cheat Sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04b3514a8c4179e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H4CK3RM4N/Password Attacks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "548636056016e2d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H4CK3RM4N/Pivoting, Tunneling, and Port Forwarding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3c16c40ed1c5beb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H4CK3RM4N/Pivoting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f14e00f03a45514",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H4CK3RM4N/SQLmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec9071af04cf4a8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H4CK3RM4N/Server-side Attacks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4496ee639310d48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H4CK3RM4N/Web Attacks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2db32a871081c70f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H4CK3RM4N/Web Proxies.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d35a5c047a7d5cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H4CK3RM4N/Web Requests.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3895574a722ae9aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H4CK3RM4N/Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0191c3b5a99cd5b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🤖H4CK3RM4N.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 19
+        "currentTab": 31
       }
     ],
     "direction": "vertical"
@@ -277,7 +421,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "payload",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -314,7 +458,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H4CK3RM4N/Login Brute Forcing.md",
+                "file": "🤖H4CK3RM4N.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +475,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H4CK3RM4N/Login Brute Forcing.md",
+                "file": "🤖H4CK3RM4N.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +498,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H4CK3RM4N/Login Brute Forcing.md"
+                "file": "🤖H4CK3RM4N.md"
               }
             }
           }
@@ -375,37 +519,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "0191c3b5a99cd5b6",
   "lastOpenFiles": [
-    "H4CK3RM4N/JavaScript Deobfuscation.md",
+    "📋Table of Contents.md",
+    "📦HTB Writeups.md",
+    "🤖H4CK3RM4N.md",
+    "Templates/Notes.md",
+    "Templates/Dataview Table.md",
+    "H4CK3RM4N/Injection Attacks.md",
+    "H4CK3RM4N/Commands.md",
+    "H4CK3RM4N/Web Requests.md",
+    "H4CK3RM4N/Web Proxies.md",
+    "H4CK3RM4N/Web Attacks.md",
+    "H4CK3RM4N/Server-side Attacks.md",
+    "H4CK3RM4N/SQLmap.md",
+    "H4CK3RM4N/Pivoting.md",
+    "H4CK3RM4N/Pivoting, Tunneling, and Port Forwarding.md",
+    "H4CK3RM4N/Password Attacks.md",
+    "H4CK3RM4N/Network Enumeration Cheat Sheet.md",
+    "H4CK3RM4N/Metasploit.md",
     "H4CK3RM4N/Login Brute Forcing.md",
+    "H4CK3RM4N/JavaScript Deobfuscation.md",
     "H4CK3RM4N/Information Gathering.md",
     "H4CK3RM4N/Hacking WordPress.md",
     "H4CK3RM4N/Hacking_WordPress.md",
     "H4CK3RM4N/Footprinting.md",
     "H4CK3RM4N/File Transfers.md",
     "H4CK3RM4N/FFUF.md",
-    "🤖H4CK3RM4N.md",
     "H4CK3RM4N/Evil-WinRM RUNas System.md",
-    "H4CK3RM4N/Command Injection.md",
-    "H4CK3RM4N/Broken Authentication.md",
-    "H4CK3RM4N/Basic Commands.md",
-    "🟩HTB Academy/04_Footprinting.md",
-    "🟩HTB Academy/01_PenTest Process.md",
-    "🟩HTB Academy/03_Nmap Network Enum.md",
-    "🟩HTB Academy/02_Get Started.md",
-    "z Upgrade Shell z.md",
-    "H4CK3RM4N/Attacking Common Services.md",
-    "H4CK3RM4N/Attacking Common Applications.md",
-    "H4CK3RM4N/Active Directory Enumeration.md",
-    "H4CK3RM4N/Active Directory BloodHound.md",
     "H4CK3RM4N",
-    "📋Table of Contents.md",
-    "📦HTB Writeups.md",
     "🟩HTB Academy/Cheat Sheets/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/Cheat Sheets/_Getting_Started_Module_Cheat_Sheet.pdf",
-    "Study Guide/Every Other Module.md",
-    "Study Guide/_MyStudyPlan_.md",
     "Templates/dataview.css",
     "HTB Academy/02_Getting Started",
     "HTB Academy/01_PenTest Process",

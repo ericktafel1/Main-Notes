@@ -1,7 +1,7 @@
 
 
 ```dataview
-TABLE title, key_topics, tags, references
+TABLE 
 FROM "H4CK3RM4N"
 SORT file.name ASC
 

@@ -49,350 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🤖H4CK3RM4N.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "630cdc951e9d44f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Active Directory Enumeration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c986cb2b486a8ff8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Active Directory Enumeration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96175610426bec17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Attacking Common Applications.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af0b11272fd79b9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Attacking Common Services.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be98fe42fae26ba8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Basic Commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e9cc37c19bc10b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Broken Authentication.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "39dffdf7ccf7fc22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Command Injection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd227926b6bc2c7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Evil-WinRM RUNas System.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11aa5a1d05334c65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/FFUF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "113b4397bf255b0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/File Transfers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c937399130a6bdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Footprinting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96b7f1c114c3ad0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Hacking WordPress.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "981b9d218c1b6da5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Hacking WordPress.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e53d47e29ec365cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Information Gathering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f83caf687886c642",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/JavaScript Deobfuscation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ddcc7797423ec4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Login Brute Forcing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8fdf664b4392f5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Metasploit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "951e2f497c1e5f7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Network Enumeration Cheat Sheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04b3514a8c4179e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Password Attacks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "548636056016e2d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Pivoting, Tunneling, and Port Forwarding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3c16c40ed1c5beb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Pivoting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f14e00f03a45514",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/SQLmap.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec9071af04cf4a8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Server-side Attacks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4496ee639310d48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Web Attacks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2db32a871081c70f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Web Proxies.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d35a5c047a7d5cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Web Requests.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3895574a722ae9aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H4CK3RM4N/Commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0191c3b5a99cd5b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🤖H4CK3RM4N.md",
+                "file": "🟩HTB Academy/04_Footprinting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 31
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -458,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🤖H4CK3RM4N.md",
+                "file": "🟩HTB Academy/04_Footprinting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -475,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🤖H4CK3RM4N.md",
+                "file": "🟩HTB Academy/04_Footprinting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -498,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🤖H4CK3RM4N.md"
+                "file": "🟩HTB Academy/04_Footprinting.md"
               }
             }
           }
@@ -519,37 +183,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0191c3b5a99cd5b6",
+  "active": "42293a0895438673",
   "lastOpenFiles": [
-    "📋Table of Contents.md",
     "📦HTB Writeups.md",
     "🤖H4CK3RM4N.md",
-    "Templates/Notes.md",
-    "Templates/Dataview Table.md",
-    "H4CK3RM4N/Injection Attacks.md",
-    "H4CK3RM4N/Commands.md",
+    "H4CK3RM4N/Attacking Common Applications.md",
+    "H4CK3RM4N/Websites.md",
+    "🟩HTB Academy/PDFs/Random.md",
     "H4CK3RM4N/Web Requests.md",
     "H4CK3RM4N/Web Proxies.md",
     "H4CK3RM4N/Web Attacks.md",
+    "H4CK3RM4N/README.md",
     "H4CK3RM4N/Server-side Attacks.md",
     "H4CK3RM4N/SQLmap.md",
+    "H4CK3RM4N/Command Injection.md",
+    "H4CK3RM4N/Injection Attacks.md",
+    "🟩HTB Academy/PDFs/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/PDFs/_Getting_Started_Module_Cheat_Sheet.pdf",
+    "Templates/Dataview Table.md",
+    "Templates/Notes.md",
+    "Templates/Box Writeups.md",
+    "🟩HTB Academy/04_Footprinting.md",
+    "🟩HTB Academy/03_Nmap Network Enum.md",
+    "🟩HTB Academy/02_Get Started.md",
+    "🟩HTB Academy/01_PenTest Process.md",
+    "📋Table of Contents.md",
+    "H4CK3RM4N/Commands.md",
     "H4CK3RM4N/Pivoting.md",
     "H4CK3RM4N/Pivoting, Tunneling, and Port Forwarding.md",
     "H4CK3RM4N/Password Attacks.md",
     "H4CK3RM4N/Network Enumeration Cheat Sheet.md",
-    "H4CK3RM4N/Metasploit.md",
-    "H4CK3RM4N/Login Brute Forcing.md",
-    "H4CK3RM4N/JavaScript Deobfuscation.md",
-    "H4CK3RM4N/Information Gathering.md",
-    "H4CK3RM4N/Hacking WordPress.md",
-    "H4CK3RM4N/Hacking_WordPress.md",
-    "H4CK3RM4N/Footprinting.md",
-    "H4CK3RM4N/File Transfers.md",
-    "H4CK3RM4N/FFUF.md",
-    "H4CK3RM4N/Evil-WinRM RUNas System.md",
     "H4CK3RM4N",
-    "🟩HTB Academy/Cheat Sheets/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/Cheat Sheets/_Getting_Started_Module_Cheat_Sheet.pdf",
     "Templates/dataview.css",
     "HTB Academy/02_Getting Started",
     "HTB Academy/01_PenTest Process",

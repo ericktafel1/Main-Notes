@@ -2,9 +2,7 @@
 
 ```dataview
 TABLE title, key_topics, tags, references
-FROM "HTB Academy"
-WHERE file.path != "HTB Academy/ExcludedFolder"
-    AND file.path LIKE "HTB Academy/%"
+FROM "H4CK3RM4N"
 SORT file.name ASC
 
 ```

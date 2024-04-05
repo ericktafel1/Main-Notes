@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/04_Footprinting.md",
+                "file": "Study Guide/_MyStudyPlan_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/04_Footprinting.md",
+                "file": "Study Guide/_MyStudyPlan_.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/04_Footprinting.md"
+                "file": "Study Guide/_MyStudyPlan_.md"
               }
             }
           }

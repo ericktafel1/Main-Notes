@@ -3,8 +3,15 @@
 	* Starting Point
 		* Tier 0 (8 machines) **PWNED**
 		* Tier 1 (10 machines) **PWNED**
-		* Tier 2 (7) 
+		* Tier 2 (7) **PWNED**
 	* Nibbles **PWNED**
+	* Bizness **PWNED**
+	* Blue **PWNED**
+	* CozyHosting **PWNED**
+	* Granny **PWNED**
+	* Jerry **PWNED**
+	* Lame **PWNED**
+	* Precious **PWNED**
 	* Shocker
 	* Grandpa
 	* Optimum

@@ -3709,15 +3709,15 @@ The `information schema` is also a database that contains metadata. However, thi
 
 Some of the commands we should remember and write down for working with MySQL databases are described below in the table.
 
-| **Command** | **Description** |
-| --- | --- |
-| `mysql -u <user> -p<password> -h <IP address>` | Connect to the MySQL server. There should **not** be a space between the '-p' flag, and the password. |
-| `show databases;` | Show all databases. |
-| `use <database>;` | Select one of the existing databases. |
-| `show tables;` | Show all available tables in the selected database. |
-| `show columns from <table>;` | Show all columns in the selected database. |
-| `select * from <table>;` | Show everything in the desired table. |
-| `select * from <table> where <column> = "<string>";` | Search for needed `string` in the desired table. |
+| **Command**                                          | **Description**                                                                                       |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `mysql -u <user> -p<password> -h <IP address>`       | Connect to the MySQL server. There should **not** be a space between the '-p' flag, and the password. |
+| `show databases;`                                    | Show all databases.                                                                                   |
+| `use <database>;`                                    | Select one of the existing databases.                                                                 |
+| `show tables;`                                       | Show all available tables in the selected database.                                                   |
+| `show columns from <table>;`                         | Show all columns in the selected database.                                                            |
+| `select * from <table>;`                             | Show everything in the desired table.                                                                 |
+| `select * from <table> where <column> = "<string>";` | Search for needed `string` in the desired table.                                                      |
 
 We must know how to interact with different databases. Therefore, we recommend installing and configuring a MySQL server on one of our VMs for experimentation. There is also a widely covered [security issues](https://dev.mysql.com/doc/refman/8.0/en/general-security-issues.html) section in the reference manual that covers best practices for securing MySQL servers. We should use this when setting up our MySQL server to understand better why something might not work.
 

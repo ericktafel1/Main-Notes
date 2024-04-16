@@ -3722,3 +3722,4 @@ Some of the commands we should remember and write down for working with MySQL da
 We must know how to interact with different databases. Therefore, we recommend installing and configuring a MySQL server on one of our VMs for experimentation. There is also a widely covered [security issues](https://dev.mysql.com/doc/refman/8.0/en/general-security-issues.html) section in the reference manual that covers best practices for securing MySQL servers. We should use this when setting up our MySQL server to understand better why something might not work.
 
 ---
+#MSSQL #SQL 

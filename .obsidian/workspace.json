@@ -102,8 +102,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,6 +185,8 @@
   },
   "active": "6ca20f94ca9b90d9",
   "lastOpenFiles": [
+    "🤖H4CK3RM4N.md",
+    "🟩HTB Academy/04_Footprinting.md",
     "🟩HTB Academy/02_Get Started.md",
     "Study Guide/Every Other Module.md",
     "🟩HTB Academy/z BOX every 2 Modules z.md",
@@ -202,11 +203,9 @@
     "📗HTB Boxes/_Box Writeups.md",
     "Templates/Box Writeups.md",
     "Templates/Dataview Table.md",
-    "🟩HTB Academy/04_Footprinting.md",
     "🟩HTB Academy/03_Nmap Network Enum.md",
     "🟩HTB Academy/01_PenTest Process.md",
     "📦HTB Writeups.md",
-    "🤖H4CK3RM4N.md",
     "H4CK3RM4N/Attacking Common Applications.md",
     "H4CK3RM4N/Websites.md",
     "🟩HTB Academy/PDFs/Random.md",

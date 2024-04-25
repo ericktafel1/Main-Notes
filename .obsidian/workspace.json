@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#rusers",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -171,7 +172,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "42293a0895438673",
+  "active": "9afaae6a30356477",
   "lastOpenFiles": [
     "🟩HTB Academy/z BOX every 2 Modules z.md",
     "H4CK3RM4N/Active Directory Enumeration.md",

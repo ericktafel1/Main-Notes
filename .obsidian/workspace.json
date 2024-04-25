@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "6ca20f94ca9b90d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/04_Footprinting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "42293a0895438673",
             "type": "leaf",
             "state": {
@@ -183,14 +171,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6ca20f94ca9b90d9",
+  "active": "42293a0895438673",
   "lastOpenFiles": [
-    "🤖H4CK3RM4N.md",
+    "🟩HTB Academy/z BOX every 2 Modules z.md",
+    "H4CK3RM4N/Active Directory Enumeration.md",
+    "H4CK3RM4N/Attacking Common Services.md",
+    "H4CK3RM4N/Attacking Common Applications.md",
+    "H4CK3RM4N/Active Directory BloodHound.md",
     "🟩HTB Academy/04_Footprinting.md",
+    "Study Guide/_MyStudyPlan_.md",
+    "🤖H4CK3RM4N.md",
     "🟩HTB Academy/02_Get Started.md",
     "Study Guide/Every Other Module.md",
-    "🟩HTB Academy/z BOX every 2 Modules z.md",
-    "Study Guide/_MyStudyPlan_.md",
     "📗HTB Boxes/Soccer.md",
     "📗HTB Boxes/Bizness.md",
     "📗HTB Boxes/Blue.md",
@@ -206,11 +198,7 @@
     "🟩HTB Academy/03_Nmap Network Enum.md",
     "🟩HTB Academy/01_PenTest Process.md",
     "📦HTB Writeups.md",
-    "H4CK3RM4N/Attacking Common Applications.md",
     "H4CK3RM4N/Websites.md",
-    "🟩HTB Academy/PDFs/Random.md",
-    "H4CK3RM4N/Web Requests.md",
-    "H4CK3RM4N/Web Proxies.md",
     "🟩HTB Academy/PDFs/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/PDFs/_Getting_Started_Module_Cheat_Sheet.pdf",
     "H4CK3RM4N",

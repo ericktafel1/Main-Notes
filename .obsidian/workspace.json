@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#rusers",
+                "query": "-script",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,7 +172,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "42293a0895438673",
+  "active": "9afaae6a30356477",
   "lastOpenFiles": [
     "Study Guide/_MyStudyPlan_.md",
     "🟩HTB Academy/z BOX every 2 Modules z.md",

@@ -1,8 +1,7 @@
 
 1. HTB Info Sec Foundations (COMPLETED)
 2. TryHackMe Jr. Penetration Tester learning path (COMPLETED)
-3. TCM PJPT Certificate
-4. HTB CPTS
+3. HTB CPTS
 	* **Take good notes**
 	* Course/Modules
 	* Recommended Boxes

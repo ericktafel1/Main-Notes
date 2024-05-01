@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Guide/_MyStudyPlan_.md",
+                "file": "🟩HTB Academy/05_Information Gathering - Web Edition.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study Guide/_MyStudyPlan_.md",
+                "file": "🟩HTB Academy/05_Information Gathering - Web Edition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study Guide/_MyStudyPlan_.md",
+                "file": "🟩HTB Academy/05_Information Gathering - Web Edition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Guide/_MyStudyPlan_.md"
+                "file": "🟩HTB Academy/05_Information Gathering - Web Edition.md"
               }
             }
           }
@@ -160,18 +160,19 @@
   },
   "active": "8c0fbafd8c8a14c5",
   "lastOpenFiles": [
-    "🟩HTB Academy/z BOX every 2 Modules z.md",
-    "Study Guide/_MyStudyPlan_.md",
-    "🟩HTB Academy/05_Information Gathering - Web Edition.md",
-    "🟩HTB Academy/PDFs/_Getting_Started_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/03_Nmap Network Enum.md",
     "🟩HTB Academy/04_Footprinting.md",
+    "🟩HTB Academy/05_Information Gathering - Web Edition.md",
+    "Study Guide/TO DO - Boxes, Challenges, Skill Paths, Pro Labs.md",
+    "🟩HTB Academy/02_Get Started.md",
+    "Study Guide/_MyStudyPlan_.md",
+    "🟩HTB Academy/z BOX every 2 Modules z.md",
+    "🟩HTB Academy/PDFs/_Getting_Started_Module_Cheat_Sheet.pdf",
     "H4CK3RM4N/Active Directory Enumeration.md",
     "H4CK3RM4N/Attacking Common Services.md",
     "H4CK3RM4N/Attacking Common Applications.md",
     "H4CK3RM4N/Active Directory BloodHound.md",
     "🤖H4CK3RM4N.md",
-    "🟩HTB Academy/02_Get Started.md",
-    "Study Guide/Every Other Module.md",
     "📗HTB Boxes/Soccer.md",
     "📗HTB Boxes/Bizness.md",
     "📗HTB Boxes/Blue.md",
@@ -184,7 +185,6 @@
     "📗HTB Boxes/_Box Writeups.md",
     "Templates/Box Writeups.md",
     "Templates/Dataview Table.md",
-    "🟩HTB Academy/03_Nmap Network Enum.md",
     "🟩HTB Academy/01_PenTest Process.md",
     "🟩HTB Academy/PDFs/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "H4CK3RM4N",

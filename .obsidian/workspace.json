@@ -20,31 +20,18 @@
             }
           },
           {
-            "id": "18d2fee39f0f4069",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/z BOX every 2 Modules z.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "42293a0895438673",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/04_Footprinting.md",
+                "file": "🟩HTB Academy/05_Information Gathering - Web Edition.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/04_Footprinting.md",
+                "file": "Study Guide/_MyStudyPlan_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/04_Footprinting.md",
+                "file": "Study Guide/_MyStudyPlan_.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/04_Footprinting.md"
+                "file": "Study Guide/_MyStudyPlan_.md"
               }
             }
           }
@@ -171,10 +158,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "42293a0895438673",
+  "active": "8c0fbafd8c8a14c5",
   "lastOpenFiles": [
     "🟩HTB Academy/z BOX every 2 Modules z.md",
     "Study Guide/_MyStudyPlan_.md",
+    "🟩HTB Academy/05_Information Gathering - Web Edition.md",
+    "🟩HTB Academy/PDFs/_Getting_Started_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/04_Footprinting.md",
     "H4CK3RM4N/Active Directory Enumeration.md",
     "H4CK3RM4N/Attacking Common Services.md",
@@ -197,10 +186,7 @@
     "Templates/Dataview Table.md",
     "🟩HTB Academy/03_Nmap Network Enum.md",
     "🟩HTB Academy/01_PenTest Process.md",
-    "📦HTB Writeups.md",
-    "H4CK3RM4N/Websites.md",
     "🟩HTB Academy/PDFs/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/PDFs/_Getting_Started_Module_Cheat_Sheet.pdf",
     "H4CK3RM4N",
     "Templates/dataview.css",
     "HTB Academy/02_Getting Started",

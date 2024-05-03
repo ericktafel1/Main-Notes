@@ -318,7 +318,7 @@ star-mini.c10r.facebook.com. 45 IN      A       31.13.92.36
 ;; MSG SIZE  rcvd: 90
 ```
 
-#### Querying: PTR Records for an IP Address
+#### Querying: PTR Records for an IP Address #PTR
 
 DNS
 
@@ -359,7 +359,7 @@ DNS
 ;; MSG SIZE  rcvd: 106
 ```
 
-#### Querying: ANY Existing Records
+#### Querying: ANY Existing Records #ANY
 
 In this example, we are using Google as an example instead of Facebook as the last one did not respond to our query.
 
@@ -482,7 +482,7 @@ cloudflare.com.         2747    IN      RRSIG   HINFO 13 2 3789 20211019145905 2
 ;; MSG SIZE  rcvd: 174
 ```
 
-#### Querying: TXT Records
+#### Querying: TXT Records #TXT
 
 DNS
 
@@ -528,7 +528,7 @@ facebook.com.           7200    IN      TXT     "google-site-verification=wdH5DT
 ;; MSG SIZE  rcvd: 249
 ```
 
-#### Querying: MX Records
+#### Querying: MX Records #MX
 
 DNS
 
@@ -574,7 +574,7 @@ So far, we have gathered `A`, `NS`, `MX`, and `CNAME` records with the `nslookup
 
 We can combine some of the results gathered via nslookup with the whois database to determine if our target organization uses hosting providers. This combination looks like the following example:
 
-#### Nslookup
+#### Nslookup #nslookup 
 
 DNS
 
@@ -592,7 +592,7 @@ Name:	facebook.com
 Address: 2a03:2880:f15e:83:face:b00c:0:25de
 ```
 
-#### WHOIS
+#### WHOIS #whois
 
 DNS
 

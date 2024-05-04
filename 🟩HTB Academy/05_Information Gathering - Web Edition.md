@@ -1938,7 +1938,9 @@ ________________________________________________
 ```
 
 ```shell
-[!bash!]$ curl http://192.168.10.10/wp-content/secret~ Oooops!
+[!bash!]$ curl http://192.168.10.10/wp-content/secret~
+
+Oooops!
 ```
 
 Following this approach, we have successfully found a secret file.

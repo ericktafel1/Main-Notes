@@ -1771,7 +1771,7 @@ some                    [Status: 200, Size: 195, Words: 41, Lines: 9]
 
 where:
 
--   `-w`: Path to our wordlist
+-   `-w`: Path to our wordlist (`/usr/share/dirb/wordlists/common.txt`, `/usr/share/seclists/Discovery/DNS/namelist.txt`)
 -   `-u`: URL we want to fuzz
 -   `-H "HOST: FUZZ.randomtarget.com"`: This is the `HOST` Header, and the word `FUZZ` will be used as the fuzzing point.
 -   `-fs 612`: Filter responses with a size of 612, default response size in this case.

@@ -1351,7 +1351,7 @@ We can perform active subdomain enumeration probing the infrastructure managed b
 
 ___
 
-## ZoneTransfers
+## ZoneTransfers #axfr
 
 The zone transfer is how a secondary DNS server receives information from the primary DNS server and updates it. The master-slave approach is used to organize DNS servers within a domain, with the slaves receiving updated DNS information from the master DNS. The master DNS server should be configured to enable zone transfers from secondary (slave) DNS servers, although this might be misconfigured.
 
@@ -1471,9 +1471,17 @@ zonetransfer.me
 
 If we manage to perform a successful zone transfer for a domain, there is no need to continue enumerating this particular domain as this will extract all the available information.
 
+Useful axfr script #axfr  
+
+```shell
+dig axfr {DNS} @{IP} > dns.txt
+
+cat dns.txt | while read i; do dig axfr $i @{IP}; echo $i; done > enumerated.txt
+```
+
 ___
 
-## Gobuster
+## Gobuster #gobuster
 
 Gobuster is a tool that we can use to perform subdomain enumeration. It is especially interesting for us the patterns options as we have learned some naming conventions from the passive information gathering we can use to discover new subdomains following the same pattern.
 

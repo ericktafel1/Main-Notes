@@ -2062,4 +2062,183 @@ ___
 
 Now that we've gone through the key assessment types that an organization can undergo let's walk through vulnerability assessments more in-depth to better understand key terms and a sample methodology.
 
+___
+
+A `Vulnerability Assessment` aims to identify and categorize risks for security weaknesses related to assets within an environment. It is important to note that `there is little to no manual exploitation during a vulnerability assessment`. A vulnerability assessment also provides remediation steps to fix the issues.
+
+The purpose of a `Vulnerability Assessment` is to understand, identify, and categorize the risk for the more apparent issues present in an environment without actually exploiting them to gain further access. Depending on the scope of the assessment, some customers may ask us to validate as many vulnerabilities as possible by performing minimally invasive exploitation to confirm the scanner findings and rule out false positives. Other customers will ask for a report of all findings identified by the scanner. As with any assessment, it is essential to clarify the scope and intent of the vulnerability assessment before starting. Vulnerability management is vital to help organizations identify the weak points in their assets, understand the risk level, and calculate and prioritize remediation efforts.
+
+It is also important to note that organizations should always test substantial patches before pushing them out into their environment to prevent disruptions.
+
+___
+
+## Methodology
+
+Below is a sample vulnerability assessment methodology that most organizations could follow and find success with. Methodologies may vary slightly from organization to organization, but this chart covers the main steps, from identifying assets to creating a remediation plan. ![process](https://academy.hackthebox.com/storage/modules/108/graphics/VulnerabilityAssessment_Diagram_06a.png) _Adapted from the original graphic found [here](https://purplesec.us/wp-content/uploads/2019/07/8-steps-to-performing-a-network-vulnerability-assessment-infographic.png)._
+
+___
+
+## Understanding Key Terms
+
+Before we go any further, let's identify some key terms that any IT or Infosec professional should understand and be able to explain clearly.
+
+#### Vulnerability
+
+A `Vulnerability` is a weakness or bug in an organization's environment, including applications, networks, and infrastructure, that opens up the possibility of threats from external actors. Vulnerabilities can be registered through MITRE's [Common Vulnerability Exposure database](https://cve.mitre.org/) and receive a [Common Vulnerability Scoring System (CVSS)](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) score to determine severity. This scoring system is frequently used as a standard for companies and governments looking to calculate accurate and consistent severity scores for their systems' vulnerabilities. Scoring vulnerabilities in this way helps prioritize resources and determine how to respond to a given threat. Scores are calculated using metrics such as the type of attack vector (network, adjacent, local, physical), the attack complexity, privileges required, whether or not the attack requires user interaction, and the impact of successful exploitation on an organization's confidentiality, integrity, and availability of data. Scores can range from 0 to 10, depending on these metrics.
+
+![Threat + Vulnerability = Risk](https://academy.hackthebox.com/storage/modules/108/graphics/threat_vulnerability_risk.png)
+
+For example, SQL injection is considered a vulnerability since an attacker could leverage queries to extract data from an organization's database. This attack would have a higher CVSS score rating if it could be performed without authentication over the internet than if an attacker needed authenticated access to the internal network and separate authentication to the target application. These types of things must be considered for all vulnerabilities we encounter.
+
+#### Threat
+
+A `Threat` is a process that amplifies the potential of an adverse event, such as a threat actor exploiting a vulnerability. Some vulnerabilities raise more threat concerns over others due to the probability of the vulnerability being exploited. For example, the higher the reward of the outcome and ease of exploitation, the more likely the issue would be exploited by threat actors.
+
+#### Exploit
+
+An `Exploit` is any code or resources that can be used to take advantage of an asset's weakness. Many exploits are available through open-source platforms such as [Exploit-db](https://exploit-db.com/) or [the Rapid7 Vulnerability and Exploit Database](https://www.rapid7.com/db/). We will often see exploit code hosted on sites such as GitHub and GitLab as well.
+
+#### Risk
+
+`Risk` is the possibility of assets or data being harmed or destroyed by threat actors.
+
+![What is Risk?](https://academy.hackthebox.com/storage/modules/108/graphics/whatisrisk.png)
+
+To differentiate the three, we can think of it as follows:
+
+-   `Risk`: something bad that could happen
+-   `Threat`: something bad that is happening
+-   `Vulnerabilities`: weaknesses that could lead to a threat
+
+Vulnerabilities, Threats, and Exploits all play a part in measuring the level of risk in weaknesses by determining the likelihood and impact. For example, vulnerabilities that have reliable exploit code and are likely to be used to gain access to an organization's network would significantly raise the risk of an issue due to the impact. If an attacker had access to the internal network, they could potentially view, edit, or delete sensitive documents crucial for business operations. We can use a qualitative risk matrix to measure risk based on likelihood and impact with the table shown below.
+
+![risk](https://academy.hackthebox.com/storage/modules/108/graphics/VulnerabilityAssessment_Diagram_07.png)
+
+In this example, we can see that a vulnerability with a low likelihood of occurring and low impact would be the lowest risk level, while a vulnerability with a high likelihood of being exploited and the highest impact on an organization would represent the highest risk and would want to be prioritized for remediation.
+
+___
+
+## Asset Management
+
+When an organization of any kind, in any industry, and of any size needs to plan their cybersecurity strategy, they should start by creating an inventory of their `data assets`. If you want to protect something, you must first know what you are protecting! Once assets have been inventoried, then you can start the process of `asset management`. This is a key concept in defensive security.
+
+#### Asset Inventory
+
+`Asset inventory` is a critical component of vulnerability management. An organization needs to understand what assets are in its network to provide the proper protection and set up appropriate defenses. The asset inventory should include information technology, operational technology, physical, software, mobile, and development assets. Organizations can utilize asset management tools to keep track of assets. The assets should have data classifications to ensure adequate security and access controls.
+
+#### Application and System Inventory
+
+An organization should create a thorough and complete inventory of data assets for proper asset management for defensive security. Data assets include:
+
+-   All data stored on-premises. HDDs and SSDs in endpoints (PCs and mobile devices), HDDs & SSDs in servers, external drives in the local network, optical media (DVDs, Blu-ray discs, CDs), flash media (USB sticks, SD cards). Legacy technology may include floppy disks, ZIP drives (a relic from the 1990s), and tape drives.
+    
+-   All of the data storage that their cloud provider possesses. [Amazon Web Services](https://aws.amazon.com/) (`AWS`), [Google Cloud Platform](https://cloud.google.com/) (`GCP`), and [Microsoft Azure](https://azure.microsoft.com/en-us/) are some of the most popular cloud providers, but there are many more. Sometimes corporate networks are "multi-cloud," meaning they have more than one cloud provider. A company's cloud provider will provide tools that can be used to inventory all of the data stored by that particular cloud provider.
+    
+-   All data stored within various `Software-as-a-Service (SaaS)` applications. This data is also "in the cloud" but might not all be within the scope of a corporate cloud provider account. These are often consumer services or the "business" version of those services. Think of online services such as `Google Drive`, `Dropbox`, `Microsoft Teams`, `Apple iCloud`, `Adobe Creative Suite`, `Microsoft Office 365`, `Google Docs`, and the list goes on.
+    
+-   All of the applications a company needs to use to conduct their usual operation and business. Including applications that are deployed locally and applications that are deployed through the cloud or are otherwise Software-as-a-Service.
+    
+-   All of a company's on-premises computer networking devices. These include but aren't limited to `routers`, `firewalls`, `hubs`, `switches`, dedicated `intrusion detection` and `prevention systems` (`IDS/IPS`), `data loss prevention` (`DLP`) systems, and so on.
+    
+
+All of these assets are very important. A threat actor or any other sort of risk to any of these assets can do significant damage to a company's information security and ability to operate day by day. An organization needs to take its time to assess everything and be careful not to miss a single data asset, or they won't be able to protect it.
+
+Organizations frequently add or remove computers, data storage, cloud server capacity, or other data assets. Whenever data assets are added or removed, this must be thoroughly noted in the `data asset inventory`.
+
+___
+## Onwards
+
+Next, we'll discuss some key standards that organizations may be subject to or choose to follow to standardize their approach to risk and vulnerability management.
+
 ---
+## Assessment Standards
+
+___
+
+Both penetration tests and vulnerability assessments should comply with specific standards to be accredited and accepted by governments and legal authorities. Such standards help ensure that the assessment is carried out thoroughly in a generally agreed-upon manner to increase the efficiency of these assessments and reduce the likelihood of an attack on the organization.
+
+___
+
+## Compliance Standards
+
+Each regulatory compliance body has its own information security standards that organizations must adhere to maintain their accreditation. The big compliance players in information security are `PCI`, `HIPAA`, `FISMA`, and `ISO 27001`.
+
+These accreditations are necessary because it certifies that an organization has had a third-party vendor evaluate its environment. Organizations also rely on these accreditations for business operations since some companies won't do business without specific accreditations from organizations.
+
+#### Payment Card Industry Data Security Standard (PCI DSS)
+
+The [Payment Card Industry Data Security Standard (PCI DSS)](https://www.pcisecuritystandards.org/pci_security/) is a commonly known standard in information security that implements requirements for organizations that handle credit cards. While not a government regulation, organizations that store, process, or transmit cardholder data must still implement PCI DSS guidelines. This would include banks or online stores that handle their own payment solutions (e.g., Amazon).
+
+PCI DSS requirements include internal and external scanning of assets. For example, any credit card data that is being processed or transmitted must be done in a Cardholder Data Environment (CDE). The CDE environment must be adequately segmented from normal assets. CDE environments are segmented off from an organization's regular environment to protect any cardholder data from being compromised during an attack and limit internal access to data.
+
+![PCIDSS goals](https://academy.hackthebox.com/storage/modules/108/graphics/PCI-DSS-Goals.png) [Source](https://adktechs.com/wp-content/uploads/2019/06/PCI-DSS-Goals.png)
+
+#### Health Insurance Portability and Accountability Act (HIPAA)
+
+`HIPAA` is the [Health Insurance Portability and Accountability Act](https://www.hhs.gov/programs/hipaa/index.html), which is used to protect patients' data. HIPAA does not necessarily require vulnerability scans or assessments; however, a risk assessment and vulnerability identification are required to maintain HIPAA accreditation.
+
+### Federal Information Security Management Act (FISMA)
+
+The [Federal Information Security Management Act (FISMA)](https://www.cisa.gov/federal-information-security-modernization-act) is a set of standards and guidelines used to safeguard government operations and information. The act requires an organization to provide documentation and proof of a vulnerability management program to maintain information technology systems' proper availability, confidentiality, and integrity.
+
+#### ISO 27001
+
+`ISO 27001` is a standard used worldwide to manage information security. [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) requires organizations to perform quarterly external and internal scans.
+
+Although compliance is essential, it should not drive a vulnerability management program. Vulnerability management should consider the uniqueness of an environment and the associated risk appetite to an organization.
+
+The `International Organization for Standardization` (`ISO`) maintains technical standards for pretty much anything you can imagine. The [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) standard deals with information security. ISO 27001 compliance depends upon maintaining an effective Information Security Management System. To ensure compliance, organizations must perform penetration tests in a carefully designed way.
+
+___
+
+## Penetration Testing Standards
+
+Penetration tests should not be performed without any `rules` or `guidelines`. There must always be a specifically defined scope for a pentest, and the owner of a network must have a `signed legal contract` with pentesters outlining what they're allowed to do and what they're not allowed to do. Pentesting should also be conducted in such a way that minimal harm is done to a company's computers and networks. Penetration testers should avoid making changes wherever possible (such as changing an account password) and limit the amount of data removed from a client's network. For example, instead of removing sensitive documents from a file share, a screenshot of the folder names should suffice to prove the risk.
+
+In addition to scope and legalities, there are also various pentesting standards, depending on what kind of computer system is being assessed. Here are some of the more common standards you may use as a pentester.
+
+#### PTES
+
+The [Penetration Testing Execution Standard](http://www.pentest-standard.org/index.php/Main_Page) (`PTES`) can be applied to all types of penetration tests. It outlines the phases of a penetration test and how they should be conducted. These are the sections in the PTES:
+
+-   Pre-engagement Interactions
+-   Intelligence Gathering
+-   Threat Modeling
+-   Vulnerability Analysis
+-   Exploitation
+-   Post Exploitation
+-   Reporting
+
+#### OSSTMM
+
+`OSSTMM` is the `Open Source Security Testing Methodology Manual`, another set of guidelines pentesters can use to ensure they're doing their jobs properly. It can be used alongside other pentest standards.
+
+[OSSTMM](https://www.isecom.org/OSSTMM.3.pdf) is divided into five different channels for five different areas of pentesting:
+
+1.  Human Security (human beings are subject to social engineering exploits)
+2.  Physical Security
+3.  Wireless Communications (including but not limited to technologies like WiFi and Bluetooth)
+4.  Telecommunications
+5.  Data Networks
+
+#### NIST
+
+The `NIST` (`National Institute of Standards and Technology`) is well known for their [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework), a system for designing incident response policies and procedures. NIST also has a Penetration Testing Framework. The phases of the NIST framework include:
+
+-   Planning
+-   Discovery
+-   Attack
+-   Reporting
+
+#### OWASP
+
+`OWASP` stands for the [Open Web Application Security Project](https://owasp.org/). They're typically the go-to organization for defining testing standards and classifying risks to web applications.
+
+OWASP maintains a few different standards and helpful guides for assessment various technologies:
+
+-   [Web Security Testing Guide (WSTG)](https://owasp.org/www-project-web-security-testing-guide/)
+-   [Mobile Security Testing Guide (MSTG)](https://owasp.org/www-project-mobile-security-testing-guide/)
+-   [Firmware Security Testing Methodology](https://github.com/scriptingxss/owasp-fstm)
+
+---
+

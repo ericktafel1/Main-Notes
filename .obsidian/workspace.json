@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/02_Get Started/Infosec Overview.md",
+                "file": "🟩HTB Academy/01_PenTest Process/Introduction to the Penetration Tester Path.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/02_Get Started/Infosec Overview.md",
+                "file": "🟩HTB Academy/01_PenTest Process/Introduction to the Penetration Tester Path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/02_Get Started/Infosec Overview.md",
+                "file": "🟩HTB Academy/01_PenTest Process/Introduction to the Penetration Tester Path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/02_Get Started/Infosec Overview.md"
+                "file": "🟩HTB Academy/01_PenTest Process/Introduction to the Penetration Tester Path.md"
               }
             }
           }
@@ -148,9 +148,14 @@
   },
   "active": "bb8a0731607ed414",
   "lastOpenFiles": [
-    "🟩HTB Academy/02_Get Started/Privilege Escalation.md",
     "🟩HTB Academy/02_Get Started/Infosec Overview.md",
     "🟩HTB Academy/02_Get Started/Types of Shells.md",
+    "🟩HTB Academy/03_Nmap Network Enums/03_Nmap Network Enums.md",
+    "🟩HTB Academy/06_Vulnerability Assessment/Untitled111111.md",
+    "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerability Scoring System (CVSS).md",
+    "🟩HTB Academy/05_Information Gathering - Web Edition/05_Information Gathering - Web Editions.md",
+    "🟩HTB Academy/04_Footprinting/04_Footprintings.md",
+    "🟩HTB Academy/02_Get Started/Privilege Escalation.md",
     "🟩HTB Academy/02_Get Started/Staying Organized.md",
     "🟩HTB Academy/02_Get Started/Web Enumeration.md",
     "🟩HTB Academy/02_Get Started/Untitled 16.md",
@@ -169,11 +174,6 @@
     "🟩HTB Academy/01_PenTest Process/Practice.md",
     "🟩HTB Academy/01_PenTest Process/Proof-of-Concept.md",
     "🟩HTB Academy/01_PenTest Process/Penetration Testing Process.md",
-    "🟩HTB Academy/01_PenTest Process/Lateral Movement.md",
-    "🟩HTB Academy/01_PenTest Process/Information Gathering.md",
-    "🟩HTB Academy/01_PenTest Process/Exploitation.md",
-    "🟩HTB Academy/05_Information Gathering - Web Edition/05_Information Gathering - Web Editions.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Untitled111111.md",
     "🟩HTB Academy/06_Vulnerability Assessment",
     "🟩HTB Academy/PDFs/Footprinting_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/PDFs/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",

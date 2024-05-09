@@ -1,6 +1,4 @@
 
-## Infosec Overview
-
 ___
 
 [Information security](https://en.wikipedia.org/wiki/Information_security) (infosec) is a vast field. The field has grown and evolved greatly in the last few years. It offers many specializations, including but not limited to:

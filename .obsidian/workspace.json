@@ -8,282 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b3e4a4da177c6551",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/01_PenTest Process/Exploitation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "adb6f96968fbf762",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/01_PenTest Process/Post-Exploitation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e7c003df58a82ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/01_PenTest Process/Lateral Movement.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b2c82e215f05fd49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/01_PenTest Process/Proof-of-Concept.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c691e43785a68ccd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/01_PenTest Process/Introduction to the Penetration Tester Path.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13b541ae72290b6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/01_PenTest Process/Practice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91d215d1d28a74a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7efd00332856132",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8183d163aefdfc07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6e65e3fab84693d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26eeb52aa778a3b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcdc340f06e2abcb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c61d0e27a3ce632b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 6.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e01526fb750e3e36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 7.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45c2c9251d4982b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 8.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "391949f2e555de14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 9.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5666bb139af23c3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 10.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aea8a9f1e7bbfd40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 11.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "472ba9d08f087ea2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 12.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1cc56f5a9fe48d54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 13.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "727ddd9426af8bb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 14.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "628b9a6951aa27fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Untitled 15.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d4ec122c40b1a00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/05_Information Gathering - Web Edition/05_Information Gathering - Web Editions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bb8a0731607ed414",
             "type": "leaf",
             "state": {
@@ -295,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 23
+        ]
       }
     ],
     "direction": "vertical"
@@ -325,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "-script",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -425,37 +148,37 @@
   },
   "active": "bb8a0731607ed414",
   "lastOpenFiles": [
-    "🟩HTB Academy/02_Get Started/Untitled.md",
-    "🟩HTB Academy/05_Information Gathering - Web Edition/05_Information Gathering - Web Editions.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Untitled111111.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerability Scoring System (CVSS).md",
-    "🟩HTB Academy/06_Vulnerability Assessment",
-    "🟩HTB Academy/PDFs/Footprinting_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/PDFs/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/PDFs/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/PDFs/_Getting_Started_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/02_Get Started/Privilege Escalation.md",
     "🟩HTB Academy/02_Get Started/Infosec Overview.md",
+    "🟩HTB Academy/02_Get Started/Types of Shells.md",
+    "🟩HTB Academy/02_Get Started/Staying Organized.md",
+    "🟩HTB Academy/02_Get Started/Web Enumeration.md",
     "🟩HTB Academy/02_Get Started/Untitled 16.md",
     "🟩HTB Academy/02_Get Started/Untitled 15.md",
     "🟩HTB Academy/02_Get Started/Untitled 14.md",
     "🟩HTB Academy/02_Get Started/Untitled 13.md",
     "🟩HTB Academy/02_Get Started/Untitled 12.md",
     "🟩HTB Academy/02_Get Started/Untitled 11.md",
-    "🟩HTB Academy/02_Get Started/Untitled 10.md",
-    "🟩HTB Academy/02_Get Started/Untitled 9.md",
     "🟩HTB Academy/02_Get Started/Untitled 8.md",
-    "🟩HTB Academy/02_Get Started/Untitled 7.md",
-    "🟩HTB Academy/02_Get Started/Untitled 6.md",
-    "🟩HTB Academy/02_Get Started/Untitled 5.md",
-    "🟩HTB Academy/02_Get Started/Untitled 4.md",
-    "🟩HTB Academy/02_Get Started/Untitled 3.md",
-    "🟩HTB Academy/02_Get Started/Untitled 2.md",
-    "🟩HTB Academy/02_Get Started/Untitled 1.md",
+    "🟩HTB Academy/02_Get Started/Public Exploits.md",
+    "🟩HTB Academy/02_Get Started/Service Scanning.md",
+    "🟩HTB Academy/02_Get Started/Basic Tools.md",
+    "🟩HTB Academy/02_Get Started/Common Terms.md",
+    "🟩HTB Academy/02_Get Started/Getting Started with a Pentest Distro.md",
+    "🟩HTB Academy/02_Get Started/Connecting Using VPN.md",
     "🟩HTB Academy/01_PenTest Process/Practice.md",
-    "🟩HTB Academy/01_PenTest Process/Introduction to the Penetration Tester Path.md",
-    "🟩HTB Academy/01_PenTest Process/Post-Engagement.md",
     "🟩HTB Academy/01_PenTest Process/Proof-of-Concept.md",
+    "🟩HTB Academy/01_PenTest Process/Penetration Testing Process.md",
     "🟩HTB Academy/01_PenTest Process/Lateral Movement.md",
+    "🟩HTB Academy/01_PenTest Process/Information Gathering.md",
+    "🟩HTB Academy/01_PenTest Process/Exploitation.md",
+    "🟩HTB Academy/05_Information Gathering - Web Edition/05_Information Gathering - Web Editions.md",
+    "🟩HTB Academy/06_Vulnerability Assessment/Untitled111111.md",
+    "🟩HTB Academy/06_Vulnerability Assessment",
+    "🟩HTB Academy/PDFs/Footprinting_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/PDFs/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/PDFs/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/PDFs/_Getting_Started_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/05_Information Gathering - Web Edition",
     "🟩HTB Academy/04_Footprinting",
     "🟩HTB Academy/03_Nmap Network Enums",

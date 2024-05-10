@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📗HTB Boxes/Bashed.md",
+                "file": "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📗HTB Boxes/Bashed.md",
+                "file": "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📗HTB Boxes/Bashed.md",
+                "file": "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📗HTB Boxes/Bashed.md"
+                "file": "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "345af148c0ecf4e8",
   "lastOpenFiles": [
-    "📗HTB Boxes/Soccer.md",
+    "🟩HTB Academy/03_Nmap Network Enums/Nmap Scripting Engine.md",
     "📗HTB Boxes/Bashed.md",
+    "📗HTB Boxes/Soccer.md",
     "📗HTB Boxes/Blue.md",
     "📗HTB Boxes/_Box Writeups.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Untitled.md",
@@ -174,7 +175,6 @@
     "🟩HTB Academy/04_Footprinting/Oracle TNS.md",
     "🟩HTB Academy/04_Footprinting/MSSQL.md",
     "🟩HTB Academy/03_Nmap Network Enums/Enumeration.md",
-    "🟩HTB Academy/04_Footprinting/MySQL.md",
     "🟩HTB Academy/06_Vulnerability Assessment",
     "🟩HTB Academy/PDFs & PNGs/Footprinting_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/PDFs & PNGs/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",

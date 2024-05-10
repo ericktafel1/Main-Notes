@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md",
+                "file": "🟩HTB Academy/06_Vulnerability Assessment/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md",
+                "file": "🟩HTB Academy/06_Vulnerability Assessment/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md",
+                "file": "🟩HTB Academy/06_Vulnerability Assessment/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md"
+                "file": "🟩HTB Academy/06_Vulnerability Assessment/Untitled.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "345af148c0ecf4e8",
   "lastOpenFiles": [
+    "🟩HTB Academy/06_Vulnerability Assessment/Vulnerability Assessment.md",
+    "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md",
     "🟩HTB Academy/03_Nmap Network Enums/Nmap Scripting Engine.md",
     "📗HTB Boxes/Bashed.md",
     "📗HTB Boxes/Soccer.md",
@@ -159,7 +161,6 @@
     "🟩HTB Academy/05_Information Gathering - Web Edition/Virtual Hosts.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Assessment Standards.md",
     "🟩HTB Academy/PDFs & PNGs/Pasted image 20240504105027.png",
-    "🟩HTB Academy/06_Vulnerability Assessment/Vulnerability Assessment.md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/Crawling.md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/Information Gathering.md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/Active Subdomain Enumeration.md",
@@ -174,7 +175,6 @@
     "🟩HTB Academy/04_Footprinting/IPMI.md",
     "🟩HTB Academy/04_Footprinting/Oracle TNS.md",
     "🟩HTB Academy/04_Footprinting/MSSQL.md",
-    "🟩HTB Academy/03_Nmap Network Enums/Enumeration.md",
     "🟩HTB Academy/06_Vulnerability Assessment",
     "🟩HTB Academy/PDFs & PNGs/Footprinting_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/PDFs & PNGs/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",

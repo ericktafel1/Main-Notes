@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/06_Vulnerability Assessment/Untitled.md",
+                "file": "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerabilities and Exposures (CVE).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/06_Vulnerability Assessment/Untitled.md",
+                "file": "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerabilities and Exposures (CVE).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/06_Vulnerability Assessment/Untitled.md",
+                "file": "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerabilities and Exposures (CVE).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/06_Vulnerability Assessment/Untitled.md"
+                "file": "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerabilities and Exposures (CVE).md"
               }
             }
           }
@@ -155,7 +155,7 @@
     "📗HTB Boxes/Soccer.md",
     "📗HTB Boxes/Blue.md",
     "📗HTB Boxes/_Box Writeups.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Untitled.md",
+    "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerabilities and Exposures (CVE).md",
     "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerability Scoring System (CVSS).md",
     "🟩HTB Academy/06_Vulnerability Assessment/Security Assessments.md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/Virtual Hosts.md",

@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "🟩HTB Academy/07_File Transfers/File Transfers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc6a9b6d9e8a05a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,23 +159,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f541efdca27eacb",
+  "active": "cb2f060f9e35708a",
   "lastOpenFiles": [
-    "🟩HTB Academy/06_Vulnerability Assessment/Reporting.md",
+    "🟩HTB Academy/07_File Transfers/File Transfers.md",
+    "🟩HTB Academy/07_File Transfers/Untitled.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Exporting The Results.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/OpenVAS Scan.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Getting Started with OpenVAS.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Scanning Issues.md",
+    "🟩HTB Academy/06_Vulnerability Assessment/Getting Started with Nessus.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Working with Nessus Scan Output.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Advanced Settings.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Getting Started with Nessus.md",
-    "🟩HTB Academy/07_File Transfers/Untitled.md",
-    "🟩HTB Academy/07_File Transfers",
     "🟩HTB Academy/06_Vulnerability Assessment/Nessus Scan.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Vulnerability Scanning Overview.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Vulnerability Assessment.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Security Assessments.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerabilities and Exposures (CVE).md",
+    "🟩HTB Academy/06_Vulnerability Assessment/Assessment Standards.md",
+    "🟩HTB Academy/06_Vulnerability Assessment/Vulnerability Assessment.md",
+    "🟩HTB Academy/PDFs & PNGs/File_Transfers_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/06_Vulnerability Assessment/Reporting.md",
+    "🟩HTB Academy/06_Vulnerability Assessment/OpenVAS Scan.md",
+    "🟩HTB Academy/07_File Transfers",
+    "🟩HTB Academy/06_Vulnerability Assessment/Vulnerability Scanning Overview.md",
+    "🟩HTB Academy/06_Vulnerability Assessment/Security Assessments.md",
     "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md",
     "🟩HTB Academy/03_Nmap Network Enums/Nmap Scripting Engine.md",
     "📗HTB Boxes/Bashed.md",
@@ -171,11 +187,9 @@
     "📗HTB Boxes/_Box Writeups.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerability Scoring System (CVSS).md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/Virtual Hosts.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Assessment Standards.md",
     "🟩HTB Academy/PDFs & PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/05_Information Gathering - Web Edition/Crawling.md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/Information Gathering.md",
-    "🟩HTB Academy/05_Information Gathering - Web Edition/Active Subdomain Enumeration.md",
     "🟩HTB Academy/06_Vulnerability Assessment",
     "🟩HTB Academy/PDFs & PNGs/Footprinting_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/PDFs & PNGs/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",
@@ -184,7 +198,6 @@
     "🟩HTB Academy/05_Information Gathering - Web Edition",
     "🟩HTB Academy/04_Footprinting",
     "🟩HTB Academy/03_Nmap Network Enums",
-    "🟩HTB Academy/02_Get Started",
     "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
     "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",
     "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112057.png",

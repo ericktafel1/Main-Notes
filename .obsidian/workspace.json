@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b21fd64d80924031",
+        "id": "1c38a3d55679a7eb",
         "type": "tabs",
         "children": [
           {
-            "id": "1f541efdca27eacb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/07_File Transfers/File Transfers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc6a9b6d9e8a05a9",
+            "id": "65874f625f851604",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,10 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "65874f625f851604",
   "lastOpenFiles": [
     "🟩HTB Academy/07_File Transfers/File Transfers.md",
     "🟩HTB Academy/07_File Transfers/Untitled.md",
+    "Study Guide/_MyStudyPlan_.md",
+    "Hak5 c2.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Exporting The Results.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Getting Started with OpenVAS.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Scanning Issues.md",
@@ -188,8 +177,6 @@
     "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerability Scoring System (CVSS).md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/Virtual Hosts.md",
     "🟩HTB Academy/PDFs & PNGs/Pasted image 20240504105027.png",
-    "🟩HTB Academy/05_Information Gathering - Web Edition/Crawling.md",
-    "🟩HTB Academy/05_Information Gathering - Web Edition/Information Gathering.md",
     "🟩HTB Academy/06_Vulnerability Assessment",
     "🟩HTB Academy/PDFs & PNGs/Footprinting_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/PDFs & PNGs/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",

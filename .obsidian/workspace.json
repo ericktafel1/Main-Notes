@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
+                "file": "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
+                "file": "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
+                "file": "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Untitled.md"
+                "file": "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md"
               }
             }
           }
@@ -149,9 +149,9 @@
   "active": "65874f625f851604",
   "lastOpenFiles": [
     "🟩HTB Academy/07_File Transfers/File Transfers.md",
-    "🟩HTB Academy/07_File Transfers/Untitled.md",
-    "Study Guide/_MyStudyPlan_.md",
     "Hak5 c2.md",
+    "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
+    "Study Guide/_MyStudyPlan_.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Exporting The Results.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Getting Started with OpenVAS.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Scanning Issues.md",

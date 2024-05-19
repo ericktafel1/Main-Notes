@@ -321,6 +321,9 @@ passwd
 
 **Note:** Remember that scp syntax is similar to cp or copy.
 
+```Shell
+htb-student@nix04:~$ gunzip -S .zip <FILE>.zip
+```
 ___
 
 ## Onwards

@@ -319,7 +319,7 @@ htb-student@10.129.86.90's password:
 passwd    
 ```
 
-**Note:** Remember that scp syntax is similar to cp or copy.
+**Note:** Remember that scp syntax is similar to cp or copy. #unzip #gunzip
 
 ```Shell
 htb-student@nix04:~$ gunzip -S .zip <FILE>.zip

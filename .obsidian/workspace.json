@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
+                "file": "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#gobuster",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
+                "file": "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
+                "file": "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Untitled.md"
+                "file": "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "cb2f060f9e35708a",
   "lastOpenFiles": [
+    "🟩HTB Academy/02_Get Started/Types of Shells.md",
     "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
     "🟩HTB Academy/07_File Transfers/Untitled.md",
     "🟩HTB Academy/07_File Transfers/File Transfers.md",
@@ -188,7 +189,6 @@
     "📗HTB Boxes/Soccer.md",
     "📗HTB Boxes/Blue.md",
     "📗HTB Boxes/_Box Writeups.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerability Scoring System (CVSS).md",
     "🟩HTB Academy/PDFs & PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/06_Vulnerability Assessment",
     "🟩HTB Academy/PDFs & PNGs/Footprinting_Module_Cheat_Sheet.pdf",

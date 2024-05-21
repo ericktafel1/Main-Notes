@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
+                "file": "🟩HTB Academy/07_File Transfers/Transferring Files with Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
+                "file": "🟩HTB Academy/07_File Transfers/Transferring Files with Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
+                "file": "🟩HTB Academy/07_File Transfers/Transferring Files with Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Untitled.md"
+                "file": "🟩HTB Academy/07_File Transfers/Transferring Files with Code.md"
               }
             }
           }
@@ -159,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "3715e678dcaa3434",
   "lastOpenFiles": [
     "🟩HTB Academy/07_File Transfers/Linux File Transfer Methods.md",
-    "🟩HTB Academy/07_File Transfers/Untitled.md",
+    "🟩HTB Academy/07_File Transfers/Transferring Files with Code.md",
     "H4CK3RM4N/Footprinting.md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/Active Subdomain Enumeration.md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/DNS.md",

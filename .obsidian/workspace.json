@@ -8,31 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9b687a372223e34b",
+            "id": "5bac7fc9c8716f5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Catching Files over HTTP.S.md",
+                "file": "🟩HTB Academy/08_Shells & Payloads/CAT5 Security's Engagement Preparation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0ecd9d890f725841",
+            "id": "c78c384918dc50c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Living off The Land.md",
+                "file": "🟩HTB Academy/08_Shells & Payloads/Anatomy of a Shell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba86ce8d66f83d03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🟩HTB Academy/08_Shells & Payloads/Shells Jack Us In, Payloads Deliver Us Shells.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Living off The Land.md",
+                "file": "🟩HTB Academy/08_Shells & Payloads/Shells Jack Us In, Payloads Deliver Us Shells.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Living off The Land.md",
+                "file": "🟩HTB Academy/08_Shells & Payloads/Shells Jack Us In, Payloads Deliver Us Shells.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/07_File Transfers/Living off The Land.md"
+                "file": "🟩HTB Academy/08_Shells & Payloads/Shells Jack Us In, Payloads Deliver Us Shells.md"
               }
             }
           }
@@ -159,10 +171,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ecd9d890f725841",
+  "active": "ba86ce8d66f83d03",
   "lastOpenFiles": [
-    "🟩HTB Academy/07_File Transfers/Miscellaneous File Transfer Methods.md",
+    "🟩HTB Academy/08_Shells & Payloads/Anatomy of a Shell.md",
+    "🟩HTB Academy/08_Shells & Payloads/ASSESSMENT.md",
+    "🟩HTB Academy/08_Shells & Payloads/CAT5 Security's Engagement Preparation.md",
+    "🟩HTB Academy/08_Shells & Payloads/Shells Jack Us In, Payloads Deliver Us Shells.md",
+    "🟩HTB Academy/PDFs & PNGs/Shells_Payloads_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/07_File Transfers/Detection.md",
+    "Untitled",
+    "🟩HTB Academy/08_Shells & Payloads",
+    "🟩HTB Academy/07_File Transfers/Evading Detection.md",
     "🟩HTB Academy/07_File Transfers/Living off The Land.md",
+    "🟩HTB Academy/07_File Transfers/Miscellaneous File Transfer Methods.md",
     "🟩HTB Academy/07_File Transfers/Catching Files over HTTP.S.md",
     "Mindmaps/AD Mindmap.canvas",
     "Mindmaps/pentest_ad_dark_2023_02 1.svg",
@@ -186,11 +207,6 @@
     "🟩HTB Academy/06_Vulnerability Assessment/Getting Started with OpenVAS.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Scanning Issues.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Getting Started with Nessus.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Working with Nessus Scan Output.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Advanced Settings.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Nessus Scan.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Common Vulnerabilities and Exposures (CVE).md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Assessment Standards.md",
     "🟩HTB Academy/PDFs & PNGs/File_Transfers_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/07_File Transfers",
     "🟩HTB Academy/PDFs & PNGs/Pasted image 20240504105027.png",
@@ -198,9 +214,6 @@
     "🟩HTB Academy/PDFs & PNGs/Footprinting_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/PDFs & PNGs/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/PDFs & PNGs/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/PDFs & PNGs/_Getting_Started_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/05_Information Gathering - Web Edition",
-    "🟩HTB Academy/04_Footprinting",
     "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
     "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",
     "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112057.png",

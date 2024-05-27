@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "05a7e742fbd34eb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🟩HTB Academy/08_Shells & Payloads/Bind Shells.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Evasion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Shells Jack Us In, Payloads Deliver Us Shells.md",
+                "file": "🟩HTB Academy/08_Shells & Payloads/Bind Shells.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Shells Jack Us In, Payloads Deliver Us Shells.md",
+                "file": "🟩HTB Academy/08_Shells & Payloads/Bind Shells.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Shells Jack Us In, Payloads Deliver Us Shells.md"
+                "file": "🟩HTB Academy/08_Shells & Payloads/Bind Shells.md"
               }
             }
           }
@@ -171,20 +183,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba86ce8d66f83d03",
+  "active": "05a7e742fbd34eb5",
   "lastOpenFiles": [
-    "🟩HTB Academy/08_Shells & Payloads/Anatomy of a Shell.md",
-    "🟩HTB Academy/08_Shells & Payloads/ASSESSMENT.md",
-    "🟩HTB Academy/08_Shells & Payloads/CAT5 Security's Engagement Preparation.md",
     "🟩HTB Academy/08_Shells & Payloads/Shells Jack Us In, Payloads Deliver Us Shells.md",
-    "🟩HTB Academy/PDFs & PNGs/Shells_Payloads_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/08_Shells & Payloads/Bind Shells.md",
+    "🟩HTB Academy/08_Shells & Payloads/CAT5 Security's Engagement Preparation.md",
+    "🟩HTB Academy/08_Shells & Payloads/Anatomy of a Shell.md",
+    "🟩HTB Academy/07_File Transfers/Catching Files over HTTP.S.md",
     "🟩HTB Academy/07_File Transfers/Detection.md",
+    "🟩HTB Academy/07_File Transfers/Evading Detection.md",
+    "🟩HTB Academy/07_File Transfers/File Transfers.md",
+    "🟩HTB Academy/07_File Transfers/Linux File Transfer Methods.md",
+    "🟩HTB Academy/07_File Transfers/Living off The Land.md",
+    "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
+    "🟩HTB Academy/07_File Transfers/Transferring Files with Code.md",
+    "🟩HTB Academy/PDFs & PNGs/File_Transfers_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/08_Shells & Payloads/ASSESSMENT.md",
+    "🟩HTB Academy/PDFs & PNGs/Shells_Payloads_Module_Cheat_Sheet.pdf",
     "Untitled",
     "🟩HTB Academy/08_Shells & Payloads",
-    "🟩HTB Academy/07_File Transfers/Evading Detection.md",
-    "🟩HTB Academy/07_File Transfers/Living off The Land.md",
     "🟩HTB Academy/07_File Transfers/Miscellaneous File Transfer Methods.md",
-    "🟩HTB Academy/07_File Transfers/Catching Files over HTTP.S.md",
     "Mindmaps/AD Mindmap.canvas",
     "Mindmaps/pentest_ad_dark_2023_02 1.svg",
     "Mindmaps/pentest_ad_dark_2023_02.svg",
@@ -193,10 +211,6 @@
     "Hak5 c2.md",
     "Pasted image 20240522182318.png",
     "🟩HTB Academy/07_File Transfers/Protected File Transfers.md",
-    "🟩HTB Academy/07_File Transfers/File Transfers.md",
-    "🟩HTB Academy/07_File Transfers/Linux File Transfer Methods.md",
-    "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
-    "🟩HTB Academy/07_File Transfers/Transferring Files with Code.md",
     "H4CK3RM4N/Footprinting.md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/Active Subdomain Enumeration.md",
     "🟩HTB Academy/05_Information Gathering - Web Edition/DNS.md",
@@ -206,8 +220,6 @@
     "🟩HTB Academy/06_Vulnerability Assessment/Exporting The Results.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Getting Started with OpenVAS.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Scanning Issues.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Getting Started with Nessus.md",
-    "🟩HTB Academy/PDFs & PNGs/File_Transfers_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/07_File Transfers",
     "🟩HTB Academy/PDFs & PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/06_Vulnerability Assessment",

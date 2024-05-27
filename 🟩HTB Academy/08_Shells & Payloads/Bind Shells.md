@@ -100,7 +100,7 @@ Note: When on the academy network (10.129.x.x/16) we can work with another acade
 
 ___
 
-## Establishing a Basic Bind Shell with Netcat
+## Establishing a Basic Bind Shell with Netcat #bindshell #nc 
 
 We have shown that we can use Netcat to send text between the client and the server, but this is not a bind shell because we cannot interact with the OS and file system. We are only able to pass text within the pipe setup by Netcat. Let's use Netcat to serve up our shell to establish a real bind shell.
 

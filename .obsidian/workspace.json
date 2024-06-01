@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Untitled.md",
+                "file": "🟩HTB Academy/08_Shells & Payloads/Infiltrating Windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Untitled.md",
+                "file": "🟩HTB Academy/08_Shells & Payloads/Infiltrating Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Untitled.md",
+                "file": "🟩HTB Academy/08_Shells & Payloads/Infiltrating Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Untitled.md"
+                "file": "🟩HTB Academy/08_Shells & Payloads/Infiltrating Windows.md"
               }
             }
           }
@@ -195,15 +195,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "5906d768929275eb",
   "lastOpenFiles": [
+    "🟩HTB Academy/08_Shells & Payloads/Bind Shells.md",
     "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
-    "🟩HTB Academy/08_Shells & Payloads/Untitled.md",
+    "🟩HTB Academy/08_Shells & Payloads/Infiltrating Windows.md",
     "🟩HTB Academy/07_File Transfers/Linux File Transfer Methods.md",
     "🟩HTB Academy/08_Shells & Payloads/Crafting Payloads with MSFvenom.md",
     "🟩HTB Academy/08_Shells & Payloads/Automating Payloads & Delivery with Metasploit.md",
     "🟩HTB Academy/08_Shells & Payloads/Introduction to Payloads.md",
-    "🟩HTB Academy/08_Shells & Payloads/Bind Shells.md",
     "🟩HTB Academy/08_Shells & Payloads/CAT5 Security's Engagement Preparation.md",
     "🟩HTB Academy/08_Shells & Payloads/Reverse Shells.md",
     "🟩HTB Academy/08_Shells & Payloads/Shells Jack Us In, Payloads Deliver Us Shells.md",

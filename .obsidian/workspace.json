@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ffc9d703d716f640",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🟩HTB Academy/08_Shells & Payloads/Antak Webshell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7b5c3b9377907ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Laudanum, One Webshell to Rule Them All.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Laudanum, One Webshell to Rule Them All.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Laudanum, One Webshell to Rule Them All.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -171,10 +195,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c01bf7f0fc799e62",
+  "active": "a7b5c3b9377907ff",
   "lastOpenFiles": [
-    "🟩HTB Academy/08_Shells & Payloads/Introduction to Web Shells.md",
+    "🟩HTB Academy/08_Shells & Payloads/Antak Webshell.md",
+    "Untitled.md",
     "🟩HTB Academy/08_Shells & Payloads/Laudanum, One Webshell to Rule Them All.md",
+    "🟩HTB Academy/08_Shells & Payloads/Introduction to Web Shells.md",
     "🟩HTB Academy/08_Shells & Payloads/Infiltrating Windows.md",
     "🟩HTB Academy/08_Shells & Payloads/Infiltrating Unix_Linux.md",
     "🟩HTB Academy/08_Shells & Payloads/Spawning Interactive Shells.md",
@@ -205,9 +231,7 @@
     "Mindmaps/pentest_ad_dark_2023_02.svg",
     "Mindmaps",
     "🟩HTB Academy/PDFs & PNGs/AD Mindmap.md",
-    "Hak5 c2.md",
     "Pasted image 20240522182318.png",
-    "🟩HTB Academy/07_File Transfers/Protected File Transfers.md",
     "🟩HTB Academy/07_File Transfers",
     "🟩HTB Academy/PDFs & PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/06_Vulnerability Assessment",

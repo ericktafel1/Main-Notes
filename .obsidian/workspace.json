@@ -4,95 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "3d874b194ab2f31c",
+        "id": "7a07ed134eaab693",
         "type": "tabs",
         "children": [
           {
-            "id": "0afdf8713b84e878",
+            "id": "e538e8ee96d52d9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Spawning Interactive Shells.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Preface.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "67e74ce902ce0b78",
+            "id": "b6595fb368c6341c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Introduction to Web Shells.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Introduction to Metasploit.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c01bf7f0fc799e62",
+            "id": "b11080076b77d3a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Laudanum, One Webshell to Rule Them All.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Introduction to MSFconsole.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ffc9d703d716f640",
+            "id": "3d6235f1467fdde3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Antak Webshell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7b5c3b9377907ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/PHP Web Shells.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3e574b6528d94e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/The Live Engagement.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8bbb9e27e59ec761",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Detection & Prevention.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Modules.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -158,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Detection & Prevention.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Modules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Detection & Prevention.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Modules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/08_Shells & Payloads/Detection & Prevention.md"
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Modules.md"
               }
             }
           }
@@ -219,17 +183,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8bbb9e27e59ec761",
+  "active": "cb2f060f9e35708a",
   "lastOpenFiles": [
-    "🟩HTB Academy/08_Shells & Payloads/The Live Engagement.md",
+    "🟩HTB Academy/Using the Metasploit Framework/Introduction to MSFconsole.md",
+    "🟩HTB Academy/Using the Metasploit Framework/Modules.md",
+    "🟩HTB Academy/Using the Metasploit Framework/Introduction to Metasploit.md",
+    "🟩HTB Academy/Using the Metasploit Framework/Preface.md",
+    "🟩HTB Academy/PDFs & PNGs/Using_The_Metasploit_Framework_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/08_Shells & Payloads/Introduction to Web Shells.md",
+    "🟩HTB Academy/Using the Metasploit Framework",
+    "🟩HTB Academy/08_Shells & Payloads/Spawning Interactive Shells.md",
     "🟩HTB Academy/08_Shells & Payloads/Detection & Prevention.md",
+    "🟩HTB Academy/08_Shells & Payloads/The Live Engagement.md",
     "🟩HTB Academy/08_Shells & Payloads/PHP Web Shells.md",
     "🟩HTB Academy/08_Shells & Payloads/Antak Webshell.md",
     "🟩HTB Academy/08_Shells & Payloads/Laudanum, One Webshell to Rule Them All.md",
-    "🟩HTB Academy/08_Shells & Payloads/Introduction to Web Shells.md",
     "🟩HTB Academy/08_Shells & Payloads/Infiltrating Windows.md",
     "🟩HTB Academy/08_Shells & Payloads/Infiltrating Unix_Linux.md",
-    "🟩HTB Academy/08_Shells & Payloads/Spawning Interactive Shells.md",
     "🟩HTB Academy/08_Shells & Payloads/Bind Shells.md",
     "🟩HTB Academy/08_Shells & Payloads/Introduction to Payloads.md",
     "🟩HTB Academy/08_Shells & Payloads/Automating Payloads & Delivery with Metasploit.md",
@@ -244,12 +214,7 @@
     "🟩HTB Academy/07_File Transfers/Catching Files over HTTP.S.md",
     "🟩HTB Academy/07_File Transfers/Detection.md",
     "🟩HTB Academy/07_File Transfers/Evading Detection.md",
-    "🟩HTB Academy/07_File Transfers/File Transfers.md",
-    "🟩HTB Academy/07_File Transfers/Living off The Land.md",
-    "🟩HTB Academy/07_File Transfers/Transferring Files with Code.md",
     "🟩HTB Academy/PDFs & PNGs/File_Transfers_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/08_Shells & Payloads/ASSESSMENT.md",
-    "Untitled",
     "🟩HTB Academy/08_Shells & Payloads",
     "Mindmaps/AD Mindmap.canvas",
     "Mindmaps/pentest_ad_dark_2023_02 1.svg",
@@ -261,7 +226,6 @@
     "🟩HTB Academy/06_Vulnerability Assessment",
     "🟩HTB Academy/PDFs & PNGs/Footprinting_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/PDFs & PNGs/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/PDFs & PNGs/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
     "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",
     "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112057.png",

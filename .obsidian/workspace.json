@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3c682f493b153c63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Encoders.md",
+                "file": "Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Encoders.md",
+                "file": "Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Encoders.md"
+                "file": "Databases.md"
               }
             }
           }
@@ -159,10 +171,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "3c682f493b153c63",
   "lastOpenFiles": [
-    "🟩HTB Academy/Using the Metasploit Framework/Payloads.md",
     "🟩HTB Academy/Using the Metasploit Framework/Encoders.md",
+    "Databases.md",
+    "🟩HTB Academy/Using the Metasploit Framework/Payloads.md",
     "Hak5 c2.md",
     "🟩HTB Academy/Using the Metasploit Framework/Preface.md",
     "🟩HTB Academy/Using the Metasploit Framework/Targets.md",
@@ -189,7 +202,6 @@
     "🟩HTB Academy/08_Shells & Payloads/Crafting Payloads with MSFvenom.md",
     "🟩HTB Academy/08_Shells & Payloads/CAT5 Security's Engagement Preparation.md",
     "🟩HTB Academy/08_Shells & Payloads/Reverse Shells.md",
-    "🟩HTB Academy/08_Shells & Payloads/Shells Jack Us In, Payloads Deliver Us Shells.md",
     "🟩HTB Academy/_PDFs & PNGs/File_Transfers_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/08_Shells & Payloads",
     "Mindmaps/AD Mindmap.canvas",

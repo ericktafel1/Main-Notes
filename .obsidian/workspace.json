@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Databases.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases.md"
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Databases.md"
               }
             }
           }
@@ -171,10 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c682f493b153c63",
+  "active": "cb2f060f9e35708a",
   "lastOpenFiles": [
     "🟩HTB Academy/Using the Metasploit Framework/Encoders.md",
-    "Databases.md",
+    "🟩HTB Academy/Using the Metasploit Framework/Databases.md",
     "🟩HTB Academy/Using the Metasploit Framework/Payloads.md",
     "Hak5 c2.md",
     "🟩HTB Academy/Using the Metasploit Framework/Preface.md",

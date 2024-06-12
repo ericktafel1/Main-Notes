@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "25b39bc07900989f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Sessions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Evasion",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Databases.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Sessions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Databases.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Sessions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Databases.md"
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Sessions.md"
               }
             }
           }
@@ -171,11 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "25b39bc07900989f",
   "lastOpenFiles": [
-    "🟩HTB Academy/Using the Metasploit Framework/Encoders.md",
     "🟩HTB Academy/Using the Metasploit Framework/Databases.md",
+    "🟩HTB Academy/Using the Metasploit Framework/Sessions.md",
     "🟩HTB Academy/Using the Metasploit Framework/Payloads.md",
+    "📗HTB Boxes/Blue.md",
+    "🟩HTB Academy/Using the Metasploit Framework/Plugins.md",
+    "🟩HTB Academy/Using the Metasploit Framework/Encoders.md",
     "Hak5 c2.md",
     "🟩HTB Academy/Using the Metasploit Framework/Preface.md",
     "🟩HTB Academy/Using the Metasploit Framework/Targets.md",
@@ -199,9 +214,6 @@
     "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
     "🟩HTB Academy/_PDFs & PNGs/Shells_Payloads_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/07_File Transfers/Linux File Transfer Methods.md",
-    "🟩HTB Academy/08_Shells & Payloads/Crafting Payloads with MSFvenom.md",
-    "🟩HTB Academy/08_Shells & Payloads/CAT5 Security's Engagement Preparation.md",
-    "🟩HTB Academy/08_Shells & Payloads/Reverse Shells.md",
     "🟩HTB Academy/_PDFs & PNGs/File_Transfers_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/08_Shells & Payloads",
     "Mindmaps/AD Mindmap.canvas",

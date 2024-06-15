@@ -1,4 +1,4 @@
-#msfcosole #EternalBlue 
+#msfconsole  #EternalBlue 
 ___
 
 A `Payload` in Metasploit refers to a module that aids the exploit module in (typically) returning a shell to the attacker. The payloads are sent together with the exploit itself to bypass standard functioning procedures of the vulnerable service (`exploits job`) and then run on the target OS to typically return a reverse connection to the attacker and establish a foothold (`payload's job`).

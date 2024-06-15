@@ -1,4 +1,4 @@
-#msfconolse #MSFvenom #msf-virustotal
+#msfconsole #MSFvenom #msf-virustotal
 ___
 
 Over the 15 years of existence of the Metasploit Framework, `Encoders` have assisted with making payloads compatible with different processor architectures while at the same time helping with antivirus evasion. `Encoders` come into play with the role of changing the payload to run on different operating systems and architectures. These architectures include:

@@ -25,50 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Encoders.md",
+                "file": "🟩HTB Academy/01_PenTest Process/Penetration Testing Process.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3c682f493b153c63",
+            "id": "9ed7bfb41dd5cc11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Databases.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25b39bc07900989f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Sessions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cee93157235e4db0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Meterpreter.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Writing and Importing Modules.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Meterpreter.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Writing and Importing Modules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Meterpreter.md",
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Writing and Importing Modules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Meterpreter.md"
+                "file": "🟩HTB Academy/Using the Metasploit Framework/Writing and Importing Modules.md"
               }
             }
           }
@@ -195,12 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cee93157235e4db0",
+  "active": "9ed7bfb41dd5cc11",
   "lastOpenFiles": [
-    "🟩HTB Academy/Using the Metasploit Framework/Databases.md",
+    "Untitled.canvas",
+    "🟩HTB Academy/Using the Metasploit Framework/Writing and Importing Modules.md",
+    "🟩HTB Academy/01_PenTest Process/Penetration Testing Process.md",
+    "🟩HTB Academy/01_PenTest Process/Penetration Testing Overview.md",
     "🟩HTB Academy/Using the Metasploit Framework/Encoders.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Meterpreter.md",
+    "🟩HTB Academy/Using the Metasploit Framework/Databases.md",
+    "2024-06-14.md",
     "🟩HTB Academy/Using the Metasploit Framework/Sessions.md",
+    "🟩HTB Academy/Using the Metasploit Framework/Meterpreter.md",
     "🟩HTB Academy/Using the Metasploit Framework/Payloads.md",
     "📗HTB Boxes/Blue.md",
     "🟩HTB Academy/Using the Metasploit Framework/Plugins.md",
@@ -220,11 +201,6 @@
     "🟩HTB Academy/08_Shells & Payloads/Antak Webshell.md",
     "🟩HTB Academy/08_Shells & Payloads/Laudanum, One Webshell to Rule Them All.md",
     "🟩HTB Academy/08_Shells & Payloads/Infiltrating Windows.md",
-    "🟩HTB Academy/08_Shells & Payloads/Infiltrating Unix_Linux.md",
-    "🟩HTB Academy/08_Shells & Payloads/Bind Shells.md",
-    "🟩HTB Academy/08_Shells & Payloads/Introduction to Payloads.md",
-    "🟩HTB Academy/08_Shells & Payloads/Automating Payloads & Delivery with Metasploit.md",
-    "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
     "🟩HTB Academy/_PDFs & PNGs/Shells_Payloads_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/_PDFs & PNGs/File_Transfers_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/08_Shells & Payloads",

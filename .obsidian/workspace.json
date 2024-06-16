@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/Using the Metasploit Framework/Metasploit-Framework Updates - August 2020.md",
+                "file": "Password Attacks/Credential Storage.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1412be82ac92643d",
+            "id": "4a7e78c70058bb96",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Password Attacks/Untitled.md",
+                "file": "Password Attacks/John The Ripper.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Password Attacks/Untitled.md",
+                "file": "Password Attacks/John The Ripper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Password Attacks/Untitled.md",
+                "file": "Password Attacks/John The Ripper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Password Attacks/Untitled.md"
+                "file": "Password Attacks/John The Ripper.md"
               }
             }
           }
@@ -159,11 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1412be82ac92643d",
+  "active": "4a7e78c70058bb96",
   "lastOpenFiles": [
-    "🟩HTB Academy/_PDFs & PNGs/Password_Attacks_Module_Cheat_Sheet.pdf",
+    "Password Attacks/Credential Storage.md",
+    "Password Attacks/John The Ripper.md",
+    "Password Attacks/_User-Authentication-HOWTO.pdf",
+    "Password Attacks/Theory of Protection.md",
     "🟩HTB Academy/Using the Metasploit Framework/Metasploit-Framework Updates - August 2020.md",
-    "Password Attacks/Untitled.md",
+    "🟩HTB Academy/_PDFs & PNGs/Password_Attacks_Module_Cheat_Sheet.pdf",
     "Password Attacks",
     "🟩HTB Academy/Using the Metasploit Framework/Payloads.md",
     "🟩HTB Academy/Using the Metasploit Framework/Encoders.md",
@@ -190,7 +193,6 @@
     "🟩HTB Academy/Using the Metasploit Framework",
     "🟩HTB Academy/08_Shells & Payloads/Spawning Interactive Shells.md",
     "🟩HTB Academy/08_Shells & Payloads/Detection & Prevention.md",
-    "🟩HTB Academy/08_Shells & Payloads/The Live Engagement.md",
     "🟩HTB Academy/_PDFs & PNGs/Shells_Payloads_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/_PDFs & PNGs/File_Transfers_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/08_Shells & Payloads",
@@ -201,8 +203,6 @@
     "Pasted image 20240522182318.png",
     "🟩HTB Academy/07_File Transfers",
     "🟩HTB Academy/_PDFs & PNGs/Pasted image 20240504105027.png",
-    "🟩HTB Academy/06_Vulnerability Assessment",
-    "🟩HTB Academy/_PDFs & PNGs/Footprinting_Module_Cheat_Sheet.pdf",
     "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
     "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",
     "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112057.png",

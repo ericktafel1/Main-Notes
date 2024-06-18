@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Password Attacks/Credential Storage.md",
+                "file": "🟩HTB Academy/10_Password Attacks/Credential Storage.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Password Attacks/John The Ripper.md",
+                "file": "🟩HTB Academy/10_Password Attacks/Theory of Protection.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Password Attacks/John The Ripper.md",
+                "file": "🟩HTB Academy/10_Password Attacks/Theory of Protection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Password Attacks/John The Ripper.md",
+                "file": "🟩HTB Academy/10_Password Attacks/Theory of Protection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Password Attacks/John The Ripper.md"
+                "file": "🟩HTB Academy/10_Password Attacks/Theory of Protection.md"
               }
             }
           }
@@ -161,47 +161,47 @@
   },
   "active": "4a7e78c70058bb96",
   "lastOpenFiles": [
-    "Password Attacks/Credential Storage.md",
-    "Password Attacks/John The Ripper.md",
-    "Password Attacks/_User-Authentication-HOWTO.pdf",
-    "Password Attacks/Theory of Protection.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Metasploit-Framework Updates - August 2020.md",
+    "🟩HTB Academy/_PDFs & PNGs/Windows_Privilege_Escalation_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/_PDFs & PNGs/Active_Directory_Enumeration_Attacks_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/26_Windows Privilege Escalation",
+    "🟩HTB Academy/10_Password Attacks/Untitled.md",
+    "🟩HTB Academy/13_Active Directory Enumeration & Attacks",
+    "🟩HTB Academy/10_Password Attacks/Theory of Protection.md",
+    "Mindmaps/pentest_ad_dark_2023_02.svg",
+    "🟩HTB Academy/10_Password Attacks/John The Ripper.md",
+    "🟩HTB Academy/10_Password Attacks/Credential Storage.md",
+    "🟩HTB Academy/10_Password Attacks/_User-Authentication-HOWTO.pdf",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Metasploit-Framework Updates - August 2020.md",
     "🟩HTB Academy/_PDFs & PNGs/Password_Attacks_Module_Cheat_Sheet.pdf",
-    "Password Attacks",
-    "🟩HTB Academy/Using the Metasploit Framework/Payloads.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Encoders.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Firewall and IDS_IPS Evasion.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Introduction to MSFVenom.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Writing and Importing Modules.md",
+    "🟩HTB Academy/10_Password Attacks",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Payloads.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Encoders.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Firewall and IDS_IPS Evasion.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Introduction to MSFVenom.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Writing and Importing Modules.md",
     "Untitled.canvas",
     "🟩HTB Academy/01_PenTest Process/Penetration Testing Process.md",
     "🟩HTB Academy/01_PenTest Process/Penetration Testing Overview.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Databases.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Databases.md",
     "2024-06-14.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Sessions.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Meterpreter.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Sessions.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Meterpreter.md",
     "📗HTB Boxes/Blue.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Plugins.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Plugins.md",
     "Hak5 c2.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Preface.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Targets.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Introduction to MSFconsole.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Modules.md",
-    "🟩HTB Academy/Using the Metasploit Framework/Introduction to Metasploit.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Preface.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Targets.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Introduction to MSFconsole.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Modules.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Introduction to Metasploit.md",
     "🟩HTB Academy/_PDFs & PNGs/Using_The_Metasploit_Framework_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/08_Shells & Payloads/Introduction to Web Shells.md",
-    "🟩HTB Academy/Using the Metasploit Framework",
-    "🟩HTB Academy/08_Shells & Payloads/Spawning Interactive Shells.md",
-    "🟩HTB Academy/08_Shells & Payloads/Detection & Prevention.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework",
     "🟩HTB Academy/_PDFs & PNGs/Shells_Payloads_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/_PDFs & PNGs/File_Transfers_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/08_Shells & Payloads",
     "Mindmaps/AD Mindmap.canvas",
     "Mindmaps/pentest_ad_dark_2023_02 1.svg",
-    "Mindmaps/pentest_ad_dark_2023_02.svg",
-    "Mindmaps",
     "Pasted image 20240522182318.png",
-    "🟩HTB Academy/07_File Transfers",
     "🟩HTB Academy/_PDFs & PNGs/Pasted image 20240504105027.png",
     "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
     "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",

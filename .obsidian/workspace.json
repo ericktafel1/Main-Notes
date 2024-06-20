@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7fc9757dfed5ff3a",
+        "id": "0ca9b83fbc14e28f",
         "type": "tabs",
         "children": [
           {
-            "id": "4afd8994c38d65d6",
+            "id": "4b0509ed8086ce28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🟩HTB Academy/10_Password Attacks/Credential Storage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a7e78c70058bb96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/10_Password Attacks/Theory of Protection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5173814a4ee97fce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/13_Active Directory Enumeration & Attacks/Introduction to Active Directory Enumeration & Attacks.md",
+                "file": "🤖H4CK3RM4N.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🟩HTB Academy/13_Active Directory Enumeration & Attacks/Introduction to Active Directory Enumeration & Attacks.md",
+                "file": "🤖H4CK3RM4N.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🟩HTB Academy/13_Active Directory Enumeration & Attacks/Introduction to Active Directory Enumeration & Attacks.md",
+                "file": "🤖H4CK3RM4N.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🟩HTB Academy/13_Active Directory Enumeration & Attacks/Introduction to Active Directory Enumeration & Attacks.md"
+                "file": "🤖H4CK3RM4N.md"
               }
             }
           }
@@ -171,10 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5173814a4ee97fce",
+  "active": "cb2f060f9e35708a",
   "lastOpenFiles": [
-    "🟩HTB Academy/10_Password Attacks/Theory of Protection.md",
+    "🦊TCM Security/Untitled.md",
+    "🦊TCM Security/PNPT",
+    "🦊TCM Security/PJPT",
+    "🤖H4CK3RM4N.md",
+    "2024-06-14.md",
+    "TCM Security.md",
+    "🦊TCM Security",
     "🟩HTB Academy/13_Active Directory Enumeration & Attacks/Introduction to Active Directory Enumeration & Attacks.md",
+    "🟩HTB Academy/10_Password Attacks/Theory of Protection.md",
     "🟩HTB Academy/_PDFs & PNGs/Windows_Privilege_Escalation_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/_PDFs & PNGs/Active_Directory_Enumeration_Attacks_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/26_Windows Privilege Escalation",
@@ -196,7 +178,6 @@
     "🟩HTB Academy/01_PenTest Process/Penetration Testing Process.md",
     "🟩HTB Academy/01_PenTest Process/Penetration Testing Overview.md",
     "🟩HTB Academy/09_Using the Metasploit Framework/Databases.md",
-    "2024-06-14.md",
     "🟩HTB Academy/09_Using the Metasploit Framework/Sessions.md",
     "🟩HTB Academy/09_Using the Metasploit Framework/Meterpreter.md",
     "📗HTB Boxes/Blue.md",
@@ -204,13 +185,6 @@
     "Hak5 c2.md",
     "🟩HTB Academy/09_Using the Metasploit Framework/Preface.md",
     "🟩HTB Academy/09_Using the Metasploit Framework/Targets.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Introduction to MSFconsole.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Modules.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Introduction to Metasploit.md",
-    "🟩HTB Academy/_PDFs & PNGs/Using_The_Metasploit_Framework_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/08_Shells & Payloads/Introduction to Web Shells.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework",
-    "🟩HTB Academy/_PDFs & PNGs/Shells_Payloads_Module_Cheat_Sheet.pdf",
     "Mindmaps/AD Mindmap.canvas",
     "Mindmaps/pentest_ad_dark_2023_02 1.svg",
     "Pasted image 20240522182318.png",

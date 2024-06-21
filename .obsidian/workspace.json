@@ -18,8 +18,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b5e849e14fbba019",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🦊TCM Security/PEH/Stages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9aec6ae656a788a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🦊TCM Security/PEH/Enumeration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "754135ee57218877",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🦊TCM Security/PEH/Exploitations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf606546e34dcff6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📗HTB Boxes/Academy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🤖H4CK3RM4N.md",
+                "file": "📗HTB Boxes/Academy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🤖H4CK3RM4N.md",
+                "file": "📗HTB Boxes/Academy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🤖H4CK3RM4N.md"
+                "file": "📗HTB Boxes/Academy.md"
               }
             }
           }
@@ -146,12 +195,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "cf606546e34dcff6",
   "lastOpenFiles": [
+    "Pasted image 20240621162132.png",
+    "Pasted image 20240621154904.png",
+    "Pasted image 20240621153325.png",
+    "Pasted image 20240621152215.png",
+    "Pasted image 20240621151231.png",
+    "Pasted image 20240621150909.png",
+    "Pasted image 20240621150438.png",
+    "Pasted image 20240621150426.png",
+    "Pasted image 20240621150108.png",
+    "Pasted image 20240621144427.png",
+    "📗HTB Boxes/Academy.md",
+    "🟩HTB Academy/04_Footprinting/MySQL.md",
+    "🟩HTB Academy/04_Footprinting/FTP.md",
+    "📗HTB Boxes/Blue.md",
+    "📗HTB Boxes/_Box Writeups.md",
+    "📗HTB Boxes/Untitled.md",
+    "🦊TCM Security/PEH/Exploitations.md",
+    "🦊TCM Security/PEH/Enumeration.md",
+    "🦊TCM Security/PEH/Stages.md",
+    "H4CK3RM4N/Active Directory Enumeration.md",
+    "H4CK3RM4N/Attacking Common Applications.md",
+    "H4CK3RM4N/Attacking Common Services.md",
+    "H4CK3RM4N/Active Directory BloodHound.md",
+    "H4CK3RM4N/Metasploit.md",
+    "H4CK3RM4N/Basic Commands.md",
+    "H4CK3RM4N/Broken Authentication.md",
+    "🟩HTB Academy/05_Information Gathering - Web Edition/Crawling.md",
+    "🟩HTB Academy/05_Information Gathering - Web Edition/Active Subdomain Enumeration.md",
+    "🤖H4CK3RM4N.md",
     "🦊TCM Security/Untitled.md",
     "🦊TCM Security/PNPT",
-    "🦊TCM Security/PJPT",
-    "🤖H4CK3RM4N.md",
+    "🦊TCM Security/PEH",
     "2024-06-14.md",
     "TCM Security.md",
     "🦊TCM Security",
@@ -163,37 +240,10 @@
     "🟩HTB Academy/10_Password Attacks/Untitled.md",
     "🟩HTB Academy/13_Active Directory Enumeration & Attacks",
     "Mindmaps/pentest_ad_dark_2023_02.svg",
-    "🟩HTB Academy/10_Password Attacks/John The Ripper.md",
-    "🟩HTB Academy/10_Password Attacks/Credential Storage.md",
     "🟩HTB Academy/10_Password Attacks/_User-Authentication-HOWTO.pdf",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Metasploit-Framework Updates - August 2020.md",
     "🟩HTB Academy/_PDFs & PNGs/Password_Attacks_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/10_Password Attacks",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Payloads.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Encoders.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Firewall and IDS_IPS Evasion.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Introduction to MSFVenom.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Writing and Importing Modules.md",
     "Untitled.canvas",
-    "🟩HTB Academy/01_PenTest Process/Penetration Testing Process.md",
-    "🟩HTB Academy/01_PenTest Process/Penetration Testing Overview.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Databases.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Sessions.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Meterpreter.md",
-    "📗HTB Boxes/Blue.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Plugins.md",
-    "Hak5 c2.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Preface.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Targets.md",
-    "Mindmaps/AD Mindmap.canvas",
-    "Mindmaps/pentest_ad_dark_2023_02 1.svg",
-    "Pasted image 20240522182318.png",
-    "🟩HTB Academy/_PDFs & PNGs/Pasted image 20240504105027.png",
-    "HTB CPTS/_screenshots_/Pasted image 20240202155533.png",
-    "HTB CPTS/_screenshots_/Pasted image 20240131121724.png",
-    "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112057.png",
-    "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221112841.png",
-    "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221110647.png",
-    "🟩HTB Academy/00_Fundamentals/Image Links/Pasted image 20231221110123.png"
+    "Mindmaps/AD Mindmap.canvas"
   ]
 }

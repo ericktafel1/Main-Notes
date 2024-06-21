@@ -20,55 +20,19 @@
             }
           },
           {
-            "id": "b5e849e14fbba019",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🦊TCM Security/PEH/Stages.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9aec6ae656a788a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🦊TCM Security/PEH/Enumeration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "754135ee57218877",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🦊TCM Security/PEH/Exploitations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cf606546e34dcff6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📗HTB Boxes/Academy.md",
+                "file": "📗HTB Boxes/_Box Writeups.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📗HTB Boxes/Academy.md",
+                "file": "📗HTB Boxes/_Box Writeups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📗HTB Boxes/Academy.md",
+                "file": "📗HTB Boxes/_Box Writeups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📗HTB Boxes/Academy.md"
+                "file": "📗HTB Boxes/_Box Writeups.md"
               }
             }
           }
@@ -197,6 +161,10 @@
   },
   "active": "cf606546e34dcff6",
   "lastOpenFiles": [
+    "📗HTB Boxes/Dev.md",
+    "📗HTB Boxes/_Box Writeups.md",
+    "📗HTB Boxes/Academy.md",
+    "Study Guide/TO DO - Boxes, Challenges, Skill Paths, Pro Labs.md",
     "Pasted image 20240621162132.png",
     "Pasted image 20240621154904.png",
     "Pasted image 20240621153325.png",
@@ -207,11 +175,9 @@
     "Pasted image 20240621150426.png",
     "Pasted image 20240621150108.png",
     "Pasted image 20240621144427.png",
-    "📗HTB Boxes/Academy.md",
     "🟩HTB Academy/04_Footprinting/MySQL.md",
     "🟩HTB Academy/04_Footprinting/FTP.md",
     "📗HTB Boxes/Blue.md",
-    "📗HTB Boxes/_Box Writeups.md",
     "📗HTB Boxes/Untitled.md",
     "🦊TCM Security/PEH/Exploitations.md",
     "🦊TCM Security/PEH/Enumeration.md",
@@ -237,9 +203,7 @@
     "🟩HTB Academy/_PDFs & PNGs/Windows_Privilege_Escalation_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/_PDFs & PNGs/Active_Directory_Enumeration_Attacks_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/26_Windows Privilege Escalation",
-    "🟩HTB Academy/10_Password Attacks/Untitled.md",
     "🟩HTB Academy/13_Active Directory Enumeration & Attacks",
-    "Mindmaps/pentest_ad_dark_2023_02.svg",
     "🟩HTB Academy/10_Password Attacks/_User-Authentication-HOWTO.pdf",
     "🟩HTB Academy/_PDFs & PNGs/Password_Attacks_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/10_Password Attacks",

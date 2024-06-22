@@ -27,15 +27,27 @@
               "state": {
                 "file": "Mindmaps/AD Mindmap.canvas",
                 "viewState": {
-                  "x": 3061.343679705391,
-                  "y": -688.1647341595689,
+                  "x": 3070.5,
+                  "y": -745,
                   "zoom": -1.6360557943652139
                 }
               }
             }
+          },
+          {
+            "id": "0a39e0f88d37aa9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🦊TCM Security/PEH/Active Directory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mindmaps/AD Mindmap.canvas",
+                "file": "🦊TCM Security/PEH/Active Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mindmaps/AD Mindmap.canvas",
+                "file": "🦊TCM Security/PEH/Active Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mindmaps/AD Mindmap.canvas"
+                "file": "🦊TCM Security/PEH/Active Directory.md"
               }
             }
           }
@@ -162,33 +174,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf606546e34dcff6",
+  "active": "0a39e0f88d37aa9c",
   "lastOpenFiles": [
+    "Mindmaps/AD Mindmap.canvas",
+    "🦊TCM Security/PEH/Stages.md",
     "🤖H4CK3RM4N.md",
+    "🟩HTB Academy/_PDFs/AD Mindmap.md",
+    "🟩HTB Academy/_PDFs/Random.md",
+    "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
+    "🟩HTB Academy/_PNGs",
+    "🟩HTB Academy/10_Password Attacks/_User-Authentication-HOWTO.pdf",
+    "🟩HTB Academy/_PNGs/Pasted image 20240621144427.png",
+    "🦊TCM Security/PEH/Active Directory.md",
+    "🦊TCM Security/PEH/Exploitations.md",
+    "🦊TCM Security/PEH/Enumeration.md",
     "H4CK3RM4N/Active Directory Enumeration.md",
     "H4CK3RM4N/Active Directory BloodHound.md",
-    "Mindmaps/AD Mindmap.canvas",
     "📗HTB Boxes/_Box Writeups.md",
     "📗HTB Boxes/Dev.md",
     "📗HTB Boxes/Academy.md",
     "Study Guide/TO DO - Boxes, Challenges, Skill Paths, Pro Labs.md",
-    "Pasted image 20240621162132.png",
-    "Pasted image 20240621154904.png",
-    "Pasted image 20240621153325.png",
-    "Pasted image 20240621152215.png",
-    "Pasted image 20240621151231.png",
-    "Pasted image 20240621150909.png",
-    "Pasted image 20240621150438.png",
-    "Pasted image 20240621150426.png",
-    "Pasted image 20240621150108.png",
-    "Pasted image 20240621144427.png",
+    "🟩HTB Academy/_PNGs/Pasted image 20240621162132.png",
+    "🟩HTB Academy/_PNGs/Pasted image 20240621154904.png",
+    "🟩HTB Academy/_PNGs/Pasted image 20240621153325.png",
+    "🟩HTB Academy/_PNGs/Pasted image 20240621152215.png",
+    "🟩HTB Academy/_PNGs/Pasted image 20240621151231.png",
+    "🟩HTB Academy/_PNGs/Pasted image 20240621150909.png",
+    "🟩HTB Academy/_PNGs/Pasted image 20240621150438.png",
+    "🟩HTB Academy/_PNGs/Pasted image 20240621150426.png",
     "🟩HTB Academy/04_Footprinting/MySQL.md",
     "🟩HTB Academy/04_Footprinting/FTP.md",
     "📗HTB Boxes/Blue.md",
     "📗HTB Boxes/Untitled.md",
-    "🦊TCM Security/PEH/Exploitations.md",
-    "🦊TCM Security/PEH/Enumeration.md",
-    "🦊TCM Security/PEH/Stages.md",
     "H4CK3RM4N/Attacking Common Applications.md",
     "H4CK3RM4N/Attacking Common Services.md",
     "H4CK3RM4N/Metasploit.md",
@@ -199,17 +216,12 @@
     "🦊TCM Security/Untitled.md",
     "🦊TCM Security/PNPT",
     "🦊TCM Security/PEH",
-    "2024-06-14.md",
-    "TCM Security.md",
     "🦊TCM Security",
-    "🟩HTB Academy/13_Active Directory Enumeration & Attacks/Introduction to Active Directory Enumeration & Attacks.md",
-    "🟩HTB Academy/_PDFs & PNGs/Windows_Privilege_Escalation_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/_PDFs & PNGs/Active_Directory_Enumeration_Attacks_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/_PDFs/Windows_Privilege_Escalation_Module_Cheat_Sheet.pdf",
+    "🟩HTB Academy/_PDFs/Active_Directory_Enumeration_Attacks_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/26_Windows Privilege Escalation",
     "🟩HTB Academy/13_Active Directory Enumeration & Attacks",
-    "🟩HTB Academy/10_Password Attacks/_User-Authentication-HOWTO.pdf",
-    "🟩HTB Academy/_PDFs & PNGs/Password_Attacks_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/10_Password Attacks",
+    "🟩HTB Academy/_PDFs/Password_Attacks_Module_Cheat_Sheet.pdf",
     "Untitled.canvas"
   ]
 }

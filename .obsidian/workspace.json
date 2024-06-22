@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📗HTB Boxes/Legacy.md",
+                "file": "🦊TCM Security/PEH/Active Directory.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📗HTB Boxes/Legacy.md",
+                "file": "🦊TCM Security/PEH/Active Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📗HTB Boxes/Legacy.md",
+                "file": "🦊TCM Security/PEH/Active Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📗HTB Boxes/Legacy.md"
+                "file": "🦊TCM Security/PEH/Active Directory.md"
               }
             }
           }
@@ -176,8 +176,8 @@
   },
   "active": "4b0509ed8086ce28",
   "lastOpenFiles": [
-    "📗HTB Boxes/Blue.md",
     "📗HTB Boxes/Legacy.md",
+    "📗HTB Boxes/Blue.md",
     "🟩HTB Academy/04_Footprinting/SMB.md",
     "🟩HTB Academy/09_Using the Metasploit Framework/Modules.md",
     "🟩HTB Academy/09_Using the Metasploit Framework/Meterpreter.md",

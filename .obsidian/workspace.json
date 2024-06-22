@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4b0509ed8086ce28",
+            "id": "3afd30d7eacab6ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,12 +35,12 @@
             }
           },
           {
-            "id": "0a39e0f88d37aa9c",
+            "id": "4b0509ed8086ce28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/Active Directory.md",
+                "file": "📗HTB Boxes/Legacy.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/Active Directory.md",
+                "file": "📗HTB Boxes/Legacy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/Active Directory.md",
+                "file": "📗HTB Boxes/Legacy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/Active Directory.md"
+                "file": "📗HTB Boxes/Legacy.md"
               }
             }
           }
@@ -174,26 +174,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a39e0f88d37aa9c",
+  "active": "4b0509ed8086ce28",
   "lastOpenFiles": [
+    "📗HTB Boxes/Blue.md",
+    "📗HTB Boxes/Legacy.md",
+    "🟩HTB Academy/04_Footprinting/SMB.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Modules.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Meterpreter.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Introduction to MSFconsole.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Introduction to Metasploit.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Firewall and IDS_IPS Evasion.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Databases.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Writing and Importing Modules.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Targets.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Sessions.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Preface.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Plugins.md",
+    "🟩HTB Academy/09_Using the Metasploit Framework/Metasploit-Framework Updates - August 2020.md",
+    "🤖H4CK3RM4N.md",
+    "H4CK3RM4N/File Transfers.md",
+    "📗HTB Boxes/Granny.md",
+    "📗HTB Boxes/_Box Writeups.md",
+    "📗HTB Boxes/Academy.md",
+    "🦊TCM Security/PEH/Active Directory.md",
     "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/PEH/Stages.md",
-    "🤖H4CK3RM4N.md",
     "🟩HTB Academy/_PDFs/AD Mindmap.md",
     "🟩HTB Academy/_PDFs/Random.md",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs",
     "🟩HTB Academy/10_Password Attacks/_User-Authentication-HOWTO.pdf",
     "🟩HTB Academy/_PNGs/Pasted image 20240621144427.png",
-    "🦊TCM Security/PEH/Active Directory.md",
     "🦊TCM Security/PEH/Exploitations.md",
     "🦊TCM Security/PEH/Enumeration.md",
-    "H4CK3RM4N/Active Directory Enumeration.md",
-    "H4CK3RM4N/Active Directory BloodHound.md",
-    "📗HTB Boxes/_Box Writeups.md",
-    "📗HTB Boxes/Dev.md",
-    "📗HTB Boxes/Academy.md",
-    "Study Guide/TO DO - Boxes, Challenges, Skill Paths, Pro Labs.md",
     "🟩HTB Academy/_PNGs/Pasted image 20240621162132.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621154904.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621153325.png",
@@ -202,18 +215,6 @@
     "🟩HTB Academy/_PNGs/Pasted image 20240621150909.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621150438.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621150426.png",
-    "🟩HTB Academy/04_Footprinting/MySQL.md",
-    "🟩HTB Academy/04_Footprinting/FTP.md",
-    "📗HTB Boxes/Blue.md",
-    "📗HTB Boxes/Untitled.md",
-    "H4CK3RM4N/Attacking Common Applications.md",
-    "H4CK3RM4N/Attacking Common Services.md",
-    "H4CK3RM4N/Metasploit.md",
-    "H4CK3RM4N/Basic Commands.md",
-    "H4CK3RM4N/Broken Authentication.md",
-    "🟩HTB Academy/05_Information Gathering - Web Edition/Crawling.md",
-    "🟩HTB Academy/05_Information Gathering - Web Edition/Active Subdomain Enumeration.md",
-    "🦊TCM Security/Untitled.md",
     "🦊TCM Security/PNPT",
     "🦊TCM Security/PEH",
     "🦊TCM Security",

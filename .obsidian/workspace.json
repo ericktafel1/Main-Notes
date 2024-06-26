@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md",
+                "file": "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/ldapdomaindump.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md",
+                "file": "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/ldapdomaindump.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md",
+                "file": "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/ldapdomaindump.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md"
+                "file": "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/ldapdomaindump.md"
               }
             }
           }
@@ -188,8 +188,11 @@
   },
   "active": "877f5840c7a8d1f8",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/Untitled 5.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/ldapdomaindump.md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration",
+    "Untitled",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/Untitled 5.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks/5_Passback Attacks.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks/4_IPv6 Attacks.md",
     "🦊TCM Security/PEH/AD Intro.md",
@@ -216,7 +219,6 @@
     "🟩HTB Academy/09_Using the Metasploit Framework/Firewall and IDS_IPS Evasion.md",
     "🟩HTB Academy/09_Using the Metasploit Framework/Databases.md",
     "🟩HTB Academy/09_Using the Metasploit Framework/Writing and Importing Modules.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Targets.md",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs",
     "🟩HTB Academy/10_Password Attacks/_User-Authentication-HOWTO.pdf",
@@ -233,8 +235,6 @@
     "🦊TCM Security",
     "🟩HTB Academy/_PDFs/Windows_Privilege_Escalation_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/_PDFs/Active_Directory_Enumeration_Attacks_Module_Cheat_Sheet.pdf",
-    "🟩HTB Academy/26_Windows Privilege Escalation",
-    "🟩HTB Academy/13_Active Directory Enumeration & Attacks",
     "Untitled.canvas"
   ]
 }

@@ -35,31 +35,31 @@
             }
           },
           {
-            "id": "4c61816273460a5f",
+            "id": "4b0509ed8086ce28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/Active Directory.md",
+                "file": "🦊TCM Security/PEH/AD Intro.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4b0509ed8086ce28",
+            "id": "877f5840c7a8d1f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/Intro to Active Directory 1.md",
+                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/Active Directory.md",
+                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/Active Directory.md",
+                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/Active Directory.md"
+                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md"
               }
             }
           }
@@ -186,11 +186,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c61816273460a5f",
+  "active": "877f5840c7a8d1f8",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/Intro to Active Directory 1.md",
-    "🟩HTB Academy/00_Fundamentals/Intro to Active Directory.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/Untitled 5.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/5_Passback Attacks.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/4_IPv6 Attacks.md",
+    "🦊TCM Security/PEH/AD Intro.md",
     "🦊TCM Security/PEH/Active Directory.md",
+    "🦊TCM Security/PEH/Stages.md",
+    "🦊TCM Security/PEH/Exploitations.md",
+    "🦊TCM Security/PEH/AD_0 Enumeration.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/3_Gaining Shell Access.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/2_SMB Relay Attack.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
+    "H4CK3RM4N/Broken Authentication.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks",
+    "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",
+    "Mindmaps/AD Mindmap.canvas",
+    "🟩HTB Academy/00_Fundamentals/Intro to Active Directory.md",
     "📗HTB Boxes/Legacy.md",
     "📗HTB Boxes/Blue.md",
     "🟩HTB Academy/04_Footprinting/SMB.md",
@@ -202,19 +217,6 @@
     "🟩HTB Academy/09_Using the Metasploit Framework/Databases.md",
     "🟩HTB Academy/09_Using the Metasploit Framework/Writing and Importing Modules.md",
     "🟩HTB Academy/09_Using the Metasploit Framework/Targets.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Sessions.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Preface.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Plugins.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Metasploit-Framework Updates - August 2020.md",
-    "🤖H4CK3RM4N.md",
-    "H4CK3RM4N/File Transfers.md",
-    "📗HTB Boxes/Granny.md",
-    "📗HTB Boxes/_Box Writeups.md",
-    "📗HTB Boxes/Academy.md",
-    "Mindmaps/AD Mindmap.canvas",
-    "🦊TCM Security/PEH/Stages.md",
-    "🟩HTB Academy/_PDFs/AD Mindmap.md",
-    "🟩HTB Academy/_PDFs/Random.md",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs",
     "🟩HTB Academy/10_Password Attacks/_User-Authentication-HOWTO.pdf",
@@ -226,7 +228,6 @@
     "🟩HTB Academy/_PNGs/Pasted image 20240621151231.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621150909.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621150438.png",
-    "🟩HTB Academy/_PNGs/Pasted image 20240621150426.png",
     "🦊TCM Security/PNPT",
     "🦊TCM Security/PEH",
     "🦊TCM Security",
@@ -234,7 +235,6 @@
     "🟩HTB Academy/_PDFs/Active_Directory_Enumeration_Attacks_Module_Cheat_Sheet.pdf",
     "🟩HTB Academy/26_Windows Privilege Escalation",
     "🟩HTB Academy/13_Active Directory Enumeration & Attacks",
-    "🟩HTB Academy/_PDFs/Password_Attacks_Module_Cheat_Sheet.pdf",
     "Untitled.canvas"
   ]
 }

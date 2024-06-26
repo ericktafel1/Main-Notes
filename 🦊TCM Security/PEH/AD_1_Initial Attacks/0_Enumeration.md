@@ -1,3 +1,5 @@
+If applicable, use these notes...
+
 `netdiscover -r 192.168.95.0/24`
 
 - See HTB nmap notes

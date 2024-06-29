@@ -1,3 +1,4 @@
+#LDAP #ldapdomaindump
 * seen in IPv6 attack (html report)
 * Use this tool in network if no IPv6 and we have access to a user account
 

@@ -1,0 +1,1 @@
+LLMNR > fcastle hash > cracked > sprayed the password > Found new login > secretsdump those logins > local admin hashes > respray the network with local accounts

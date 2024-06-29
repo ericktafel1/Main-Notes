@@ -1,3 +1,4 @@
+#bloodhound #neo4j
 install latest
 
 `sudo pip install bloodhound`

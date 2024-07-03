@@ -64,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
+                "file": "🦊TCM Security/PEH/AD_4_Now What/Strategy.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
+                "file": "🦊TCM Security/PEH/AD_4_Now What/Strategy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
+                "file": "🦊TCM Security/PEH/AD_4_Now What/Strategy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md"
+                "file": "🦊TCM Security/PEH/AD_4_Now What/Strategy.md"
               }
             }
           }
@@ -200,37 +200,39 @@
   },
   "active": "b43847c92b4b4dd4",
   "lastOpenFiles": [
-    "Mindmaps/AD Mindmap.canvas",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/7_Post-Compromise Attack Strategy.md",
+    "🦊TCM Security/PEH/AD_4_Now What/Strategy.md",
+    "🦊TCM Security/PEH/AD_4_Now What",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/Attack Chain.md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
-    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/1_ldapdomaindump.md",
-    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/3_PlumHound.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/3_Gaining Shell Access.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/2_SMB Relay Attack.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
-    "🦊TCM Security/PEH/Stages.md",
-    "🦊TCM Security/PEH/Exploitations.md",
-    "🦊TCM Security/PEH/AD Intro.md",
-    "🦊TCM Security/PEH/Active Directory.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/3_Token Impersonation.md",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/PingCastle.md",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/2_Bloodhound.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/2_SMB Relay Attack.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/5_GPP Attacks (cPassword Attacks).md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/4_LNK File Attacks.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/0_PowerView.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/3_Gaining Shell Access.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/4_IPv6 Attacks.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks/5_Passback Attacks.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/1_ldapdomaindump.md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/3_PlumHound.md",
+    "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
+    "🦊TCM Security/PEH/AD Intro.md",
+    "🦊TCM Security/PEH/Active Directory.md",
+    "Mindmaps/AD Mindmap.canvas",
+    "🦊TCM Security/PEH/Stages.md",
+    "🦊TCM Security/PEH/Exploitations.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration",
     "Untitled",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/Untitled 5.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/4_IPv6 Attacks.md",
-    "🦊TCM Security/PEH/AD_0 Enumeration.md",
-    "H4CK3RM4N/Broken Authentication.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks",
     "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",
-    "🟩HTB Academy/00_Fundamentals/Intro to Active Directory.md",
-    "📗HTB Boxes/Legacy.md",
-    "📗HTB Boxes/Blue.md",
-    "🟩HTB Academy/04_Footprinting/SMB.md",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs",
     "🟩HTB Academy/10_Password Attacks/_User-Authentication-HOWTO.pdf",
@@ -245,7 +247,6 @@
     "🦊TCM Security/PNPT",
     "🦊TCM Security/PEH",
     "🦊TCM Security",
-    "🟩HTB Academy/_PDFs/Windows_Privilege_Escalation_Module_Cheat_Sheet.pdf",
     "Untitled.canvas"
   ]
 }

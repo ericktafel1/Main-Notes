@@ -5,6 +5,7 @@
 1st - Make a directory and cd to it in kali
 	`mkdir marvel.local`
 	`cd marvel.local`
+	- Find DC IP with `nslookup <DC Domain Name>` (nslookup MARVEL.local) FROM the Domain joined host
 2nd - run `ldapdomaindump` to DC user domain user and password (must be in directory)
 		(wont work without python3)
 	`sudo ldapdomaindump ldaps://192.168.95.132 -u 'MARVEL\fcastle' -p Password1 `

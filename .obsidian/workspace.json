@@ -27,9 +27,9 @@
               "state": {
                 "file": "Mindmaps/AD Mindmap.canvas",
                 "viewState": {
-                  "x": 3070.5,
-                  "y": -745,
-                  "zoom": -1.6360557943652139
+                  "x": 2493.253498833971,
+                  "y": 1644.4107268155847,
+                  "zoom": -0.33333333333333304
                 }
               }
             }
@@ -200,8 +200,9 @@
   },
   "active": "b43847c92b4b4dd4",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/Attack Chain.md",
+    "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/Attack Chain.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/1_ldapdomaindump.md",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/3_PlumHound.md",
@@ -226,12 +227,10 @@
     "H4CK3RM4N/Broken Authentication.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks",
     "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",
-    "Mindmaps/AD Mindmap.canvas",
     "🟩HTB Academy/00_Fundamentals/Intro to Active Directory.md",
     "📗HTB Boxes/Legacy.md",
     "📗HTB Boxes/Blue.md",
     "🟩HTB Academy/04_Footprinting/SMB.md",
-    "🟩HTB Academy/09_Using the Metasploit Framework/Modules.md",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs",
     "🟩HTB Academy/10_Password Attacks/_User-Authentication-HOWTO.pdf",

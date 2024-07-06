@@ -64,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_6_AD Case Studies/1_Case Study 1.md",
+                "file": "🦊TCM Security/PEH/AD_5_Additional AD Attacks/2_PrintNightmare (CVE-2021-1675) Walkthrough.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_6_AD Case Studies/1_Case Study 1.md",
+                "file": "🦊TCM Security/PEH/AD_5_Additional AD Attacks/2_PrintNightmare (CVE-2021-1675) Walkthrough.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_6_AD Case Studies/1_Case Study 1.md",
+                "file": "🦊TCM Security/PEH/AD_5_Additional AD Attacks/2_PrintNightmare (CVE-2021-1675) Walkthrough.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_6_AD Case Studies/1_Case Study 1.md"
+                "file": "🦊TCM Security/PEH/AD_5_Additional AD Attacks/2_PrintNightmare (CVE-2021-1675) Walkthrough.md"
               }
             }
           }
@@ -200,16 +200,17 @@
   },
   "active": "b43847c92b4b4dd4",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
+    "🦊TCM Security/PEH/AD_4_Now What/2_Golden Ticket Attacks Overview.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
+    "🦊TCM Security/PEH/AD_4_Now What/1_Dumping the NTDS.dit.md",
+    "🦊TCM Security/PEH/AD_4_Now What/0_Post-Domain Compromise Attack Strategy.md",
     "🦊TCM Security/PEH/AD_6_AD Case Studies/1_Case Study 1.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
     "🦊TCM Security/PEH/AD_5_Additional AD Attacks/1_ZeroLogon.md",
     "🦊TCM Security/PEH/AD_5_Additional AD Attacks/2_PrintNightmare (CVE-2021-1675) Walkthrough.md",
     "🦊TCM Security/PEH/AD_5_Additional AD Attacks/0_Recent (and Relevant) Vulnerabilities.md",
-    "🦊TCM Security/PEH/AD_4_Now What/2_Golden Ticket Attacks Overview.md",
     "🦊TCM Security/PEH/AD_5_Additional AD Attacks",
-    "🦊TCM Security/PEH/AD_4_Now What/1_Dumping the NTDS.dit.md",
     "🦊TCM Security/PEH/AD_6_AD Case Studies",
-    "🦊TCM Security/PEH/AD_4_Now What/0_Post-Domain Compromise Attack Strategy.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/7_Post-Compromise Attack Strategy.md",
     "🦊TCM Security/PEH/AD_4_Now What",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/Attack Chain.md",
@@ -222,7 +223,6 @@
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/5_GPP Attacks (cPassword Attacks).md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/4_LNK File Attacks.md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/0_PowerView.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks/3_Gaining Shell Access.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks/4_IPv6 Attacks.md",

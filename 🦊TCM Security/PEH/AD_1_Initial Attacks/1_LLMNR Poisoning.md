@@ -3,7 +3,7 @@
 - Used to identify hosts when DNS fails
 - Previously NBT-NS
 - Services utilize a user's username and NTLM hash
-
+- If using CyberArk (PAM), cracking hashes probably not going to happen, try another attack (maybe SMB Replay)
 Step 1: Run Responder
 	`sudo responder -i tun0 -dwPv`
 	- may need to use `eth0` depending on internal network

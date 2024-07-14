@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_7_Post Exploitation/3_CleanUp.md",
+                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_7_Post Exploitation/3_CleanUp.md",
+                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_7_Post Exploitation/3_CleanUp.md",
+                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_7_Post Exploitation/3_CleanUp.md"
+                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md"
               }
             }
           }
@@ -188,8 +188,17 @@
   },
   "active": "877f5840c7a8d1f8",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/AD_7_Post Exploitation/2_Pivoting.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
+    "🦊TCM Security/PEH/Report Writing/PenTest Reports.md",
+    "🦊TCM Security/PEH/Stages.md",
+    "🦊TCM Security/PEH/Exploitations.md",
+    "🦊TCM Security/PEH/AD Intro.md",
+    "🦊TCM Security/PEH/Active Directory.md",
+    "Demo Company - Security Assessment Findings Report.docx",
+    "TCMS - Demo Corp - Findings Report - Example 2.docx",
     "🦊TCM Security/PEH/AD_7_Post Exploitation/3_CleanUp.md",
+    "🦊TCM Security/PEH/Report Writing",
+    "🦊TCM Security/PEH/AD_7_Post Exploitation/2_Pivoting.md",
     "🦊TCM Security/PEH/AD_7_Post Exploitation/1_Maintaining Access.md",
     "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
     "🦊TCM Security/PEH/AD_6_AD Case Studies/0_Case Studies.md",
@@ -202,7 +211,6 @@
     "🦊TCM Security/PEH/AD_6_AD Case Studies/1_Case Study 1.md",
     "🦊TCM Security/PEH/AD_5_Additional AD Attacks/2_PrintNightmare (CVE-2021-1675) Walkthrough.md",
     "🦊TCM Security/PEH/AD_4_Now What/2_Golden Ticket Attacks Overview.md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
     "🦊TCM Security/PEH/AD_4_Now What/1_Dumping the NTDS.dit.md",
     "🦊TCM Security/PEH/AD_4_Now What/0_Post-Domain Compromise Attack Strategy.md",
     "🦊TCM Security/PEH/AD_5_Additional AD Attacks/1_ZeroLogon.md",
@@ -214,19 +222,11 @@
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/PingCastle.md",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/2_Bloodhound.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks/2_SMB Relay Attack.md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/5_GPP Attacks (cPassword Attacks).md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/4_LNK File Attacks.md",
-    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/0_PowerView.md",
     "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration",
-    "Untitled",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks",
     "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
-    "🟩HTB Academy/_PNGs",
     "🟩HTB Academy/_PNGs/Pasted image 20240621144427.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621162132.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621154904.png",

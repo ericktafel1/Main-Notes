@@ -5,7 +5,7 @@
 - Services utilize a user's username and NTLM hash
 - If using CyberArk (PAM), cracking hashes probably not going to happen, try another attack (maybe SMB Replay)
 Step 1: Run Responder
-	`sudo responder -i tun0 -dwPv`
+	`sudo responder -I tun0 -dwPv`
 	- may need to use `eth0` depending on internal network
 	- cant fun `-w` at same time as `-P`... use either, both work to capture hashes...
 		 `-dwv`

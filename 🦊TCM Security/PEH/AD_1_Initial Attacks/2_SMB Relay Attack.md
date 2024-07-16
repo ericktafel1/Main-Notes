@@ -59,7 +59,6 @@ Host script results:
 |_    Message signing enabled but not required
 
 Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds
-┌─(~/Documents/PEH)─────────────────────────────────────────────
 ```
 
 start responder and confirm SMB and HTTP are off

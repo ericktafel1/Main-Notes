@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
+                "file": "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
+                "file": "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
+                "file": "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md"
+                "file": "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md"
               }
             }
           }
@@ -188,11 +188,16 @@
   },
   "active": "dcaeeead80f0a5ac",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/ChatGPT Attack Path (lol).md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/2_Bloodhound.md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/1_ldapdomaindump.md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/0_PowerView.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/3_Gaining Shell Access.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/2_SMB Relay Attack.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
+    "🦊TCM Security/PEH/ChatGPT Attack Path (lol).md",
     "🦊TCM Security/PEH/Report Writing/PenTest Example Reports.md",
     "🦊TCM Security/PEH/AD Intro.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
     "🦊TCM Security/PEH/Stages.md",
     "🦊TCM Security/PEH/Exploitations.md",
@@ -214,14 +219,9 @@
     "🦊TCM Security/PEH/AD_4_Now What/2_Golden Ticket Attacks Overview.md",
     "🦊TCM Security/PEH/AD_4_Now What/1_Dumping the NTDS.dit.md",
     "🦊TCM Security/PEH/AD_4_Now What/0_Post-Domain Compromise Attack Strategy.md",
-    "🦊TCM Security/PEH/AD_5_Additional AD Attacks/1_ZeroLogon.md",
     "🦊TCM Security/PEH/AD_5_Additional AD Attacks",
     "🦊TCM Security/PEH/AD_6_AD Case Studies",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/7_Post-Compromise Attack Strategy.md",
     "🦊TCM Security/PEH/AD_4_Now What",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/3_Token Impersonation.md",
-    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/PingCastle.md",
-    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/2_Bloodhound.md",
     "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration",

@@ -18,7 +18,7 @@ Then set Execution Policy to allow script to run:
 ```powershell -ep bypass```
 
 Run PowerView.ps1
-`.\PowerView.ps1`
+`Import-Module .\PowerView.ps1`
 
 May need to Temporarily Disable Antivirus
 
@@ -35,6 +35,9 @@ Turn off Real-time protection.
 
 ```
 PS C:\Users\fcastle\Desktop> C:\Users\fcastle\Desktop\PowerView.ps1
+
+PS C:\Users\fcastle\Desktop> Import-Module .\PowerView.ps1
+Import-Module .\PowerView.ps1
 
 PS C:\Users\fcastle\Desktop> Get-NetDomain
 

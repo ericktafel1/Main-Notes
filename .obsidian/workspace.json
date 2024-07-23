@@ -27,9 +27,9 @@
               "state": {
                 "file": "Mindmaps/AD Mindmap.canvas",
                 "viewState": {
-                  "x": 2493.253498833971,
-                  "y": 1644.4107268155847,
-                  "zoom": -0.33333333333333304
+                  "x": 3013.9922734932256,
+                  "y": 2655.8800625898575,
+                  "zoom": -0.3333333333333334
                 }
               }
             }
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_4_Now What/2_Golden Ticket Attacks Overview.md",
+                "file": "🦊TCM Security/PEH/_CHARGE_.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_4_Now What/2_Golden Ticket Attacks Overview.md",
+                "file": "🦊TCM Security/PEH/_CHARGE_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_4_Now What/2_Golden Ticket Attacks Overview.md",
+                "file": "🦊TCM Security/PEH/_CHARGE_.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_4_Now What/2_Golden Ticket Attacks Overview.md"
+                "file": "🦊TCM Security/PEH/_CHARGE_.md"
               }
             }
           }
@@ -188,32 +188,33 @@
   },
   "active": "dcaeeead80f0a5ac",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
+    "🦊TCM Security/PEH/ChatGPT Attack Path (lol).md",
+    "🦊TCM Security/PEH/Exploitations.md",
+    "🦊TCM Security/PEH/Stages.md",
+    "🦊TCM Security/PEH/_CHARGE_.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/4_IPv6 Attacks.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/3_PlumHound.md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/PingCastle.md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/2_Bloodhound.md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/1_ldapdomaindump.md",
+    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/0_PowerView.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/5_Passback Attacks.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/3_Gaining Shell Access.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/2_SMB Relay Attack.md",
     "🦊TCM Security/PEH/AD_4_Now What/2_Golden Ticket Attacks Overview.md",
+    "Mindmaps/AD Mindmap.canvas",
+    "🦊TCM Security/PEH/AD Intro.md",
+    "🦊TCM Security/PEH/Active Directory.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
+    "🦊TCM Security/PEH/AD_4_Now What/0_Post-Domain Compromise Attack Strategy.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
     "🦊TCM Security/PEH/AD_4_Now What/1_Dumping the NTDS.dit.md",
     "🟩HTB Academy/07_File Transfers/Living off The Land.md",
     "🟩HTB Academy/07_File Transfers/Linux File Transfer Methods.md",
     "🟩HTB Academy/07_File Transfers/File Transfers.md",
     "🟩HTB Academy/07_File Transfers/Detection.md",
-    "🟩HTB Academy/07_File Transfers/Catching Files over HTTP.S.md",
-    "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
-    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/0_PowerView.md",
-    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/2_Bloodhound.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/5_Passback Attacks.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/4_IPv6 Attacks.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/2_SMB Relay Attack.md",
-    "🦊TCM Security/PEH/AD_4_Now What/0_Post-Domain Compromise Attack Strategy.md",
-    "🦊TCM Security/PEH/AD_7_Post Exploitation/1_Maintaining Access.md",
-    "🦊TCM Security/PEH/AD_7_Post Exploitation/3_CleanUp.md",
-    "🦊TCM Security/PEH/AD_7_Post Exploitation/2_Pivoting.md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/3_Token Impersonation.md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
-    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/1_ldapdomaindump.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/3_Gaining Shell Access.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
     "Demo Company - Security Assessment Findings Report.docx",
     "TCMS - Demo Corp - Findings Report - Example 2.docx",
     "🦊TCM Security/PEH/Report Writing",
@@ -222,7 +223,6 @@
     "🦊TCM Security/PEH/AD_5_Additional AD Attacks",
     "🦊TCM Security/PEH/AD_6_AD Case Studies",
     "🦊TCM Security/PEH/AD_4_Now What",
-    "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration",
     "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",

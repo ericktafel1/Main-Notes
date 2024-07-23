@@ -19,7 +19,7 @@ We can utilize Mimikatz to obtain the information necessary to perform this atta
 - need:
 	- krbtgt ntlm hash
 	- domain SID  
-Start-Process -FilePath "C:\Users\administrator\Downloads\mimikatz.exe" -Verb RunAs
+`Start-Process -FilePath "C:\Users\administrator\Downloads\mimikatz.exe" -Verb RunAs`
 
 Results:
 ```

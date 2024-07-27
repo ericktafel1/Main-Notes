@@ -12,7 +12,7 @@ Kali Tool to decrypt a cPassword hash
 `gpp-decrypt <hash>`
 
 MSFConsole to gain a shell
-`auxiliary/smb_enum_gpp`
+`auxiliary/scanner/smb/smb_enum_gpp`
 
 
 Mitigation Strategies

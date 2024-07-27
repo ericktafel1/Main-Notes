@@ -210,8 +210,3 @@ SPIDERMAN$:des-cbc-md5:7334755bba2c0149
 [*] Stopping service RemoteRegistry
 ```
 
-Mitigation Strategies:
-- Limit user/group token creation permission
-- Account tiering
-- Local admin restriction
-

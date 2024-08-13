@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/_AttackPath_.md",
+                "file": "🦊TCM Security/PEH/Web App PenTest Notes/Go.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/_AttackPath_.md",
+                "file": "🦊TCM Security/PEH/Web App PenTest Notes/Go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/_AttackPath_.md",
+                "file": "🦊TCM Security/PEH/Web App PenTest Notes/Go.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/_AttackPath_.md"
+                "file": "🦊TCM Security/PEH/Web App PenTest Notes/Go.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "35de34fff739c1ce",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/3_Token Impersonation.md",
     "🦊TCM Security/PEH/_AttackPath_.md",
+    "🦊TCM Security/PEH/Web App PenTest Notes/Go.md",
+    "🦊TCM Security/PEH/Web App PenTest Notes",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/3_Token Impersonation.md",
     "🦊TCM Security/PEH/AD_4_Now What/1_Dumping the NTDS.dit.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
     "🦊TCM Security/PEH/AD_4_Now What/2_Golden Ticket Attacks Overview.md",
@@ -174,7 +176,6 @@
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/2_Bloodhound.md",
     "🦊TCM Security/PEH/AD Intro.md",
     "🦊TCM Security/PEH/ChatGPT Attack Path (lol).md",
-    "🦊TCM Security/PEH/Exploitations.md",
     "Demo Company - Security Assessment Findings Report.docx",
     "TCMS - Demo Corp - Findings Report - Example 2.docx",
     "🦊TCM Security/PEH/Report Writing",
@@ -184,7 +185,6 @@
     "🦊TCM Security/PEH/AD_6_AD Case Studies",
     "🦊TCM Security/PEH/AD_4_Now What",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks",
-    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration",
     "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621144427.png",

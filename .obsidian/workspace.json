@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/Web App PenTest Notes/Subdomains.md",
+                "file": "🦊TCM Security/PEH/WebApp_1_Enumeration/Subdomains.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70b2537ea5a28be4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🦊TCM Security/PEH/zBasics/Active Directory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c65e915292e2c58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🦊TCM Security/PEH/_AttackPath_.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/Web App PenTest Notes/Subdomains.md",
+                "file": "🦊TCM Security/PEH/_AttackPath_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/Web App PenTest Notes/Subdomains.md",
+                "file": "🦊TCM Security/PEH/_AttackPath_.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/Web App PenTest Notes/Subdomains.md"
+                "file": "🦊TCM Security/PEH/_AttackPath_.md"
               }
             }
           }
@@ -146,11 +171,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35de34fff739c1ce",
+  "active": "0c65e915292e2c58",
   "lastOpenFiles": [
+    "🦊TCM Security/PEH/ChatGPT Attack Path (lol).md",
     "🦊TCM Security/PEH/_AttackPath_.md",
-    "🦊TCM Security/PEH/Web App PenTest Notes/Subdomains.md",
-    "🦊TCM Security/PEH/Web App PenTest Notes",
+    "🦊TCM Security/PEH/zBasics/Stages.md",
+    "🦊TCM Security/PEH/PenTest Example Reports.md",
+    "🦊TCM Security/PEH/zBasics/Exploitations.md",
+    "🦊TCM Security/PEH/zBasics/Active Directory.md",
+    "🦊TCM Security/PEH/zBasics",
+    "🦊TCM Security/PEH/_Basics_.md",
+    "🦊TCM Security/PEH/zBasics/AD Intro.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Untitled.md",
+    "🦊TCM Security/PEH/WebApp_1_Enumeration/Subdomains.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit",
+    "🦊TCM Security/PEH/WebApp_1_Enumeration",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/3_Token Impersonation.md",
     "🦊TCM Security/PEH/AD_4_Now What/1_Dumping the NTDS.dit.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
@@ -168,14 +203,6 @@
     "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/3_PlumHound.md",
     "🦊TCM Security/PEH/AD_4_Now What/0_Post-Domain Compromise Attack Strategy.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/6_Initial Internal Attack Strategy.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/5_Passback Attacks.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/4_IPv6 Attacks.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
-    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/1_ldapdomaindump.md",
-    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/2_Bloodhound.md",
-    "🦊TCM Security/PEH/AD Intro.md",
-    "🦊TCM Security/PEH/ChatGPT Attack Path (lol).md",
     "Demo Company - Security Assessment Findings Report.docx",
     "TCMS - Demo Corp - Findings Report - Example 2.docx",
     "🦊TCM Security/PEH/Report Writing",
@@ -183,8 +210,6 @@
     "🦊TCM Security/PEH/AD_6_AD Case Studies",
     "🦊TCM Security/PEH/AD_5_Additional AD Attacks",
     "🦊TCM Security/PEH/AD_6_AD Case Studies",
-    "🦊TCM Security/PEH/AD_4_Now What",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks",
     "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621144427.png",

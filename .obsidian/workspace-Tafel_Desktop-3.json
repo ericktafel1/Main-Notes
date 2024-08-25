@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2db2dec02f1c7a61",
+        "id": "be9732c81ce0950d",
         "type": "tabs",
         "children": [
           {
-            "id": "6eb6ad562976296f",
+            "id": "38698d90e3549938",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "c3f61b7e9fdcf116",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -155,20 +138,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3f61b7e9fdcf116",
+  "active": "38698d90e3549938",
   "lastOpenFiles": [
-    "---Remote Notes to Add---/Untitled.md",
+    "🦊TCM Security/PEH/zBasics/Active Directory.md",
+    "🟩HTB Academy/08_Shells & Payloads/PHP Web Shells.md",
     "---Remote Notes to Add---/Untitled-Tafel_Desktop.md",
-    "---Remote Notes to Add---/LAPTOP TEST.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
+    "🟩HTB Academy/02_Get Started/Types of Shells.md",
+    "---Remote Notes to Add---/Untitled.md",
+    "---Remote Notes to Add---/Untitled.md",
     "🦊TCM Security/PEH/WebApp_1_Enumeration/Subdomains.md",
     "TEST/Untitled.md",
     "---Remote Notes to Add---",
-    "🟩HTB Academy/08_Shells & Payloads/PHP Web Shells.md",
     "TEST",
     "🟩HTB Academy/01_PenTest Process/Academy Modules Layout.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Lab Setup with Docker Containers.md",
-    "🟩HTB Academy/02_Get Started/Types of Shells.md",
     "🟩HTB Academy/08_Shells & Payloads/Introduction to Payloads.md",
     "🟩HTB Academy/08_Shells & Payloads/Reverse Shells.md",
     "Test",
@@ -177,7 +160,6 @@
     "🦊TCM Security/PEH/ChatGPT Attack Path (lol).md",
     "🦊TCM Security/PEH/zBasics/Stages.md",
     "🦊TCM Security/PEH/zBasics/Exploitations.md",
-    "🦊TCM Security/PEH/zBasics/Active Directory.md",
     "🦊TCM Security/PEH/zBasics",
     "🦊TCM Security/PEH/_Basics_.md",
     "🦊TCM Security/PEH/zBasics/AD Intro.md",
@@ -189,6 +171,7 @@
     "🦊TCM Security/PEH/AD_4_Now What/2_Golden Ticket Attacks Overview.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/3_Gaining Shell Access.md",
     "Mindmaps/AD Mindmap.canvas",
     "Demo Company - Security Assessment Findings Report.docx",
     "TCMS - Demo Corp - Findings Report - Example 2.docx",

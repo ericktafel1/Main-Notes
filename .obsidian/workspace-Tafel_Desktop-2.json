@@ -8,27 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6eb6ad562976296f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "c3f61b7e9fdcf116",
+            "id": "35de34fff739c1ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
+                "file": "🦊TCM Security/PEH/WebApp_1_Enumeration/Subdomains.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70b2537ea5a28be4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🦊TCM Security/PEH/zBasics/Active Directory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c65e915292e2c58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🟩HTB Academy/08_Shells & Payloads/PHP Web Shells.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b683f32985bb2ebd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "---Remote Notes to Add---/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
+                "file": "---Remote Notes to Add---/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
+                "file": "---Remote Notes to Add---/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md"
+                "file": "---Remote Notes to Add---/Untitled.md"
               }
             }
           }
@@ -155,12 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3f61b7e9fdcf116",
+  "active": "b683f32985bb2ebd",
   "lastOpenFiles": [
+    "🟩HTB Academy/02_Get Started/Types of Shells.md",
     "---Remote Notes to Add---/Untitled.md",
-    "---Remote Notes to Add---/Untitled-Tafel_Desktop.md",
-    "---Remote Notes to Add---/LAPTOP TEST.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
+    "---Remote Notes to Add---/Untitled.md",
     "🦊TCM Security/PEH/WebApp_1_Enumeration/Subdomains.md",
     "TEST/Untitled.md",
     "---Remote Notes to Add---",
@@ -168,7 +195,6 @@
     "TEST",
     "🟩HTB Academy/01_PenTest Process/Academy Modules Layout.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Lab Setup with Docker Containers.md",
-    "🟩HTB Academy/02_Get Started/Types of Shells.md",
     "🟩HTB Academy/08_Shells & Payloads/Introduction to Payloads.md",
     "🟩HTB Academy/08_Shells & Payloads/Reverse Shells.md",
     "Test",
@@ -189,6 +215,8 @@
     "🦊TCM Security/PEH/AD_4_Now What/2_Golden Ticket Attacks Overview.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/3_Gaining Shell Access.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/4_LNK File Attacks.md",
     "Mindmaps/AD Mindmap.canvas",
     "Demo Company - Security Assessment Findings Report.docx",
     "TCMS - Demo Corp - Findings Report - Example 2.docx",

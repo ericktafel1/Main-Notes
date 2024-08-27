@@ -1,19 +1,12 @@
 
 1. HTB Info Sec Foundations (COMPLETED)
 2. TryHackMe Jr. Penetration Tester learning path (COMPLETED)
-3. HTB CPTS
-	* **Take good notes**
-	* Course/Modules
-	* Recommended Boxes
-	* Prepare for exam
-		* Boxes
-			* recommended &
-			* Attacking Enterprise Skill Path (do without walkthrough and should be ready)
-			* Dante
-			* OffShore
-	* **PASS CPTS EXAM**
-
+3. PJPT (COMPLETED)
+4. PNPT
+5. OSCP
+6. MBA (focus in Cyber)
+7. CISSP
 ---
-* After CPTS
-	* CBBH?
-	* OSEP, OSWE, OSEE, OSE3
+* After
+	* CPTS/CBBH?
+	* OSEP, OSWE, OSEE, OSE3?

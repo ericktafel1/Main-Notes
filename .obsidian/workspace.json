@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2db2dec02f1c7a61",
+        "id": "631f78b49ae7a567",
         "type": "tabs",
         "children": [
           {
-            "id": "6eb6ad562976296f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "c3f61b7e9fdcf116",
+            "id": "3bfbfdcac000493b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Guide/WADComs.md",
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#SQLMap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study Guide/WADComs.md",
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study Guide/WADComs.md",
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Guide/WADComs.md"
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md"
               }
             }
           }
@@ -155,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3f61b7e9fdcf116",
+  "active": "3bfbfdcac000493b",
   "lastOpenFiles": [
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Lab Setup with Docker Containers.md",
     "Study Guide/TO DO - Boxes, Challenges, Skill Paths, Pro Labs.md",
     "Study Guide/WADComs.md",
     "Study Guide/_MyStudyPlan_.md",
@@ -164,7 +158,6 @@
     "📦HTB Writeups.md",
     "Hak5 c2.md",
     "🤖H4CK3RM4N.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
     "---Remote Notes to Add---/Untitled.md",
     "---Remote Notes to Add---/Untitled-Tafel_Desktop.md",
     "---Remote Notes to Add---/LAPTOP TEST.md",
@@ -174,7 +167,6 @@
     "🟩HTB Academy/08_Shells & Payloads/PHP Web Shells.md",
     "TEST",
     "🟩HTB Academy/01_PenTest Process/Academy Modules Layout.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Lab Setup with Docker Containers.md",
     "🟩HTB Academy/02_Get Started/Types of Shells.md",
     "🟩HTB Academy/08_Shells & Payloads/Introduction to Payloads.md",
     "🟩HTB Academy/08_Shells & Payloads/Reverse Shells.md",
@@ -186,7 +178,6 @@
     "🦊TCM Security/PEH/zBasics/Active Directory.md",
     "🦊TCM Security/PEH/zBasics",
     "🦊TCM Security/PEH/_Basics_.md",
-    "🦊TCM Security/PEH/zBasics/AD Intro.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit",
     "🦊TCM Security/PEH/WebApp_1_Enumeration",
     "Mindmaps/AD Mindmap.canvas",

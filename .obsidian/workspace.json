@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "714032e4d038728e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md"
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md"
               }
             }
           }
@@ -146,22 +159,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3bfbfdcac000493b",
+  "active": "714032e4d038728e",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Lab Setup with Docker Containers.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_InsecureFileUpload.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_CommandInjection.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_SQL.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_XSS.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Lab Setup with Docker Containers.md",
+    "🦊TCM Security/PEH/_AttackPath_.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/z_Old Notes",
+    "🦊TCM Security/PEH/WebApp_1_Enumeration/Subdomains.md",
     "Study Guide/TO DO - Boxes, Challenges, Skill Paths, Pro Labs.md",
     "Study Guide/WADComs.md",
     "Study Guide/_MyStudyPlan_.md",
-    "🦊TCM Security/PEH/_AttackPath_.md",
     "📦HTB Writeups.md",
     "Hak5 c2.md",
     "🤖H4CK3RM4N.md",
     "---Remote Notes to Add---/Untitled.md",
     "---Remote Notes to Add---/Untitled-Tafel_Desktop.md",
     "---Remote Notes to Add---/LAPTOP TEST.md",
-    "🦊TCM Security/PEH/WebApp_1_Enumeration/Subdomains.md",
     "TEST/Untitled.md",
     "---Remote Notes to Add---",
     "🟩HTB Academy/08_Shells & Payloads/PHP Web Shells.md",
@@ -171,20 +191,13 @@
     "🟩HTB Academy/08_Shells & Payloads/Introduction to Payloads.md",
     "🟩HTB Academy/08_Shells & Payloads/Reverse Shells.md",
     "Test",
-    "🦊TCM Security/PEH/PenTest Example Reports.md",
-    "🦊TCM Security/PEH/ChatGPT Attack Path (lol).md",
-    "🦊TCM Security/PEH/zBasics/Stages.md",
-    "🦊TCM Security/PEH/zBasics/Exploitations.md",
-    "🦊TCM Security/PEH/zBasics/Active Directory.md",
     "🦊TCM Security/PEH/zBasics",
-    "🦊TCM Security/PEH/_Basics_.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit",
     "🦊TCM Security/PEH/WebApp_1_Enumeration",
     "Mindmaps/AD Mindmap.canvas",
     "Demo Company - Security Assessment Findings Report.docx",
     "TCMS - Demo Corp - Findings Report - Example 2.docx",
     "🦊TCM Security/PEH/Report Writing",
-    "🦊TCM Security/PEH/AD_7_Post Exploitation",
     "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621144427.png",

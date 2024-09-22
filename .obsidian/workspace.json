@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3bfbfdcac000493b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "714032e4d038728e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication MFA.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication MFA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication MFA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md"
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication MFA.md"
               }
             }
           }
@@ -161,40 +148,43 @@
   },
   "active": "714032e4d038728e",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_InsecureFileUpload.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication Bruteforce.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication MFA.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_BruteForce.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_MFA.md",
+    "Pasted image 20240914094852.png",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_CommandInjection.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_InsecureFileUpload.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
+    "Mindmaps/pentest_ad_dark_2023_02 1.svg",
+    "Mindmaps/AD Mindmap.canvas",
+    "Mindmaps/pentest_ad_dark_2023_02.svg",
+    "H4CK3RM4N/Websites.md",
+    "H4CK3RM4N/Web Requests.md",
+    "H4CK3RM4N/Web Proxies.md",
+    "H4CK3RM4N/Web Attacks.md",
+    "H4CK3RM4N/Pivoting, Tunneling, and Port Forwarding.md",
+    "H4CK3RM4N/Password Attacks.md",
+    "H4CK3RM4N/FFUF.md",
+    "H4CK3RM4N/Evil-WinRM RUNas System.md",
+    "H4CK3RM4N/Command Injection.md",
+    "H4CK3RM4N/Broken Authentication.md",
+    "H4CK3RM4N/Basic Commands.md",
+    "H4CK3RM4N/Attacking Common Services.md",
+    "H4CK3RM4N/Attacking Common Applications.md",
+    "H4CK3RM4N/Active Directory Enumeration.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_XSS.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_SQL.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_XSS.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Lab Setup with Docker Containers.md",
-    "🦊TCM Security/PEH/_AttackPath_.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/z_Old Notes",
-    "🦊TCM Security/PEH/WebApp_1_Enumeration/Subdomains.md",
-    "Study Guide/TO DO - Boxes, Challenges, Skill Paths, Pro Labs.md",
-    "Study Guide/WADComs.md",
-    "Study Guide/_MyStudyPlan_.md",
-    "📦HTB Writeups.md",
-    "Hak5 c2.md",
-    "🤖H4CK3RM4N.md",
-    "---Remote Notes to Add---/Untitled.md",
-    "---Remote Notes to Add---/Untitled-Tafel_Desktop.md",
-    "---Remote Notes to Add---/LAPTOP TEST.md",
-    "TEST/Untitled.md",
     "---Remote Notes to Add---",
-    "🟩HTB Academy/08_Shells & Payloads/PHP Web Shells.md",
     "TEST",
-    "🟩HTB Academy/01_PenTest Process/Academy Modules Layout.md",
-    "🟩HTB Academy/02_Get Started/Types of Shells.md",
-    "🟩HTB Academy/08_Shells & Payloads/Introduction to Payloads.md",
-    "🟩HTB Academy/08_Shells & Payloads/Reverse Shells.md",
     "Test",
     "🦊TCM Security/PEH/zBasics",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit",
     "🦊TCM Security/PEH/WebApp_1_Enumeration",
-    "Mindmaps/AD Mindmap.canvas",
     "Demo Company - Security Assessment Findings Report.docx",
     "TCMS - Demo Corp - Findings Report - Example 2.docx",
     "🦊TCM Security/PEH/Report Writing",
@@ -205,9 +195,6 @@
     "🟩HTB Academy/_PNGs/Pasted image 20240621154904.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621153325.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621152215.png",
-    "🟩HTB Academy/_PNGs/Pasted image 20240621151231.png",
-    "🟩HTB Academy/_PNGs/Pasted image 20240621150909.png",
-    "🟩HTB Academy/_PNGs/Pasted image 20240621150438.png",
     "Untitled.canvas"
   ]
 }

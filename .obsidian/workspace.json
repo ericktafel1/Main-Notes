@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication MFA.md",
+                "file": "🦊TCM Security/PEH/Wireless_Penetration_Testing/WPA2_PSK_Exploit.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication MFA.md",
+                "file": "🦊TCM Security/PEH/Wireless_Penetration_Testing/WPA2_PSK_Exploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication MFA.md",
+                "file": "🦊TCM Security/PEH/Wireless_Penetration_Testing/WPA2_PSK_Exploit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication MFA.md"
+                "file": "🦊TCM Security/PEH/Wireless_Penetration_Testing/WPA2_PSK_Exploit.md"
               }
             }
           }
@@ -148,8 +148,19 @@
   },
   "active": "714032e4d038728e",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication Bruteforce.md",
+    "🦊TCM Security/PEH/Wireless_Penetration_Testing/Requirements.md",
+    "🦊TCM Security/PEH/Wireless_Penetration_Testing/WPA2_PSK_Exploit.md",
+    "🦊TCM Security/PEH/Untitled.md",
+    "🦊TCM Security/PEH/Wireless_Penetration_Testing",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Capstone.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/IDOR (BOLA).md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Blind XXE.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XXE.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_XXE.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication MFA.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication Bruteforce.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_BruteForce.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_MFA.md",
     "Pasted image 20240914094852.png",
@@ -168,16 +179,6 @@
     "H4CK3RM4N/FFUF.md",
     "H4CK3RM4N/Evil-WinRM RUNas System.md",
     "H4CK3RM4N/Command Injection.md",
-    "H4CK3RM4N/Broken Authentication.md",
-    "H4CK3RM4N/Basic Commands.md",
-    "H4CK3RM4N/Attacking Common Services.md",
-    "H4CK3RM4N/Attacking Common Applications.md",
-    "H4CK3RM4N/Active Directory Enumeration.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_XSS.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/z_Old Notes",
     "---Remote Notes to Add---",
     "TEST",
@@ -187,7 +188,6 @@
     "🦊TCM Security/PEH/WebApp_1_Enumeration",
     "Demo Company - Security Assessment Findings Report.docx",
     "TCMS - Demo Corp - Findings Report - Example 2.docx",
-    "🦊TCM Security/PEH/Report Writing",
     "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621144427.png",

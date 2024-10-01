@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/Wireless_Penetration_Testing/WPA2_PSK_Exploit.md",
+                "file": "📗HTB Boxes/Devel.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#SQLMap",
+                "query": "director",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PEH/Wireless_Penetration_Testing/WPA2_PSK_Exploit.md",
+                "file": "📗HTB Boxes/Devel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PEH/Wireless_Penetration_Testing/WPA2_PSK_Exploit.md",
+                "file": "📗HTB Boxes/Devel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PEH/Wireless_Penetration_Testing/WPA2_PSK_Exploit.md"
+                "file": "📗HTB Boxes/Devel.md"
               }
             }
           }
@@ -146,22 +146,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "714032e4d038728e",
   "lastOpenFiles": [
+    "🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration.md",
+    "📗HTB Boxes/Devel.md",
+    "H4CK3RM4N/Basic Commands.md",
+    "🟩HTB Academy/05_Information Gathering - Web Edition/Crawling.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/IDOR (BOLA).md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XXE.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Capstone.md",
+    "🟩HTB Academy/04_Footprinting/FTP.md",
+    "H4CK3RM4N/Footprinting.md",
+    "📗HTB Boxes/CozyHosting.md",
+    "📗HTB Boxes/_Box Writeups.md",
+    "🦊TCM Security/PrivEsc_Windows/0_Resources.md",
+    "🦊TCM Security/PEH/Wireless_Penetration_Testing/WPA2_PSK_Exploit.md",
     "🦊TCM Security/External_PenTest_Playbook",
     "🦊TCM Security/OSINT",
     "🦊TCM Security/PrivEsc_Linux",
     "🦊TCM Security/PrivEsc_Windows",
     "🦊TCM Security/PEH/Wireless_Penetration_Testing/Requirements.md",
-    "🦊TCM Security/PEH/Wireless_Penetration_Testing/WPA2_PSK_Exploit.md",
     "🦊TCM Security/PEH/Untitled.md",
     "🦊TCM Security/PEH/Wireless_Penetration_Testing",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Capstone.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/IDOR (BOLA).md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Blind XXE.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XXE.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_XXE.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication MFA.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication Bruteforce.md",
@@ -170,24 +180,14 @@
     "Pasted image 20240914094852.png",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_CommandInjection.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_InsecureFileUpload.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
     "Mindmaps/pentest_ad_dark_2023_02 1.svg",
     "Mindmaps/AD Mindmap.canvas",
     "Mindmaps/pentest_ad_dark_2023_02.svg",
-    "H4CK3RM4N/Websites.md",
-    "H4CK3RM4N/Web Requests.md",
-    "H4CK3RM4N/Web Proxies.md",
-    "H4CK3RM4N/Web Attacks.md",
-    "H4CK3RM4N/Pivoting, Tunneling, and Port Forwarding.md",
-    "H4CK3RM4N/Password Attacks.md",
-    "H4CK3RM4N/FFUF.md",
-    "H4CK3RM4N/Evil-WinRM RUNas System.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/z_Old Notes",
     "---Remote Notes to Add---",
     "TEST",
     "Test",
     "🦊TCM Security/PEH/zBasics",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit",
     "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621144427.png",

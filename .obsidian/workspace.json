@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📗HTB Boxes/Devel.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/4_Escalation_Path-Passwords_and_Port_Forwarding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a86b71a5b4ff74d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📗HTB Boxes/Chatterbox.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 321.5
   },
   "right": {
     "id": "c8e9b29a5f4895fe",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📗HTB Boxes/Devel.md",
+                "file": "📗HTB Boxes/Chatterbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📗HTB Boxes/Devel.md",
+                "file": "📗HTB Boxes/Chatterbox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📗HTB Boxes/Devel.md"
+                "file": "📗HTB Boxes/Chatterbox.md"
               }
             }
           }
@@ -146,40 +159,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "714032e4d038728e",
+  "active": "2a86b71a5b4ff74d",
   "lastOpenFiles": [
-    "🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration.md",
+    "📗HTB Boxes/Chatterbox.md",
+    "🦊TCM Security/PrivEsc_Windows/4_Escalation_Path-Passwords_and_Port_Forwarding.md",
+    "🦊TCM Security/PrivEsc_Windows/3_Escalation_Path-Kernel_Exploits.md",
     "📗HTB Boxes/Devel.md",
-    "H4CK3RM4N/Basic Commands.md",
-    "🟩HTB Academy/05_Information Gathering - Web Edition/Crawling.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/IDOR (BOLA).md",
+    "🦊TCM Security/PrivEsc_Windows/Untitled",
+    "📗HTB Boxes/CozyHosting.md",
+    "📗HTB Boxes/Bizness.md",
+    "📗HTB Boxes/Bashed.md",
+    "📗HTB Boxes/Nibbles.md",
+    "📗HTB Boxes/Legacy.md",
+    "📗HTB Boxes/Lame.md",
+    "📗HTB Boxes/Jerry.md",
+    "📗HTB Boxes/Granny.md",
+    "📗HTB Boxes/Blue.md",
+    "📗HTB Boxes/Academy.md",
+    "🦊TCM Security/PrivEsc_Windows/2_Exploring_Automated_Tools.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XXE.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Lab Setup with Docker Containers.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/IDOR (BOLA).md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_InsecureFileUpload.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_CommandInjection.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_BruteForce.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Capstone.md",
-    "🟩HTB Academy/04_Footprinting/FTP.md",
-    "H4CK3RM4N/Footprinting.md",
-    "📗HTB Boxes/CozyHosting.md",
-    "📗HTB Boxes/_Box Writeups.md",
-    "🦊TCM Security/PrivEsc_Windows/0_Resources.md",
-    "🦊TCM Security/PEH/Wireless_Penetration_Testing/WPA2_PSK_Exploit.md",
     "🦊TCM Security/External_PenTest_Playbook",
     "🦊TCM Security/OSINT",
     "🦊TCM Security/PrivEsc_Linux",
     "🦊TCM Security/PrivEsc_Windows",
-    "🦊TCM Security/PEH/Wireless_Penetration_Testing/Requirements.md",
-    "🦊TCM Security/PEH/Untitled.md",
     "🦊TCM Security/PEH/Wireless_Penetration_Testing",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Blind XXE.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_XXE.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication MFA.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication Bruteforce.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_BruteForce.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_MFA.md",
     "Pasted image 20240914094852.png",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_CommandInjection.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_InsecureFileUpload.md",
     "Mindmaps/pentest_ad_dark_2023_02 1.svg",
     "Mindmaps/AD Mindmap.canvas",
     "Mindmaps/pentest_ad_dark_2023_02.svg",
@@ -187,7 +201,6 @@
     "---Remote Notes to Add---",
     "TEST",
     "Test",
-    "🦊TCM Security/PEH/zBasics",
     "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621144427.png",

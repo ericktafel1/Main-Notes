@@ -39,8 +39,8 @@ references: HTB Writeups
 
 
 # Foothold
-- gain user via exploit
+- gain shell via exploit
 
 
 # PrivEsc
-- escalate from user to root
+- escalate from webshell to user to root

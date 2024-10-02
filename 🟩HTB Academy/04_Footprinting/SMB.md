@@ -1,4 +1,4 @@
-#SMB 
+#SMB #RPC #smbclient #rpcdump
 
 ___
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📗HTB Boxes/SecNotes.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/6_Impersonation_and_Potato_Attacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📗HTB Boxes/SecNotes.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/6_Impersonation_and_Potato_Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📗HTB Boxes/SecNotes.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/6_Impersonation_and_Potato_Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📗HTB Boxes/SecNotes.md"
+                "file": "🦊TCM Security/PrivEsc_Windows/6_Impersonation_and_Potato_Attacks.md"
               }
             }
           }
@@ -160,8 +160,9 @@
   },
   "active": "e5de277d337bc780",
   "lastOpenFiles": [
-    "🦊TCM Security/PrivEsc_Windows/5_Escalation_Path-Windows_Subsystem_for_Linux.md",
     "📗HTB Boxes/SecNotes.md",
+    "🦊TCM Security/PrivEsc_Windows/6_Impersonation_and_Potato_Attacks.md",
+    "🦊TCM Security/PrivEsc_Windows/5_Escalation_Path-Windows_Subsystem_for_Linux.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
     "H4CK3RM4N/Active Directory Enumeration.md",
     "🟩HTB Academy/02_Get Started/Service Scanning.md",
@@ -185,7 +186,6 @@
     "🟩HTB Academy/04_Footprinting/SMB.md",
     "📗HTB Boxes/Devel.md",
     "🦊TCM Security/PEH/_AttackPath_.md",
-    "🦊TCM Security/PEH/AD_5_Additional AD Attacks/2_PrintNightmare (CVE-2021-1675) Walkthrough.md",
     "🦊TCM Security/PrivEsc_Windows/Untitled",
     "🦊TCM Security/External_PenTest_Playbook",
     "🦊TCM Security/OSINT",

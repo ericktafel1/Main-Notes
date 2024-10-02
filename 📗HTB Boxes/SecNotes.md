@@ -20,6 +20,7 @@ tags:
   - SQLInjection
   - php
   - stty
+  - history
 references: "[[📦HTB Writeups]]"
 ---
 

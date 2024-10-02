@@ -1,4 +1,4 @@
-#Windows #PrivEsc #WSL #dirsearch #psexec #wmiexec #smbexec #smbmap #SMB #XSS #SQLInjection #php #stty 
+#Windows #PrivEsc #WSL #dirsearch #psexec #wmiexec #smbexec #smbmap #SMB #XSS #SQLInjection #php #stty #history
 
 See HTB [[SecNotes]]
 
@@ -277,7 +277,7 @@ uname -a
 Linux SECNOTES 4.4.0-17134-Microsoft #137-Microsoft Thu Jun 14 18:46:00 PST 2018 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
-- Perform TTY escape Shell
+- Perform TTY escape Shell #stty 
 ```
 python -c 'import pty; pty.spawn("/bin/bash")'
 root@SECNOTES:~# whoami

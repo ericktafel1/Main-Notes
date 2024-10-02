@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "631f78b49ae7a567",
+        "id": "72d68fa6dc78a749",
         "type": "tabs",
         "children": [
           {
-            "id": "714032e4d038728e",
+            "id": "e5de277d337bc780",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📗HTB Boxes/Chatterbox.md",
+                "file": "📗HTB Boxes/SecNotes.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2a86b71a5b4ff74d",
+            "id": "40f7c121ebd2f2a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/4_Escalation_Path-Passwords_and_Port_Forwarding.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/5_Escalation_Path-Windows_Subsystem_for_Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rpcclient",
+                "query": "smbmap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📗HTB Boxes/Chatterbox.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/5_Escalation_Path-Windows_Subsystem_for_Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📗HTB Boxes/Chatterbox.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/5_Escalation_Path-Windows_Subsystem_for_Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📗HTB Boxes/Chatterbox.md"
+                "file": "🦊TCM Security/PrivEsc_Windows/5_Escalation_Path-Windows_Subsystem_for_Linux.md"
               }
             }
           }
@@ -158,35 +159,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "714032e4d038728e",
+  "active": "40f7c121ebd2f2a4",
   "lastOpenFiles": [
+    "📗HTB Boxes/SecNotes.md",
+    "🦊TCM Security/PrivEsc_Windows/5_Escalation_Path-Windows_Subsystem_for_Linux.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
+    "H4CK3RM4N/Active Directory Enumeration.md",
+    "🟩HTB Academy/02_Get Started/Service Scanning.md",
+    "H4CK3RM4N/Footprinting.md",
+    "Study Guide/WADComs.md",
+    "📦HTB Writeups.md",
+    "🤖H4CK3RM4N.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Attacking Authentication Bruteforce.md",
+    "🟩HTB Academy/00_Fundamentals/Intro to Web Applications.md",
+    "🟩HTB Academy/00_Fundamentals/Windows Fundamentals.md",
+    "H4CK3RM4N/Password Attacks.md",
+    "H4CK3RM4N/Basic Commands.md",
+    "H4CK3RM4N/Attacking Common Services.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/2_SMB Relay Attack.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_BruteForce.md",
+    "📗HTB Boxes/Bizness.md",
     "🦊TCM Security/PrivEsc_Windows/4_Escalation_Path-Passwords_and_Port_Forwarding.md",
     "📗HTB Boxes/Chatterbox.md",
     "🦊TCM Security/PrivEsc_Windows/3_Escalation_Path-Kernel_Exploits.md",
     "🟩HTB Academy/04_Footprinting/SMB.md",
-    "H4CK3RM4N/Footprinting.md",
-    "H4CK3RM4N/Active Directory Enumeration.md",
     "📗HTB Boxes/Devel.md",
-    "H4CK3RM4N/Attacking Common Services.md",
-    "H4CK3RM4N/Basic Commands.md",
     "🦊TCM Security/PEH/_AttackPath_.md",
     "🦊TCM Security/PEH/AD_5_Additional AD Attacks/2_PrintNightmare (CVE-2021-1675) Walkthrough.md",
-    "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
-    "📗HTB Boxes/Blue.md",
-    "🦊TCM Security/PrivEsc_Windows/0_Resources.md",
     "🦊TCM Security/PrivEsc_Windows/Untitled",
-    "📗HTB Boxes/CozyHosting.md",
-    "📗HTB Boxes/Bizness.md",
-    "📗HTB Boxes/Bashed.md",
-    "📗HTB Boxes/Nibbles.md",
-    "📗HTB Boxes/Legacy.md",
-    "📗HTB Boxes/Lame.md",
-    "📗HTB Boxes/Jerry.md",
-    "📗HTB Boxes/Granny.md",
-    "📗HTB Boxes/Academy.md",
-    "🦊TCM Security/PrivEsc_Windows/2_Exploring_Automated_Tools.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XXE.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
     "🦊TCM Security/External_PenTest_Playbook",
     "🦊TCM Security/OSINT",
     "🦊TCM Security/PrivEsc_Linux",

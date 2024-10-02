@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/4_Escalation_Path-Passwords_and_Port_Forwarding.md",
+                "file": "📗HTB Boxes/Chatterbox.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📗HTB Boxes/Chatterbox.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/4_Escalation_Path-Passwords_and_Port_Forwarding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,7 +158,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a86b71a5b4ff74d",
+  "active": "714032e4d038728e",
   "lastOpenFiles": [
     "🦊TCM Security/PrivEsc_Windows/4_Escalation_Path-Passwords_and_Port_Forwarding.md",
     "📗HTB Boxes/Chatterbox.md",

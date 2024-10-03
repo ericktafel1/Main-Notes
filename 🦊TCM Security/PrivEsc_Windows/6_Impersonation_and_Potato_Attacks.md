@@ -1,2 +1,0 @@
-#Windows #PrivEsc #Potato #Impersonation
-

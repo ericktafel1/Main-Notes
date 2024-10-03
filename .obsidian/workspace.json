@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/6_Impersonation_and_Potato_Attacks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40f7c121ebd2f2a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/5_PrivEsc-Windows_Subsystem_for_Linux.md",
+                "file": "📗HTB Boxes/Jeeves.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smbmap",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/6_Impersonation_and_Potato_Attacks.md",
+                "file": "📗HTB Boxes/Jeeves.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/6_Impersonation_and_Potato_Attacks.md",
+                "file": "📗HTB Boxes/Jeeves.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/6_Impersonation_and_Potato_Attacks.md"
+                "file": "📗HTB Boxes/Jeeves.md"
               }
             }
           }
@@ -160,10 +148,12 @@
   },
   "active": "e5de277d337bc780",
   "lastOpenFiles": [
+    "🦊TCM Security/PrivEsc_Windows/6_PrivEsc-Impersonation_and_Potato_Attacks.md",
+    "📗HTB Boxes/Jeeves.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/3_Token Impersonation.md",
     "🦊TCM Security/PrivEsc_Windows/5_PrivEsc-Windows_Subsystem_for_Linux.md",
     "🦊TCM Security/PrivEsc_Windows/4_PrivEsc-Passwords_and_Port_Forwarding.md",
     "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
-    "🦊TCM Security/PrivEsc_Windows/6_Impersonation_and_Potato_Attacks.md",
     "📗HTB Boxes/SecNotes.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
     "H4CK3RM4N/Active Directory Enumeration.md",
@@ -184,8 +174,6 @@
     "📗HTB Boxes/Bizness.md",
     "📗HTB Boxes/Chatterbox.md",
     "🟩HTB Academy/04_Footprinting/SMB.md",
-    "📗HTB Boxes/Devel.md",
-    "🦊TCM Security/PEH/_AttackPath_.md",
     "🦊TCM Security/PrivEsc_Windows/Untitled",
     "🦊TCM Security/External_PenTest_Playbook",
     "🦊TCM Security/OSINT",

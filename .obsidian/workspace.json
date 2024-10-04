@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/8_PrivEsc-RunAs.md",
+                "file": "📗HTB Boxes/Access.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/8_PrivEsc-RunAs.md",
+                "file": "📗HTB Boxes/Access.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/8_PrivEsc-RunAs.md"
+                "file": "📗HTB Boxes/Access.md"
               }
             }
           }
@@ -158,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "defa46156d3d23c0",
+  "active": "89874ce426398df4",
   "lastOpenFiles": [
-    "📗HTB Boxes/Access.md",
     "🦊TCM Security/PrivEsc_Windows/8_PrivEsc-RunAs.md",
+    "📗HTB Boxes/Access.md",
     "📗HTB Boxes/Jeeves.md",
     "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
     "H4CK3RM4N/File Transfers.md",

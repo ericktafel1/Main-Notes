@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md",
+                "file": "🦊TCM Security/PrivEsc_Windows/22_PrivEsc-KernelExploits.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
+                "file": "H4CK3RM4N/File Transfers.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "File Transfer",
+                "query": "tag:#SimpleHTTPServer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md",
+                "file": "🦊TCM Security/PrivEsc_Windows/22_PrivEsc-KernelExploits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md",
+                "file": "🦊TCM Security/PrivEsc_Windows/22_PrivEsc-KernelExploits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md"
+                "file": "🦊TCM Security/PrivEsc_Windows/22_PrivEsc-KernelExploits.md"
               }
             }
           }
@@ -160,35 +160,35 @@
   },
   "active": "5eb5566901b65be7",
   "lastOpenFiles": [
+    "🦊TCM Security/PrivEsc_Windows/21_PrivEsc-Memory.md",
+    "🦊TCM Security/PrivEsc_Windows/22_PrivEsc-KernelExploits.md",
+    "🦊TCM Security/PrivEsc_Windows/20_PrivEsc-ConfigFiles.md",
+    "🦊TCM Security/PrivEsc_Windows/6_PrivEsc-Impersonation_and_Potato_Attacks.md",
+    "🦊TCM Security/PrivEsc_Windows/19_PrivEsc-HotPotato.md",
+    "🦊TCM Security/PrivEsc_Windows/18_PrivEsc-UnquotedSericePaths.md",
+    "🦊TCM Security/PrivEsc_Windows/17_PrivEsc-BinaryPaths.md",
+    "🦊TCM Security/PrivEsc_Windows/16_PrivEsc-DLLHijacking.md",
+    "H4CK3RM4N/File Transfers.md",
+    "Study Guide/WADComs.md",
+    "Study Guide/_MyStudyPlan_.md",
+    "Study Guide/TO DO - Boxes, Challenges, Skill Paths, Pro Labs.md",
+    "🤖H4CK3RM4N.md",
     "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
     "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md",
+    "🦊TCM Security/PrivEsc_Windows/15_PrivEsc-StartUp.md",
+    "🦊TCM Security/PrivEsc_Windows/10_PrivEsc-WindowsPrivEscArena.md",
+    "🦊TCM Security/PrivEsc_Windows/9_Overview_THM_WindowsPrivEscArena.md",
+    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
+    "🦊TCM Security/PrivEsc_Windows/2_Exploring_Automated_Tools.md",
+    "🦊TCM Security/PrivEsc_Windows/4_PrivEsc-Passwords_and_Port_Forwarding.md",
+    "🦊TCM Security/PrivEsc_Windows/8_PrivEsc-RunAs.md",
+    "🦊TCM Security/PrivEsc_Windows/14_PrivEsc-ExecutableFiles.md",
+    "🦊TCM Security/PrivEsc_Windows/11_PrivEsc-Autorun.md",
     "🦊TCM Security/PrivEsc_Windows/12_PrivEsc-AlwaysInstallElevated.md",
     "🟩HTB Academy/07_File Transfers/Living off The Land.md",
-    "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
-    "🦊TCM Security/PrivEsc_Windows/11_PrivEsc-Autorun.md",
-    "🦊TCM Security/PrivEsc_Windows/10_PrivEsc-WindowsPrivEscArena.md",
-    "H4CK3RM4N/Active Directory BloodHound.md",
-    "🦊TCM Security/PrivEsc_Windows/9_Overview_THM_WindowsPrivEscArena.md",
-    "🦊TCM Security/PrivEsc_Windows/8_PrivEsc-RunAs.md",
-    "📗HTB Boxes/Access.md",
-    "📗HTB Boxes/Jeeves.md",
-    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
-    "H4CK3RM4N/File Transfers.md",
     "🦊TCM Security/_PNGs/Pasted image 20241004160128.png",
     "🦊TCM Security/_PNGs",
     "🦊TCM Security/_PNGs/Pasted image 20241004155620.png",
-    "📗HTB Boxes/CozyHosting.md",
-    "📗HTB Boxes/SecNotes.md",
-    "🦊TCM Security/PrivEsc_Windows/7_PrivEsc-getsystem.md",
-    "🦊TCM Security/PrivEsc_Windows/6_PrivEsc-Impersonation_and_Potato_Attacks.md",
-    "🦊TCM Security/PrivEsc_Windows/5_PrivEsc-Windows_Subsystem_for_Linux.md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
-    "🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration.md",
-    "🦊TCM Security/PrivEsc_Windows/2_Exploring_Automated_Tools.md",
-    "🦊TCM Security/PrivEsc_Windows/4_PrivEsc-Passwords_and_Port_Forwarding.md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
-    "H4CK3RM4N/Active Directory Enumeration.md",
-    "H4CK3RM4N/Attacking Common Applications.md",
     "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/PrivEsc_Windows/Untitled",
     "🦊TCM Security/External_PenTest_Playbook",

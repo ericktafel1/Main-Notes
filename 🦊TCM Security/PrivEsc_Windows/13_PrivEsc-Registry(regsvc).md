@@ -1,6 +1,6 @@
-#Windows #PrivEsc #Registry #SimpleHTTPServer #msiexec #MSFvenom #metasploit #msfconsole #meterpreter #regsvc #pyftpdlib #SimpleHTTPServer 
+#Windows #PrivEsc #Registry #SimpleHTTPServer #gcc-mingw-w64 #regsvc #pyftpdlib #SimpleHTTPServer #x86_64-w64-mingw32-gcc #sc 
 
-﻿## ﻿﻿﻿﻿**Detection**
+﻿## **Detection**
 
 Windows VM
 

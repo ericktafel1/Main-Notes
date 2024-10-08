@@ -4,25 +4,8 @@
 		* Tier 0 (8 machines) **PWNED**
 		* Tier 1 (10 machines) **PWNED**
 		* Tier 2 (7) **PWNED**
-	* Nibbles **PWNED**
-	* Bizness **PWNED**
-	* Blue **PWNED**
-	* CozyHosting **PWNED**
-	* Granny **PWNED**
-	* Jerry **PWNED**
-	* Lame **PWNED**
-	* Precious **PWNED**
-	* Shocker
-	* Grandpa
-	* Optimum
-	* Legacy
-	* Devel
-	* Soccer
-	* Support
-	- [Active](https://youtu.be/jUc1J31DNdw)		
-	- [Resolute](https://www.youtube.com/watch?v=8KJebvmd1Fk)
-	- [Forest](https://youtu.be/H9FcE_FMZio)
-	- [Cascade](https://youtu.be/mr-fsVLoQGw)
+- Then advance to 2 medium 1 hard
+	- then all hard
 
 * ### **DO THESE CHALLENGES**
 	* Find The Easy Pass

@@ -8,31 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "defa46156d3d23c0",
+            "id": "5eb5566901b65be7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/8_PrivEsc-RunAs.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8c76ef94a4274c78",
+            "id": "e6cbc5cdb108baf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/9_Overview_THM_WindowsPrivEscArena.md",
+                "file": "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bitsadmin",
+                "query": "pyftp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/9_Overview_THM_WindowsPrivEscArena.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/9_Overview_THM_WindowsPrivEscArena.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Windows/9_Overview_THM_WindowsPrivEscArena.md"
+                "file": "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md"
               }
             }
           }
@@ -159,10 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c76ef94a4274c78",
+  "active": "5eb5566901b65be7",
   "lastOpenFiles": [
-    "🦊TCM Security/PrivEsc_Windows/8_PrivEsc-RunAs.md",
+    "🟩HTB Academy/07_File Transfers/Living off The Land.md",
+    "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
+    "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md",
+    "🦊TCM Security/PrivEsc_Windows/12_PrivEsc-AlwaysInstallElevated.md",
+    "🦊TCM Security/PrivEsc_Windows/11_PrivEsc-Autorun.md",
+    "🦊TCM Security/PrivEsc_Windows/10_PrivEsc-WindowsPrivEscArena.md",
+    "H4CK3RM4N/Active Directory BloodHound.md",
     "🦊TCM Security/PrivEsc_Windows/9_Overview_THM_WindowsPrivEscArena.md",
+    "🦊TCM Security/PrivEsc_Windows/8_PrivEsc-RunAs.md",
     "📗HTB Boxes/Access.md",
     "📗HTB Boxes/Jeeves.md",
     "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
@@ -183,14 +189,7 @@
     "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
     "H4CK3RM4N/Active Directory Enumeration.md",
     "H4CK3RM4N/Attacking Common Applications.md",
-    "📗HTB Boxes/Bizness.md",
-    "Templates/Box Writeups.md",
-    "📗HTB Boxes/Jeeves-Tafel_Desktop.md",
-    "H4CK3RM4N/Basic Commands.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
     "Mindmaps/AD Mindmap.canvas",
-    "🤖H4CK3RM4N.md",
-    "H4CK3RM4N/Active Directory BloodHound.md",
     "🦊TCM Security/PrivEsc_Windows/Untitled",
     "🦊TCM Security/External_PenTest_Playbook",
     "🦊TCM Security/OSINT",

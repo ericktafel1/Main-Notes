@@ -9,7 +9,7 @@ tags:
   - Web
   - BurpeSuite
   - RCE
-references: "[[📦HTB Writeups]]"
+references: "[[📚CTF Box Writeups]]"
 ---
 
 In my first attempt at a live box, many hints were obtained. This easy-listed box was not so easy.

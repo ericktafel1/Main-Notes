@@ -9,7 +9,7 @@ tags:
   - RCE
   - SMB
   - EternalBlue
-references: "[[📦HTB Writeups]]"
+references: "[[📚CTF Box Writeups]]"
 ---
 # Enumeration
 

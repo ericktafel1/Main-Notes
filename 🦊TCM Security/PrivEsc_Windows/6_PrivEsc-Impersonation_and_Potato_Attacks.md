@@ -48,7 +48,7 @@ Full privileges cheatsheet at https://github.com/gtworek/Priv2Admin, summary bel
 
 ---
 
-See HTB [[Jeeves]]
+See HTB [[Jeeves - HTB]]
 
 
 # Enumeration

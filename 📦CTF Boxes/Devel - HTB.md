@@ -19,7 +19,7 @@ tags:
   - certutil
   - python
   - FTP
-references: "[[📦HTB Writeups]]"
+references: "[[📚CTF Box Writeups]]"
 ---
 
 # Enumeration

@@ -1,11 +1,29 @@
-#Windows #PrivEsc #CVE-2019-1388 #nmap #gobuster #IIS #RDP #metasploit #msfconsole #Evasion 
-
+---
+date: 2024-10-08
+title: Blaster HTB Write-Up
+machine_ip: 10.10.244.151
+os: Windows
+difficulty: Easy
+my_rating: 4
+tags:
+  - Windows
+  - PrivEsc
+  - CVE-2019-1388
+  - nmap
+  - gobuster
+  - IIS
+  - RDP
+  - metasploit
+  - msfconsole
+  - Evasion
+references: "[[📚CTF Box Writeups]]"
+---
  - [Zero Day Initiative CVE-2019-1388](https://www.youtube.com/watch?v=3BQKpPNlTSo)
  - [Rapid7 CVE-2019-1388](https://www.rapid7.com/db/vulnerabilities/msft-cve-2019-1388)
 
 This is a THM box/room called [Blaster](https://tryhackme.com/r/room/blaster)
-See [[Blaster - THM]]
 
+---
 # Enumeration
 
 - Nmap

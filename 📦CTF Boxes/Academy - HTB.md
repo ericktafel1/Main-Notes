@@ -9,7 +9,7 @@ tags:
   - Web
   - Deserialization
   - Laravel
-references: "[[📦HTB Writeups]]"
+references: "[[📚CTF Box Writeups]]"
 ---
 ## Enumeration
 

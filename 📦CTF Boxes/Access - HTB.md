@@ -17,7 +17,7 @@ tags:
   - whoami
   - cmdkey
   - gobuster
-references: "[[📦HTB Writeups]]"
+references: "[[📚CTF Box Writeups]]"
 ---
 
 # Enumeration

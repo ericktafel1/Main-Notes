@@ -6,7 +6,7 @@ os: Windows
 difficulty: Medium
 my_rating: 
 tags: 
-references: "[[📦HTB Writeups]]"
+references: "[[📚CTF Box Writeups]]"
 ---
 dataview properties:
 dataview properties:

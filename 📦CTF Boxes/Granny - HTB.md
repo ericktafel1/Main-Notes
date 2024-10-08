@@ -10,7 +10,7 @@ tags:
   - FileUpload
   - Misconfig
   - ASP
-references: "[[📦HTB Writeups]]"
+references: "[[📚CTF Box Writeups]]"
 ---
 ## Information Gathering
 

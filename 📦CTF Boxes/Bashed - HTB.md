@@ -6,5 +6,5 @@ os: Linux
 difficulty: Easy
 my_rating: 
 tags: 
-references: "[[📦HTB Writeups]]"
+references: "[[📚CTF Box Writeups]]"
 ---

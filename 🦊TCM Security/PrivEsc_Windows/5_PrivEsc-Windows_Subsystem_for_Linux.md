@@ -1,6 +1,6 @@
 #Windows #PrivEsc #WSL #dirsearch #psexec #wmiexec #smbexec #smbmap #SMB #XSS #SQLInjection #php #stty #history
 
-See HTB [[SecNotes]]
+See HTB [[SecNotes - HTB]]
 
 # Enumeration
 

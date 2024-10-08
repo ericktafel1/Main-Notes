@@ -22,7 +22,7 @@ tags:
   - wmiexec
   - winexec
   - PortForwarding
-references: "[[📦HTB Writeups]]"
+references: "[[📚CTF Box Writeups]]"
 ---
 
 # Enumeration

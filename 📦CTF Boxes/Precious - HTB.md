@@ -11,7 +11,7 @@ tags:
   - RCE
   - Injections
   - Deserialization
-references: "[[📦HTB Writeups]]"
+references: "[[📚CTF Box Writeups]]"
 ---
 ## Enumeration
 

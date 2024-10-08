@@ -21,7 +21,7 @@ tags:
   - php
   - stty
   - history
-references: "[[📦HTB Writeups]]"
+references: "[[📚CTF Box Writeups]]"
 ---
 
 # Enumeration

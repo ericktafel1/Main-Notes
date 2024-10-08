@@ -8,7 +8,7 @@ my_rating: 4
 tags:
   - "#RCE"
   - DefaultCred
-references: "[[📦HTB Writeups]]"
+references: "[[📚CTF Box Writeups]]"
 ---
 ## Enumeration
 

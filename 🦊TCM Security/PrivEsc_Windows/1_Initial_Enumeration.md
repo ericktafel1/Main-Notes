@@ -1,6 +1,6 @@
 #Enum #meterpreter #wmic #whoami #net #ipconfig #arp #route #netstat #findstr #netsh #sc
 
-- Complete HTB Machine: [[Devel]]
+- Complete HTB Machine: [[Devel - HTB]]
 
 `msf6 post(multi/recon/local_exploit_suggester) > `
 

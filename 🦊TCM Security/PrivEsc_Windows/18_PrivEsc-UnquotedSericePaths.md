@@ -1,5 +1,5 @@
 #Windows #PrivEsc #UnquotedServicePaths #sc #msfconsole #meterpreter #MSFvenom 
-
+==common PrivEsc on CTFs/certificates!==
 ## **Detection**
 
 Windows VM

@@ -1,5 +1,5 @@
 #Windows #PrivEsc #BinaryPaths #sc #Accesschk #PowerUp 
-==common PrivEsc!==
+==common PrivEsc on CTFs/certificates!==
 ## **Detection**
 
 Windows VM

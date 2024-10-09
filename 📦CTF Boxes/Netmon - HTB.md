@@ -85,9 +85,7 @@ Password:
 - Searchsploit shows PRTG Network Monitor 18.2.38 is vulnerable to (Authenticated) Remote Code Execution - `windows/webapps/46527.sh`
 	- exploit tells us to log into the app with default creds of `prtgadmin:prtgadmin`, grab the cookie once authenticated and use it in the script.
 	- Default creds won't work. Back to enumerating the config file.
-- Turns out Netmon is such an old box that the config file we need was removed by another hacker and they have not performed maintenance.
-- Following a writeup, the files in the directory don't match up and the "PRTG Network Monitor" folder is in a different spot with many other files none of which is the config file we need.
-	- Continuing with assumed breach of creds `prtgadmin:PrTg@dmin2018`
+	- `ls -al` REMEMBER TO LOOK FOR HIDDEN FILES
 ==resume here==
 
 

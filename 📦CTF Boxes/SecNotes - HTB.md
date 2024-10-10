@@ -4,7 +4,7 @@ title: SecNotes HTB Write-Up
 machine_ip: 10.10.10.97
 os: Windows
 difficulty: Medium
-my_rating: 
+my_rating: 3
 tags:
   - Windows
   - PrivEsc

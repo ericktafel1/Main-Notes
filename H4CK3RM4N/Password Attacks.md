@@ -1,13 +1,13 @@
 ### Connecting to Target
 
-|   |   |
-|---|---|
-|**Command**|**Description**|
-|`xfreerdp /v:<ip> /u:htb-student /p:HTB_@cademy_stdnt!`|CLI-based tool used to connect to a Windows target using the Remote Desktop Protocol.|
-|`evil-winrm -i <ip> -u user -p password`|Uses Evil-WinRM to establish a Powershell session with a target.|
-|`ssh user@<ip>`|Uses SSH to connect to a target using a specified user.|
-|`smbclient -U user \\\\<ip>\\SHARENAME`|Uses smbclient to connect to an SMB share using a specified user.|
-|`python3 smbserver.py -smb2support CompData /home/<nameofuser>/Documents/`|Uses smbserver.py to create a share on a linux-based attack host. Can be useful when needing to transfer files from a target to an attack host.|
+|                                                                            |                                                                                                                                                 |
+| -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Command**                                                                | **Description**                                                                                                                                 |
+| `xfreerdp /v:<ip> /u:htb-student /p:HTB_@cademy_stdnt!`                    | CLI-based tool used to connect to a Windows target using the Remote Desktop Protocol.                                                           |
+| `evil-winrm -i <ip> -u user -p password`                                   | Uses Evil-WinRM to establish a Powershell session with a target.                                                                                |
+| `ssh user@<ip>`                                                            | Uses SSH to connect to a target using a specified user.                                                                                         |
+| `smbclient -U user \\\\<ip>\\SHARENAME`                                    | Uses smbclient to connect to an SMB share using a specified user.                                                                               |
+| `python3 smbserver.py -smb2support CompData /home/<nameofuser>/Documents/` | Uses smbserver.py to create a share on a linux-based attack host. Can be useful when needing to transfer files from a target to an attack host. |
 
 ---
 

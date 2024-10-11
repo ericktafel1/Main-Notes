@@ -30,12 +30,16 @@ references: HTB Writeups
 
 # Enumeration
 
-- Nmap
+- Ports
+	- Nmap
 	- Rustscan
-	- etc
-- Dirbuster
+	
+- Web enumeration
+	- feroxbuster
+	- gobuster
+	- Dirbuster
 	- dirsearch
-	- etc
+	- whatweb
 
 
 # Foothold

@@ -3,6 +3,6 @@
 CTF Boxes:
 1. [[Netmon - HTB]]
 2. [[Arctic - HTB]]
-3. Bastard
+3. [[Bastard - HTB]]
 4. Bastion
 5. Querier

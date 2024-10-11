@@ -8,25 +8,6 @@ my_rating:
 tags: 
 references: "[[📚CTF Box Writeups]]"
 ---
-dataview properties:
-dataview properties:
-
----
-date:
-title: HTB Write-Up
-machine_ip: 
-os: 
-difficulty: 
-my_rating
-tags:
-references: HTB Writeups
-
----
-
-
-*must be on first line
-
-
 
 # Enumeration
 

@@ -45,7 +45,7 @@ references: HTB Writeups
 	
 - Web enumeration
 	- feroxbuster
-		- `feroxbuster -u http://<ip> -r -v`
+		- `feroxbuster -u http://<ip> -k -r -v --filter-status 403 400 500 503 404`
 	- gobuster
 		- `gobuster dir -u  http://<ip> --wordlist /path/to/wordlist.txt`
 	- Dirbuster, dirsearch, whatweb, etc.
@@ -55,4 +55,5 @@ references: HTB Writeups
 
 
 # PrivEsc
-- escalate from webshell to user to root
+[[Privilege Escalation]], [[1_Initial_Enumeration]]
+- escalate to root

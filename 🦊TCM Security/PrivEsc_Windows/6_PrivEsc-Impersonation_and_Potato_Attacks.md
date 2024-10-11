@@ -32,7 +32,8 @@ Full privileges cheatsheet at https://github.com/gtworek/Priv2Admin, summary bel
 
 ---
 
-# Potato Attacks
+# [Potato Attacks](https://jlajara.gitlab.io/Potatoes_Windows_Privesc#sweetPotato)
+
 
 1. Rotten Potato - [https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/](https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/)
 

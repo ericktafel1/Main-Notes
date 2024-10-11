@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "942b7dfe2379278e",
+            "id": "af4c8b33afb6c06b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "af4c8b33afb6c06b",
+            "id": "5eb5566901b65be7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,15 +32,31 @@
             }
           },
           {
-            "id": "8b8e70ed607ee2c3",
+            "id": "341881e9efa79ac3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "📦CTF Boxes/_CTF Writeup Template 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91f8923163aea532",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -69,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "transfer file",
+                "query": "WebApp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📦CTF Boxes/Arctic - HTB.md",
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📦CTF Boxes/Arctic - HTB.md",
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📦CTF Boxes/Arctic - HTB.md"
+                "file": "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md"
               }
             }
           }
@@ -167,34 +183,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "91f8923163aea532",
   "lastOpenFiles": [
-    "☣️Method.md",
-    "📦CTF Boxes/Arctic - HTB.md",
-    "🦊TCM Security/PrivEsc_Windows/6_PrivEsc-Impersonation_and_Potato_Attacks.md",
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/5_Passback Attacks.md",
-    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
-    "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/IDOR (BOLA).md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XXE.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_SQL.md",
     "🟩HTB Academy/08_Shells & Payloads/Automating Payloads & Delivery with Metasploit.md",
-    "H4CK3RM4N/Attacking Common Services.md",
-    "Anti-Metasploit Cheatsheet.md",
-    "🟩HTB Academy/01_PenTest Process/Academy Modules Layout.md",
+    "📦CTF Boxes/Arctic - HTB.md",
+    "📦CTF Boxes/_CTF Writeup Template 1.md",
+    "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
+    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
+    "📦CTF Boxes/Access - HTB.md",
+    "🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration.md",
+    "🦊TCM Security/PrivEsc_Windows/2_Exploring_Automated_Tools.md",
+    "🦊TCM Security/PrivEsc_Windows/4_PrivEsc-Passwords_and_Port_Forwarding.md",
+    "H4CK3RM4N/File Transfers.md",
+    "🟩HTB Academy/07_File Transfers/File Transfers.md",
+    "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
+    "🦊TCM Security/PrivEsc_Windows/6_PrivEsc-Impersonation_and_Potato_Attacks.md",
+    "📦CTF Boxes/_CTF Writeup Template.md",
+    "🦊TCM Security/PrivEsc_Windows/8_PrivEsc-RunAs.md",
+    "🦊TCM Security/PrivEsc_Windows/7_PrivEsc-getsystem.md",
     "🦊TCM Security/PrivEsc_Windows/5_PrivEsc-Windows_Subsystem_for_Linux.md",
+    "☣️Method.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks/3_Gaining Shell Access.md",
-    "🟩HTB Academy/07_File Transfers/Windows File Transfer Methods.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Lab Setup with Docker Containers.md",
-    "🟩HTB Academy/00_Fundamentals/Intro to Windows Command Line.md",
-    "H4CK3RM4N/Basic Commands.md",
-    "🟩HTB Academy/07_File Transfers/Living off The Land.md",
-    "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/0_PowerView.md",
-    "📚CTF Box Writeups.md",
-    "📦CTF Boxes/Nibbles - HTB.md",
-    "📦CTF Boxes/Bizness - HTB.md",
-    "🟩HTB Academy/02_Get Started/Basic Tools.md",
-    "📦CTF Boxes/Jeeves - HTB.md",
-    "🤖H4CK3RM4N.md",
-    "README.md",
+    "📦CTF Boxes/Academy - HTB.md",
     "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/_PNGs/Pasted image 20241004160128.png",
     "🦊TCM Security/_PNGs",

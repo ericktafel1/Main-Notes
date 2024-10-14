@@ -30,19 +30,19 @@ references: HTB Writeups
 
 # Enumeration
 
-- Ports
-	- Rustscan
-		- `rustscan -a 10.10.10.10 -t 500 -b 1500 -- -sVC` 
-		- `-- -` then nmap tacks
-			- Misses some open ports so also use **nmap**
-		- Also, may need do manage the container
-			- `docker ps -a`
-			- `docker rm -f <name>`
-			- `alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:alpine'`
-			- Then run scan...
-	- Nmap
-		- `nmap -sVC -A -Pn <ip>`
-	
+
+- Rustscan
+	- `rustscan -a 10.10.10.10 -t 500 -b 1500 -- -sVC` 
+	- `-- -` then nmap tacks
+		- Misses some open ports so also use **nmap**
+	- Also, may need do manage the container
+		- `docker ps -a`
+		- `docker rm -f <name>`
+		- `alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:alpine'`
+		- Then run scan...
+- Nmap
+	- `nmap -sVC -A -Pn <ip>`
+
 - Web enumeration
 	- feroxbuster
 		- `feroxbuster -u http://<ip> -k -r -v --filter-status 403 400 500 503 404`

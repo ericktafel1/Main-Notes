@@ -1,6 +1,6 @@
 ---
 date: 2024-10-08
-title: Blaster HTB Write-Up
+title: Blaster THM Write-Up
 machine_ip: 10.10.244.151
 os: Windows
 difficulty: Easy

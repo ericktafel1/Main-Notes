@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md",
+                "file": "📦CTF Boxes/EasyCTF - THM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1eeb2cc593440c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🦊TCM Security/PrivEsc_Linux/0_Resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ftp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md",
+                "file": "📦CTF Boxes/EasyCTF - THM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md",
+                "file": "📦CTF Boxes/EasyCTF - THM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md"
+                "file": "📦CTF Boxes/EasyCTF - THM.md"
               }
             }
           }
@@ -161,32 +173,32 @@
   },
   "active": "91f8923163aea532",
   "lastOpenFiles": [
-    "🦊TCM Security/PrivEsc_Linux/DO THIS.md",
-    "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md",
-    "🦊TCM Security/PrivEsc_Linux/3_PrivEsc-Kernel_Exploits.md",
-    "🦊TCM Security/PrivEsc_Linux/2_Exploring_Automated_Tools.md",
+    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
+    "📦CTF Boxes/EasyCTF - THM.md",
+    "🦊TCM Security/PrivEsc_Linux/0_Resources.md",
+    "📦CTF Boxes/Access - HTB.md",
+    "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
+    "📦CTF Boxes/Bastard - HTB.md",
+    "📦CTF Boxes/Arctic - HTB.md",
+    "📦CTF Boxes/_CTF Writeup Template.md",
+    "🟩HTB Academy/02_Get Started/Privilege Escalation.md",
+    "📦CTF Boxes/Blaster - THM.md",
+    "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md",
     "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
+    "🦊TCM Security/PrivEsc_Windows/10_PrivEsc-WindowsPrivEscArena.md",
+    "🦊TCM Security/PrivEsc_Linux/2_Exploring_Automated_Tools.md",
+    "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md",
+    "🦊TCM Security/PrivEsc_Windows/4_PrivEsc-Passwords_and_Port_Forwarding.md",
+    "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
+    "🦊TCM Security/PrivEsc_Linux/DO THIS.md",
+    "🦊TCM Security/PrivEsc_Linux/3_PrivEsc-Kernel_Exploits.md",
     "🦊TCM Security/PrivEsc_Windows/2_Exploring_Automated_Tools.md",
     "🦊TCM Security/PrivEsc_Linux/00_Checklist.md",
-    "🦊TCM Security/PrivEsc_Linux/0_Resources.md",
     "🦊TCM Security/PrivEsc_Linux/2_.md",
     "🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration.md",
     "🦊TCM Security/PrivEsc_Windows/0_Resources.md",
     "☣️Method.md",
-    "📦CTF Boxes/Arctic - HTB.md",
     "🦊TCM Security/PrivEsc_Windows/00_Checklist.md",
-    "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
-    "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!-MUGG3S3GG3L3.md",
-    "📦CTF Boxes/Netmon - HTB.md",
-    "📦CTF Boxes/Bastard - HTB.md",
-    "📦CTF Boxes/Querier - HTB.md",
-    "📦CTF Boxes/Blaster - THM.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/IDOR (BOLA).md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XXE.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
     "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/_PNGs/Pasted image 20241004160128.png",
     "🦊TCM Security/_PNGs",

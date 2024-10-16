@@ -8,3 +8,4 @@ Checklist - Linux Privilege Escalation - [https://book.hacktricks.xyz/linux-uni
 Sushant 747's Guide (Country dependant - may need VPN) - [https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_-_linux.html](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_-_linux.html)
 
 All links and resources found in the course can also be found at the following repository: [https://github.com/Gr1mmie/Linux-Privilege-Escalation-Resources](https://github.com/Gr1mmie/Linux-Privilege-Escalation-Resources)
+

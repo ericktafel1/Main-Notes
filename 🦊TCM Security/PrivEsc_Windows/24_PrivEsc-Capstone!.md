@@ -10,7 +10,7 @@ CTF Boxes:
 		- PrivEsc #MS15-051
 		- I just did #JuicyPotato and rooted it...
 3. [[Netmon - HTB]]
-	- The Alfred THM box substituted for [[Netmon - HTB]] and [[Access - HTB]]
+	- The Alfred THM box substituted for [[Netmon - HTB]]
 		- web portal enumeration
 		- `admin:admin` logs in as default
 		- In configure tab, can run windows batch command, get revshell

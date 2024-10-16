@@ -50,10 +50,13 @@ references: HTB Writeups
 		- `gobuster dir -u  http://<ip> --wordlist /path/to/wordlist.txt`
 	- Dirbuster, dirsearch, whatweb, etc.
 
+---
 # Foothold
+
 - gain shell via exploit
 
 
+---
 # PrivEsc
-[[Privilege Escalation]], [[🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration]]
+
 - escalate to root

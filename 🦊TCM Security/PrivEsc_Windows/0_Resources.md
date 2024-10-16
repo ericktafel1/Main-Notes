@@ -6,6 +6,6 @@ PayloadsAllTheThings Guide - [https://github.com/swisskyrepo/PayloadsAllTheThin
 Absolomb Windows Privilege Escalation Guide - [https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/](https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/)
 
 Sushant 747's Guide (Country dependant - may need VPN) - [https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html)
-
+Checklist - Windows Privilege Escalation - https://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation
 
 https://github.com/Gr1mmie/Windows-Priviledge-Escalation-Resources

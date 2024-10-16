@@ -379,7 +379,7 @@ l4mpje@BASTION C:\Users\L4mpje\Desktop>type user.txt
 6c3d56614e31bc8a2be0e58c9657716e 
 ```
 # PrivEsc
-[[Privilege Escalation]], [[1_Initial_Enumeration]]
+[[Privilege Escalation]], [[🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration]]
 - escalate to root
 - Let's transfer tools to check for vulnerabilities 
 	- #windows-exploit-suggester  using #SCP 

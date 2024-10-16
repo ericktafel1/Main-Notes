@@ -583,7 +583,7 @@ d9ed27c6e5126ab162f325652c877bac
 ```
 
 # PrivEsc
-[[Privilege Escalation]], [[1_Initial_Enumeration]]
+[[Privilege Escalation]], [[🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration]]
 - escalate to root
 - PowerUp.ps1 #PowerUp is always first to try.
 	- Transfer over using using #PowerShell 

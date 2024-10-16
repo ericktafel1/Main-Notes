@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "91f8923163aea532",
+            "id": "341881e9efa79ac3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Invoke-WebReq",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
+                "file": "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md"
+                "file": "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md"
               }
             }
           }
@@ -159,34 +159,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91f8923163aea532",
+  "active": "341881e9efa79ac3",
   "lastOpenFiles": [
-    "🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration.md",
-    "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
-    "🦊TCM Security/PrivEsc_Linux/0_Resources.md",
-    "🦊TCM Security/PrivEsc_Windows/0_Resources.md",
-    "☣️Method.md",
-    "📦CTF Boxes/Arctic - HTB.md",
-    "🦊TCM Security/PrivEsc_Linux/00_Checklist.md",
-    "🦊TCM Security/PrivEsc_Windows/00_Checklist.md",
-    "🦊TCM Security/PrivEsc_Linux/DO THIS.md",
-    "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
-    "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!-MUGG3S3GG3L3.md",
-    "📦CTF Boxes/Netmon - HTB.md",
-    "📦CTF Boxes/Bastard - HTB.md",
     "📦CTF Boxes/Querier - HTB.md",
-    "📦CTF Boxes/Blaster - THM.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Command Injection.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/IDOR (BOLA).md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Insecure File Upload.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XXE.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_SQL.md",
-    "🟩HTB Academy/08_Shells & Payloads/Automating Payloads & Delivery with Metasploit.md",
-    "📦CTF Boxes/_CTF Writeup Template 1.md",
+    "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
+    "🟩HTB Academy/07_File Transfers/Detection.md",
     "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
-    "📦CTF Boxes/Access - HTB.md",
+    "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
+    "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
+    "🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration.md",
+    "🦊TCM Security/PEH/_AttackPath_.md",
+    "📦CTF Boxes/Bastion - HTB.md",
+    "📦CTF Boxes/_CTF Writeup Template.md",
+    "🦊TCM Security/PrivEsc_Windows/13_PrivEsc-Registry(regsvc).md",
+    "H4CK3RM4N/File Transfers.md",
+    "🦊TCM Security/PrivEsc_Windows/14_PrivEsc-ExecutableFiles.md",
+    "🦊TCM Security/PrivEsc_Windows/12_PrivEsc-AlwaysInstallElevated.md",
+    "🦊TCM Security/PrivEsc_Windows/11_PrivEsc-Autorun.md",
+    "🦊TCM Security/PrivEsc_Windows/10_PrivEsc-WindowsPrivEscArena.md",
+    "Pasted image 20241014144015.png",
+    "Pasted image 20241014144007.png",
+    "🦊TCM Security/PrivEsc_Windows/15_PrivEsc-StartUp.md",
+    "🦊TCM Security/PrivEsc_Windows/16_PrivEsc-DLLHijacking.md",
+    "Anti-Metasploit Cheatsheet.md",
+    "🤖H4CK3RM4N.md",
+    "🦊TCM Security/PrivEsc_Windows/17_PrivEsc-BinaryPaths.md",
+    "🦊TCM Security/PrivEsc_Windows/19_PrivEsc-HotPotato.md",
+    "🦊TCM Security/PrivEsc_Windows/20_PrivEsc-ConfigFiles.md",
+    "🦊TCM Security/PrivEsc_Windows/21_PrivEsc-Memory.md",
+    "🦊TCM Security/PrivEsc_Windows/22_PrivEsc-KernelExploits.md",
+    "🦊TCM Security/PrivEsc_Windows/23_PrivEsc-CVE-2019-1388.md",
     "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/_PNGs/Pasted image 20241004160128.png",
     "🦊TCM Security/_PNGs",
@@ -206,8 +208,6 @@
     "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621144427.png",
-    "🟩HTB Academy/_PNGs/Pasted image 20240621162132.png",
-    "🟩HTB Academy/_PNGs/Pasted image 20240621154904.png",
     "Untitled.canvas"
   ]
 }

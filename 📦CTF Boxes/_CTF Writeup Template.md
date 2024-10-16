@@ -55,5 +55,5 @@ references: HTB Writeups
 
 
 # PrivEsc
-[[Privilege Escalation]], [[1_Initial_Enumeration]]
+[[Privilege Escalation]], [[🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration]]
 - escalate to root

@@ -1,4 +1,0 @@
-- **pick up dry cleaning under amanda phone number**
-- **clean air fryer**
-- **detergent in laundry washer**
-- **text size of picture frame**

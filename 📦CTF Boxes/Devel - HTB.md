@@ -188,7 +188,7 @@ Server username: IIS APPPOOL\Web
 ```
 
 
-For more enumeration: [[2_Exploring_Automated_Tools]]
+For more enumeration: [[🦊TCM Security/PrivEsc_Windows/2_Exploring_Automated_Tools]]
 
 # PrivEsc
 - escalate from web shell to user to root

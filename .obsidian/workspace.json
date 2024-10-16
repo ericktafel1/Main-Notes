@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
+                "file": "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
+                "file": "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
+                "file": "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md"
+                "file": "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md"
               }
             }
           }
@@ -161,15 +161,20 @@
   },
   "active": "91f8923163aea532",
   "lastOpenFiles": [
-    "🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration.md",
+    "🦊TCM Security/PrivEsc_Linux/DO THIS.md",
+    "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md",
+    "🦊TCM Security/PrivEsc_Linux/3_PrivEsc-Kernel_Exploits.md",
+    "🦊TCM Security/PrivEsc_Linux/2_Exploring_Automated_Tools.md",
     "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
+    "🦊TCM Security/PrivEsc_Windows/2_Exploring_Automated_Tools.md",
+    "🦊TCM Security/PrivEsc_Linux/00_Checklist.md",
     "🦊TCM Security/PrivEsc_Linux/0_Resources.md",
+    "🦊TCM Security/PrivEsc_Linux/2_.md",
+    "🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration.md",
     "🦊TCM Security/PrivEsc_Windows/0_Resources.md",
     "☣️Method.md",
     "📦CTF Boxes/Arctic - HTB.md",
-    "🦊TCM Security/PrivEsc_Linux/00_Checklist.md",
     "🦊TCM Security/PrivEsc_Windows/00_Checklist.md",
-    "🦊TCM Security/PrivEsc_Linux/DO THIS.md",
     "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
     "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!-MUGG3S3GG3L3.md",
     "📦CTF Boxes/Netmon - HTB.md",
@@ -182,11 +187,6 @@
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XXE.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/XSS.md",
     "🦊TCM Security/PEH/WebApp_2_Find&Exploit/SQL Injection.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Checklist_SQL.md",
-    "🟩HTB Academy/08_Shells & Payloads/Automating Payloads & Delivery with Metasploit.md",
-    "📦CTF Boxes/_CTF Writeup Template 1.md",
-    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
-    "📦CTF Boxes/Access - HTB.md",
     "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/_PNGs/Pasted image 20241004160128.png",
     "🦊TCM Security/_PNGs",

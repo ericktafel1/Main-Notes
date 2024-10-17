@@ -88,7 +88,11 @@ void _init() {
 
 ---
 
-# Simple CTF - THM
+# CTF Challenge
+
+[[EasyCTF - THM]]
+
+- The box was easy however, it was unstable.
 
 [dirsearch](https://github.com/maurosoria/dirsearch)
 

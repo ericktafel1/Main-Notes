@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📦CTF Boxes/EasyCTF - THM.md",
+                "file": "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📦CTF Boxes/EasyCTF - THM.md",
+                "file": "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📦CTF Boxes/EasyCTF - THM.md",
+                "file": "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📦CTF Boxes/EasyCTF - THM.md"
+                "file": "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md"
               }
             }
           }
@@ -173,17 +173,17 @@
   },
   "active": "91f8923163aea532",
   "lastOpenFiles": [
-    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
     "📦CTF Boxes/EasyCTF - THM.md",
+    "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md",
+    "📦CTF Boxes/_CTF Writeup Template.md",
+    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
     "🦊TCM Security/PrivEsc_Linux/0_Resources.md",
     "📦CTF Boxes/Access - HTB.md",
     "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
     "📦CTF Boxes/Bastard - HTB.md",
     "📦CTF Boxes/Arctic - HTB.md",
-    "📦CTF Boxes/_CTF Writeup Template.md",
     "🟩HTB Academy/02_Get Started/Privilege Escalation.md",
     "📦CTF Boxes/Blaster - THM.md",
-    "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md",
     "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
     "🦊TCM Security/PrivEsc_Windows/10_PrivEsc-WindowsPrivEscArena.md",
     "🦊TCM Security/PrivEsc_Linux/2_Exploring_Automated_Tools.md",

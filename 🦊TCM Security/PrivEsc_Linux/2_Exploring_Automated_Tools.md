@@ -2,7 +2,11 @@
 
 1. [linPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS) **Favorite Tool, Run First then use linux-exploit-suggester** ==1st==
 	- #linpeas 
-	- `./linpeas.sh`'
+	- `./linpeas.sh`
+	- No install:
+```
+curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh
+```
 	- Focus on red w/ yellow highlights first, then red
 2. [LinEnum](https://github.com/rebootuser/LinEnum)
 	- #LinEnum

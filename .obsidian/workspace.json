@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📦CTF Boxes/_CTF Writeup Template.md",
+                "file": "📦CTF Boxes/VulnVersity - THM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_CTF Writeup Template"
+              "title": "VulnVersity - THM"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "l4mpje",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,10 +191,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65521ad57e058826",
+  "active": "08f4562ded6ca375",
   "lastOpenFiles": [
-    "📦CTF Boxes/_CTF Writeup Template.md",
+    "🦊TCM Security/PrivEsc_Linux/2_Exploring_Automated_Tools.md",
+    "📦CTF Boxes/VulnVersity - THM.md",
     "🦊TCM Security/PrivEsc_Linux/6_PrivEsc-SUID.md",
+    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
+    "🦊TCM Security/PrivEsc_Windows/5_PrivEsc-Windows_Subsystem_for_Linux.md",
+    "📦CTF Boxes/Nibbles - HTB.md",
+    "📦CTF Boxes/_CTF Writeup Template.md",
     "📦CTF Boxes/Bastard - HTB.md",
     "📦CTF Boxes/VulnUniversity - THM.md",
     "📦CTF Boxes/Devel - HTB.md",
@@ -212,15 +217,10 @@
     "Pasted image 20241014144007.png",
     "🦊TCM Security/PrivEsc_Linux/Untitled 1.md",
     "🦊TCM Security/PrivEsc_Linux/0_Resources.md",
-    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
     "📦CTF Boxes/Access - HTB.md",
     "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
     "📦CTF Boxes/Arctic - HTB.md",
     "🟩HTB Academy/02_Get Started/Privilege Escalation.md",
-    "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
-    "🦊TCM Security/PrivEsc_Windows/10_PrivEsc-WindowsPrivEscArena.md",
-    "🦊TCM Security/PrivEsc_Linux/2_Exploring_Automated_Tools.md",
-    "🦊TCM Security/PrivEsc_Windows/4_PrivEsc-Passwords_and_Port_Forwarding.md",
     "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/_PNGs/Pasted image 20241004160128.png",
     "🦊TCM Security/_PNGs",

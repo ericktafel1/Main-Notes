@@ -6,8 +6,7 @@
 Linux VM
 
 1. In command prompt type: `find / -type f -perm -04000 -ls 2>/dev/null`
-	1. ... or `find / -type f -perm -u=s 2>/dev/null`
-2. From the output, make note of all the SUID binaries.
+2. From the output, make note of all the SUID binaries. e.g. `/usr/bin/chsh` SEARCH [GTFOBins](https://gtfobins.github.io/#+suid) 
 3. In command line type:
 `strace /usr/local/bin/suid-so 2>&1 | grep -i -E "open|access|no such file"`
 4. From the output, notice that a .so file is missing from a writable directory.
@@ -38,10 +37,6 @@ void inject() {
 ---
 # CTF Challenge
 
-VulnUniversity - THM
+[[VulnUniversity - THM]]
 
-==Began enumeration, and kept dropping connection to the server.
-`http://10.10.8.214:3333/internal`
-I restarted the machine from THM multiple times, switched vpn regions, regenerated, redownloaded, and no luck.
-
-==FIXED? Do box==
+---

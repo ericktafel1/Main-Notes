@@ -16,31 +16,37 @@
                 "file": "☣️Method.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "☣️Method"
             }
           },
           {
-            "id": "91f8923163aea532",
+            "id": "65521ad57e058826",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md",
+                "file": "🦊TCM Security/PrivEsc_Linux/6_PrivEsc-SUID.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "6_PrivEsc-SUID"
             }
           },
           {
-            "id": "d1eeb2cc593440c5",
+            "id": "08f4562ded6ca375",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/0_Resources.md",
+                "file": "📦CTF Boxes/_CTF Writeup Template.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "_CTF Writeup Template"
             }
           }
         ],
@@ -64,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -73,13 +81,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ftp",
+                "query": "l4mpje",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -87,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md",
+                "file": "🦊TCM Security/PrivEsc_Linux/6_PrivEsc-SUID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +130,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 6_PrivEsc-SUID"
             }
           },
           {
@@ -127,10 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md",
+                "file": "🦊TCM Security/PrivEsc_Linux/6_PrivEsc-SUID.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 6_PrivEsc-SUID"
             }
           },
           {
@@ -141,7 +157,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -150,8 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md"
-              }
+                "file": "🦊TCM Security/PrivEsc_Linux/6_PrivEsc-SUID.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 6_PrivEsc-SUID"
             }
           }
         ]
@@ -171,34 +191,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91f8923163aea532",
+  "active": "65521ad57e058826",
   "lastOpenFiles": [
+    "📦CTF Boxes/_CTF Writeup Template.md",
+    "🦊TCM Security/PrivEsc_Linux/6_PrivEsc-SUID.md",
+    "📦CTF Boxes/Bastard - HTB.md",
+    "📦CTF Boxes/VulnUniversity - THM.md",
+    "📦CTF Boxes/Devel - HTB.md",
+    "📦CTF Boxes/Blaster - THM.md",
+    "📦CTF Boxes/Bastion - HTB.md",
+    "📦CTF Boxes/Querier - HTB.md",
+    "📦CTF Boxes/SecNotes - HTB.md",
+    "☣️Method.md",
     "📦CTF Boxes/EasyCTF - THM.md",
     "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md",
-    "📦CTF Boxes/_CTF Writeup Template.md",
-    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
+    "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md",
+    "🦊TCM Security/PrivEsc_Linux/3_PrivEsc-Kernel_Exploits.md",
+    "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
+    "Pasted image 20241014144015.png",
+    "Pasted image 20241014144007.png",
+    "🦊TCM Security/PrivEsc_Linux/Untitled 1.md",
     "🦊TCM Security/PrivEsc_Linux/0_Resources.md",
+    "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
     "📦CTF Boxes/Access - HTB.md",
     "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
-    "📦CTF Boxes/Bastard - HTB.md",
     "📦CTF Boxes/Arctic - HTB.md",
     "🟩HTB Academy/02_Get Started/Privilege Escalation.md",
-    "📦CTF Boxes/Blaster - THM.md",
     "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
     "🦊TCM Security/PrivEsc_Windows/10_PrivEsc-WindowsPrivEscArena.md",
     "🦊TCM Security/PrivEsc_Linux/2_Exploring_Automated_Tools.md",
-    "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md",
     "🦊TCM Security/PrivEsc_Windows/4_PrivEsc-Passwords_and_Port_Forwarding.md",
-    "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
-    "🦊TCM Security/PrivEsc_Linux/DO THIS.md",
-    "🦊TCM Security/PrivEsc_Linux/3_PrivEsc-Kernel_Exploits.md",
-    "🦊TCM Security/PrivEsc_Windows/2_Exploring_Automated_Tools.md",
-    "🦊TCM Security/PrivEsc_Linux/00_Checklist.md",
-    "🦊TCM Security/PrivEsc_Linux/2_.md",
-    "🦊TCM Security/PrivEsc_Windows/1_Initial_Enumeration.md",
-    "🦊TCM Security/PrivEsc_Windows/0_Resources.md",
-    "☣️Method.md",
-    "🦊TCM Security/PrivEsc_Windows/00_Checklist.md",
     "Mindmaps/AD Mindmap.canvas",
     "🦊TCM Security/_PNGs/Pasted image 20241004160128.png",
     "🦊TCM Security/_PNGs",
@@ -218,8 +240,6 @@
     "🟩HTB Academy/_PNGs/Pasted image 20240626110321.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240504105027.png",
     "🟩HTB Academy/_PNGs/Pasted image 20240621144427.png",
-    "🟩HTB Academy/_PNGs/Pasted image 20240621162132.png",
-    "🟩HTB Academy/_PNGs/Pasted image 20240621154904.png",
     "Untitled.canvas"
   ]
 }

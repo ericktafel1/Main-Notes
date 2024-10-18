@@ -1,7 +1,7 @@
 ---
 date: 2024-10-16
 title: Simple CTF THM Write-Up
-machine_ip: 10.10.54.127 (IP changes as box was reset multiple times... UNSTABLE)
+machine_ip: varies
 os: Linux
 difficulty: Easy
 my_rating: 2

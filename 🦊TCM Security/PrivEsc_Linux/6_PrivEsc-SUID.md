@@ -45,6 +45,6 @@ VulnUniversity - THM
 I restarted the machine from THM multiple times, switched vpn regions, regenerated, redownloaded, and no luck.
 
 ==FIXED? Do box==
-
+MAKE SNAPSHOT OF VM
 ---
 

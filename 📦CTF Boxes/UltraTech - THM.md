@@ -4,7 +4,7 @@ title: UltraTech THM Write-Up
 machine_ip: varies
 os: Linux
 difficulty: Medium
-my_rating: 
+my_rating: 3
 tags:
   - Linux
   - PrivEsc

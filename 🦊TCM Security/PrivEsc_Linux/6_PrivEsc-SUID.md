@@ -1,5 +1,5 @@
 #Linux #PrivEsc #SUID #SharedObjectInjection #GTFOBins #sudo #symlinks   #CVE-2016-1247 #Nginx #EnvironmentVariables #Apache #gcc #Find #strings #env
-
+https://gtfobins.github.io/
 # Shared Object Injection
 #SharedObjectInjection
 ## **Detection**

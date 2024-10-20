@@ -39,6 +39,7 @@ Linux VM
 3. In command prompt type: `cat /usr/local/bin/compress.sh`
 4. From the output, notice the wildcard (`*`) used by ‘`tar`’.
 	- Can manipulate wildcards!
+	- e.g. `/usr/local/bin/compress.sh` script reads to compress `/home/user` folder and tar zip to `/tmp`
 ## **Exploitation**
 Linux VM
 

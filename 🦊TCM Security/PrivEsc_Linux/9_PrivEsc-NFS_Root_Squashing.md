@@ -1,4 +1,4 @@
-#Linux #PrivEsc #NFS #NFSRootSquashing
+#Linux #PrivEsc #NFS #NFSRootSquashing #gcc #mount
 
 ## **Detection**
 Linux VM

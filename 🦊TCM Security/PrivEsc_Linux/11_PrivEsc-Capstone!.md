@@ -1,6 +1,6 @@
 #Linux #PrivEsc 
 
-1. [[Lazy Admin - THM]]
+1. [[LazyAdmin - THM]]
 2. Anonymous - THM
 3. Tomghost - THM
 4. ConvertMyVideo - THM

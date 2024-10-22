@@ -4,7 +4,7 @@ title: LazyAdmin THM Write-Up
 machine_ip: varies
 os: Linux
 difficulty: Easy
-my_rating: 
+my_rating: 2
 tags:
   - Linux
   - PrivEsc

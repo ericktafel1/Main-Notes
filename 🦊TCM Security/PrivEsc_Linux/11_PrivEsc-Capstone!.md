@@ -1,7 +1,7 @@
 #Linux #PrivEsc 
 
 1. [[LazyAdmin - THM]]
-2. Anonymous - THM
+2. [[Anonymous - THM]]
 3. Tomghost - THM
 4. ConvertMyVideo - THM
 	- Hint: `pspy` enumeration tool on GitHub 

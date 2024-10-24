@@ -12,6 +12,8 @@
 	- sudo -l /usr/bin/zip privesc
 4. [[ConvertMyVideo - THM]]
 	- Hint: `pspy` privesc enumeration tool on GitHub 
+	- #BurpeSuite URL encoding payloads to bypass restrictions
+	- #htapasswd file readable, crack hash with hashcat
 	- 
 1. Brainpan1 - THM
 	- Hint: BoF exe, utilize Windows machine for debugger or Linux using gdb tool

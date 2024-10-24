@@ -64,21 +64,17 @@
             }
           },
           {
-            "id": "9043a5c2deacd8a7",
+            "id": "9f702dd6a3fddf19",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🟩HTB Academy/02_Get Started/Types of Shells.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Types of Shells"
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -220,10 +216,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bcc8c019d3efa957",
+  "active": "ad8b5e49b9c39ffe",
   "lastOpenFiles": [
-    "🟩HTB Academy/02_Get Started/Types of Shells.md",
     "📦CTF Boxes/ConvertMyVideo - THM.md",
+    "🟩HTB Academy/02_Get Started/Types of Shells.md",
     "🦊TCM Security/PrivEsc_Windows/5_PrivEsc-Windows_Subsystem_for_Linux.md",
     "📦CTF Boxes/_CTF Writeup Template.md",
     "📦CTF Boxes/CMesS - THM.md",

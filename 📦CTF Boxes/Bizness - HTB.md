@@ -234,7 +234,6 @@ DOWNLOADED: 4612 - FOUND: 0
 
 None worked, I knew this was an important step and I was missing something vital by not having the directories enumerated. But I did not want to get a hint just yet.
 
-\
 Browsing around on the website, I noticed Apahce OFBiz Powers the website at the footer. I did some research. It appears that Apache OFBiz is an open source enterprise resource planning (ERP) system. This seems important. So let's google dork for any vulnerabilities.
 
 The first vulnerability I find is CVE-2023-51467. This vulnerability permits attackers to circumvent authentication processes, enabling them to remotely execute arbitrary code (RCE).

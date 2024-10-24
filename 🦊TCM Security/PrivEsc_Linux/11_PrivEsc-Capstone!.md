@@ -8,10 +8,10 @@
 	- SUID env privesc
 3. [[Tomghost - THM]]
 	- Ghostcat - AJP exploit for Tomcat 9.0.30
-	- Pivot - #GPG, #john #gpg2john 
+	- Pivot - #GPG, #john , #gpg2john 
 	- sudo -l /usr/bin/zip privesc
 4. [[ConvertMyVideo - THM]]
-	- Hint: `pspy` enumeration tool on GitHub 
+	- Hint: `pspy` privesc enumeration tool on GitHub 
 	- 
 1. Brainpan1 - THM
 	- Hint: BoF exe, utilize Windows machine for debugger or Linux using gdb tool

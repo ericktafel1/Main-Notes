@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "ConvertMyVideo - THM"
             }
+          },
+          {
+            "id": "9043a5c2deacd8a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🟩HTB Academy/02_Get Started/Types of Shells.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Types of Shells"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "stty",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +130,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -205,34 +220,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad8b5e49b9c39ffe",
+  "active": "bcc8c019d3efa957",
   "lastOpenFiles": [
+    "🟩HTB Academy/02_Get Started/Types of Shells.md",
     "📦CTF Boxes/ConvertMyVideo - THM.md",
+    "🦊TCM Security/PrivEsc_Windows/5_PrivEsc-Windows_Subsystem_for_Linux.md",
+    "📦CTF Boxes/_CTF Writeup Template.md",
+    "📦CTF Boxes/CMesS - THM.md",
+    "📦CTF Boxes/CozyHosting - HTB.md",
     "🦊TCM Security/PrivEsc_Linux/11_PrivEsc-Capstone!.md",
+    "📦CTF Boxes/Chatterbox - HTB.md",
+    "📦CTF Boxes/Blue - HTB.md",
+    "📦CTF Boxes/Blaster - THM.md",
+    "📦CTF Boxes/Bizness - HTB.md",
+    "📦CTF Boxes/Bastion - HTB.md",
+    "📦CTF Boxes/Bastard - HTB.md",
+    "📦CTF Boxes/Arctic - HTB.md",
+    "📦CTF Boxes/Anonymous - THM.md",
+    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Capstone.md",
+    "🟩HTB Academy/01_PenTest Process/Academy Modules Layout.md",
     "📦CTF Boxes/Tomghost - THM.md",
     "🟩HTB Academy/10_Password Attacks/John The Ripper.md",
     "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
-    "📦CTF Boxes/_CTF Writeup Template.md",
     "🦊TCM Security/PrivEsc_Linux/6_PrivEsc-SUID_env.md",
     "📦CTF Boxes/LazyAdmin - THM.md",
     "🦊TCM Security/PrivEsc_Windows/17_PrivEsc-BinaryPaths.md",
-    "📦CTF Boxes/Anonymous - THM.md",
     "🦊TCM Security/PrivEsc_Linux/3_PrivEsc-Kernel_Exploits.md",
     "🦊TCM Security/PrivEsc_Linux/10_PrivEsc-Docker.md",
     "🦊TCM Security/PrivEsc_Linux/9_PrivEsc-NFS_Root_Squashing.md",
-    "🦊TCM Security/PrivEsc_Linux/8_PrivEsc-Cron_Jobs.md",
-    "🦊TCM Security/PrivEsc_Linux/7_Priv-Esc_Capabilities.md",
-    "🦊TCM Security/PrivEsc_Linux/5_PrivEsc-Sudo.md",
-    "🦊TCM Security/PrivEsc_Linux/4_PrivEsc-Passwords_and_File_Permissions.md",
-    "🦊TCM Security/PrivEsc_Linux/2_Exploring_Automated_Tools.md",
-    "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
-    "☣️Method.md",
-    "H4CK3RM4N/Footprinting.md",
-    "H4CK3RM4N/Attacking Common Services.md",
-    "Hak5 c2.md",
-    "Lazy Admin.md",
-    "📦CTF Boxes/UltraTech - THM.md",
-    "🦊TCM Security/PrivEsc_Windows/24_PrivEsc-Capstone!.md",
     "Pasted image 20241014144015.png",
     "Pasted image 20241014144007.png",
     "Mindmaps/AD Mindmap.canvas",

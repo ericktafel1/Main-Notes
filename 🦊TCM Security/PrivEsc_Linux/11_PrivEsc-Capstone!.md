@@ -17,4 +17,6 @@
 	- #ps command with #pspy , #Cron change script to revshell
 5. [[Brainpan1 - THM]]
 	- Hint: BoF exe, utilize Windows machine for debugger or Linux using gdb tool
-	- 
+	- #ghidra Reverse engineer `.exe`
+	- #BufferOverflow for reverseshell
+	- #sudo GTFO Bins privesc

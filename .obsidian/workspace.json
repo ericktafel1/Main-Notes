@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -216,10 +216,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bcc8c019d3efa957",
+  "active": "ad8b5e49b9c39ffe",
   "lastOpenFiles": [
-    "🦊TCM Security/PrivEsc_Linux/11_PrivEsc-Capstone!.md",
     "📦CTF Boxes/ConvertMyVideo - THM.md",
+    "🦊TCM Security/PrivEsc_Linux/11_PrivEsc-Capstone!.md",
     "🟩HTB Academy/02_Get Started/Types of Shells.md",
     "🦊TCM Security/PrivEsc_Windows/5_PrivEsc-Windows_Subsystem_for_Linux.md",
     "📦CTF Boxes/_CTF Writeup Template.md",

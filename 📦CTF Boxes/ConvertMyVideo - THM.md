@@ -20,6 +20,7 @@ tags:
   - IFS
   - htapasswd
   - Cron
+  - ps
 references: "[[📚CTF Box Writeups]]"
 ---
 

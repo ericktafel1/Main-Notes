@@ -18,7 +18,7 @@ tags:
   - sudo
 references: "[[📚CTF Box Writeups]]"
 ---
-==~Good OSCP box~!==
+
 # Enumeration
 
 

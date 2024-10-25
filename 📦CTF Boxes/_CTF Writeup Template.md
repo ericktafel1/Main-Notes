@@ -1,13 +1,23 @@
 ---
 date: 
-title: "[BOX] HTB Write-Up"
+title: BOX HTB/THM Write-Up
 machine_ip: 10.10.10.4
-os: Windows
-difficulty: Medium
+os: Windows/Linux
+difficulty: Easy/Medium/Hard
 my_rating: 
 tags: 
 references: "[[📚CTF Box Writeups]]"
 ---
+
+*Some* tools:
+- [PrivEsc_Linux](https://github.com/ericktafel1/Main-Notes/tree/main/%F0%9F%A6%8ATCM%20Security/PrivEsc_Linux)
+- [PrivEsc_Windows](https://github.com/ericktafel1/Main-Notes/tree/main/%F0%9F%A6%8ATCM%20Security/PrivEsc_Windows)
+- [HackTricks](https://book.hacktricks.xyz/)
+- [GTFOBins](https://gtfobins.github.io/#)
+- [PayloadAllThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Methodology%20and%20Resources)
+- [Pentestmonkey_phprevshell](https://github.com/pentestmonkey?tab=repositories)
+- [Crackstation](https://crackstation.net/)
+
 dataview properties:
 dataview properties:
 
@@ -89,11 +99,3 @@ hydra -l [...]/usernames.txt -P [...]/rockyou.txt -u -e ns -f -t 64 '10.10.159.3
 # PrivEsc
 
 - escalate to root
-
-
-MAKE LINKS
-- PrivEsc_Linux
-- PrivEsc_Windows
-- HackTricks
-- GTFOBins
-- PayloadAllThings

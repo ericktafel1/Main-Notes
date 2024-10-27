@@ -2,7 +2,7 @@
 
 1. [[LazyAdmin - THM]]
 	- Web app revshell file upload
-	- Sudo privesc
+	- Sudo privesc perl + backup script
 2. [[Anonymous - THM]]
 	- anonymous ftp login, change `clean.sh` script to revshell bash
 	- SUID env privesc

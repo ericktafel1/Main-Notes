@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/OSINT/01_Sock_Puppets.md",
+                "file": "🦊TCM Security/PrivEsc_Linux/11_PrivEsc-Capstone!.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Sock_Puppets"
+              "title": "11_PrivEsc-Capstone!"
             }
           }
         ],
@@ -193,10 +193,9 @@
   },
   "active": "ad8b5e49b9c39ffe",
   "lastOpenFiles": [
-    "📦CTF Boxes/_CTF Writeup Template.md",
-    "🦊TCM Security/OSINT/01_Sock_Puppets.md",
-    "🦊TCM Security/PrivEsc_Linux/11_PrivEsc-Capstone!.md",
     "📦CTF Boxes/Brainpan1 - THM.md",
+    "🦊TCM Security/PrivEsc_Linux/11_PrivEsc-Capstone!.md",
+    "📦CTF Boxes/_CTF Writeup Template.md",
     "PrivEsc_Linux.md",
     "☣️Method.md",
     "📦CTF Boxes/ConvertMyVideo - THM.md",
@@ -219,6 +218,7 @@
     "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
     "🦊TCM Security/PrivEsc_Linux/6_PrivEsc-SUID_env.md",
     "📦CTF Boxes/LazyAdmin - THM.md",
+    "🦊TCM Security/PrivEsc_Windows/17_PrivEsc-BinaryPaths.md",
     "Pasted image 20241014144015.png",
     "Pasted image 20241014144007.png",
     "Mindmaps/AD Mindmap.canvas",

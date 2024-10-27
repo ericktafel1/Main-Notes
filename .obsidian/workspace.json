@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/OSINT/01_Sock_Puppets.md",
+                "file": "🦊TCM Security/OSINT/04_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Sock_Puppets"
+              "title": "04_"
             }
           }
         ],
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stty",
+                "query": "tag:#OSINT",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,10 +193,13 @@
   },
   "active": "ad8b5e49b9c39ffe",
   "lastOpenFiles": [
-    "📦CTF Boxes/_CTF Writeup Template.md",
+    "🦊TCM Security/OSINT/03_Images.md",
+    "🦊TCM Security/OSINT/04_.md",
+    "🦊TCM Security/OSINT/02_Search_Enginer_Operators.md",
     "🦊TCM Security/OSINT/01_Sock_Puppets.md",
-    "🦊TCM Security/PrivEsc_Linux/11_PrivEsc-Capstone!.md",
     "📦CTF Boxes/Brainpan1 - THM.md",
+    "📦CTF Boxes/_CTF Writeup Template.md",
+    "🦊TCM Security/PrivEsc_Linux/11_PrivEsc-Capstone!.md",
     "PrivEsc_Linux.md",
     "☣️Method.md",
     "📦CTF Boxes/ConvertMyVideo - THM.md",
@@ -216,9 +219,6 @@
     "🟩HTB Academy/01_PenTest Process/Academy Modules Layout.md",
     "📦CTF Boxes/Tomghost - THM.md",
     "🟩HTB Academy/10_Password Attacks/John The Ripper.md",
-    "🦊TCM Security/PEH/AD_7_Post Exploitation/0_File Transfers.md",
-    "🦊TCM Security/PrivEsc_Linux/6_PrivEsc-SUID_env.md",
-    "📦CTF Boxes/LazyAdmin - THM.md",
     "Pasted image 20241014144015.png",
     "Pasted image 20241014144007.png",
     "Mindmaps/AD Mindmap.canvas",

@@ -50,3 +50,4 @@
 
 - Hunchly - [https://hunch.ly](https://hunch.ly/)
 - Breach-parser - #breach-parser 
+	- `./breach-parse @gmail.com gmail.txt "~/Downloads/BreachCompilation/data"`

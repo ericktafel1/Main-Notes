@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/OSINT/04_.md",
+                "file": "🦊TCM Security/OSINT/13_Automated_Foundations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04_"
+              "title": "13_Automated_Foundations"
             }
           }
         ],
@@ -193,8 +193,17 @@
   },
   "active": "ad8b5e49b9c39ffe",
   "lastOpenFiles": [
+    "🦊TCM Security/OSINT/12_Using_Tools_CLI.md",
+    "🦊TCM Security/OSINT/13_Automated_Foundations.md",
+    "🦊TCM Security/OSINT/11_Wireless.md",
+    "🦊TCM Security/OSINT/10_Business.md",
+    "🦊TCM Security/OSINT/09_Website.md",
+    "🦊TCM Security/OSINT/08_Social_Media.md",
+    "🦊TCM Security/OSINT/07_People.md",
+    "🦊TCM Security/OSINT/06_Username.md",
+    "🦊TCM Security/OSINT/05_Password.md",
+    "🦊TCM Security/OSINT/04_Email_Addresses.md",
     "🦊TCM Security/OSINT/03_Images.md",
-    "🦊TCM Security/OSINT/04_.md",
     "🦊TCM Security/OSINT/02_Search_Enginer_Operators.md",
     "🦊TCM Security/OSINT/01_Sock_Puppets.md",
     "📦CTF Boxes/Brainpan1 - THM.md",
@@ -210,15 +219,6 @@
     "📦CTF Boxes/Chatterbox - HTB.md",
     "📦CTF Boxes/Blue - HTB.md",
     "📦CTF Boxes/Blaster - THM.md",
-    "📦CTF Boxes/Bizness - HTB.md",
-    "📦CTF Boxes/Bastion - HTB.md",
-    "📦CTF Boxes/Bastard - HTB.md",
-    "📦CTF Boxes/Arctic - HTB.md",
-    "📦CTF Boxes/Anonymous - THM.md",
-    "🦊TCM Security/PEH/WebApp_2_Find&Exploit/Capstone.md",
-    "🟩HTB Academy/01_PenTest Process/Academy Modules Layout.md",
-    "📦CTF Boxes/Tomghost - THM.md",
-    "🟩HTB Academy/10_Password Attacks/John The Ripper.md",
     "Pasted image 20241014144015.png",
     "Pasted image 20241014144007.png",
     "Mindmaps/AD Mindmap.canvas",

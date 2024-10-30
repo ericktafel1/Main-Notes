@@ -1,4 +1,4 @@
-#OSINT #exiftool #sherlock #phoneinfoga #InstagramOSINT #recon-ng #maltego 
+#OSINT #exiftool #sherlock #phoneinfoga #InstagramOSINT #recon-ng #maltego #breach-parser 
 *Use browser OSINT from previous notes with these tools*
 # Image and Location
 #exiftool 
@@ -49,3 +49,4 @@
 # Other Tools
 
 - Hunchly - [https://hunch.ly](https://hunch.ly/)
+- Breach-parser - #breach-parser 

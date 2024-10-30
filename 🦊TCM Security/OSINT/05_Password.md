@@ -1,4 +1,4 @@
-#OSINT #Password
+#OSINT #Password #breach-parser
 
 - Dehashed - [https://dehashed.com/](https://dehashed.com/)
 	- costs money
@@ -12,3 +12,6 @@
 - Scylla.sh - [https://scylla.sh/](https://scylla.sh/)
 
 - HaveIBeenPwned - [https://haveibeenpwned.com/](https://haveibeenpwned.com/)****
+
+
+- Breach-parser [tool](https://github.com/hmaverickadams/breach-parse)

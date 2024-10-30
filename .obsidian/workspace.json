@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/OSINT/13_Automated_Foundations.md",
+                "file": "🦊TCM Security/OSINT/14_More_Username_Tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13_Automated_Foundations"
+              "title": "14_More_Username_Tools"
             }
           }
         ],
@@ -193,8 +193,9 @@
   },
   "active": "ad8b5e49b9c39ffe",
   "lastOpenFiles": [
-    "🦊TCM Security/OSINT/12_Using_Tools_CLI.md",
     "🦊TCM Security/OSINT/13_Automated_Foundations.md",
+    "🦊TCM Security/OSINT/14_More_Username_Tools.md",
+    "🦊TCM Security/OSINT/12_Using_Tools_CLI.md",
     "🦊TCM Security/OSINT/11_Wireless.md",
     "🦊TCM Security/OSINT/10_Business.md",
     "🦊TCM Security/OSINT/09_Website.md",
@@ -218,7 +219,6 @@
     "📦CTF Boxes/CozyHosting - HTB.md",
     "📦CTF Boxes/Chatterbox - HTB.md",
     "📦CTF Boxes/Blue - HTB.md",
-    "📦CTF Boxes/Blaster - THM.md",
     "Pasted image 20241014144015.png",
     "Pasted image 20241014144007.png",
     "Mindmaps/AD Mindmap.canvas",

@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "GetUser",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,8 +191,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8aa7f9f71703a1a",
+  "active": "cb2f060f9e35708a",
   "lastOpenFiles": [
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
     "🦊TCM Security/PEH/Pivoting.md",
     "🦊TCM Security/External_PenTest_Playbook/03_PenTest_Findings.md",
     "🦊TCM Security/OSINT/14_More_Username_Tools.md",
@@ -218,7 +219,6 @@
     "🟩HTB Academy/06_Vulnerability Assessment/Getting Started with Nessus.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Advanced Settings.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
-    "🦊TCM Security/OSINT/05_Password.md",
     "TCMS - External Pentest Checklist.xlsx",
     "Pasted image 20241014144015.png",
     "Pasted image 20241014144007.png",

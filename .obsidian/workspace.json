@@ -8,7 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9f702dd6a3fddf19",
+            "id": "9a7e5195a1f21e6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🦊TCM Security/PNPT - AD Attack Strategy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PNPT - AD Attack Strategy"
+            }
+          },
+          {
+            "id": "0cc5f4cc4ddf5d04",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,7 +36,7 @@
             }
           },
           {
-            "id": "ad8b5e49b9c39ffe",
+            "id": "20eb4187c5ee85e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,20 +47,6 @@
               },
               "icon": "lucide-file",
               "title": "03_PenTest_Findings"
-            }
-          },
-          {
-            "id": "b8aa7f9f71703a1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🦊TCM Security/PEH/Pivoting.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pivoting"
             }
           }
         ],
@@ -191,12 +191,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb2f060f9e35708a",
+  "active": "20eb4187c5ee85e8",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
-    "🦊TCM Security/PEH/Pivoting.md",
+    "🦊TCM Security/PNPT - AD Attack Strategy.md",
     "🦊TCM Security/External_PenTest_Playbook/03_PenTest_Findings.md",
     "🦊TCM Security/OSINT/14_More_Username_Tools.md",
+    "Anti-Metasploit Cheatsheet.md",
+    "Hak5 c2.md",
+    "README.md",
+    "🤖H4CK3RM4N.md",
+    "📚CTF Box Writeups.md",
+    "🦊TCM Security/PEH/Pivoting.md",
+    "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/2_Kerberoasting.md",
     "🦊TCM Security/External_PenTest_Playbook/02_Methodology.md",
     "🦊TCM Security/OSINT/13_Automated_Foundations.md",
     "🦊TCM Security/OSINT/12_Using_Tools_CLI.md",
@@ -207,18 +213,12 @@
     "📦CTF Boxes/_CTF Writeup Template.md",
     "🦊TCM Security/PEH/AD_3_Post-Compromise Attacks/6_Mimikatz.md",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/0_PowerView.md",
-    "📚CTF Box Writeups.md",
     "☣️Method.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Working with Nessus Scan Output.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Vulnerability Scanning Overview.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Vulnerability Assessment.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Security Assessments.md",
     "🟩HTB Academy/06_Vulnerability Assessment/Scanning Issues.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Nessus Scan.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Getting Started with OpenVAS.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Getting Started with Nessus.md",
-    "🟩HTB Academy/06_Vulnerability Assessment/Advanced Settings.md",
-    "🦊TCM Security/PEH/AD_1_Initial Attacks/0_Enumeration.md",
     "TCMS - External Pentest Checklist.xlsx",
     "Pasted image 20241014144015.png",
     "Pasted image 20241014144007.png",

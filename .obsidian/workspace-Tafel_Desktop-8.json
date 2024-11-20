@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7b4518dec98f13f9",
+            "id": "20eb4187c5ee85e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🦊TCM Security/PEH/Checklist.md",
+                "file": "🦊TCM Security/PEH/AD_7_Post Exploitation/2_Pivoting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Checklist"
+              "title": "2_Pivoting"
             }
           },
           {
@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "2_Pivoting"
             }
+          },
+          {
+            "id": "7b4518dec98f13f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🦊TCM Security/PrivEsc_Windows/5_PrivEsc-Windows_Subsystem_for_Linux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5_PrivEsc-Windows_Subsystem_for_Linux"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,14 +192,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6ea99fefbcf3c680",
+  "active": "7b4518dec98f13f9",
   "lastOpenFiles": [
-    "🦊TCM Security/PEH/Checklist.md",
-    "🦊TCM Security/PEH/AD_7_Post Exploitation/2_Pivoting.md",
-    "🦊TCM Security/PEH/AD_7_Post Exploitation/2_Pivoting.md",
-    "🦊TCM Security/PrivEsc_Windows/5_PrivEsc-Windows_Subsystem_for_Linux.md",
-    "Untitled.md",
     "H4CK3RM4N/Active Directory Enumeration.md",
+    "🦊TCM Security/PEH/AD_7_Post Exploitation/2_Pivoting.md",
+    "🦊TCM Security/PEH/Checklist.md",
     "🦊TCM Security/PEH/Pivoting.md",
     "🦊TCM Security/PEH/AD_1_Initial Attacks/1_LLMNR Poisoning.md",
     "📦CTF Boxes/Anonymous - THM.md",
@@ -194,6 +206,7 @@
     "H4CK3RM4N/File Transfers.md",
     "🟩HTB Academy/07_File Transfers/File Transfers.md",
     "🦊TCM Security/PrivEsc_Windows/3_PrivEsc-Kernel_Exploits.md",
+    "🦊TCM Security/PrivEsc_Windows/5_PrivEsc-Windows_Subsystem_for_Linux.md",
     "📦CTF Boxes/_CTF Writeup Template.md",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/3_PlumHound.md",
     "🦊TCM Security/PEH/AD_2_Post Compromise AD Enumeration/PingCastle.md",
@@ -205,6 +218,8 @@
     "🦊TCM Security/PrivEsc_Linux/1_Initial_Enumeration.md",
     "🦊TCM Security/PrivEsc_Linux/0_Resources.md",
     "🦊TCM Security/PrivEsc_Linux/00_Checklist.md",
+    "🦊TCM Security/PrivEsc_Linux/2_Exploring_Automated_Tools.md",
+    "🦊TCM Security/PrivEsc_Linux/3_PrivEsc-Kernel_Exploits.md",
     "TCMS - External Pentest Checklist.xlsx",
     "Pasted image 20241014144015.png",
     "Pasted image 20241014144007.png",

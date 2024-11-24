@@ -2,7 +2,7 @@
 # Overview
 - Pass the Password & Pass the Hash
 - If we crack a password and/or dump the SAM hashes, we can leverage both for lateral movement
-- Use `crackmapexec`
+- Use `crackmapexec` NOW USE #netexec instead
 
 # Pass the Password
 Pass what we just cracked:
